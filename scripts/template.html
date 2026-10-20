@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>OA Daily · 每日开放获取文献</title>
+<meta name="description" content="MKIDs 探测器、亚毫米波天文、分子云磁场的每日开放获取文献聚合。">
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --bg-soft: #eef2f9;
+    --panel: rgba(255, 255, 255, 0.86);
+    --panel-solid: #ffffff;
+    --ink: #111827;
+    --ink-soft: #374151;
+    --muted: #6b7280;
+    --line: rgba(17, 24, 39, 0.09);
+    --line-strong: rgba(17, 24, 39, 0.16);
+    --accent: #6366f1;
+    --accent-soft: rgba(99, 102, 241, 0.12);
+    --green: #047857;
+    --green-soft: #d1fae5;
+    --new: #db2777;
+    --new-soft: #fce7f3;
+    --shadow: 0 16px 40px rgba(15, 23, 42, 0.07);
+    --shadow-hover: 0 22px 55px rgba(15, 23, 42, 0.13);
+    --radius: 18px;
+    --radius-sm: 11px;
+    --max: 1240px;
+    --font: "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+    --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  }
+
+  html[data-theme="dark"] {
+    --bg: #080b13;
+    --bg-soft: #0d1220;
+    --panel: rgba(17, 24, 39, 0.78);
+    --panel-solid: #111827;
+    --ink: #f3f4f6;
+    --ink-soft: #d1d5db;
+    --muted: #9ca3af;
+    --line: rgba(255, 255, 255, 0.09);
+    --line-strong: rgba(255, 255, 255, 0.18);
+    --accent: #818cf8;
+    --accent-soft: rgba(129, 140, 248, 0.16);
+    --green: #34d399;
+    --green-soft: rgba(16, 185, 129, 0.16);
+    --new: #f472b6;
+    --new-soft: rgba(244, 114, 182, 0.14);
+    --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+    --shadow-hover: 0 25px 65px rgba(0, 0, 0, 0.42);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--ink);
+    background: var(--bg);
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body::before,
+  body::after {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  body::before {
+    top: -260px;
+    left: -180px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.42), transparent 68%);
+  }
+  body::after {
+    top: 210px;
+    right: -260px;
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.3), transparent 68%);
+  }
+  a { color: inherit; }
+  button, input, select { font: inherit; }
+  button { cursor: pointer; }
+  ::selection { background: rgba(99, 102, 241, 0.24); }
+
+  .shell { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
+
+  .hero {
+    padding: 34px 0 22px;
+  }
+  .hero-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 34px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 750;
+    letter-spacing: -0.02em;
+  }
+  .brand-mark {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(135deg, #6366f1, #06b6d4);
+    box-shadow: 0 8px 22px rgba(99, 102, 241, 0.35);
+    font-size: 18px;
+  }
+  .brand small {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .hero-actions { display: flex; align-items: center; gap: 8px; }
+  .hero-actions a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px 11px;
+    border-radius: 999px;
+    transition: 160ms ease;
+  }
+  .hero-actions a:hover { color: var(--ink); background: var(--panel); }
+  .theme-button {
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--ink);
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    backdrop-filter: blur(12px);
+    transition: 160ms ease;
+  }
+  .theme-button:hover { border-color: var(--line-strong); transform: translateY(-1px); }
+
+  .hero h1 {
+    margin: 0;
+    max-width: 820px;
+    font-size: clamp(34px, 5.4vw, 62px);
+    line-height: 1.04;
+    letter-spacing: -0.055em;
+    font-weight: 820;
+  }
+  .hero h1 .gradient {
+    background: linear-gradient(100deg, #6366f1 6%, #06b6d4 55%, #f59e0b 105%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .subtitle {
+    margin: 18px 0 0;
+    max-width: 780px;
+    color: var(--ink-soft);
+    font-size: clamp(15px, 1.6vw, 18px);
+  }
+  .hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    margin-top: 22px;
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+  .hero-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: 0.5; }
+  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 12px;
+    backdrop-filter: blur(10px);
+  }
+  .pill strong { color: var(--ink); font-weight: 700; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin: 6px 0 18px;
+  }
+  .stat {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 18px 16px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--panel);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(14px);
+  }
+  .stat::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: -28px;
+    top: -30px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+  }
+  .stat-label { color: var(--muted); font-size: 11.5px; font-weight: 650; letter-spacing: 0.08em; text-transform: uppercase; }
+  .stat-value { margin-top: 4px; font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -0.04em; }
+  .stat-hint { margin-top: 4px; color: var(--muted); font-size: 11.5px; }
+
+  .toolbar {
+    position: sticky;
+    top: 10px;
+    z-index: 20;
+    margin: 0 0 20px;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: var(--panel);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    backdrop-filter: blur(18px);
+    transition: box-shadow 180ms ease, border-color 180ms ease;
+  }
+  .toolbar:focus-within { border-color: rgba(99, 102, 241, 0.34); box-shadow: 0 14px 38px rgba(79, 70, 229, 0.13); }
+  .control-row { display: flex; align-items: center; gap: 9px; }
+  .control-row + .control-row { margin-top: 10px; }
+  .search-box {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+  }
+  .search-box .search-icon {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    font-size: 16px;
+    pointer-events: none;
+  }
+  .search-box input {
+    width: 100%;
+    height: 42px;
+    padding: 0 14px 0 38px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    outline: none;
+    color: var(--ink);
+    background: var(--bg-soft);
+    transition: 160ms ease;
+  }
+  .search-box input:focus { border-color: rgba(99, 102, 241, 0.45); background: var(--panel-solid); box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1); }
+  .search-box input::placeholder { color: var(--muted); }
+  .select-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 42px;
+    padding: 0 10px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--bg-soft);
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .select-wrap select {
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: var(--ink);
+    font-size: 12.5px;
+    padding: 0 2px;
+    cursor: pointer;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 32px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 12.5px;
+    font-weight: 600;
+    transition: 160ms ease;
+  }
+  .chip:hover { border-color: var(--line-strong); transform: translateY(-1px); }
+  .chip .chip-count { color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+  .chip.active {
+    border-color: transparent;
+    color: #fff;
+    background: var(--accent);
+    box-shadow: 0 7px 18px color-mix(in srgb, var(--accent) 32%, transparent);
+  }
+  .chip.active .chip-count { color: rgba(255, 255, 255, 0.72); }
+  .chip[data-topic="all"].active { background: #1f2937; box-shadow: 0 7px 18px rgba(31, 41, 55, 0.22); }
+  html[data-theme="dark"] .chip[data-topic="all"].active { background: #e5e7eb; color: #111827; }
+  .secondary-row { justify-content: space-between; }
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ink-soft);
+    font-size: 12.5px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle input { accent-color: #6366f1; width: 15px; height: 15px; }
+  .ghost {
+    height: 32px;
+    padding: 0 11px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px;
+    transition: 160ms ease;
+  }
+  .ghost:hover:not(:disabled) { color: var(--ink); border-color: var(--line-strong); }
+  .ghost:disabled { opacity: 0.42; cursor: not-allowed; }
+  .result-count { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+  .papers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    align-items: start;
+  }
+  .paper {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px 17px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--panel-solid);
+    box-shadow: var(--shadow);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  }
+  .paper::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), transparent 72%);
+    opacity: 0.95;
+  }
+  .paper:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); border-color: color-mix(in srgb, var(--accent) 24%, var(--line)); }
+  .paper.new { border-color: color-mix(in srgb, var(--new) 28%, var(--line)); }
+  .paper-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 5px; min-height: 22px; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    height: 22px;
+    padding: 0 8px;
+    border-radius: 999px;
+    background: var(--bg-soft);
+    color: var(--ink-soft);
+    font-size: 10.5px;
+    font-weight: 650;
+    letter-spacing: 0.01em;
+  }
+  .badge.topic { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .badge.new { color: var(--new); background: var(--new-soft); }
+  .badge.oa { color: var(--green); background: var(--green-soft); }
+  .badge.source { color: var(--muted); border: 1px solid var(--line); background: transparent; }
+  .save-button {
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1;
+    transition: 160ms ease;
+  }
+  .save-button:hover { color: #f59e0b; border-color: rgba(245, 158, 11, 0.35); background: rgba(245, 158, 11, 0.08); }
+  .save-button.saved { color: #f59e0b; border-color: rgba(245, 158, 11, 0.35); background: rgba(245, 158, 11, 0.1); }
+
+  .paper-title {
+    margin: 12px 0 7px;
+    font-size: 18px;
+    line-height: 1.38;
+    letter-spacing: -0.022em;
+    font-weight: 720;
+  }
+  .paper-title a { text-decoration: none; }
+  .paper-title a:hover { color: var(--accent); }
+  .authors { color: var(--muted); font-size: 12.5px; line-height: 1.55; }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 10px;
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 11.5px;
+  }
+  .meta-item { display: inline-flex; align-items: center; gap: 4px; min-width: 0; }
+  .meta-item.venue { max-width: 100%; }
+  .meta-item.venue span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .meta-sep { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: 0.4; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 11px; }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 21px;
+    padding: 0 7px;
+    border-radius: 6px;
+    background: color-mix(in srgb, var(--accent) 8%, var(--bg-soft));
+    color: color-mix(in srgb, var(--accent) 72%, var(--ink));
+    font-family: var(--mono);
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .summary {
+    position: relative;
+    margin-top: 12px;
+    padding: 10px 12px 10px 14px;
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--accent) 7%, var(--bg-soft));
+    border-left: 2px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  }
+  .summary-label {
+    display: block;
+    margin-bottom: 3px;
+    color: color-mix(in srgb, var(--accent) 72%, var(--ink));
+    font-size: 10px;
+    font-weight: 750;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .summary p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 12.6px;
+    line-height: 1.62;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .abstract-wrap { margin-top: 12px; }
+  .abstract-label {
+    margin-bottom: 4px;
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 750;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .abstract {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 12.8px;
+    line-height: 1.66;
+    overflow-wrap: anywhere;
+  }
+  .abstract.collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .abstract-toggle {
+    margin-top: 5px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    font-size: 11.5px;
+    font-weight: 650;
+  }
+  .paper-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .action-link, .action-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 28px;
+    padding: 0 9px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 11.5px;
+    text-decoration: none;
+    transition: 150ms ease;
+  }
+  .action-link:hover, .action-button:hover { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 30%, var(--line)); background: var(--accent-soft); }
+  .action-button { margin-left: auto; color: var(--muted); }
+  .action-button.copied { color: var(--green); border-color: color-mix(in srgb, var(--green) 34%, var(--line)); background: var(--green-soft); }
+
+  .empty {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 70px 20px;
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--panel);
+    color: var(--muted);
+  }
+  .empty-icon { font-size: 40px; color: var(--accent); opacity: 0.7; }
+  .empty h3 { margin: 12px 0 5px; color: var(--ink); font-size: 18px; }
+  .empty p { margin: 0 0 16px; max-width: 420px; }
+  .empty button {
+    height: 36px;
+    padding: 0 15px;
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+    background: var(--panel-solid);
+    color: var(--ink);
+    font-size: 12.5px;
+  }
+
+  .site-footer {
+    margin-top: 44px;
+    padding: 26px 0 42px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .footer-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: 7px 16px; }
+  .footer-links a { color: var(--ink-soft); text-decoration: none; }
+  .footer-links a:hover { color: var(--accent); }
+  .footer-note { margin-top: 12px; max-width: 760px; line-height: 1.7; }
+
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  :focus-visible { outline: 3px solid rgba(99, 102, 241, 0.45); outline-offset: 2px; }
+
+  @media (max-width: 980px) {
+    .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .papers-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 680px) {
+    .shell { width: calc(100% - 24px); }
+    .hero { padding-top: 22px; }
+    .hero-top { margin-bottom: 24px; }
+    .hero-actions a { display: none; }
+    .control-row { flex-wrap: wrap; }
+    .search-box { flex-basis: 100%; }
+    .select-wrap { flex: 1; justify-content: space-between; }
+    .toolbar { top: 6px; padding: 10px; border-radius: 16px; }
+    .stats-grid { gap: 8px; }
+    .stat { padding: 14px; border-radius: 14px; }
+    .stat-value { font-size: 24px; }
+    .paper { padding: 17px 16px 15px; border-radius: 15px; }
+    .paper-title { font-size: 16.5px; }
+    .secondary-row { gap: 8px; }
+    .result-count { flex-basis: 100%; margin: 2px 0 0; }
+  }
+  @media print {
+    body::before, body::after, .toolbar, .theme-button, .save-button, .paper-actions { display: none !important; }
+    .shell { width: 100%; }
+    .paper { break-inside: avoid; box-shadow: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { scroll-behavior: auto !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="hero">
+    <div class="hero-top">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◈</span>
+        <span>OA Daily<small>Open Access Literature</small></span>
+      </div>
+      <div class="hero-actions">
+        <a href="__DIGEST_URL__">今日 Markdown</a>
+        <a href="__ARCHIVE_URL__">归档</a>
+        <button class="theme-button" id="themeButton" type="button" aria-label="切换深色/浅色主题" title="切换主题">◐</button>
+      </div>
+    </div>
+
+    <h1>每天，追踪 <span class="gradient">开放获取</span> 的新发现</h1>
+    <p class="subtitle">
+      MKIDs 探测器 · 亚毫米波天文 · 分子云磁场。自动汇集 arXiv 预印本与 OpenAlex 开放获取期刊论文，
+      去重、打分，并保留可检索的滚动归档。
+    </p>
+    <div class="hero-meta">
+      <span>更新于 __GENERATED_LABEL__（北京时间）</span>
+      <span class="dot"></span>
+      <span>数据源 arXiv + OpenAlex</span>
+      <span class="dot"></span>
+      <span>__TOPIC_SUMMARY__</span>
+    </div>
+    <div class="hero-pills">
+      <span class="pill">归档 <strong>__PAPER_COUNT__</strong> 篇</span>
+      <span class="pill">今日新增 <strong>__NEW_COUNT__</strong> 篇</span>
+      <span class="pill">仅开放获取</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-grid" id="statsGrid" aria-label="统计"></section>
+
+    <section class="toolbar" aria-label="筛选与搜索">
+      <div class="control-row">
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="搜索标题、摘要、作者、关键词…  (按 / 聚焦)" aria-label="搜索文献">
+        </label>
+        <label class="select-wrap">
+          <span>范围</span>
+          <select id="daysSelect" aria-label="时间范围">
+            <option value="7" selected>最近 7 天</option>
+            <option value="14">最近 14 天</option>
+            <option value="30">最近 30 天</option>
+            <option value="0">全部归档</option>
+          </select>
+        </label>
+        <label class="select-wrap">
+          <span>排序</span>
+          <select id="sortSelect" aria-label="排序方式">
+            <option value="newest" selected>最新发表</option>
+            <option value="added">最新收录</option>
+            <option value="relevance">相关度</option>
+            <option value="citations">引用数</option>
+          </select>
+        </label>
+      </div>
+      <div class="chips" id="topicChips" role="group" aria-label="主题筛选"></div>
+      <div class="control-row secondary-row">
+        <label class="toggle"><input type="checkbox" id="newOnly"> <span>只看今日新增</span></label>
+        <label class="toggle"><input type="checkbox" id="savedOnly"> <span>只看收藏</span></label>
+        <button class="ghost" id="exportButton" type="button" disabled>导出收藏</button>
+        <span class="result-count" id="resultCount" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section class="papers-grid" id="papersGrid" aria-label="文献列表"></section>
+
+    <section class="empty" id="emptyState" hidden>
+      <div class="empty-icon" aria-hidden="true">◎</div>
+      <h3>没有匹配的文献</h3>
+      <p>试试放宽时间范围、清空搜索，或取消“只看收藏”。</p>
+      <button id="resetButton" type="button">重置筛选</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <span>OA Daily · 自动生成的开放获取文献雷达</span>
+      <div class="footer-links">
+        <a href="__DIGEST_URL__">今日 Markdown 日报</a>
+        <a href="__ARCHIVE_URL__">日报归档</a>
+        __REPO_LINK__
+      </div>
+    </div>
+    <p class="footer-note">
+      数据来自 arXiv Atom API 与 OpenAlex（仅保留 <code>is_oa = true</code> 的期刊文章）。页面只聚合公开元数据与链接，
+      不抓取出版商全文。主题关键词、权重与相关性阈值可在 <code>config/topics.json</code> 中调整。
+      生成时间 __GENERATED_LABEL__（北京时间）。
+    </p>
+    <p>© __YEAR__ OA Daily · Built for open science.</p>
+  </footer>
+</div>
+
+<noscript>
+  <div class="shell" style="padding:20px 0 40px;color:#6b7280">
+    需要启用 JavaScript 才能使用筛选与搜索。今日 Markdown 日报：<a href="__DIGEST_URL__">__DIGEST_URL__</a>。
+  </div>
+</noscript>
+
+<script id="oa-data" type="application/json">__DATA_JSON__</script>
+<script>
+(function () {
+  "use strict";
+
+  const DATA = JSON.parse(document.getElementById("oa-data").textContent);
+  const META = DATA.meta || {};
+  const TOPICS = DATA.topics || [];
+  const PAPERS = DATA.papers || [];
+  const TOPIC_MAP = Object.fromEntries(TOPICS.map((topic) => [topic.id, topic]));
+  const BOOKMARK_KEY = "oa-daily-bookmarks-v1";
+  const THEME_KEY = "oa-daily-theme";
+
+  const state = {
+    topic: "all",
+    days: 7,
+    query: "",
+    newOnly: false,
+    savedOnly: false,
+    sort: "newest"
+  };
+
+  const bookmarks = new Set(loadBookmarks());
+  const elements = {
+    stats: document.getElementById("statsGrid"),
+    chips: document.getElementById("topicChips"),
+    search: document.getElementById("searchInput"),
+    days: document.getElementById("daysSelect"),
+    sort: document.getElementById("sortSelect"),
+    newOnly: document.getElementById("newOnly"),
+    savedOnly: document.getElementById("savedOnly"),
+    exportButton: document.getElementById("exportButton"),
+    resultCount: document.getElementById("resultCount"),
+    grid: document.getElementById("papersGrid"),
+    empty: document.getElementById("emptyState"),
+    reset: document.getElementById("resetButton"),
+    theme: document.getElementById("themeButton")
+  };
+
+  function loadBookmarks() {
+    try {
+      const value = JSON.parse(localStorage.getItem(BOOKMARK_KEY) || "[]");
+      return Array.isArray(value) ? value : [];
+    } catch (_error) {
+      return [];
+    }
+  }
+
+  function saveBookmarks() {
+    try {
+      localStorage.setItem(BOOKMARK_KEY, JSON.stringify([...bookmarks]));
+    } catch (_error) {
+      /* Storage can be unavailable in private or file:// contexts. */
+    }
+  }
+
+  function isNew(paper) {
+    return Boolean(META.today && paper.first_seen === META.today);
+  }
+
+  function paperDate(paper) {
+    return paper.published || paper.first_seen || "";
+  }
+
+  function dateMinus(dateString, days) {
+    if (!dateString) return "";
+    const value = new Date(dateString + "T00:00:00Z");
+    value.setUTCDate(value.getUTCDate() - days);
+    return value.toISOString().slice(0, 10);
+  }
+
+  function isWithinRange(paper) {
+    if (state.days === 0) return true;
+    if (isNew(paper)) return true;
+    const cutoff = dateMinus(META.today, state.days - 1);
+    const date = paperDate(paper);
+    return !date || date >= cutoff;
+  }
+
+  function searchText(paper) {
+    if (!paper._search) {
+      const tags = paperTags(paper).join(" ");
+      const authors = (paper.authors || []).join(" ");
+      const sources = (paper.sources || []).join(" ");
+      paper._search = [
+        paper.title,
+        paper.abstract,
+        authors,
+        paper.venue,
+        paper.journal_ref,
+        paper.doi,
+        paper.arxiv_id,
+        sources,
+        tags
+      ].filter(Boolean).join(" ").toLowerCase();
+    }
+    return paper._search;
+  }
+
+  function filteredPapers(ignoreTopic) {
+    const query = state.query.trim().toLowerCase();
+    return PAPERS.filter((paper) => {
+      if (!ignoreTopic && state.topic !== "all" && !(paper.topics || []).includes(state.topic)) {
+        return false;
+      }
+      if (state.newOnly && !isNew(paper)) return false;
+      if (!isWithinRange(paper)) return false;
+      if (state.savedOnly && !bookmarks.has(paper.id)) return false;
+      if (query && !searchText(paper).includes(query)) return false;
+      return true;
+    });
+  }
+
+  function maxScore(paper) {
+    const scores = paper.scores || {};
+    const values = Object.values(scores);
+    return values.length ? Math.max(...values.map(Number)) : 0;
+  }
+
+  function sortPapers(items) {
+    const sorted = items.slice();
+    if (state.sort === "newest") {
+      sorted.sort((a, b) => {
+        const byDate = (paperDate(b) || "0000-00-00").localeCompare(paperDate(a) || "0000-00-00");
+        if (byDate !== 0) return byDate;
+        return (b.first_seen || "").localeCompare(a.first_seen || "");
+      });
+    } else if (state.sort === "added") {
+      sorted.sort((a, b) => (b.first_seen || "0000-00-00").localeCompare(a.first_seen || "0000-00-00"));
+    } else if (state.sort === "relevance") {
+      sorted.sort((a, b) => {
+        const byScore = maxScore(b) - maxScore(a);
+        if (byScore !== 0) return byScore;
+        return (b.citations || 0) - (a.citations || 0);
+      });
+    } else if (state.sort === "citations") {
+      sorted.sort((a, b) => (b.citations || 0) - (a.citations || 0));
+    }
+    return sorted;
+  }
+
+  function paperTags(paper) {
+    const tags = [];
+    const matched = paper.matched || {};
+    for (const topicId of paper.topics || []) {
+      for (const tag of matched[topicId] || []) {
+        if (!tags.includes(tag)) tags.push(tag);
+      }
+    }
+    return tags.slice(0, 8);
+  }
+
+  function formatAuthors(authors) {
+    if (!authors || !authors.length) return "未知作者";
+    if (authors.length <= 6) return authors.join(", ");
+    return authors.slice(0, 6).join(", ") + ` 等 ${authors.length} 人`;
+  }
+
+  function sourceLabel(source) {
+    return source === "OpenAlex" ? "OpenAlex" : source;
+  }
+
+  function safeUrl(value) {
+    if (!value) return "";
+    try {
+      const url = new URL(value, window.location.href);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "";
+    } catch (_error) {
+      return "";
+    }
+  }
+
+  function createElement(tag, className, text) {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    if (text !== undefined && text !== null) element.textContent = text;
+    return element;
+  }
+
+  function createBadge(text, variant) {
+    return createElement("span", "badge " + (variant || ""), text);
+  }
+
+  function createActionLink(label, url) {
+    const href = safeUrl(url);
+    if (!href) return null;
+    const link = createElement("a", "action-link", label);
+    link.href = href;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    return link;
+  }
+
+  function createActionButton(label) {
+    const button = createElement("button", "action-button", label);
+    button.type = "button";
+    return button;
+  }
+
+  function bibtexFor(paper) {
+    const keyBase = (paper.arxiv_id || paper.doi || paper.id || "paper").replace(/[^A-Za-z0-9]+/g, "_");
+    const authors = (paper.authors || []).join(" and ") || "Unknown";
+    const year = (paper.published || paper.first_seen || "").slice(0, 4);
+    const fields = [
+      ["title", paper.title || ""],
+      ["author", authors],
+      ["year", year],
+      ["journal", paper.venue || ""],
+      ["doi", paper.doi || ""],
+      ["url", paper.url || paper.doi_url || ""],
+      ["note", paper.arxiv_id ? "arXiv:" + paper.arxiv_id : ""]
+    ].filter(([, value]) => value);
+    const body = fields.map(([name, value]) => `  ${name} = {${String(value).replace(/[{}]/g, "")}}`).join(",\n");
+    return `@article{${keyBase},\n${body}\n}`;
+  }
+
+  async function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    textarea.remove();
+  }
+
+  function toggleBookmark(paper, button) {
+    if (bookmarks.has(paper.id)) {
+      bookmarks.delete(paper.id);
+    } else {
+      bookmarks.add(paper.id);
+    }
+    saveBookmarks();
+    button.classList.toggle("saved", bookmarks.has(paper.id));
+    button.textContent = bookmarks.has(paper.id) ? "★" : "☆";
+    button.setAttribute("aria-pressed", String(bookmarks.has(paper.id)));
+    button.setAttribute("aria-label", bookmarks.has(paper.id) ? "取消收藏" : "收藏");
+    if (state.savedOnly) render();
+    else renderStats(filteredPapers(false));
+    updateExportButton();
+  }
+
+  function createPaperCard(paper) {
+    const primary = TOPIC_MAP[paper.primary_topic] || TOPIC_MAP[(paper.topics || [])[0]] || {};
+    const card = createElement("article", "paper" + (isNew(paper) ? " new" : ""));
+    card.style.setProperty("--accent", primary.color || "#64748b");
+
+    const head = createElement("div", "paper-head");
+    const badges = createElement("div", "badges");
+    for (const topicId of paper.topics || []) {
+      const topic = TOPIC_MAP[topicId];
+      if (topic) {
+        const badge = createBadge(topic.icon + " " + topic.label, "topic");
+        badge.style.setProperty("--accent", topic.color);
+        badges.appendChild(badge);
+      }
+    }
+    if (isNew(paper)) badges.appendChild(createBadge("NEW", "new"));
+    if (paper.oa) badges.appendChild(createBadge("OA", "oa"));
+    head.appendChild(badges);
+
+    const saveButton = createElement("button", "save-button" + (bookmarks.has(paper.id) ? " saved" : ""), bookmarks.has(paper.id) ? "★" : "☆");
+    saveButton.type = "button";
+    saveButton.title = bookmarks.has(paper.id) ? "取消收藏" : "收藏";
+    saveButton.setAttribute("aria-label", bookmarks.has(paper.id) ? "取消收藏" : "收藏");
+    saveButton.setAttribute("aria-pressed", String(bookmarks.has(paper.id)));
+    saveButton.addEventListener("click", () => toggleBookmark(paper, saveButton));
+    head.appendChild(saveButton);
+    card.appendChild(head);
+
+    const title = createElement("h2", "paper-title");
+    const primaryUrl = safeUrl(paper.url || paper.doi_url || paper.arxiv_url);
+    if (primaryUrl) {
+      const link = createElement("a", "", paper.title || "Untitled");
+      link.href = primaryUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      title.appendChild(link);
+    } else {
+      title.textContent = paper.title || "Untitled";
+    }
+    card.appendChild(title);
+
+    card.appendChild(createElement("div", "authors", formatAuthors(paper.authors || [])));
+
+    const meta = createElement("div", "meta");
+    const dateItem = createElement("span", "meta-item");
+    dateItem.appendChild(createElement("span", "", "▦"));
+    dateItem.appendChild(createElement("span", "", paperDate(paper) || "日期未知"));
+    meta.appendChild(dateItem);
+    if (paper.first_seen && paper.first_seen !== paper.published) {
+      meta.appendChild(createElement("span", "meta-sep"));
+      meta.appendChild(createElement("span", "meta-item", "收录 " + paper.first_seen));
+    }
+    if (paper.venue) {
+      meta.appendChild(createElement("span", "meta-sep"));
+      const venue = createElement("span", "meta-item venue");
+      venue.title = paper.venue + (paper.journal_ref && paper.journal_ref !== paper.venue ? " · " + paper.journal_ref : "");
+      venue.appendChild(createElement("span", "", paper.venue));
+      meta.appendChild(venue);
+    }
+    for (const source of paper.sources || []) {
+      meta.appendChild(createBadge(sourceLabel(source), "source"));
+    }
+    if (paper.type) {
+      meta.appendChild(createBadge(paper.type === "preprint" ? "预印本" : "期刊论文", "source"));
+    }
+    if (paper.citations) {
+      meta.appendChild(createElement("span", "meta-item", "引用 " + paper.citations));
+    }
+    card.appendChild(meta);
+
+    const tags = paperTags(paper);
+    if (tags.length) {
+      const tagRow = createElement("div", "tags");
+      for (const tag of tags) {
+        const chip = createElement("span", "tag", tag);
+        chip.title = tag;
+        tagRow.appendChild(chip);
+      }
+      card.appendChild(tagRow);
+    }
+
+    if (paper.summary) {
+      const summary = createElement("div", "summary");
+      summary.appendChild(createElement("span", "summary-label", "速读总结 · 自动提取"));
+      summary.appendChild(createElement("p", "", paper.summary));
+      card.appendChild(summary);
+    }
+
+    if (paper.abstract) {
+      const wrap = createElement("div", "abstract-wrap");
+      wrap.appendChild(createElement("div", "abstract-label", "摘要"));
+      const abstract = createElement("p", "abstract collapsed", paper.abstract);
+      wrap.appendChild(abstract);
+      if (paper.abstract.length > 220) {
+        const toggle = createElement("button", "abstract-toggle", "展开摘要");
+        toggle.type = "button";
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.addEventListener("click", () => {
+          const collapsed = abstract.classList.toggle("collapsed");
+          toggle.textContent = collapsed ? "展开摘要" : "收起摘要";
+          toggle.setAttribute("aria-expanded", String(!collapsed));
+        });
+        wrap.appendChild(toggle);
+      }
+      card.appendChild(wrap);
+    }
+
+    const actions = createElement("div", "paper-actions");
+    const links = [
+      ["原文", paper.url],
+      ["arXiv", paper.arxiv_url && paper.arxiv_url !== paper.url ? paper.arxiv_url : ""],
+      ["PDF", paper.pdf_url],
+      ["DOI", paper.doi_url]
+    ];
+    let linkCount = 0;
+    for (const [label, url] of links) {
+      const link = createActionLink(label, url);
+      if (link) {
+        actions.appendChild(link);
+        linkCount += 1;
+      }
+    }
+    if (!linkCount) {
+      actions.appendChild(createElement("span", "meta-item", "暂无公开链接"));
+    }
+    const copyButton = createActionButton("复制引用");
+    copyButton.addEventListener("click", async () => {
+      try {
+        await copyText(bibtexFor(paper));
+        copyButton.classList.add("copied");
+        copyButton.textContent = "已复制";
+        window.setTimeout(() => {
+          copyButton.classList.remove("copied");
+          copyButton.textContent = "复制引用";
+        }, 1600);
+      } catch (_error) {
+        copyButton.textContent = "复制失败";
+      }
+    });
+    actions.appendChild(copyButton);
+    card.appendChild(actions);
+
+    return card;
+  }
+
+  function renderStats(items) {
+    const todayNew = PAPERS.filter(isNew).length;
+    const recent = PAPERS.filter((paper) => {
+      const date = paperDate(paper);
+      return date && date >= dateMinus(META.today, 6);
+    }).length;
+    const stats = [
+      { label: "今日新增", value: todayNew, hint: "本次抓取首次收录", color: "#db2777" },
+      { label: "最近 7 天", value: recent, hint: "按发表/公开日期", color: "#06b6d4" },
+      { label: "收藏", value: bookmarks.size, hint: "保存在当前浏览器", color: "#f59e0b" },
+      { label: "当前结果", value: items.length, hint: "受筛选与搜索影响", color: "#6366f1" }
+    ];
+    elements.stats.replaceChildren();
+    for (const stat of stats) {
+      const card = createElement("div", "stat");
+      card.style.setProperty("--accent", stat.color);
+      card.style.setProperty("--accent-soft", stat.color + "22");
+      card.appendChild(createElement("div", "stat-label", stat.label));
+      card.appendChild(createElement("div", "stat-value", String(stat.value)));
+      card.appendChild(createElement("div", "stat-hint", stat.hint));
+      elements.stats.appendChild(card);
+    }
+  }
+
+  function renderChips() {
+    elements.chips.replaceChildren();
+    const all = createElement("button", "chip active", "全部");
+    all.type = "button";
+    all.dataset.topic = "all";
+    all.appendChild(createElement("span", "chip-count", String(PAPERS.length)));
+    elements.chips.appendChild(all);
+    for (const topic of TOPICS) {
+      const count = PAPERS.filter((paper) => (paper.topics || []).includes(topic.id)).length;
+      const chip = createElement("button", "chip", topic.icon + " " + topic.label);
+      chip.type = "button";
+      chip.dataset.topic = topic.id;
+      chip.style.setProperty("--accent", topic.color);
+      chip.appendChild(createElement("span", "chip-count", String(count)));
+      elements.chips.appendChild(chip);
+    }
+    elements.chips.addEventListener("click", (event) => {
+      const button = event.target.closest(".chip");
+      if (!button) return;
+      state.topic = button.dataset.topic || "all";
+      for (const chip of elements.chips.querySelectorAll(".chip")) {
+        chip.classList.toggle("active", chip === button);
+      }
+      render();
+    });
+  }
+
+  function render() {
+    const items = sortPapers(filteredPapers(false));
+    elements.grid.replaceChildren();
+    const fragment = document.createDocumentFragment();
+    for (const paper of items) {
+      fragment.appendChild(createPaperCard(paper));
+    }
+    elements.grid.appendChild(fragment);
+    elements.empty.hidden = items.length > 0;
+    elements.resultCount.textContent = `显示 ${items.length} / ${PAPERS.length} 篇`;
+    renderStats(items);
+    updateExportButton();
+  }
+
+  function updateExportButton() {
+    elements.exportButton.disabled = bookmarks.size === 0;
+    elements.exportButton.textContent = bookmarks.size ? `导出收藏 (${bookmarks.size})` : "导出收藏";
+  }
+
+  function exportBookmarks() {
+    const saved = PAPERS.filter((paper) => bookmarks.has(paper.id)).map((paper) => {
+      const copy = Object.assign({}, paper);
+      delete copy._search;
+      return copy;
+    });
+    const blob = new Blob([JSON.stringify(saved, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `oa-bookmarks-${META.today || "export"}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function resetFilters() {
+    state.topic = "all";
+    state.days = 7;
+    state.query = "";
+    state.newOnly = false;
+    state.savedOnly = false;
+    state.sort = "newest";
+    elements.search.value = "";
+    elements.days.value = "7";
+    elements.sort.value = "newest";
+    elements.newOnly.checked = false;
+    elements.savedOnly.checked = false;
+    for (const chip of elements.chips.querySelectorAll(".chip")) {
+      chip.classList.toggle("active", chip.dataset.topic === "all");
+    }
+    render();
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.dataset.theme = theme;
+    elements.theme.textContent = theme === "dark" ? "☀" : "◐";
+    elements.theme.setAttribute("aria-label", theme === "dark" ? "切换到浅色主题" : "切换到深色主题");
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch (_error) {
+      /* Ignore unavailable storage. */
+    }
+  }
+
+  function initTheme() {
+    let stored = "";
+    try {
+      stored = localStorage.getItem(THEME_KEY) || "";
+    } catch (_error) {
+      stored = "";
+    }
+    const preferred = stored || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    applyTheme(preferred);
+  }
+
+  let searchTimer = 0;
+  elements.search.addEventListener("input", () => {
+    window.clearTimeout(searchTimer);
+    searchTimer = window.setTimeout(() => {
+      state.query = elements.search.value;
+      render();
+    }, 120);
+  });
+  elements.days.addEventListener("change", () => {
+    state.days = Number(elements.days.value);
+    render();
+  });
+  elements.sort.addEventListener("change", () => {
+    state.sort = elements.sort.value;
+    render();
+  });
+  elements.newOnly.addEventListener("change", () => {
+    state.newOnly = elements.newOnly.checked;
+    render();
+  });
+  elements.savedOnly.addEventListener("change", () => {
+    state.savedOnly = elements.savedOnly.checked;
+    render();
+  });
+  elements.exportButton.addEventListener("click", exportBookmarks);
+  elements.reset.addEventListener("click", resetFilters);
+  elements.theme.addEventListener("click", () => {
+    applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== elements.search && !["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement.tagName)) {
+      event.preventDefault();
+      elements.search.focus();
+    }
+    if (event.key === "Escape" && document.activeElement === elements.search) {
+      elements.search.value = "";
+      state.query = "";
+      elements.search.blur();
+      render();
+    }
+  });
+
+  initTheme();
+  renderChips();
+  render();
+})();
+</script>
+</body>
+</html>

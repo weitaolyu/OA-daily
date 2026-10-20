@@ -1,0 +1,258 @@
+{
+  "timezone_offset_hours": 8,
+  "topics": [
+    {
+      "id": "mkid",
+      "label": "MKIDs 探测器",
+      "label_en": "MKIDs / KIDs",
+      "color": "#8b5cf6",
+      "icon": "◈",
+      "description": "微波动能电感探测器、超导谐振器阵列、读电子学与毫米/亚毫米焦平面",
+      "arxiv_categories": [
+        "astro-ph.IM",
+        "physics.ins-det",
+        "astro-ph.GA",
+        "physics.app-ph"
+      ],
+      "arxiv_queries": [
+        "all:\"kinetic inductance\"",
+        "all:MKID",
+        "all:LEKID"
+      ],
+      "openalex_queries": [
+        "kinetic inductance",
+        "MKID",
+        "LEKID"
+      ],
+      "require_groups": [
+        [
+          "microwave kinetic inductance",
+          "kinetic inductance",
+          "mkid",
+          "mkids",
+          "lebid",
+          "lebids"
+        ]
+      ],
+      "min_score": 7,
+      "weights": {
+        "microwave kinetic inductance detector": 12,
+        "microwave kinetic inductance detectors": 12,
+        "kinetic inductance detector": 10,
+        "kinetic inductance detectors": 10,
+        "kinetic inductance": 5,
+        "mkid": 8,
+        "mkids": 8,
+        "lebid": 8,
+        "lebids": 8,
+        "superconducting resonator": 3,
+        "resonator array": 3,
+        "detector array": 2,
+        "readout": 2,
+        "mm-wave": 2,
+        "submillimeter": 2,
+        "photon energy": 1,
+        "energy resolution": 1
+      }
+    },
+    {
+      "id": "submm",
+      "label": "亚毫米波天文",
+      "label_en": "Submillimeter Astronomy",
+      "color": "#06b6d4",
+      "icon": "◎",
+      "description": "亚毫米波/远红外/太赫兹观测、仪器、连续谱相机与星际介质",
+      "arxiv_categories": [
+        "astro-ph.IM",
+        "astro-ph.GA",
+        "astro-ph.CO",
+        "astro-ph.EP",
+        "astro-ph.SR",
+        "physics.ins-det"
+      ],
+      "arxiv_queries": [
+        "all:submillimeter",
+        "all:submillimetre",
+        "all:\"far-infrared\"",
+        "all:terahertz"
+      ],
+      "openalex_queries": [
+        "submillimeter",
+        "submillimetre",
+        "far-infrared astronomy",
+        "terahertz astronomy",
+        "sub-mm astronomy"
+      ],
+      "require_groups": [
+        [
+          "submillimeter",
+          "submillimetre",
+          "sub-millimeter",
+          "sub-millimetre",
+          "submillimeter wave",
+          "submillimetre wave",
+          "sub-mm",
+          "submm",
+          "far-infrared",
+          "far infrared",
+          "terahertz",
+          "thz",
+          "850 micron",
+          "850 μm",
+          "450 micron",
+          "scuba-2",
+          "pol-2",
+          "alma"
+        ],
+        [
+          "astronomy",
+          "astronomical",
+          "astrophysics",
+          "astrophysical",
+          "interstellar",
+          "molecular cloud",
+          "star formation",
+          "galaxy",
+          "galaxies",
+          "ism",
+          "telescope",
+          "observatory",
+          "observation",
+          "observations",
+          "protoplanetary",
+          "dust continuum",
+          "cosmic"
+        ]
+      ],
+      "min_score": 8,
+      "weights": {
+        "submillimeter": 7,
+        "submillimetre": 7,
+        "sub-millimeter": 7,
+        "sub-millimetre": 7,
+        "submillimeter wave": 7,
+        "submillimetre wave": 7,
+        "sub-mm": 6,
+        "submm": 6,
+        "far-infrared": 5,
+        "far infrared": 5,
+        "terahertz": 4,
+        "thz": 4,
+        "850 micron": 7,
+        "850 μm": 7,
+        "450 micron": 7,
+        "scuba-2": 7,
+        "pol-2": 6,
+        "alma": 4,
+        "herschel": 2,
+        "sofia": 2,
+        "ccat": 4,
+        "sma": 2,
+        "continuum camera": 3,
+        "band 9": 3,
+        "band 10": 3,
+        "astronomy": 3,
+        "astronomical": 3,
+        "astrophysics": 3,
+        "astrophysical": 3,
+        "interstellar": 2,
+        "molecular cloud": 2,
+        "star formation": 2,
+        "galaxy": 1,
+        "galaxies": 1,
+        "ism": 1,
+        "telescope": 1,
+        "observatory": 1,
+        "observation": 1,
+        "observations": 1,
+        "dust": 1,
+        "protoplanetary": 1
+      }
+    },
+    {
+      "id": "molecular",
+      "label": "分子云磁场",
+      "label_en": "Molecular Cloud Magnetic Fields",
+      "color": "#f59e0b",
+      "icon": "✧",
+      "description": "分子云与致密核的磁场、尘埃偏振、Zeeman 测量与磁流体力学",
+      "arxiv_categories": [
+        "astro-ph.GA",
+        "astro-ph.SR"
+      ],
+      "arxiv_queries": [
+        "all:\"molecular cloud\"",
+        "all:\"molecular clouds\"",
+        "all:\"dense core\"",
+        "all:\"infrared dark cloud\""
+      ],
+      "openalex_queries": [
+        "molecular cloud magnetic",
+        "molecular cloud polarization",
+        "dense core magnetic",
+        "molecular cloud Zeeman"
+      ],
+      "require_groups": [
+        [
+          "molecular cloud",
+          "molecular clouds",
+          "giant molecular cloud",
+          "dense core",
+          "dense cores",
+          "infrared dark cloud",
+          "star-forming region"
+        ],
+        [
+          "magnetic",
+          "magnetic field",
+          "magnetic fields",
+          "magnetohydrodynamic",
+          "magnetohydrodynamics",
+          "polarization",
+          "polarisation",
+          "polarimetry",
+          "polarimetric",
+          "zeeman",
+          "dust polarization",
+          "dust polarisation",
+          "grain alignment",
+          "b-field"
+        ]
+      ],
+      "min_score": 10,
+      "weights": {
+        "molecular cloud": 7,
+        "molecular clouds": 7,
+        "giant molecular cloud": 8,
+        "dense core": 7,
+        "dense cores": 7,
+        "infrared dark cloud": 7,
+        "star-forming region": 3,
+        "magnetic field": 5,
+        "magnetic fields": 5,
+        "magnetic": 2,
+        "magnetohydrodynamic": 5,
+        "magnetohydrodynamics": 5,
+        "mhd": 4,
+        "polarization": 4,
+        "polarisation": 4,
+        "polarimetry": 4,
+        "polarimetric": 4,
+        "zeeman": 5,
+        "dust polarization": 6,
+        "dust polarisation": 6,
+        "grain alignment": 5,
+        "field strength": 2,
+        "b-field": 3,
+        "stokes": 2,
+        "planck": 1,
+        "sofica": 3,
+        "jcmt": 2,
+        "alma": 1,
+        "turbulence": 1,
+        "filament": 1,
+        "star formation": 1
+      }
+    }
+  ]
+}

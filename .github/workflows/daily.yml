@@ -1,0 +1,77 @@
+name: Daily OA digest
+
+on:
+  schedule:
+    # 22:17 UTC = 06:17 Asia/Shanghai on the next day
+    - cron: "17 22 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "抓取窗口（天），补抓可填 14 或 30"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch papers and build digest
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          DAYS: ${{ inputs.days || '7' }}
+        run: python scripts/fetch_papers.py --days "$DAYS" --archive-days 60
+
+      - name: Commit generated archive and pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then
+            echo "No digest changes"
+            exit 0
+          fi
+          git commit -m "chore: update OA digest $(date -u +%F)"
+          git fetch origin "${GITHUB_REF_NAME}"
+          git rebase "origin/${GITHUB_REF_NAME}" -X ours || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

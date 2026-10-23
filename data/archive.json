@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T10:04:13+08:00",
-    "generated_label": "2026-10-22 10:04",
-    "today": "2026-10-22",
+    "generated_at": "2026-10-23T08:42:17+08:00",
+    "generated_label": "2026-10-23 08:42",
+    "today": "2026-10-23",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 103,
-    "new_count": 11,
-    "digest_url": "digests/2026-10-22.md",
+    "paper_count": 119,
+    "new_count": 16,
+    "digest_url": "digests/2026-10-23.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,37 +39,30 @@
   ],
   "papers": [
     {
-      "id": "p_3b94c464f2a6",
-      "title": "The T-matrix method for modeling the optical properties of grains in exoplanetary atmospheres",
-      "abstract": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. The interaction between solids and stellar radiation is of fundamental importance when forward or retrieval models are compared to observations. The simplest approach is to assume spherical particles, whose scattering and absorption properties are readily computed with Mie theory. More advanced computational methods, however, can also treat non-spherical condensates. Among these, the transition matrix approach has proven to provide a rigorous and efficient calculation of the extinction by non-spherical particles over a broad range of sizes and refractive indices. We here focus on the absorption and scattering cross sections of forsterite, spinel and silicon monoxide from the near to the far infrared range for particles of different sizes, with shapes ranging from compact ensembles of spheres to porous aggregates. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes greater than 1 $\\mu$m. In a fiducial transmission spectrum we show that in the $\\lambda = 1-5\\,\\mu$m range the amount of spherical material needed to match the contribution of the structured grains can be a factor 2 higher. Such calculations, available for the community through a Zenodo repository, prove to be useful for interpreting recent and future observations of exoplanetary atmospheres.",
-      "summary": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes…",
+      "id": "p_7ee35a4dedbd",
+      "title": "The H IX galaxy survey IV: What does the molecular gas reveal in HI eXtreme galaxies",
+      "abstract": "Galaxies with extreme amounts of neutral atomic hydrogen (HI), known as HI-eXtreme (HIX) galaxies, paradoxically exhibit normal or low star formation rates. To investigate the bottleneck in their star formation, we present ALMA CO(1-0) observations for five HIX survey galaxies: ESO208-G026, ESO378-G003, ESO381-G005, ESO417-G018, and ESO055-G013. While these systems possess massive, extended HI discs, their molecular gas discs are compact with normal H$_{2}$ masses relative to their stellar mass. Dynamical modelling with 3DBarolo reveals that the HI and molecular gas are kinematically consistent. Both gas phases show high velocity dispersions, indicating enhanced turbulence compared to regular late-type galaxies. We calculate the specific angular momentum for the stellar, atomic, and molecular components alongside the global stability parameter ($q$). Most of the system angular momentum is stored in the HI discs, rendering them globally stable against collapse. This stability suppresses the atomic-to-molecular gas conversion, as evidenced by extremely long HI depletion times contrasted with typical H$_{2}$ depletion times. The high angular momentum and HI excess likely originate from past gas accretion or recent tidal interactions; this is especially apparent in ESO378-G003 and ESO381-G005, which exhibit extended HI structures and positive tidal indices.",
+      "summary": "Galaxies with extreme amounts of neutral atomic hydrogen (HI), known as HI-eXtreme (HIX) galaxies, paradoxically exhibit normal or low star formation rates. To investigate the bottleneck in their star formation, we present ALMA CO(1-0) observations for five HIX survey galaxies: ESO208-G026, ESO378-G003, ESO381-G005, ESO417-G018, and ESO055-G013.",
       "authors": [
-        "Giambattista Aresu",
-        "Giovanni La Mura",
-        "Giacomo Mulas",
-        "Cesare Cecchi-Pestellini",
-        "Maria Antonia Iat\\`i",
-        "Shadi Rezaei",
-        "Antonino Petralia",
-        "Daniele Locci",
-        "Giuseppina Micela",
-        "Franz Saija",
-        "Rosalba Saija"
+        "V. A. Capa",
+        "H. D\\'enes",
+        "K. A. Lutz",
+        "T. H. Brown"
       ],
-      "published": "2026-10-21",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "published": "2026-10-22",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
-      "venue": "arXiv · astro-ph.EP",
+      "venue": "arXiv · astro-ph.GA",
       "journal_ref": "",
       "doi": "",
       "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.28117",
-      "pdf_url": "https://arxiv.org/pdf/2610.28117",
-      "arxiv_id": "2610.28117",
-      "arxiv_url": "https://arxiv.org/abs/2610.28117",
+      "url": "https://arxiv.org/abs/2610.28970",
+      "pdf_url": "https://arxiv.org/pdf/2610.28970",
+      "arxiv_id": "2610.28970",
+      "arxiv_url": "https://arxiv.org/abs/2610.28970",
       "oa": true,
       "type": "preprint",
       "citations": 0,
@@ -81,34 +74,152 @@
       },
       "matched": {
         "submm": [
-          "far infrared",
-          "far-infrared",
+          "alma",
+          "star formation",
+          "galaxies",
+          "galaxy",
           "observations"
         ]
       },
       "primary_topic": "submm"
     },
     {
-      "id": "p_ca6ca1f8f4a3",
-      "title": "The SIMPLIFI Survey: Polarization of Dense Filaments with SOFIA III. Relative orientations of antenna temperature gradients with the magnetic field in the DR21 molecular cloud",
-      "abstract": "We investigate magnetohydrodynamic (MHD) turbulence in the DR21 molecular cloud using far infrared polarimetry from SOFIA HAWC+ and molecular spectroscopy from the Nobeyama 45~m telescope. The Velocity Channel Gradient (VChG) method is applied to thin velocity slices of the 12CO and 13CO J=1-0 emission to determine the antenna temperature gradients and their orientations in the plane of the sky. The relative orientations of the gradients with respect to the magnetic field position angles enable an evaluation of theoretically predicted alignment of elongated, turbulent eddies for Alfvenic, fast and slow modes and self-gravity. The projected Rayleigh statistic is calculated for both the full cloud and 6 regions of interest to provide a quantitative assessment of these alignments. Our analysis finds mostly parallel alignment of the gradient direction and the local magnetic field orientation in the Main Ridge of DR21 that comprises most of the cloud mass. While parallel alignment can result from fast MHD modes or cloud collapse, previous studies show spectroscopic evidence for the large scale collapse of the DR21 cloud, which supports self-gravity as the primary cause of the observed parallel alignment. One of the six sub-filaments that are connected to the Main Ridge exhibits mostly perpendicular alignment of the position angles of the gradient and magnetic field. These perpendicular relative orientations may be a product of Alfven and slow modes in a magnetized, sub-Alfvenic medium even if the sub-filament is accreting onto the Main Ridge.",
-      "summary": "We investigate magnetohydrodynamic (MHD) turbulence in the DR21 molecular cloud using far infrared polarimetry from SOFIA HAWC+ and molecular spectroscopy from the Nobeyama 45~m telescope. The Velocity Channel Gradient (VChG) method is applied to thin velocity slices of the 12CO and 13CO J=1-0 emission to determine the antenna temperature gradients and their orientations in the plane of the sky.",
+      "id": "p_5939d5872b04",
+      "title": "Distinguishing between the Strongest Millimeter Compact Emission and Maser and Outflow Activities in the G40.282-0.219 Massive Young Stellar Object Cluster",
+      "abstract": "We present Atacama Large Millimeter/submillimeter Array (ALMA) 1.3 mm continuum and molecular-line observations of the star-forming region G40.282-0.219. The continuum resolves the source, previously considered a single massive young stellar object (MYSO), into three compact cores within a common natal clump. Using 13 bright molecular transitions, we investigate gas kinematics, chemistry, and evolutionary differences among the cores. MM1 is the dominant continuum source. MM2, the second-brightest core, drives a powerful outflow; its SiO jet shows velocity offsets of ±25 km s -1 from the systemic velocity. SiO jet and wider-angle H 2 CO and CH 3 OH emission trace the outflow, whose alignment with the H 2 knot MHO 2463 suggests a preceding ejection from MM2. MM3 is weakest in continuum but appears to be the principal hot core, harboring Class II 6.7 GHz CH 3 OH masers and the richest molecular inventory, including complex organic molecules (CH 3 OH and CH 3 CN) and shock/dense-gas tracers (OCS, HC 3 N, H 2 CO, and SO). We find clear spatial decoupling between continuum brightness and chemical, outflow, and maser activity. MM1 appears chemically poor, whereas weaker MM2 harbors outflow activity, and the least-bright MM3 contains an MYSO, the highest dust temperature, and the greatest chemical complexity. These hot cores may represent an evolutionary sequence from youngest MM1 to most evolved MM3 within one fragmenting clump. We conclude that accretion luminosity, localized heating, and evolutionary stage, rather than 1.3 mm continuum flux, likely govern observable chemical richness in clustered high-mass star-forming regions.",
+      "summary": "We present Atacama Large Millimeter/submillimeter Array (ALMA) 1.3 mm continuum and molecular-line observations of the star-forming region G40.282-0.219. We conclude that accretion luminosity, localized heating, and evolutionary stage, rather than 1.3 mm continuum flux, likely govern observable chemical richness in clustered high-mass star-forming regions.",
       "authors": [
-        "Mark Heyer",
-        "Thushara G. S. Pillai",
-        "Jens Kauffmann",
-        "Juan D. Soler",
-        "Daniel Seifried",
-        "Laura M. Fissel",
-        "Gabriel A. P. Franco",
-        "Paul F. Goldsmith",
-        "Philip C. Myers",
-        "Helmut Wiesemeyer",
-        "Karl M. Menten"
+        "Antneh Gashaye Tegegne",
+        "Jarken Esimbek",
+        "Andrey M. Sobolev",
+        "Sergey Yu. Parfenov",
+        "Dmitry A. Ladeyschikov",
+        "Gang Wu",
+        "Sheng-Yuan Liu",
+        "Man-Nung Su",
+        "Jianjun Zhou",
+        "Dalei Li",
+        "Xindi Tang",
+        "Yuxin He",
+        "Toktarkhan Komesh",
+        "Dongdong Zhou",
+        "Yingxiu Ma",
+        "Kadirya Tursun",
+        "Dilda Berdikhan",
+        "Jinjin Xie",
+        "Qaynar Jandaolet",
+        "Nurzhan Shaimoldin",
+        "Abay Jengis"
       ],
-      "published": "2026-10-21",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "published": "2026-10-22",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea6ad",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea6ad",
+      "url": "https://doi.org/10.3847/1538-4357/aea6ad",
+      "pdf_url": "",
+      "openalex_id": "W7223176699",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "dust",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_ecf4d2c94439",
+      "title": "B-fields In STar-forming Region Observations (BISTRO): Dual-Wavelength Constraints on Size-Dependent Grain Alignment in Star-Forming Regions",
+      "abstract": "We compared 450 and 850 $\\mu$m POL-2 observations from the James Clerk Maxwell Telescope at $12.6''$ resolution. The median absolute difference in polarization angle between bands is $6.7^\\circ$ across 21 regions. For total intensity $I\\propto\\nu^\\alpha$ and polarized intensity $PI\\propto\\nu^\\gamma$, 24-27 of 35 regions have $\\gamma<\\alpha$, allowing for $3\\sigma$ limits on weak polarized intensities. The median $\\gamma-\\alpha$ is $-0.51$, ranging from $-0.57$ to $-0.45$ under these limits. The ratio of polarization fractions is $P_{450}/P_{850}=0.69\\pm0.02_{\\rm sys}\\pm0.03_{\\rm stat}$, with no detected dependence on the angle difference. We suggest that the dependence of alignment on grain size offers the simplest explanation of these findings. For optically thin components sharing a polarization angle and opacity law, temperature mixing reproduces the median $-0.51$ only if the warm dust is polarized less efficiently than the cold dust. If the cold dust is at 10 K or warmer and the warm dust at 40 K or cooler, the median requires a ratio of warm to cold effective polarization efficiencies $r\\lesssim0.18$. We tested mixtures with opacity index $\\beta=2$ in four fields against Herschel dust temperatures and Green Bank Ammonia Survey kinetic temperatures. We assumed equal gas and dust temperatures, ammonia tracing cold gas, and model ranges of 3-20 K for cold dust and 25-40 K for warm dust carrying at most half the mass. Mixtures matching both temperatures cannot reproduce $\\gamma-\\alpha$ within $1\\sigma$ in three fields, including OMC 2 tentatively, even for $r=0$. Allowing warm dust at 10-100 K and up to 95% of the mass permits solutions only for $r\\leq0.041$. To explain these three fields by temperature mixing, we need wider model ranges and a very strong contrast in polarization efficiency. The origin of this contrast remains undetermined.",
+      "summary": "We compared 450 and 850 $\\mu$m POL-2 observations from the James Clerk Maxwell Telescope at $12.6''$ resolution. The ratio of polarization fractions is $P_{450}/P_{850}=0.69\\pm0.02_{\\rm sys}\\pm0.03_{\\rm stat}$, with no detected dependence on the angle difference.",
+      "authors": [
+        "Ray S. Furuya",
+        "David Berry",
+        "Pierre Bastien",
+        "Tetsuo Hasegawa",
+        "Masafumi Matsumura",
+        "Thiem Hoang",
+        "Lapo Fanciullo",
+        "Kazunari Iwasaki",
+        "Simon Coud\\'{e}",
+        "Takashi Onaka",
+        "Pham Ngoc Diep",
+        "Sarah Sadavoy",
+        "Hua-bai Li",
+        "Koji Kawabata",
+        "Doris Arzoumanian",
+        "Yasuo Doi",
+        "Jia-Wei Wang",
+        "Tao-Chung Ching",
+        "Janik Karoly",
+        "Jihye Hwang",
+        "Glenn J. White",
+        "A-Ran Lyo",
+        "Kohji Tomisaka",
+        "Le Ngoc Tram",
+        "Fr\\'{e}d\\'{e}rick Poidevin",
+        "Valentin J. M. Le Gouellec",
+        "Hiroko Shinnaga",
+        "Masato I. N. Kobayashi",
+        "Junhao Liu",
+        "Mehrnoosh Tahani",
+        "Nguyen Bich Ngoc",
+        "Jennifer Hatchell",
+        "Archana Soam",
+        "Hsi-Wei Yen",
+        "Chakali Eswaraiah",
+        "Vera K\\\"{o}nyves",
+        "Jintai Wu",
+        "Jeong-Eun Lee",
+        "Yusuke Tsukamoto",
+        "Ekta Sharma",
+        "Tie Liu",
+        "Qilao Gu",
+        "Hiroyuki Nakanishi",
+        "Tsuyoshi Inoue",
+        "Fumitaka Nakamura",
+        "Rachel Friesen",
+        "Jean-Fran\\c{c}ois Robitaille",
+        "Yoshiaki Misugi",
+        "Raiga Kashiwagi",
+        "Per Friberg",
+        "Sarah Graves",
+        "Mark Rawlings",
+        "Harriet Parsons",
+        "David Eden",
+        "Huei-Ru Vivien Chen",
+        "Najimudeen Bijas",
+        "Motohide Tamura",
+        "Tyler L. Bourke",
+        "Nagayoshi Ohashi",
+        "Woojin Kwon",
+        "Jongsoo Kim",
+        "Shih-Ping Lai",
+        "Keping Qiu",
+        "Di Li",
+        "Shu-ichiro Inutsuka",
+        "Kate Pattle",
+        "Derek Ward-Thompson",
+        "BISTRO Collaboration"
+      ],
+      "published": "2026-10-22",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -116,10 +227,10 @@
       "journal_ref": "",
       "doi": "",
       "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.27090",
-      "pdf_url": "https://arxiv.org/pdf/2610.27090",
-      "arxiv_id": "2610.27090",
-      "arxiv_url": "https://arxiv.org/abs/2610.27090",
+      "url": "https://arxiv.org/abs/2610.29285",
+      "pdf_url": "https://arxiv.org/pdf/2610.29285",
+      "arxiv_id": "2610.29285",
+      "arxiv_url": "https://arxiv.org/abs/2610.29285",
       "oa": true,
       "type": "preprint",
       "citations": 0,
@@ -128,30 +239,630 @@
         "molecular"
       ],
       "scores": {
-        "submm": 19.0,
-        "molecular": 51.0
+        "submm": 12.0,
+        "molecular": 20.0
       },
       "matched": {
         "submm": [
+          "pol-2",
+          "herschel",
+          "dust",
+          "observations",
+          "telescope"
+        ],
+        "molecular": [
+          "grain alignment",
+          "polarization",
+          "star-forming region"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_ad11bb3ebfa4",
+      "title": "A hybrid ice hydrometeor retrieval algorithm for submillimeter-wave radiometers in support of the PolSIR and PMM missions",
+      "abstract": "This paper presents an ice hydrometeor retrieval algorithm for submillimeter-wave radiometers in support of the upcoming PolSIR (Polarized Submillimeter Ice Cloud Radiometer) and PMM (Precipitation Measuring Mission) satellite missions. The algorithm employs a hybrid Bayesian Monte Carlo Integration (BMCI) and Optimal Estimation Method (OEM) approach, which leverages the strengths of the BMCI method but extends the retrieval capability beyond the limitations of the a priori database when BMCI alone fails to identify enough database cases matching the observations. To address the highly non-Gaussian nature of the a priori statistics, a method using cumulative distribution functions (CDFs) and empirical orthogonal functions (EOFs) is applied to enable effective implementation of the OEM algorithm. With the CDFs/EOFs method, the OEM can maximize the posterior probability density function using the a priori constraint that is largely consistent with that used in the BMCI step, ensuring that the entire retrieval operates under a nearly uniform prior constraint. The algorithm is first applied to evaluate the PMM-C2OMODO (Convective Core Observations through MicrOwave Derivatives in the trOpics) radiometer using simulated observations. Retrieval accuracies for key microphysical parameters are presented. Also, the retrieval diagnostics, including the vertical resolution, Degrees of Freedom (DoF), and Shannon information content, are analyzed. The algorithm is further applied to real CoSSIR (Configurable Scanning Submillimeter-wave Instrument/Radiometer) observations during the IMPACTS (Investigation of Microphysics and Precipitation for Atlantic Coast-Threatening Snowstorms) campaign, and the results are evaluated against the collocated triple-frequency radar retrievals from CRS (Cloud Radar System) and HIWARP (High-altitude Imaging Wind & Rain Airborne Profiler) observations. Multiple ice particle habits are examined, and both layer-resolved and column-integrated mass and size parameters are evaluated. Both simulated experiments and real-observation retrievals demonstrate that the hybrid BMCI-OEM method is highly effective in reducing simulated and observed brightness temperature (TB) discrepancies. With an appropriate selection of ice cloud particle habits, the TB simulations closely reproduce the observations. Using the logarithmic difference as the quantitative metric, the CoSSIR-retrieved ice water content, layer-resolved particle diameter, ice water path, and column-averaged mean mass diameter with the hybrid BMCI-OEM algorithm differ from triple-frequency radar retrievals by 3.75, 0.82, 2.53, and 0.55 dB, respectively, representing reductions of 0.21, 0.02, 0.85, and 0.13 dB relative to BMCI-only retrievals. The hybrid Bayesian framework also demonstrates high extensibility to other remote-sensing observations. As more information becomes available through multi-sensor integration or the use of hyperspectral measurements, the hybrid Bayesian algorithm shows increasing potential to better constrain cloud microphysical properties.",
+      "summary": "This paper presents an ice hydrometeor retrieval algorithm for submillimeter-wave radiometers in support of the upcoming PolSIR (Polarized Submillimeter Ice Cloud Radiometer) and PMM (Precipitation Measuring Mission) satellite missions. As more information becomes available through multi-sensor integration or the use of hyperspectral measurements, the hybrid Bayesian algorithm shows increasing potential to better constrain cloud microphysical properties.",
+      "authors": [
+        "Yuli Liu",
+        "Jie Gong",
+        "Ian Stuart Adams",
+        "Rachael A. Kroodsma",
+        "Ruiyao Chen",
+        "Dong L. Wu",
+        "Ralf Bennartz",
+        "Scott A. Braun"
+      ],
+      "published": "2026-10-22",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Atmospheric measurement techniques",
+      "doi": "10.5194/amt-19-6661-2026",
+      "doi_url": "https://doi.org/10.5194/amt-19-6661-2026",
+      "url": "https://doi.org/10.5194/amt-19-6661-2026",
+      "pdf_url": "",
+      "openalex_id": "W7151974708",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 30.0
+      },
+      "matched": {
+        "submm": [
+          "observation",
+          "observations",
+          "submillimeter",
+          "submillimeter wave"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_bce8503cea39",
+      "title": "Systematic detection of Zeeman splitting of 6.7 GHz class II methanol masers by long-term monitoring observations using Hitachi 32 m radio telescope",
+      "abstract": "Magnetic fields in massive star-forming regions (MSFRs) play crucial roles, such as supporting massive molecular cloud cores and/or driving strong outflows and jets. However, the strength of the magnetic fields in MSFRs remains largely uncertain because high-sensitivity observations are required for their detection. The Zeeman effect of the 6.7 GHz class II methanol maser is one of the most appropriate tools for detecting magnetic fields in the upper layer of the circumstellar disk in MSFRs. In this study, we averaged each circularly polarized spectral data obtained by high-cadence simultaneous dual circular polarization monitoring observations of the 6.7 GHz methanol maser at the Hitachi 32 m radio telescope over 5 years (2017-2022). The typical $1\\sigma$ rms noise of the averaged spectra was ${\\sim }20\\,\\,{\\rm mJy}$. We attempted to detect Zeeman splitting in 103 sources by applying a method called the Cross-Correlation method. Consequently, we detected Zeeman splitting in 62 sources, 38 of which were newly identified in this study. The average and median values of the strength of the line-of-sight components of the magnetic fields detected in this study were $1.8\\times 10^2$ and $1.3\\times 10^2$ mG, respectively. These results are consistent with those of previous studies by Vlemmings (2008, A&A, 484, 773) and Vlemmings, Torres, and Dodson (2011, A&A, 529, A95). For 17 sources in which magnetic fields were detected in multiple velocity components, different signs and strengths of the magnetic fields were derived for each source. The cause of these differences can be explained by the helical magnetic field.",
+      "summary": "Magnetic fields in massive star-forming regions (MSFRs) play crucial roles, such as supporting massive molecular cloud cores and/or driving strong outflows and jets. Consequently, we detected Zeeman splitting in 62 sources, 38 of which were newly identified in this study.",
+      "authors": [
+        "Ren Moriizumi",
+        "Tomoya Hirota",
+        "Koichiro Sugiyama",
+        "Yoshinori Yonekura"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Publications of the Astronomical Society of Japan",
+      "doi": "10.1093/pasj/psag139",
+      "doi_url": "https://doi.org/10.1093/pasj/psag139",
+      "url": "https://doi.org/10.1093/pasj/psag139",
+      "pdf_url": "",
+      "openalex_id": "W7223142900",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 33.0
+      },
+      "matched": {
+        "molecular": [
+          "magnetic",
+          "magnetic field",
+          "magnetic fields",
+          "molecular cloud",
+          "polarization",
+          "zeeman"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_3407c3bc27c5",
+      "title": "Sub-arcsecond imaging of HCN and CN in the Orion Bar. UV-driven warm nitrogen chemistry in dense environments",
+      "abstract": "Rotationally excited HCN and CN lines, due to their high critical densities, are often used as tracers of gas densities. The Atacama Large (sub-) Millimeter Array (ALMA), with its high spectral and spatial resolution, provides unique access to the fundamental spatial morphology and kinematics of HCN and CN emission to study the substructures of the molecular cloud edges. We present new sub-arcsecond imaging of HCN 4-3 and CN 3-2 lines to probe the density structure in the Orion Bar photodissociation region (PDR). We study HCN 4-3 and CN 3-2 lines spatial distribution at very small scales (down to 0.5\", ≃ 200 au) and compare them to other existing tracers inside the PDR, such as H_2 observed with JWST and C_2H observed with ALMA. We complemented these data with multiple J lines observed with the IRAM 30m and telescopes to study HCN and CN excitation near the dissociation front (DF). Finally, we compared observations with PDR and radiative transfer models to study nitrogen chemistry and to estimate gas density. Herschel We find that HCN and CN emission are more spatially extended toward the more UV-shielded cloud than C_2H 4-3 and H_2. However, they both peak very close to the DF, in contrast to previous lower-angular-resolution observations of lower-energy lines, which showed that HCN peaked deeper inside the PDR and traced colder gas. This morphology can be explained by the enhanced UV-driven chemistry. In very dense and irradiated environments, HCN is efficiently formed by the endoergic reaction H_2 + CN. Hence, its emission can also probe warmer gas near the DF. In addition, CN emission is observed in the atomic PDR -- where the PAH emission is strongest -- not accounted by stationary gas-phase chemistry due to the very low H_2 abundances. We interpret this as photoprocessing of CN-bearing PAHs. We find that the excitation of HCN and CN is subthermal T_ ̊m rot ∼ 20 K (when the gas temperature is around T_ ̊m gas ∼ 200 K), meaning that the gas cannot have densities much higher than the critical densities of the lines. We still derive high densities near the DF n_ ̊m H ∼ 10^6 cm -3 $ when comparing observations with and Meudon PDR Code models. Finally, we do not find evidence of small-scale (∼ 100 au, ∼ 10^ RADEX 15 cm size), high-density clumps and argue that the observed density gradient could explain the variation in excitation between the different tracers. At the small spatial scales probed by ALMA, we resolve two velocity components in HCN emission: 10.5 km s^-1 (the systemic velocity of the Bar) and 11.5 km s$^ -1. The very structured emission of HCN observed in this redshifted component is more compatible with the signature of the propagation of a UV-induced shock compressing the gas than clumps. This study highlights the bright HCN emission in warm layers of the PDR, challenging the traditional assumption that HCN primarily traces cold, dense gas.",
+      "summary": "Rotationally excited HCN and CN lines, due to their high critical densities, are often used as tracers of gas densities. We present new sub-arcsecond imaging of HCN 4-3 and CN 3-2 lines to probe the density structure in the Orion Bar photodissociation region (PDR).",
+      "authors": [
+        "M. Zannese",
+        "Javier R. Goicoechea",
+        "S. Cuadrado",
+        "Jérôme Pety",
+        "Maryvonne Gérin",
+        "Edwige Chapillon"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661358",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661358",
+      "url": "https://doi.org/10.1051/0004-6361/202661358",
+      "pdf_url": "",
+      "openalex_id": "W7213593982",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 9.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "herschel",
+          "molecular cloud",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_12c8da06e437",
+      "title": "Resolving the heart of the Wolf-Rayet binary Apep with ALMA",
+      "abstract": "The Wolf-Rayet (WR) phase is a critical stage in the evolution of massive stars. During this phase, stars experience a significant loss of mass in the form of fast winds that are enriched with heavy elements. There are only a few WR binaries in the Galaxy, with being a truly exceptional system that exhibits a bright colliding-wind region at radio wavelengths and an impressive dust plume in the infrared. Although the angular separation between the two components of the binary (WN and WC) has been indirectly inferred to be about 47 mas, it has yet to be confirmed through direct measurements. Apep We aim to image the system at millimetre wavelengths to determine the position of the WR stars and their mass-loss rates. Apep We observed with ALMA in Bands 6 and 7 in a large baseline configuration and we achieved an angular resolution of ≈20 mas. We used a canonical spherical wind model to convert the measured flux densities into wind mass-loss rates. Apep Towards, we detect point-like emission coming from the WN star and elongated emission most likely from the colliding-wind region; the WC star is not detected. We also detect the O star that has been associated with the system at an angular distance of 0.7$''$. Our analysis favours mass-loss rates for the WN and WC components of dot Apep M _ ∼ 2 _ WN -5 and dot M WC -5 respectively. The mass-loss rates of these WR stars are significantly lower than previously reported, and we examine several factors that may account for this discrepancy. The diffuse emission from the colliding-wind region cannot be accounted for by the synchrotron flux, and thus additional free--free or dust emission is present.",
+      "summary": "The Wolf-Rayet (WR) phase is a critical stage in the evolution of massive stars. Apep Towards, we detect point-like emission coming from the WN star and elongated emission most likely from the colliding-wind region; the WC star is not detected.",
+      "authors": [
+        "S del Palacio",
+        "W. Vlemmings",
+        "M. Fernández-López",
+        "M. De Becker",
+        "P. Benaglia",
+        "V. Bosch-Ramon",
+        "B. Marcote",
+        "Luis A. Zapata"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202662582",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202662582",
+      "url": "https://doi.org/10.1051/0004-6361/202662582",
+      "pdf_url": "",
+      "openalex_id": "W7222921575",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxy"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_89191985a686",
+      "title": "Magnetized Interstellar Molecular Clouds. III. Filament Collisions and Core Formation: Insights into Substructures and Evolution",
+      "abstract": "We present the results of a driven, ideal magnetohydrodynamics simulation of a molecular cloud to study the formation of filamentary structures in molecular clouds and their fragmentation into dense cloud cores. Shock compression results in the formation of subparsec-long filamentary structures. Large-scale supersonic flows push these small filaments together and form massive filamentary clouds. The main filament that forms stretches across the full 4.4 pc length of the simulation and has a median FWHM of 0.075 pc, similar to that observed in many molecular clouds. Subfilaments inside the main filament have a median FWHM of 0.03-0.04 pc, similar to the “fibers” observed in molecular lines. The collision and merger of subcritical subfilaments is an important mechanism for the formation of prestellar cores. Colliding subfilaments and the resulting core at their intersection form a hub-filament system similar to that associated with massive star formation, but on a smaller scale. Core mergers can be significant in the growth of prestellar cores and may play a role in the formation of binary stars.",
+      "summary": "We present the results of a driven, ideal magnetohydrodynamics simulation of a molecular cloud to study the formation of filamentary structures in molecular clouds and their fragmentation into dense cloud cores. The main filament that forms stretches across the full 4.4 pc length of the simulation and has a median FWHM of 0.075 pc, similar to that observed in many molecular clouds.",
+      "authors": [
+        "Pak Shing Li",
+        "Christopher F. McKee",
+        "R. Klein"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea6cb",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea6cb",
+      "url": "https://doi.org/10.3847/1538-4357/aea6cb",
+      "pdf_url": "",
+      "openalex_id": "W7212609739",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 29.0
+      },
+      "matched": {
+        "molecular": [
+          "filament",
+          "magnetohydrodynamics",
+          "molecular cloud",
+          "molecular clouds",
+          "star formation"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_6929f5584156",
+      "title": "Magnetic Regulation of Molecular Clouds in Dwarf Galaxy Simulations",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "David J Whitworth"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.23535914",
+      "doi_url": "https://doi.org/10.5281/zenodo.23535914",
+      "url": "https://doi.org/10.5281/zenodo.23535914",
+      "pdf_url": "",
+      "openalex_id": "W7223119697",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 18.0
+      },
+      "matched": {
+        "molecular": [
+          "molecular clouds",
+          "magnetic"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_a2d2dcc9d3e2",
+      "title": "MUSE-ALMA Haloes. XVI. A census of the condensed baryons in z~0.5 HI absorption-selected galaxies",
+      "abstract": "We used the MUSE-ALMA Haloes sample to build a census of the condensed baryons (stars and cold gas) to study the interaction of different gas phases in the interstellar medium and circumgalactic medium (CGM). The sample includes 79 gas-rich galaxies at 0.2 10^ 18 cm -2 $) along quasar sightlines within projected separations of sim5-270 kpc and radial velocity separations of up to 500 km s^-1. Hubble Space Telescope (HST) and ground-based spectroscopy characterise the absorbers, while HST imaging and MUSE and ALMA observations trace the stellar populations, ionised gas, and molecular gas. We found the following key results. (i) The ̋I masses inferred from optical galaxy properties show broad agreement with those derived from the CGM absorber properties for impact parameters $<100$ kpc, although group environments can significantly influence these estimates. (ii) The molecular gas fraction declines more steeply with stellar mass than the ̋I fraction. This suggests that stellar mass builds up more rapidly than the cold gas reservoir, while massive galaxies either consume their molecular gas more efficiently or convert ̋I into H_2 less efficiently. (iii) Galaxies with high stellar surface densities exhibit the highest baryon fractions. This may reflect baryonic feedback, which can produce flatter inner dark matter profiles in high surface density systems or aperture effects, where the ionised gas kinematic tracer probes only the innermost baryon-dominated regions in compact sources but extends further into the dark matter halo in sources with extended baryonic distributions. (iv) A few galaxies are consistent with being the baryon-dominated descendants of the low-mass $z galaxies detected by JWST, while many appear to be substantially more dark matter dominated lower-mass systems with progenitors beyond JWST detection limits. This study provides a multiscale, multiphase view of the gas in and around galaxies, allowing us to probe the baryon budget across cosmic time.",
+      "summary": "We used the MUSE-ALMA Haloes sample to build a census of the condensed baryons (stars and cold gas) to study the interaction of different gas phases in the interstellar medium and circumgalactic medium (CGM). We found the following key results. (i) The ̋I masses inferred from optical galaxy properties show broad agreement with those derived from the CGM absorber properties for impact parameters $<100$ kpc, although group environments can significantly…",
+      "authors": [
+        "Tamsyn O’Beirne",
+        "C. Péroux",
+        "M. Zwaan",
+        "C. Barfety",
+        "Victoria Bollo",
+        "J. Chen",
+        "A. Lola Danhaive",
+        "N. M. Förster Schreiber",
+        "Linda J. Tacconi",
+        "S. Weng",
+        "V. Kulkarni",
+        "L. Chemin",
+        "R. Augustin",
+        "Benedetta Casavecchia",
+        "M.E. Cluver",
+        "Mitchell Halley",
+        "A. Karki",
+        "V. A. Kilborn",
+        "O. I. Wong"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202660851",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202660851",
+      "url": "https://doi.org/10.1051/0004-6361/202660851",
+      "pdf_url": "",
+      "openalex_id": "W7220970188",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "galaxies",
+          "galaxy",
+          "observations",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_6e965ddc56e1",
+      "title": "Electric charge modifies the far-infrared and millimetre opacity of cosmic dust grains",
+      "abstract": "Electrically charged dust grains are ubiquitous in astrophysical environments, yet their extinction properties at far-infrared (FIR) and millimetre wavelengths have not been studied. Using the modified Lorenz--Mie formalism with charge-induced surface conductivity, we compute the column-density-normalised extinction of four grain materials representative of interstellar medium dust, over a range of size distributions and surface electric potentials. For electrically neutral grains the results reproduce conventional Mie extinction behaviour. When a surface potential of only a few volts is imposed, new extinction features emerge at łambda ≳ 50,μm that are entirely absent in neutral grains. The amplitude depends strongly on grain material. For amorphous silica the enhancement reaches several orders of magnitude at łambda > 50,μm, while astronomical silicate develops a broad new bump at łambda > 100,μm. The physical origin is resonant excitation of surface plasmon-like modes by excess charge carriers. These results show that the opacity of cosmic dust in the submillimetre and millimetre domain depends on the grain charge state, a factor not considered in current interstellar medium dust models or cosmic microwave background foreground analyses.",
+      "summary": "Electrically charged dust grains are ubiquitous in astrophysical environments, yet their extinction properties at far-infrared (FIR) and millimetre wavelengths have not been studied. When a surface potential of only a few volts is imposed, new extinction features emerge at łambda ≳ 50,μm that are entirely absent in neutral grains.",
+      "authors": [
+        "M. Kocifaj",
+        "F. Kundracik",
+        "S. Wallner"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661488",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661488",
+      "url": "https://doi.org/10.1051/0004-6361/202661488",
+      "pdf_url": "",
+      "openalex_id": "W7223150866",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 37.0
+      },
+      "matched": {
+        "submm": [
+          "submillimetre",
           "far infrared",
           "far-infrared",
+          "astronomical",
+          "astrophysical",
+          "interstellar",
+          "dust"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_38fcb14c4c01",
+      "title": "Disk survey in the Serpens star-forming region: Environmental effects in nearby star-forming regions",
+      "abstract": "The external environment where protoplanetary disks are embedded regulates disk evolution. External irradiation, which heats and evaporates gas, as well as frequent stellar encounters, which truncate disks, can reduce disk sizes and masses. Disk surveys in nearby star-forming regions with various environments can help us understand how external environments impact disk evolution. The Serpens star-forming region, which is thought to be dense but not highly irradiated by massive stars, is an ideal laboratory for studying the dynamical effects on disk properties. We aim to study how dynamical interactions modify disk dust masses by comparing the Serpens star-forming region (distance sim400 pc) with other nearby star-forming regions through their disk masses and 3D stellar densities. We surveyed 321 class I to III young stellar objects in Serpens using the Atacama Large Millimeter/submillimeter Array (ALMA) at a resolution of ∼ 0. We measured disk dust masses from millimeter observations under the optically thin assumption and recomputed the 3D stellar density using Gaia data. We applied the same method to other nearby star-forming regions for direct comparison with Serpens. The cumulative disk dust mass distribution of Serpens is similar to those of similarly aged nearby star-forming regions, such as Lupus and Taurus. Along with a reassessment of the 3D stellar density, it suggests that Serpens is not likely to have experienced strong tidal truncation capable of producing lower disk dust masses. We also find that the low disk dust mass tension in Ophiuchus and Corona Australis can be resolved when only disks explicitly identified as members of young (1-2 Myr) sub-clusters are considered. Disks without Gaia identifications, especially in Ophiuchus, are spatially clustered in the 2D projected sky plane and less massive than nearby disks with Gaia identifications. This may trace the effects of tidal truncation in denser environments at earlier evolutionary stages.",
+      "summary": "The external environment where protoplanetary disks are embedded regulates disk evolution. We measured disk dust masses from millimeter observations under the optically thin assumption and recomputed the 3D stellar density using Gaia data.",
+      "authors": [
+        "Simin Tong",
+        "Nienke van der Marel",
+        "Jonathan P. Williams",
+        "Alexa R. Anderson"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202658865",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202658865",
+      "url": "https://doi.org/10.1051/0004-6361/202658865",
+      "pdf_url": "",
+      "openalex_id": "W7208761783",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 14.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_51e968fd8853",
+      "title": "Chandra X-Ray Imaging and an Inverse Compton/Cosmic Microwave Background Model for the Inner Jet of PKS 0637-752",
+      "abstract": "We present the X-ray surface brightness maps of the jet from the quasar PKS 0637-752, using two epochs of archival Chandra observations (1999 and 2017). We present, for the first time, a model of the faint inner jet extending from 3. ′′ 4 to 7′′ from the core, interpreting its X-ray emission as inverse Compton (CMB) scattering of cosmic microwave background photons by the synchrotron-emitting relativistic electrons. The inner jet contrasts with the bright outer part of the jet, dominated by several discrete knots for which upper limits to the Fermi gamma-ray flux rule out the CMB mechanism. It is the first detailed CMB model published for this inner jet. We examine three physically motivated scenarios, distinguished by the high-energy cutoff of the electron distribution, that can account for the observed radio, millimeter/submillimeter, and X-ray emission while remaining consistent with optical and gamma-ray upper limits. We also report for the first time X-rays from the radio lobe at the end of the receding jet.",
+      "summary": "We present the X-ray surface brightness maps of the jet from the quasar PKS 0637-752, using two epochs of archival Chandra observations (1999 and 2017). We present, for the first time, a model of the faint inner jet extending from 3. ′′ 4 to 7′′ from the core, interpreting its X-ray emission as inverse Compton (CMB) scattering of cosmic microwave background photons by the synchrotron-emitting relativistic electrons.",
+      "authors": [
+        "Jaya Maithil",
+        "DANIEL A. SCHWARTZ",
+        "Aneta Siemiginowska",
+        "Diana Mary Worrall",
+        "Preeti Kharb"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea562",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea562",
+      "url": "https://doi.org/10.3847/1538-4357/aea562",
+      "pdf_url": "",
+      "openalex_id": "W7223156031",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c526b31747fe",
+      "title": "B-fields In STar-forming Region Observations (BISTRO): Technical Foundations for Quantitative 450/850 $μ$m JCMT SCUBA-2/POL-2 Polarimetry",
+      "abstract": "We present five technical validations of SCUBA-2/POL-2 polarimetry on the James Clerk Maxwell Telescope at 450 and 850 $\\mu$m, using 174 archival fields in 69 molecular cloud regions and subsets appropriate to each test. Extended-source calibration avoids a deterministic shift of $\\Delta\\beta=-1.05$ in the dust emissivity index $\\beta$ that would result from calibrating extended emission using peak brightness. We modeled Stokes $I$ noise with additive and signal-dependent components. The measured median ratio of surface-brightness noise at 450/850 $\\mu$m is 25. Independent tests of Stokes $Q,U$ noise support approximately equal additive variances and weak error correlations, providing a basis for propagating polarization uncertainties. Corrections determined for individual fields reduce additive zero-level offsets of order $1$ mJy arcsec$^{-2}$ in the 450 $\\mu$m Stokes $Q$ and $U$ intensities. The three-step regression leaves a median combined residual amplitude of $0.07$ mJy arcsec$^{-2}$. Independent comparisons with SOFIA/HAWC+ at 154 and 214 $\\mu$m support the correction in strongly affected fields. We matched the 450 $\\mu$m maps to the modeled 850 $\\mu$m beam and the common $12.6''$-$300''$ range of angular scales. We compared three reductions of the same 450 $\\mu$m observations across 30 sources. Taking the median angular residual relative to the final product for each source, we find that beam matching reduces the median over sources from $6.3^\\circ$ to $4.7^\\circ$. After matching, 29 of the 30 sources have median residuals below $10^\\circ$. We also quantified how residual $Q/U$ offsets propagate in ratios of polarization fractions, differences in spectral indices, and polarization angles. These validations provide procedures and quantitative references for interpreting POL-2 measurements and combining them with polarimetry at other wavelengths.",
+      "summary": "We present five technical validations of SCUBA-2/POL-2 polarimetry on the James Clerk Maxwell Telescope at 450 and 850 $\\mu$m, using 174 archival fields in 69 molecular cloud regions and subsets appropriate to each test. Taking the median angular residual relative to the final product for each source, we find that beam matching reduces the median over sources from $6.3^\\circ$ to $4.7^\\circ$.",
+      "authors": [
+        "Ray S. Furuya",
+        "David Berry",
+        "Pierre Bastien",
+        "Tetsuo Hasegawa",
+        "Masafumi Matsumura",
+        "Koji Kawabata",
+        "Kazunari Iwasaki",
+        "Per Friberg",
+        "Simon Coudé",
+        "Lapo Fanciullo",
+        "Thiem Hoang",
+        "Yasuo Doi",
+        "Hua-bai Li",
+        "Jia-Wei Wang",
+        "Tao-Chung Ching",
+        "Hiroko Shinnaga",
+        "Hiroyuki Nakanishi",
+        "Sarah Graves",
+        "A-Ran Lyo",
+        "Junhao Liu",
+        "Janik Karoly",
+        "Jihye Hwang",
+        "Glenn J. White",
+        "Doris Arzoumanian",
+        "Sarah Sadavoy",
+        "Kohji Tomisaka",
+        "Pham Ngoc Diep",
+        "Mehrnoosh Tahani",
+        "Nguyen Bich Ngoc",
+        "Archana Soam",
+        "Hsi-Wei Yen",
+        "Chakali Eswaraiah",
+        "Vera Könyves",
+        "Jeong-Eun Lee",
+        "Valentin J. M. Le Gouellec",
+        "Ekta Sharma",
+        "Le Ngoc Tram",
+        "Frédérick Poidevin",
+        "Tie Liu",
+        "Mark Rawlings",
+        "Najimudeen Bijas",
+        "Fumitaka Nakamura",
+        "Rachel Friesen",
+        "Jean-François Robitaille",
+        "Yoshiaki Misugi",
+        "Raiga Kashiwagi",
+        "Takashi Onaka",
+        "Motohide Tamura",
+        "Harriet Parsons",
+        "Tyler L. Bourke",
+        "David Eden",
+        "Huei-Ru Vivien Chen",
+        "Nagayoshi Ohashi",
+        "Jongsoo Kim",
+        "Shih-Ping Lai",
+        "Keping Qiu",
+        "Di Li",
+        "Woojin Kwon",
+        "Shu-ichiro Inutsuka",
+        "Kate Pattle",
+        "Derek Ward-Thompson",
+        "BISTRO Collaboration"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.29273v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29273v1",
+      "arxiv_id": "2610.29273",
+      "arxiv_url": "https://arxiv.org/abs/2610.29273v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "molecular"
+      ],
+      "scores": {
+        "submm": 34.0,
+        "molecular": 31.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
           "molecular cloud",
+          "observations",
+          "pol-2",
+          "scuba-2",
           "sofia",
           "telescope"
         ],
         "molecular": [
+          "jcmt",
           "molecular cloud",
-          "magnetic field",
-          "magnetohydrodynamic",
-          "mhd",
           "polarimetry",
           "polarization",
-          "magnetic",
-          "filament",
-          "turbulence"
+          "star-forming region",
+          "stokes"
         ]
       },
-      "primary_topic": "molecular"
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_bfbe3ca1b47c",
+      "title": "A breath of fresh air: Oxygen enhancement from silicate sublimation during early protostellar evolution",
+      "abstract": "Recently, an analog to the t=0 moment of our Solar System's meteoritic record was identified for the first time around the Class I protostar HOPS-315, using the James Webb Space Telescope (JWST). Crystalline silicates were found to recondense from SiO gas that cools as it advects upward from a hot thermostat region in the inner midplane. A depletion of iron and silicon in the protostellar jet suggests this t=0 moment may be associated with the formation of the first planetesimals in this disk, similar to the association of refractory inclusions and iron-meteorite parent bodies in the Solar System. In this work, we explored whether HOPS-68, a Class I protostar with similar properties and system geometries, is engaged in such refractory recondensation as well. A detection of cooler gas-phase SiO in absorption above a hot disk midplane would allow us to achieve this goal, thanks to a previous detection of crystalline silicates. Spitzer HOPS-68 was observed with the JWST Mid-Infrared Instrument and Near Infrared Spectrograph, showing multiple bands of molecular absorption similar to HOPS-315. We used local thermal equilibrium slab models to measure the temperature, column density, velocity, and radial location of these bands. The molecular absorption bands of gaseous SiO, trace a warm molecular inversion layer (∼ 300 - 500,) at mid-altitudes above the hot disk midplane from 0.3 - 16 AU, which is consistently blueshifted with respect to the system velocity by 33-53 rm and rm ^ 13 CO K -1. Atacama Large Millimeter/submillimeter Array (ALMA) observations of HOPS-68 kinematically resolve an SiO-rich jet and wind. We confirm that HOPS-68, like HOPS-315, is undergoing an epoch analogous to the t=0 moment in the Solar System's planet formation timeline. The detected warm molecular layer traces the base of a disk wind, which carries sublimated material from the thermostat region near 2 AU up into the outer disk. As for HOPS-315, the molecular layer in the inner few AU of HOPS-68 is enhanced in bulk oxygen as a result of this sublimation. Since HOPS-68 is less evolved than HOPS-315, this may indicate a prolonged epoch in protostellar evolution in which such oxygen enhancement occurs, perhaps associated with the expected radial drift of icy pebbles, supplemented by the drift of ice-free silicates into the thermostat region. We also find that the outer disk gas of HOPS-68, unlike HOPS-315, is unexpectedly carbon-rich, which will be discussed in detail in a companion paper.",
+      "summary": "Recently, an analog to the t=0 moment of our Solar System's meteoritic record was identified for the first time around the Class I protostar HOPS-315, using the James Webb Space Telescope (JWST). The detected warm molecular layer traces the base of a disk wind, which carries sublimated material from the thermostat region near 2 AU up into the outer disk.",
+      "authors": [
+        "F. J. Ballieux",
+        "M. K. McClure",
+        "Ł. Tychoniec",
+        "L. Francis",
+        "A. Egliene",
+        "E. A. Bergin",
+        "M. R. Van 't Hoff",
+        "Ewine F. van Dishoeck"
+      ],
+      "published": "2026-10-21",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661414",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661414",
+      "url": "https://doi.org/10.1051/0004-6361/202661414",
+      "pdf_url": "",
+      "openalex_id": "W7221804674",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations",
+          "submillimeter",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
     },
     {
       "id": "p_1dfb6b2d74f2",
@@ -218,6 +929,102 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_6480a5585435",
+      "title": "Arepo-CD: Coupling Collisional $N$-Body Dynamics with Moving-Mesh Magnetohydrodynamics",
+      "abstract": "Star formation is a hierarchical, clustered process in turbulent giant molecular clouds (GMCs), where close stellar encounters can strongly affect cluster evolution and feedback. However, gravitational softening in many hydrodynamic simulations of GMCs limits the treatment of these encounters. We present Arepo-CD (Collisional Dynamics), a framework that couples star-by-star collisional $N$-body dynamics to the moving-mesh magnetohydrodynamics (MHD) code Arepo. Star-star interactions use unsoftened gravity, while interactions involving gas or collisionless components remain softened. Compact stellar subsystems are identified on the fly and evolved with a fourth-order forward symplectic integrator and slow-down algorithmic regularization coupled to the native Arepo timestep hierarchy. Benchmark tests against the collisional $N$-body code PeTar show good agreement in cluster core collapse and subsequent expansion, radial density profiles, and stellar velocity distributions. Coupled to the Rigel star formation and feedback model, Arepo-CD follows cluster formation and early evolution in radiation MHD simulations of a $10^5~M_\\odot$ turbulent molecular cloud. In the fiducial GMC comparison, the collisional and softened-gravity runs yield similar star formation histories and integrated star formation efficiencies. Nevertheless, close gravitational encounters during the embedded phase generate a substantial runaway population, with a velocity tail extending beyond 100 km/s. Ejected massive stars redistribute radiative feedback into the surrounding lower-density medium and produce a more extended distribution of heated gas. Arepo-CD provides a practical and computationally efficient framework for studying collisional stellar dynamics and its coupling to gas evolution and feedback during star cluster formation in realistic galactic environments.",
+      "summary": "Star formation is a hierarchical, clustered process in turbulent giant molecular clouds (GMCs), where close stellar encounters can strongly affect cluster evolution and feedback. We present Arepo-CD (Collisional Dynamics), a framework that couples star-by-star collisional $N$-body dynamics to the moving-mesh magnetohydrodynamics (MHD) code Arepo.",
+      "authors": [
+        "Chuizheng Kong",
+        "Hui Li",
+        "Long Wang",
+        "Yunwei Deng",
+        "Elizabeth Moreno-Hilario"
+      ],
+      "published": "2026-10-20",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.28727v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28727v1",
+      "arxiv_id": "2610.28727",
+      "arxiv_url": "https://arxiv.org/abs/2610.28727v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 29.0
+      },
+      "matched": {
+        "molecular": [
+          "magnetohydrodynamics",
+          "mhd",
+          "molecular cloud",
+          "molecular clouds",
+          "star formation"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_3b94c464f2a6",
+      "title": "The T-matrix method for modeling the optical properties of grains in exoplanetary atmospheres",
+      "abstract": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. The interaction between solids and stellar radiation is of fundamental importance when forward or retrieval models are compared to observations. The simplest approach is to assume spherical particles, whose scattering and absorption properties are readily computed with Mie theory. More advanced computational methods, however, can also treat non-spherical condensates. Among these, the transition matrix approach has proven to provide a rigorous and efficient calculation of the extinction by non-spherical particles over a broad range of sizes and refractive indices. We here focus on the absorption and scattering cross sections of forsterite, spinel and silicon monoxide from the near to the far infrared range for particles of different sizes, with shapes ranging from compact ensembles of spheres to porous aggregates. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes greater than 1 $\\mu$m. In a fiducial transmission spectrum we show that in the $\\lambda = 1-5\\,\\mu$m range the amount of spherical material needed to match the contribution of the structured grains can be a factor 2 higher. Such calculations, available for the community through a Zenodo repository, prove to be useful for interpreting recent and future observations of exoplanetary atmospheres.",
+      "summary": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes…",
+      "authors": [
+        "Giambattista Aresu",
+        "Giovanni La Mura",
+        "Giacomo Mulas",
+        "Cesare Cecchi-Pestellini",
+        "Maria Antonia Iatì",
+        "Shadi Rezaei",
+        "Antonino Petralia",
+        "Daniele Locci",
+        "Giuseppina Micela",
+        "Franz Saija",
+        "Rosalba Saija"
+      ],
+      "published": "2026-10-20",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.28117",
+      "pdf_url": "https://arxiv.org/pdf/2610.28117",
+      "arxiv_id": "2610.28117",
+      "arxiv_url": "https://arxiv.org/abs/2610.28117",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_ddb106337811",
       "title": "Resolving the extended interstellar medium of infrared galaxies II. Fine-structure line emission",
       "abstract": "We investigate how star formation and active galactic nuclei (AGNs) shape the ionized and neutral interstellar medium in 67 nearby luminous and ultraluminous infrared galaxies from the Great Observatories All-sky LIRG Survey (GOALS). Combining mid-infrared (MIR) spectral mapping from the Spitzer Infrared Spectrograph with far-infrared (FIR) spectroscopy from the Herschel Photodetector Array Camera and Spectrometer, we measure fine-structure emission lines in aperture grids extending to projected galactocentric distances of about 14 kpc. We compare the measurements with CLOUDY photoionization models to constrain the ionization parameter, hydrogen density, stellar age, and metallicity. In starburst-dominated galaxies, the combined MIR+FIR fits yield a decreasing ionization parameter with radius, approximately constant hydrogen densities, uniformly young stellar populations, and flat metallicity profiles. MIR-only fits instead yield an increasing ionization parameter with radius, highlighting the importance of FIR diagnostics, particularly the [C II] emission associated with photodissociation regions, in constraining the multiphase gas. In the strongest AGN-dominated system, the nucleus and inner extended regions show elevated [Ne III]/[Ne II] and suppressed [C II]/[O I] ratios, while the outermost regions, at projected distances of about 6 kpc and beyond, show values typical of star-forming regions. This suggests that the AGN may affect gas excitation out to about 5 kpc. Our results demonstrate the importance of combining MIR and FIR diagnostics to recover radial trends that can be hidden in galaxy-integrated measurements. Together with Paper I, they provide a benchmark for spatially resolved studies of gas and dust in starbursts and AGN-hosting galaxies.",
@@ -250,9 +1057,9 @@
         "A. Evans",
         "D. B. Sanders"
       ],
-      "published": "2026-10-21",
+      "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -275,14 +1082,14 @@
       },
       "matched": {
         "submm": [
+          "dust",
           "far infrared",
           "far-infrared",
+          "galaxies",
+          "galaxy",
           "herschel",
           "interstellar",
-          "star formation",
-          "dust",
-          "galaxies",
-          "galaxy"
+          "star formation"
         ]
       },
       "primary_topic": "submm"
@@ -320,9 +1127,9 @@
         "A. Evans",
         "D. B. Sanders"
       ],
-      "published": "2026-10-21",
+      "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -345,12 +1152,176 @@
       },
       "matched": {
         "submm": [
+          "dust",
           "far infrared",
           "far-infrared",
+          "galaxies",
           "herschel",
-          "interstellar",
+          "interstellar"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_1d6fb0a9094b",
+      "title": "О тенях черных дыр в неэйнштейновских теориях гравитации",
+      "abstract": "In a recent article by S. O. Alekseev et al. (published in the journal “Physics of Elementary Particles and Atomic Nuclei”), the authors claim that they are discussing the possibility of estimating the parameters of black hole shadows that may occur in the Horndeski model and Bumblebee gravity. Leaving aside the question that none of the proposed alternative theories of gravity can be considered preferable to Einstein’s General Theory of Relativity, it should be noted that these authors did not prove that they have found rotating solutions such as black holes in non-Einstein’s theories of gravity they consider. As is known, the rotation accounting procedure proposed by Newman-Janis was applied to “derive” the Kerr metric from the Schwarzschild metric in the framework of General Relativity. Later, a number of authors showed that for a large number of cases of the non-Einstein theory of gravity, the Newman-Janis algorithm cannot be used to obtain analogues of Kerr-type solutions in such theories of gravity. Therefore, for each version of the alternative theory of gravity, it is necessary to prove that the Newman-Janis procedure actually gives a Kerr-type solution in the non-Einstein theory of gravity under consideration. In addition, it should be noted that the paper under discussion by S. O. Alekseev et al. considered, in fact, many impact parameters corresponding to unstable circular photon orbits, and the fact that the corresponding motion parameters determine the shape and size of shadows remained unproven for the considered solutions such as black holes in alternative theories of gravity. The fact that the problem of finding the shape and size of the shadow and the problem of finding circular photon orbits for Kerr black holes are equivalent was shown more than 20 years ago in the work of A. F. Zakharov et al., published in the journal “New Astronomy”, where it was also noted that the shadow of a black hole in the Galactic Center can be reconstructed using VLBI observations of interferometers operating in the millimeter and submillimeter range. In recent years, a number of papers have shown that circular photon orbits are possible for some generalizations of the Kerr-Newman metric in the absence of shadows; therefore, it is not reasonable to talk about the presence and properties of shadows only on the basis of consideration of circular photon orbits, as stated in the work by S. O. Alekseev et al.",
+      "summary": "Alekseev et al. (published in the journal “Physics of Elementary Particles and Atomic Nuclei”), the authors claim that they are discussing the possibility of estimating the parameters of black hole shadows that may occur in the Horndeski model and Bumblebee gravity. As is known, the rotation accounting procedure proposed by Newman-Janis was applied to “derive” the Kerr metric from the Schwarzschild metric in the framework of General Relativity.",
+      "authors": [
+        "А. Ф. Захаров",
+        "А. Ф. Захаров"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "ФИЗИКА ЭЛЕМЕНТАРНЫХ ЧАСТИЦ И АТОМНОГО ЯДРА",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://pepan.jinr.ru/index.php/Pepan/article/view/2113",
+      "pdf_url": "https://pepan.jinr.ru/index.php/Pepan/article/download/2113/1241",
+      "openalex_id": "W7223074550",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "astronomy",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_ca6ca1f8f4a3",
+      "title": "The SIMPLIFI Survey: Polarization of Dense Filaments with SOFIA III. Relative orientations of antenna temperature gradients with the magnetic field in the DR21 molecular cloud",
+      "abstract": "We investigate magnetohydrodynamic (MHD) turbulence in the DR21 molecular cloud using far infrared polarimetry from SOFIA HAWC+ and molecular spectroscopy from the Nobeyama 45~m telescope. The Velocity Channel Gradient (VChG) method is applied to thin velocity slices of the 12CO and 13CO J=1-0 emission to determine the antenna temperature gradients and their orientations in the plane of the sky. The relative orientations of the gradients with respect to the magnetic field position angles enable an evaluation of theoretically predicted alignment of elongated, turbulent eddies for Alfvenic, fast and slow modes and self-gravity. The projected Rayleigh statistic is calculated for both the full cloud and 6 regions of interest to provide a quantitative assessment of these alignments. Our analysis finds mostly parallel alignment of the gradient direction and the local magnetic field orientation in the Main Ridge of DR21 that comprises most of the cloud mass. While parallel alignment can result from fast MHD modes or cloud collapse, previous studies show spectroscopic evidence for the large scale collapse of the DR21 cloud, which supports self-gravity as the primary cause of the observed parallel alignment. One of the six sub-filaments that are connected to the Main Ridge exhibits mostly perpendicular alignment of the position angles of the gradient and magnetic field. These perpendicular relative orientations may be a product of Alfven and slow modes in a magnetized, sub-Alfvenic medium even if the sub-filament is accreting onto the Main Ridge.",
+      "summary": "We investigate magnetohydrodynamic (MHD) turbulence in the DR21 molecular cloud using far infrared polarimetry from SOFIA HAWC+ and molecular spectroscopy from the Nobeyama 45~m telescope. The Velocity Channel Gradient (VChG) method is applied to thin velocity slices of the 12CO and 13CO J=1-0 emission to determine the antenna temperature gradients and their orientations in the plane of the sky.",
+      "authors": [
+        "Mark Heyer",
+        "Thushara G. S. Pillai",
+        "Jens Kauffmann",
+        "Juan D. Soler",
+        "Daniel Seifried",
+        "Laura M. Fissel",
+        "Gabriel A. P. Franco",
+        "Paul F. Goldsmith",
+        "Philip C. Myers",
+        "Helmut Wiesemeyer",
+        "Karl M. Menten"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.27090",
+      "pdf_url": "https://arxiv.org/pdf/2610.27090",
+      "arxiv_id": "2610.27090",
+      "arxiv_url": "https://arxiv.org/abs/2610.27090",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "molecular"
+      ],
+      "scores": {
+        "submm": 19.0,
+        "molecular": 51.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "molecular cloud",
+          "sofia",
+          "telescope"
+        ],
+        "molecular": [
+          "filament",
+          "magnetic",
+          "magnetic field",
+          "magnetohydrodynamic",
+          "mhd",
+          "molecular cloud",
+          "polarimetry",
+          "polarization",
+          "turbulence"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_245b27843a28",
+      "title": "The ALMA View of the Edge-on Gomez’s Hamburger System: A Highly Dynamic, Asymmetric Protoplanetary Disk Reveals the Earliest Phases of Giant Planet Formation",
+      "abstract": "Chemical tracers provide some of the strongest observational signatures of ongoing planet formation and localized dynamical perturbations in protoplanetary disks. In particular, sulfur-bearing molecules are predicted to be enhanced in regions of shock heating, ice sublimation, and gravitational instability. Here, we present high-angular resolution (≈0. ′′ 2) Atacama Large Millimeter/submillimeter Array observations of 12 CO J = 3-2, 13 CO J = 3-2, CS J = 7-6, and SO J N = 8 8 -7 7 toward the large, edge-on Gomez’s Hamburger (“GoHam”; IRAS 18059-3211) disk. We detect a narrow, one-sided arc of SO emission that peaks near a previously identified gas overdensity, suggesting localized heating around an early-stage giant protoplanet or disk fragment. The edge-on geometry of GoHam enables us to place this chemical signature in the broader context of the disk gas and dust structure. To do so, we map the vertical distribution of molecular gas relative to millimeter- and (sub)micron-sized dust, identify a pronounced north-south continuum asymmetry, and detect non-Keplerian 12 CO and 13 CO emission indicative of a disk wind. We also derive a dynamical stellar mass of 2.2 ± 0.5 M ⊙ and a revised dust extinction map-based distance of 139 ± 24 pc, which places GoHam in the outskirts of the Sco-Cen association. Together, these observations reveal a highly dynamic disk in which localized sulfur chemistry may trace one of the earliest observable stages of wide-separation giant planet formation.",
+      "summary": "Chemical tracers provide some of the strongest observational signatures of ongoing planet formation and localized dynamical perturbations in protoplanetary disks. We detect a narrow, one-sided arc of SO emission that peaks near a previously identified gas overdensity, suggesting localized heating around an early-stage giant protoplanet or disk fragment.",
+      "authors": [
+        "Charles J. Law",
+        "Jensen Lawrence",
+        "Richard D. Teague",
+        "Zhe-Yu Daniel Lin",
+        "Romane Le Gal",
+        "Kristina Monsch",
+        "Gordian Edenhofer",
+        "Hans Dieter Baehr",
+        "Edwin A. Bergin",
+        "L. Ilsedore Cleeves",
+        "Anne Dutrey",
+        "Coralie Foucher",
+        "S. Guilloteau",
+        "Thomas J. Haworth",
+        "Thomas Henning",
+        "John D. Ilee",
+        "Marija R. Janković",
+        "Kamber R. Schwarz",
+        "Ilaria Pascucci",
+        "Dmitry Semenov",
+        "Ke Zhang"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea566",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea566",
+      "url": "https://doi.org/10.3847/1538-4357/aea566",
+      "pdf_url": "",
+      "openalex_id": "W7212111113",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 19.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
           "dust",
-          "galaxies"
+          "observations",
+          "protoplanetary",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -382,9 +1353,9 @@
         "N. Izumi",
         "K. E. Johnson"
       ],
-      "published": "2026-10-21",
+      "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -407,10 +1378,10 @@
       },
       "matched": {
         "submm": [
-          "far infrared",
-          "far-infrared",
           "alma",
           "dust",
+          "far infrared",
+          "far-infrared",
           "galaxies"
         ]
       },
@@ -426,14 +1397,14 @@
         "Francesco Valentino",
         "Jens Hjorth",
         "Gabriel Brammer",
-        "Ugn\\.{e} Dudzevi\\v{c}i\\={u}t\\.{e}",
+        "Ugnė Dudzevičiūtė",
         "Kei Ito",
         "Antonio Pensabene",
         "Pengpei Zhu"
       ],
-      "published": "2026-10-21",
+      "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -456,14 +1427,204 @@
       },
       "matched": {
         "submm": [
-          "sub-millimetre",
-          "star formation",
           "dust",
           "galaxies",
-          "galaxy"
+          "galaxy",
+          "star formation",
+          "sub-millimetre"
         ]
       },
       "primary_topic": "submm"
+    },
+    {
+      "id": "p_0533337e7a37",
+      "title": "An ALMA study of hub-filament systemsII. Quiescent filaments converging towards highly dynamic hubs",
+      "abstract": "Hub-filament systems are networks of converging interstellar filaments, often with active star formation at their centres, that may play an important role in high-mass star formation. In the first paper of this series, we found that the mass fraction that ends up in a clump’s most massive core is significantly higher in IR-dark hubs than IR-bright clumps, suggesting that the most-massive cores form early on. Such early massive core formation requires large inflow rates and dynamically active IR-dark clumps. We now present N2H+(J=1-0) observations of six IR-dark hub-filament systems mapped with ALMA 12m, 7m, and total power at ∼3′′ resolution, to trace the kinematics of the dense gas. The data show intricate emission structures and complex spectra. To characterise their kinematics, we have developed mwydyn, a fully-automated, multiple velocity component, hyperfine line-fitting code. Our results reveal that the emission invariably consists of quiescent individual filaments in the outskirts that converge towards the hub centres where a systematic increase in velocity dispersion and number of components is observed. We also find that the distribution of centroid velocities is remarkably similar between clumps, despite spanning more than one order of magnitude in mass. We propose that our results are best explained by the mixing of gravitationally-driven multi-directional inflows, resulting in highly complex and dynamic hub centres. We also discuss the implications of the observed differentiated filament and hub gas kinematics in the context of the 3D morphology of hub-filament systems.",
+      "summary": "Hub-filament systems are networks of converging interstellar filaments, often with active star formation at their centres, that may play an important role in high-mass star formation. Our results reveal that the emission invariably consists of quiescent individual filaments in the outskirts that converge towards the hub centres where a systematic increase in velocity dispersion and number of components is observed.",
+      "authors": [
+        "Michael Anderson",
+        "N. Peretto",
+        "S. E. Ragan",
+        "Andrew J. Rigby",
+        "A. Avison",
+        "A. Duarte-Cabral",
+        "Gary A. Fuller",
+        "Yancy L. Shirley",
+        "A. Traficante",
+        "Gwenllian M. Williams"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stag1985",
+      "doi_url": "https://doi.org/10.1093/mnras/stag1985",
+      "url": "https://doi.org/10.1093/mnras/stag1985",
+      "pdf_url": "",
+      "openalex_id": "W7201879787",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "observations",
+          "star formation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_4a378da825fc",
+      "title": "ALMA’s Sharpest View of IRAS 08544-4431: Unveiling the Dust Distribution Asymmetries in the Circumbinary Disk",
+      "abstract": "The interactions between post-asymptotic giant branch (post-AGB) binaries and their circumbinary disks play a central role in shaping the evolution of these systems. Circumbinary disks around post-AGB binaries are stable, though relatively short-lived, structures (10 4 -10 5 yr), and their physical properties and evolution remain poorly understood. In this study, we target IRAS 08544-4431, one of the best-studied post-AGB binaries. This system has well-constrained stellar and orbital parameters, exhibits well-defined characteristic refractory-depleted photospheric chemistry, and hosts a stable, sub-Keplerian circumbinary disk extending from a well-resolved sublimation rim at approximately 8 au to outer radii of approximately 1000 au. We probe the disk layers close to the midplane using Atacama Large Millimeter/submillimeter Array (ALMA) Band 7 continuum and 12 CO J = 3-2 observations of IRAS 08544-4431 obtained with baselines up to 16.2 km. These data provide the finest angular resolution as yet achieved with ALMA for dust-continuum observations of post-AGB binaries with an (almost) face-on disk (15 au; 10 mas). The resulting map of dust continuum enabled resolving disk inner rim, a largely smooth radial profile, and a prominent azimuthal asymmetry at a radius of ∼45 mas. Notably, the location of this dust asymmetry coincides with the forward-scattering peak reported in SPHERE/VLT observations of IRAS 08544-4431. The 12 CO emission is more extended than the dust continuum and confirms the disk rotation in this system. However, the global 12 CO map shows indications of a spatial offset from the dust asymmetry, suggesting some degree of gas-dust decoupling. Together, these observations establish IRAS 08544-4431 as a key laboratory for studying disk and dust evolution in a parameter space distinct from that of young stars with protoplanetary disks.",
+      "summary": "The interactions between post-asymptotic giant branch (post-AGB) binaries and their circumbinary disks play a central role in shaping the evolution of these systems. This system has well-constrained stellar and orbital parameters, exhibits well-defined characteristic refractory-depleted photospheric chemistry, and hosts a stable, sub-Keplerian circumbinary disk extending from a well-resolved sublimation rim at approximately 8 au to outer radii of…",
+      "authors": [
+        "Maksym Mohorian",
+        "D. Kamath",
+        "E. Cappellazzo",
+        "Kateryna D. Andrych",
+        "J. Kluska",
+        "Hans Van Winckel",
+        "Daniel Price",
+        "Toon De Prins",
+        "Arancha Castro-Carrizo",
+        "J. Alcolea",
+        "Nicolas Cuello",
+        "Matthias Fabry",
+        "V. Bujarrabal"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeac1d",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeac1d",
+      "url": "https://doi.org/10.3847/1538-4357/aeac1d",
+      "pdf_url": "",
+      "openalex_id": "W7214160918",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 19.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_e647b2901a98",
+      "title": "Extending the M33 Extinction Map with Radio and Far-Infrared Gas Observations",
+      "abstract": "As the third-largest galaxy in the Local Group, M33 requires high-precision, wide-area extinction maps to recover the intrinsic luminosity and enable accurate studies, yet the available maps remain limited in coverage. In this work, we extend the stellar-based extinction map within the Panchromatic Hubble Andromeda Treasury: Triangulum Extended Region (PHATTER) footprint to the outer disk by calibrating empirical $A_V$-H\\,\\textsc{i} and $A_V$-total hydrogen relations in the PHATTER overlap region. Within the PHATTER footprint, we retain the stellar-based map at 6$^{\\prime\\prime}$ resolution, and outside the area covered by the stellar-based extinction map we produce an extended map at $\\approx 12^{\\prime\\prime}$ resolution. The resulting map preserves a continuous morphology across the PHATTER boundary and reveals clear spiral-arm and interarm contrast and patchy dust substructures across a broader area. The median and maximum extinction values, $\\mathrm{median}(A_V)\\approx 0.91$ mag and $A_{V,\\mathrm{max}} \\approx 2.62$ mag, are consistent with the high-extinction range reported by previous M33 studies, while naturally reflecting differences in tracers and spatial coverage. The extinction map provides a practical, publicly available dataset for galaxy-wide extinction correction and for further studies in M33.",
+      "summary": "As the third-largest galaxy in the Local Group, M33 requires high-precision, wide-area extinction maps to recover the intrinsic luminosity and enable accurate studies, yet the available maps remain limited in coverage. The resulting map preserves a continuous morphology across the PHATTER boundary and reveals clear spiral-arm and interarm contrast and patchy dust substructures across a broader area.",
+      "authors": [
+        "Yuxi Wang"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.26571",
+      "pdf_url": "https://arxiv.org/pdf/2610.26571",
+      "arxiv_id": "2610.26571",
+      "arxiv_url": "https://arxiv.org/abs/2610.26571",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 24.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_3b993a9a17b6",
+      "title": "Competitive roles of turbulence and magnetic field on the formation of unipolar outflows in isolated molecular cloud cores",
+      "abstract": "We investigate the impact of turbulence and magnetic field on the formation of unipolar outflows in the gravitational collapse of isolated low-mass cloud cores using three-dimensional non-ideal magnetohydrodynamics simulations. In the models explored in this study, we find that unipolar outflows are formed in cloud cores with the super-Alfv\\'{e}nic turbulence of $M_{\\rm{A}}>1$, where $M_{\\rm{A}}$ is the Alfv\\'{e}n Mach number of the initial cloud core. In contrast, bipolar outflows are formed in cloud cores with $M_{\\rm{A}}\\lesssim1$. Our results suggest that the relative strength of the turbulence to the magnetic field in the initial cloud core plays a key role in the formation of unipolar outflows. We also find that no outflow is formed in cloud cores with the strong magnetic field of the dimensionless mass-to-flux ratio $\\mu=2$. The outflow morphologies can be used as tracers to indirectly estimate the relative strengths of the turbulence and magnetic field of the parent cloud cores.",
+      "summary": "We investigate the impact of turbulence and magnetic field on the formation of unipolar outflows in the gravitational collapse of isolated low-mass cloud cores using three-dimensional non-ideal magnetohydrodynamics simulations. In the models explored in this study, we find that unipolar outflows are formed in cloud cores with the super-Alfv\\'{e}nic turbulence of $M_{\\rm{A}}>1$, where $M_{\\rm{A}}$ is the Alfv\\'{e}n Mach number of the initial cloud core.",
+      "authors": [
+        "Daisuke Takaishi",
+        "Yusuke Tsukamoto",
+        "Miyu Kido",
+        "Shigehisa Takakuwa",
+        "Yoshiaki Misugi",
+        "Yuki Kudoh",
+        "Yasushi Suto"
+      ],
+      "published": "2026-10-19",
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-23T08:42:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.SR",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.26176",
+      "pdf_url": "https://arxiv.org/pdf/2610.26176",
+      "arxiv_id": "2610.26176",
+      "arxiv_url": "https://arxiv.org/abs/2610.26176",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 35.0
+      },
+      "matched": {
+        "molecular": [
+          "magnetic",
+          "magnetic field",
+          "magnetohydrodynamics",
+          "molecular cloud",
+          "turbulence"
+        ]
+      },
+      "primary_topic": "molecular"
     },
     {
       "id": "p_d76ee35b2078",
@@ -477,9 +1638,9 @@
         "Laura M. Fissel",
         "Lindy Blackburn"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-17",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20T17:02:43+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -548,16 +1709,16 @@
         "Christopher Wilson",
         "Travis Wise"
       ],
-      "published": "2026-10-20",
+      "published": "2026-10-17",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20T17:02:43+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv"
       ],
-      "venue": "arXiv · astro-ph.IM",
-      "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
+      "venue": "Proc. SPIE 14156, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy XIII, 141560Y (20 Aug 2026)",
+      "journal_ref": "Proc. SPIE 14156, Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy XIII, 141560Y (20 Aug 2026)",
+      "doi": "10.1117/12.3104968",
+      "doi_url": "https://doi.org/10.1117/12.3104968",
       "url": "https://arxiv.org/abs/2610.24337",
       "pdf_url": "https://arxiv.org/pdf/2610.24337",
       "arxiv_id": "2610.24337",
@@ -586,295 +1747,6 @@
         ]
       },
       "primary_topic": "mkid"
-    },
-    {
-      "id": "p_e647b2901a98",
-      "title": "Extending the M33 Extinction Map with Radio and Far-Infrared Gas Observations",
-      "abstract": "As the third-largest galaxy in the Local Group, M33 requires high-precision, wide-area extinction maps to recover the intrinsic luminosity and enable accurate studies, yet the available maps remain limited in coverage. In this work, we extend the stellar-based extinction map within the Panchromatic Hubble Andromeda Treasury: Triangulum Extended Region (PHATTER) footprint to the outer disk by calibrating empirical $A_V$-H\\,\\textsc{i} and $A_V$-total hydrogen relations in the PHATTER overlap region. Within the PHATTER footprint, we retain the stellar-based map at 6$^{\\prime\\prime}$ resolution, and outside the area covered by the stellar-based extinction map we produce an extended map at $\\approx 12^{\\prime\\prime}$ resolution. The resulting map preserves a continuous morphology across the PHATTER boundary and reveals clear spiral-arm and interarm contrast and patchy dust substructures across a broader area. The median and maximum extinction values, $\\mathrm{median}(A_V)\\approx 0.91$ mag and $A_{V,\\mathrm{max}} \\approx 2.62$ mag, are consistent with the high-extinction range reported by previous M33 studies, while naturally reflecting differences in tracers and spatial coverage. The extinction map provides a practical, publicly available dataset for galaxy-wide extinction correction and for further studies in M33.",
-      "summary": "As the third-largest galaxy in the Local Group, M33 requires high-precision, wide-area extinction maps to recover the intrinsic luminosity and enable accurate studies, yet the available maps remain limited in coverage. The resulting map preserves a continuous morphology across the PHATTER boundary and reveals clear spiral-arm and interarm contrast and patchy dust substructures across a broader area.",
-      "authors": [
-        "Yuxi Wang"
-      ],
-      "published": "2026-10-20",
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20T17:02:43+08:00",
-      "sources": [
-        "arXiv"
-      ],
-      "venue": "arXiv · astro-ph.GA",
-      "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.26571",
-      "pdf_url": "https://arxiv.org/pdf/2610.26571",
-      "arxiv_id": "2610.26571",
-      "arxiv_url": "https://arxiv.org/abs/2610.26571",
-      "oa": true,
-      "type": "preprint",
-      "citations": 0,
-      "topics": [
-        "submm"
-      ],
-      "scores": {
-        "submm": 24.0
-      },
-      "matched": {
-        "submm": [
-          "dust",
-          "far infrared",
-          "far-infrared",
-          "galaxy",
-          "observations"
-        ]
-      },
-      "primary_topic": "submm"
-    },
-    {
-      "id": "p_3b993a9a17b6",
-      "title": "Competitive roles of turbulence and magnetic field on the formation of unipolar outflows in isolated molecular cloud cores",
-      "abstract": "We investigate the impact of turbulence and magnetic field on the formation of unipolar outflows in the gravitational collapse of isolated low-mass cloud cores using three-dimensional non-ideal magnetohydrodynamics simulations. In the models explored in this study, we find that unipolar outflows are formed in cloud cores with the super-Alfv\\'{e}nic turbulence of $M_{\\rm{A}}>1$, where $M_{\\rm{A}}$ is the Alfv\\'{e}n Mach number of the initial cloud core. In contrast, bipolar outflows are formed in cloud cores with $M_{\\rm{A}}\\lesssim1$. Our results suggest that the relative strength of the turbulence to the magnetic field in the initial cloud core plays a key role in the formation of unipolar outflows. We also find that no outflow is formed in cloud cores with the strong magnetic field of the dimensionless mass-to-flux ratio $\\mu=2$. The outflow morphologies can be used as tracers to indirectly estimate the relative strengths of the turbulence and magnetic field of the parent cloud cores.",
-      "summary": "We investigate the impact of turbulence and magnetic field on the formation of unipolar outflows in the gravitational collapse of isolated low-mass cloud cores using three-dimensional non-ideal magnetohydrodynamics simulations. In the models explored in this study, we find that unipolar outflows are formed in cloud cores with the super-Alfv\\'{e}nic turbulence of $M_{\\rm{A}}>1$, where $M_{\\rm{A}}$ is the Alfv\\'{e}n Mach number of the initial cloud core.",
-      "authors": [
-        "Daisuke Takaishi",
-        "Yusuke Tsukamoto",
-        "Miyu Kido",
-        "Shigehisa Takakuwa",
-        "Yoshiaki Misugi",
-        "Yuki Kudoh",
-        "Yasushi Suto"
-      ],
-      "published": "2026-10-20",
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20T17:02:43+08:00",
-      "sources": [
-        "arXiv"
-      ],
-      "venue": "arXiv · astro-ph.SR",
-      "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.26176",
-      "pdf_url": "https://arxiv.org/pdf/2610.26176",
-      "arxiv_id": "2610.26176",
-      "arxiv_url": "https://arxiv.org/abs/2610.26176",
-      "oa": true,
-      "type": "preprint",
-      "citations": 0,
-      "topics": [
-        "molecular"
-      ],
-      "scores": {
-        "molecular": 35.0
-      },
-      "matched": {
-        "molecular": [
-          "magnetic",
-          "magnetic field",
-          "magnetohydrodynamics",
-          "molecular cloud",
-          "turbulence"
-        ]
-      },
-      "primary_topic": "molecular"
-    },
-    {
-      "id": "p_1d6fb0a9094b",
-      "title": "О тенях черных дыр в неэйнштейновских теориях гравитации",
-      "abstract": "In a recent article by S. O. Alekseev et al. (published in the journal “Physics of Elementary Particles and Atomic Nuclei”), the authors claim that they are discussing the possibility of estimating the parameters of black hole shadows that may occur in the Horndeski model and Bumblebee gravity. Leaving aside the question that none of the proposed alternative theories of gravity can be considered preferable to Einstein’s General Theory of Relativity, it should be noted that these authors did not prove that they have found rotating solutions such as black holes in non-Einstein’s theories of gravity they consider. As is known, the rotation accounting procedure proposed by Newman-Janis was applied to “derive” the Kerr metric from the Schwarzschild metric in the framework of General Relativity. Later, a number of authors showed that for a large number of cases of the non-Einstein theory of gravity, the Newman-Janis algorithm cannot be used to obtain analogues of Kerr-type solutions in such theories of gravity. Therefore, for each version of the alternative theory of gravity, it is necessary to prove that the Newman-Janis procedure actually gives a Kerr-type solution in the non-Einstein theory of gravity under consideration. In addition, it should be noted that the paper under discussion by S. O. Alekseev et al. considered, in fact, many impact parameters corresponding to unstable circular photon orbits, and the fact that the corresponding motion parameters determine the shape and size of shadows remained unproven for the considered solutions such as black holes in alternative theories of gravity. The fact that the problem of finding the shape and size of the shadow and the problem of finding circular photon orbits for Kerr black holes are equivalent was shown more than 20 years ago in the work of A. F. Zakharov et al., published in the journal “New Astronomy”, where it was also noted that the shadow of a black hole in the Galactic Center can be reconstructed using VLBI observations of interferometers operating in the millimeter and submillimeter range. In recent years, a number of papers have shown that circular photon orbits are possible for some generalizations of the Kerr-Newman metric in the absence of shadows; therefore, it is not reasonable to talk about the presence and properties of shadows only on the basis of consideration of circular photon orbits, as stated in the work by S. O. Alekseev et al.",
-      "summary": "Alekseev et al. (published in the journal “Physics of Elementary Particles and Atomic Nuclei”), the authors claim that they are discussing the possibility of estimating the parameters of black hole shadows that may occur in the Horndeski model and Bumblebee gravity. As is known, the rotation accounting procedure proposed by Newman-Janis was applied to “derive” the Kerr metric from the Schwarzschild metric in the framework of General Relativity.",
-      "authors": [
-        "А. Ф. Захаров",
-        "А. Ф. Захаров"
-      ],
-      "published": "2026-10-19",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
-      "sources": [
-        "OpenAlex"
-      ],
-      "venue": "ФИЗИКА ЭЛЕМЕНТАРНЫХ ЧАСТИЦ И АТОМНОГО ЯДРА",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://pepan.jinr.ru/index.php/Pepan/article/view/2113",
-      "pdf_url": "",
-      "openalex_id": "W7223074550",
-      "oa": true,
-      "type": "article",
-      "citations": 0,
-      "topics": [
-        "submm"
-      ],
-      "scores": {
-        "submm": 11.0
-      },
-      "matched": {
-        "submm": [
-          "submillimeter",
-          "astronomy",
-          "observations"
-        ]
-      },
-      "primary_topic": "submm"
-    },
-    {
-      "id": "p_245b27843a28",
-      "title": "The ALMA View of the Edge-on Gomez’s Hamburger System: A Highly Dynamic, Asymmetric Protoplanetary Disk Reveals the Earliest Phases of Giant Planet Formation",
-      "abstract": "Chemical tracers provide some of the strongest observational signatures of ongoing planet formation and localized dynamical perturbations in protoplanetary disks. In particular, sulfur-bearing molecules are predicted to be enhanced in regions of shock heating, ice sublimation, and gravitational instability. Here, we present high-angular resolution (≈0. ′′ 2) Atacama Large Millimeter/submillimeter Array observations of 12 CO J = 3-2, 13 CO J = 3-2, CS J = 7-6, and SO J N = 8 8 -7 7 toward the large, edge-on Gomez’s Hamburger (“GoHam”; IRAS 18059-3211) disk. We detect a narrow, one-sided arc of SO emission that peaks near a previously identified gas overdensity, suggesting localized heating around an early-stage giant protoplanet or disk fragment. The edge-on geometry of GoHam enables us to place this chemical signature in the broader context of the disk gas and dust structure. To do so, we map the vertical distribution of molecular gas relative to millimeter- and (sub)micron-sized dust, identify a pronounced north-south continuum asymmetry, and detect non-Keplerian 12 CO and 13 CO emission indicative of a disk wind. We also derive a dynamical stellar mass of 2.2 ± 0.5 M ⊙ and a revised dust extinction map-based distance of 139 ± 24 pc, which places GoHam in the outskirts of the Sco-Cen association. Together, these observations reveal a highly dynamic disk in which localized sulfur chemistry may trace one of the earliest observable stages of wide-separation giant planet formation.",
-      "summary": "Chemical tracers provide some of the strongest observational signatures of ongoing planet formation and localized dynamical perturbations in protoplanetary disks. We detect a narrow, one-sided arc of SO emission that peaks near a previously identified gas overdensity, suggesting localized heating around an early-stage giant protoplanet or disk fragment.",
-      "authors": [
-        "Charles J. Law",
-        "Jensen Lawrence",
-        "Richard D. Teague",
-        "Zhe-Yu Daniel Lin",
-        "Romane Le Gal",
-        "Kristina Monsch",
-        "Gordian Edenhofer",
-        "Hans Dieter Baehr",
-        "Edwin A. Bergin",
-        "L. Ilsedore Cleeves",
-        "Anne Dutrey",
-        "Coralie Foucher",
-        "S. Guilloteau",
-        "Thomas J. Haworth",
-        "Thomas Henning",
-        "John D. Ilee",
-        "Marija R. Janković",
-        "Kamber R. Schwarz",
-        "Ilaria Pascucci",
-        "Dmitry Semenov",
-        "Ke Zhang"
-      ],
-      "published": "2026-10-19",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
-      "sources": [
-        "OpenAlex"
-      ],
-      "venue": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/aea566",
-      "doi_url": "https://doi.org/10.3847/1538-4357/aea566",
-      "url": "https://doi.org/10.3847/1538-4357/aea566",
-      "pdf_url": "",
-      "openalex_id": "W7212111113",
-      "oa": true,
-      "type": "article",
-      "citations": 0,
-      "topics": [
-        "submm"
-      ],
-      "scores": {
-        "submm": 19.0
-      },
-      "matched": {
-        "submm": [
-          "submillimeter",
-          "alma",
-          "dust",
-          "observations",
-          "protoplanetary"
-        ]
-      },
-      "primary_topic": "submm"
-    },
-    {
-      "id": "p_0533337e7a37",
-      "title": "An ALMA study of hub-filament systemsII. Quiescent filaments converging towards highly dynamic hubs",
-      "abstract": "Hub-filament systems are networks of converging interstellar filaments, often with active star formation at their centres, that may play an important role in high-mass star formation. In the first paper of this series, we found that the mass fraction that ends up in a clump’s most massive core is significantly higher in IR-dark hubs than IR-bright clumps, suggesting that the most-massive cores form early on. Such early massive core formation requires large inflow rates and dynamically active IR-dark clumps. We now present N2H+(J=1-0) observations of six IR-dark hub-filament systems mapped with ALMA 12m, 7m, and total power at ∼3′′ resolution, to trace the kinematics of the dense gas. The data show intricate emission structures and complex spectra. To characterise their kinematics, we have developed mwydyn, a fully-automated, multiple velocity component, hyperfine line-fitting code. Our results reveal that the emission invariably consists of quiescent individual filaments in the outskirts that converge towards the hub centres where a systematic increase in velocity dispersion and number of components is observed. We also find that the distribution of centroid velocities is remarkably similar between clumps, despite spanning more than one order of magnitude in mass. We propose that our results are best explained by the mixing of gravitationally-driven multi-directional inflows, resulting in highly complex and dynamic hub centres. We also discuss the implications of the observed differentiated filament and hub gas kinematics in the context of the 3D morphology of hub-filament systems.",
-      "summary": "Hub-filament systems are networks of converging interstellar filaments, often with active star formation at their centres, that may play an important role in high-mass star formation. Our results reveal that the emission invariably consists of quiescent individual filaments in the outskirts that converge towards the hub centres where a systematic increase in velocity dispersion and number of components is observed.",
-      "authors": [
-        "Michael Anderson",
-        "N. Peretto",
-        "S. E. Ragan",
-        "Andrew J. Rigby",
-        "A. Avison",
-        "A. Duarte-Cabral",
-        "Gary A. Fuller",
-        "Yancy L. Shirley",
-        "A. Traficante",
-        "Gwenllian M. Williams"
-      ],
-      "published": "2026-10-19",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
-      "sources": [
-        "OpenAlex"
-      ],
-      "venue": "Monthly Notices of the Royal Astronomical Society",
-      "doi": "10.1093/mnras/stag1985",
-      "doi_url": "https://doi.org/10.1093/mnras/stag1985",
-      "url": "https://doi.org/10.1093/mnras/stag1985",
-      "pdf_url": "",
-      "openalex_id": "W7201879787",
-      "oa": true,
-      "type": "article",
-      "citations": 0,
-      "topics": [
-        "submm"
-      ],
-      "scores": {
-        "submm": 13.0
-      },
-      "matched": {
-        "submm": [
-          "alma",
-          "interstellar",
-          "star formation",
-          "observations"
-        ]
-      },
-      "primary_topic": "submm"
-    },
-    {
-      "id": "p_4a378da825fc",
-      "title": "ALMA’s Sharpest View of IRAS 08544-4431: Unveiling the Dust Distribution Asymmetries in the Circumbinary Disk",
-      "abstract": "The interactions between post-asymptotic giant branch (post-AGB) binaries and their circumbinary disks play a central role in shaping the evolution of these systems. Circumbinary disks around post-AGB binaries are stable, though relatively short-lived, structures (10 4 -10 5 yr), and their physical properties and evolution remain poorly understood. In this study, we target IRAS 08544-4431, one of the best-studied post-AGB binaries. This system has well-constrained stellar and orbital parameters, exhibits well-defined characteristic refractory-depleted photospheric chemistry, and hosts a stable, sub-Keplerian circumbinary disk extending from a well-resolved sublimation rim at approximately 8 au to outer radii of approximately 1000 au. We probe the disk layers close to the midplane using Atacama Large Millimeter/submillimeter Array (ALMA) Band 7 continuum and 12 CO J = 3-2 observations of IRAS 08544-4431 obtained with baselines up to 16.2 km. These data provide the finest angular resolution as yet achieved with ALMA for dust-continuum observations of post-AGB binaries with an (almost) face-on disk (15 au; 10 mas). The resulting map of dust continuum enabled resolving disk inner rim, a largely smooth radial profile, and a prominent azimuthal asymmetry at a radius of ∼45 mas. Notably, the location of this dust asymmetry coincides with the forward-scattering peak reported in SPHERE/VLT observations of IRAS 08544-4431. The 12 CO emission is more extended than the dust continuum and confirms the disk rotation in this system. However, the global 12 CO map shows indications of a spatial offset from the dust asymmetry, suggesting some degree of gas-dust decoupling. Together, these observations establish IRAS 08544-4431 as a key laboratory for studying disk and dust evolution in a parameter space distinct from that of young stars with protoplanetary disks.",
-      "summary": "The interactions between post-asymptotic giant branch (post-AGB) binaries and their circumbinary disks play a central role in shaping the evolution of these systems. This system has well-constrained stellar and orbital parameters, exhibits well-defined characteristic refractory-depleted photospheric chemistry, and hosts a stable, sub-Keplerian circumbinary disk extending from a well-resolved sublimation rim at approximately 8 au to outer radii of…",
-      "authors": [
-        "Maksym Mohorian",
-        "D. Kamath",
-        "E. Cappellazzo",
-        "Kateryna D. Andrych",
-        "J. Kluska",
-        "Hans Van Winckel",
-        "Daniel Price",
-        "Toon De Prins",
-        "Arancha Castro-Carrizo",
-        "J. Alcolea",
-        "Nicolas Cuello",
-        "Matthias Fabry",
-        "V. Bujarrabal"
-      ],
-      "published": "2026-10-19",
-      "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22T10:04:13+08:00",
-      "sources": [
-        "OpenAlex"
-      ],
-      "venue": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/aeac1d",
-      "doi_url": "https://doi.org/10.3847/1538-4357/aeac1d",
-      "url": "https://doi.org/10.3847/1538-4357/aeac1d",
-      "pdf_url": "",
-      "openalex_id": "W7214160918",
-      "oa": true,
-      "type": "article",
-      "citations": 0,
-      "topics": [
-        "submm"
-      ],
-      "scores": {
-        "submm": 19.0
-      },
-      "matched": {
-        "submm": [
-          "alma",
-          "dust",
-          "observations",
-          "protoplanetary",
-          "submillimeter"
-        ]
-      },
-      "primary_topic": "submm"
     },
     {
       "id": "p_1d6e53d665ef",
@@ -956,7 +1828,7 @@
       ],
       "published": "2026-10-15",
       "first_seen": "2026-10-15",
-      "last_seen": "2026-10-20T17:02:43+08:00",
+      "last_seen": "2026-10-23T08:42:17+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T08:42:17+08:00",
-    "generated_label": "2026-10-23 08:42",
-    "today": "2026-10-23",
+    "generated_at": "2026-10-24T08:44:42+08:00",
+    "generated_label": "2026-10-24 08:44",
+    "today": "2026-10-24",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 119,
-    "new_count": 16,
-    "digest_url": "digests/2026-10-23.md",
+    "paper_count": 122,
+    "new_count": 3,
+    "digest_url": "digests/2026-10-24.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,169 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_6b8508525fc1",
+      "title": "The ALMA-QUARKS survey: A Keplerian Circumbinary Disk Candidate in the High-mass Star-forming Region IRAS 08303-4303",
+      "abstract": "We present the ALMA Band 6 continuum and molecular line observations of IRAS 08303-4303, a high-mass star-forming region, with an angular resolution of $\\sim 0.3''$ ($\\sim 700$ au at the distance of 2.35 kpc). Six dense condensations are identified in the 1.3 mm continuum, and at least four of them are associated with molecular outflows. The estimated outflow parameters, particularly mass outflow rates $\\geq 10^{-4}$ $M_{\\odot}$ yr$^{-1}$, suggest that the driving sources are high-mass young stellar objects. Two of the condensations are forming a wide protobinary system with a separation of $\\sim 900$ au. They reside within a single rotating structure, identified as a circumbinary disk which has a mass of about 2 $M_{\\odot}$. This structure is traced by multiple molecular lines and exhibits a Keplerian rotation pattern. Based on the Keplerian rotation assumption, the enclosed mass is derived to be between 32 and 61 $M_{\\odot}$: 22-43 $M_{\\odot}$ for the primary and 10-18 $M_{\\odot}$ for the secondary. The circumbinary disk is on the whole gravitationally stable, yet some parts with Toomre $Q < 2$ indicate potential fragmentation. Various molecular lines reveal a streamer-like structure connecting to the circumbinary disk, suggesting transfer of material from the envelope to the protobinary system through it. Despite the observational rarity of such circumbinary disks around high-mass YSOs, the high binary fraction among massive stars underscores their significance. This source, therefore, serves as a key laboratory for understanding the formation of high-mass binary systems.",
+      "summary": "We present the ALMA Band 6 continuum and molecular line observations of IRAS 08303-4303, a high-mass star-forming region, with an angular resolution of $\\sim 0.3''$ ($\\sim 700$ au at the distance of 2.35 kpc). Various molecular lines reveal a streamer-like structure connecting to the circumbinary disk, suggesting transfer of material from the envelope to the protobinary system through it.",
+      "authors": [
+        "Gyuho Lee",
+        "Kee-Tae Kim",
+        "Tie Liu",
+        "Xunchuan Liu",
+        "Sheng-Yuan Liu",
+        "Lei Zhu",
+        "Guido Garay",
+        "Jihyun Kang",
+        "Hyeong-Sik Yun",
+        "Hong-Li Liu",
+        "Sami Dib",
+        "James O. Chibueze",
+        "Jianjun Zhou",
+        "Siju Zhang",
+        "Di Li",
+        "Pablo Garcia",
+        "Swagat R. Das",
+        "Lokesh Dewangan",
+        "Prasanta Gorai",
+        "Suinan Zhang",
+        "Aiyuan Yang",
+        "Manuel Merello",
+        "Leonardo Bronfman",
+        "Mika Juvela",
+        "Xindi Tang",
+        "Wenyu Jiao",
+        "Fengwei Xu",
+        "Zhiyuan Ren",
+        "Tapas Baug",
+        "Jihye Hwang",
+        "Patricio Sanhueza",
+        "Yankun Zhang",
+        "Xu Zhang",
+        "Chang Won Lee",
+        "Dongting Yang",
+        "Xiaofeng Mai"
+      ],
+      "published": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24T08:44:42+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.SR",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.30811",
+      "pdf_url": "https://arxiv.org/pdf/2610.30811",
+      "arxiv_id": "2610.30811",
+      "arxiv_url": "https://arxiv.org/abs/2610.30811",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 9.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_883e5921f1f6",
+      "title": "Nuclear Millimeter Continuum Emission in Radio-Quiet Active Galactic Nuclei: an ALMA Spectral and Variability Study",
+      "abstract": "Unresolved millimeter (mm) emission is observed in radio-quiet (RQ) Active Galactic Nuclei (AGN), but its physical origin remains debated. Self-absorbed synchrotron emission from the compact X-ray corona is one of the leading candidates. Previous support for this coronal synchrotron origin has mainly been based on variability and spectral indices in a few RQ AGN, with a lack of (quasi-)simultaneous broadband data for larger samples. We present Atacama Large Millimeter/sub-millimeter Array (ALMA) observations of nine nearby ($z \\sim 0.008-0.064$) RQ AGN, obtained quasi-simultaneously at 100, 145, and 233 GHz. Based on power-law fits to the spectral energy distributions, we measure millimeter spectral indices ranging from $-0.05^{+0.09}_{-0.09}$ to $0.88^{+0.12}_{-0.11}$. Furthermore, across two 100 GHz observing epochs per source, separated by $4-11$ days, we detect flux density variability of $30-56$% (>$3\\sigma$ significance level) in three out of nine sources. Spectral slopes alone are insufficient to constrain the origin of the millimeter emission; however, the observed short-timescale variability and inferred brightness temperature values are consistent with a non-thermal emission mechanism arising from a compact emitting region with a size of $R_{\\rm mm}< 10^3 - 10^4 R_{\\rm g}$, such as the corona or a compact jet. Furthermore, we find a clear correlation between the 100/233 GHz and X-ray flux in our sample, and establish a new linear correlation between 145 GHz and X-ray emission.",
+      "summary": "Unresolved millimeter (mm) emission is observed in radio-quiet (RQ) Active Galactic Nuclei (AGN), but its physical origin remains debated. Based on power-law fits to the spectral energy distributions, we measure millimeter spectral indices ranging from $-0.05^{+0.09}_{-0.09}$ to $0.88^{+0.12}_{-0.11}$.",
+      "authors": [
+        "Sophie M. Venselaar",
+        "Claudio Ricci",
+        "Yoshiyuki Inoue",
+        "Chin-Shin Chang",
+        "Akihiro Doi",
+        "Noemi Barnier",
+        "Taiki Kawamuro",
+        "Susanne Aalto",
+        "Momoka Hamamoto",
+        "Elena Shablovinskaya",
+        "Ezequiel Treister"
+      ],
+      "published": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24T08:44:42+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.HE",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.30286",
+      "pdf_url": "https://arxiv.org/pdf/2610.30286",
+      "arxiv_id": "2610.30286",
+      "arxiv_url": "https://arxiv.org/abs/2610.30286",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "sub-millimeter",
+          "alma",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_d56b0d3a8c9b",
+      "title": "Magnetic Field Geometry and Stability in Two Molecular Clouds toward the Galactic Center and Anticenter",
+      "abstract": "",
+      "summary": "",
+      "authors": [
+        "Bijita Barman",
+        "Himadri Sekhar Das"
+      ],
+      "published": "2026-10-22",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24T08:44:42+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "OpenAlex",
+      "doi": "10.13140/rg.2.2.25662.24649",
+      "doi_url": "https://doi.org/10.13140/rg.2.2.25662.24649",
+      "url": "https://doi.org/10.13140/rg.2.2.25662.24649",
+      "pdf_url": "",
+      "openalex_id": "W7223247654",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 28.0
+      },
+      "matched": {
+        "molecular": [
+          "molecular clouds",
+          "magnetic field",
+          "magnetic"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
     {
       "id": "p_7ee35a4dedbd",
       "title": "The H IX galaxy survey IV: What does the molecular gas reveal in HI eXtreme galaxies",
@@ -113,7 +276,7 @@
       ],
       "published": "2026-10-22",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -134,10 +297,10 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "dust",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -275,7 +438,7 @@
       ],
       "published": "2026-10-22",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -317,7 +480,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -363,7 +526,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -409,7 +572,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -449,7 +612,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -457,7 +620,7 @@
       "doi": "10.3847/1538-4357/aea6cb",
       "doi_url": "https://doi.org/10.3847/1538-4357/aea6cb",
       "url": "https://doi.org/10.3847/1538-4357/aea6cb",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea6cb/pdf",
       "openalex_id": "W7212609739",
       "oa": true,
       "type": "article",
@@ -489,7 +652,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -510,8 +673,8 @@
       },
       "matched": {
         "molecular": [
-          "molecular clouds",
-          "magnetic"
+          "magnetic",
+          "molecular clouds"
         ]
       },
       "primary_topic": "molecular"
@@ -544,7 +707,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -566,9 +729,9 @@
       "matched": {
         "submm": [
           "alma",
-          "interstellar",
           "galaxies",
           "galaxy",
+          "interstellar",
           "observations",
           "telescope"
         ]
@@ -587,7 +750,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -608,13 +771,13 @@
       },
       "matched": {
         "submm": [
-          "submillimetre",
-          "far infrared",
-          "far-infrared",
           "astronomical",
           "astrophysical",
+          "dust",
+          "far infrared",
+          "far-infrared",
           "interstellar",
-          "dust"
+          "submillimetre"
         ]
       },
       "primary_topic": "submm"
@@ -632,7 +795,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -676,7 +839,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -697,8 +860,8 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -774,7 +937,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -835,7 +998,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -942,7 +1105,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -994,7 +1157,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1059,7 +1222,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1129,7 +1292,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1173,7 +1336,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1221,7 +1384,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1296,7 +1459,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1355,7 +1518,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1404,7 +1567,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1455,7 +1618,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1506,7 +1669,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1546,20 +1709,22 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "Universe",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.26571",
+      "doi": "10.3390/universe12110316",
+      "doi_url": "https://doi.org/10.3390/universe12110316",
+      "url": "https://doi.org/10.3390/universe12110316",
       "pdf_url": "https://arxiv.org/pdf/2610.26571",
       "arxiv_id": "2610.26571",
       "arxiv_url": "https://arxiv.org/abs/2610.26571",
+      "openalex_id": "W7223047774",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
@@ -1594,7 +1759,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-23T08:42:17+08:00",
+      "last_seen": "2026-10-24T08:44:42+08:00",
       "sources": [
         "arXiv"
       ],

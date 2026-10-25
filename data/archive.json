@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T08:44:42+08:00",
-    "generated_label": "2026-10-24 08:44",
-    "today": "2026-10-24",
+    "generated_at": "2026-10-25T08:21:09+08:00",
+    "generated_label": "2026-10-25 08:21",
+    "today": "2026-10-25",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 122,
-    "new_count": 3,
-    "digest_url": "digests/2026-10-24.md",
+    "paper_count": 123,
+    "new_count": 1,
+    "digest_url": "digests/2026-10-25.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,62 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_7b7c468b7dbd",
+      "title": "Dust-seeding Molecules in a Massive Protostar-Detection of TiO in Orion Source I",
+      "abstract": "We report the first detection of TiO in star-forming regions based on Atacama Large Millimeter/submillimeter Array observations of Orion Source I, a well-characterized massive protostar. Multiple rotational transitions are identified, with emission spatially resolved within ∼50 au, showing a compact distribution with a velocity structure consistent with the base of a rotating outflow. The spatial and velocity distributions of TiO are consistent with those of AlO, with both species being key dust-seeding refractory molecules. The column density of TiO is derived to be (3.0 ± 0.4) × 10 15 cm -2, corresponding to X TiO/SiO ∼ 12.8 ± 1.7 × 10 -3, higher than the CI chondrite X Ti/Si value and indicative of efficient dust-to-gas conversion near the protostar. The detection of TiO, a key dust-seeding species, offers important constraints on refractory chemistry and the formation environments of primitive minerals, linking astrochemical processes in protostellar systems to the earliest stages of solar system material formation.",
+      "summary": "We report the first detection of TiO in star-forming regions based on Atacama Large Millimeter/submillimeter Array observations of Orion Source I, a well-characterized massive protostar. The detection of TiO, a key dust-seeding species, offers important constraints on refractory chemistry and the formation environments of primitive minerals, linking astrochemical processes in protostellar systems to the earliest stages of solar system material formation.",
+      "authors": [
+        "Ziwei E. Zhang",
+        "Nami Sakai",
+        "Marcelino Agundez",
+        "L. Podio",
+        "C. Codella",
+        "Tomoya Hirota",
+        "Adam Ginsburg",
+        "Brett A. McGuire",
+        "Nadia M. Murillo",
+        "Yuki Okoda",
+        "Yoko Oya",
+        "G. Sabatini",
+        "Aki Takigawa",
+        "Kei E. I. Tanaka",
+        "Yichen Zhang",
+        "Qiuyi Luo",
+        "Yu Cheng",
+        "Izaskun Jiménez-Serra",
+        "Shogo Tachibana"
+      ],
+      "published": "2026-10-23",
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25T08:21:09+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "doi": "10.3847/2041-8213/aeacbe",
+      "doi_url": "https://doi.org/10.3847/2041-8213/aeacbe",
+      "url": "https://doi.org/10.3847/2041-8213/aeacbe",
+      "pdf_url": "",
+      "openalex_id": "W7172437579",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "dust",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_6b8508525fc1",
       "title": "The ALMA-QUARKS survey: A Keplerian Circumbinary Disk Candidate in the High-mass Star-forming Region IRAS 08303-4303",
@@ -173,7 +229,7 @@
       ],
       "published": "2026-10-22",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -194,9 +250,9 @@
       },
       "matched": {
         "molecular": [
-          "molecular clouds",
+          "magnetic",
           "magnetic field",
-          "magnetic"
+          "molecular clouds"
         ]
       },
       "primary_topic": "molecular"
@@ -276,7 +332,7 @@
       ],
       "published": "2026-10-22",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -438,7 +494,7 @@
       ],
       "published": "2026-10-22",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -480,7 +536,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -526,7 +582,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -572,7 +628,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -612,7 +668,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -652,7 +708,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -707,7 +763,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -750,7 +806,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -795,7 +851,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -839,7 +895,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -937,7 +993,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -998,7 +1054,7 @@
       ],
       "published": "2026-10-21",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1105,7 +1161,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1157,7 +1213,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1222,7 +1278,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1292,7 +1348,7 @@
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1336,7 +1392,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1384,7 +1440,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1459,7 +1515,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1518,7 +1574,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1567,7 +1623,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1618,7 +1674,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1669,7 +1725,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1709,7 +1765,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -1759,7 +1815,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-10-24T08:44:42+08:00",
+      "last_seen": "2026-10-25T08:21:09+08:00",
       "sources": [
         "arXiv"
       ],

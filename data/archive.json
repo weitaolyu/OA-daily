@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T09:25:28+08:00",
-    "generated_label": "2026-10-28 09:25",
-    "today": "2026-10-28",
+    "generated_at": "2026-10-29T09:49:46+08:00",
+    "generated_label": "2026-10-29 09:49",
+    "today": "2026-10-29",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 128,
-    "new_count": 3,
-    "digest_url": "digests/2026-10-28.md",
+    "paper_count": 133,
+    "new_count": 5,
+    "digest_url": "digests/2026-10-29.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,179 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_c77917a0066e",
+      "title": "Research Progress of Superconducting Microstrips Single-Photon Detectors",
+      "abstract": "Superconducting microstrips single-photon detectors (SMSPDs) are a novel type of single-photon sensor based on superconducting thin films patterned into micrometer-scale strip widths. Compared with superconducting nanowire single-photon detectors (SNSPDs), SMSPDs not only substantially lower the fabrication dependence on high-precision electron-beam lithography, but also exhibit lower kinetic inductance, higher bias current, and weaker polarization sensitivity. These advantages pave a new route toward superconducting single-photon detection systems with large active areas and low dark-count rates. Because of their performance, SMSPDs exhibit tremendous application potential in cutting-edge fields such as quantum communication, LiDAR, dark-matter searches, and high-energy particle detection. Accordingly, this paper provides a systematic review of recent advances in SMSPD research, covering the underlying physical mechanisms, material systems, geometrical design, readout circuitry, and application domains. Firstly, this review elaborates on the photon response mechanism of SMSPDs and clarifies its correlation with vortex dynamics. Secondly, this review categorizes the superconducting materials used for SMSPD fabrication and analyzes the influences of characteristic thin-film parameters on device performance. Furthermore, this work concludes the evolution and optimization strategies of geometrical design and readout circuit schemes for SMSPDs, and presents the current application status. Finally, we offer perspectives on its future development trajectory. This review provides a foundation in physical mechanisms and design guidance for the development of large active area SMSPDs with high efficiency and low dark counts.",
+      "summary": "Superconducting microstrips single-photon detectors (SMSPDs) are a novel type of single-photon sensor based on superconducting thin films patterned into micrometer-scale strip widths. These advantages pave a new route toward superconducting single-photon detection systems with large active areas and low dark-count rates.",
+      "authors": [
+        "Fei Li",
+        "Jinji Zheng",
+        "邓志威"
+      ],
+      "published": "2026-10-27",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29T09:49:46+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Sensors",
+      "doi": "10.3390/s26216791",
+      "doi_url": "https://doi.org/10.3390/s26216791",
+      "url": "https://doi.org/10.3390/s26216791",
+      "pdf_url": "",
+      "openalex_id": "W7223964576",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 7.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "readout"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
+      "id": "p_9f265dc1f2cf",
+      "title": "Hierarchical Hub Formation in Mon R2: Evidence for Cloud-to-core Gas Flows",
+      "abstract": "We present a multiscale kinematic study of the hub-filament system in Mon R2 using James Clerk Maxwell Telescope (JCMT) 13 CO(3-2) and Atacama Large Millimeter/submillimeter Array (ALMA) C 18 O(1-0) observations to investigate how molecular gas converges toward the central hub and connects across cloud-to-core scales. The 13 CO data reveal several velocity-coherent filaments with diverse position angles converging toward the central region hosting massive stars and stellar clusters, where distinct velocity components become spatially superposed. Two dominant velocity regimes at ∼8.8-10.2 and ∼10.4-11.8 km s -1 are identified, with their velocity separation decreasing toward the central hub. The position-position-velocity (PPV) and longitude-velocity maps of the 13 CO emission exhibit a butterfly/X-shaped morphology, consistent with converging motions. A phenomenological rotating-and-infalling envelope model reproduces the longitude-velocity morphology, indicating that rotation and infall may contribute to the observed kinematics, although the model does not uniquely identify the underlying mechanism. At higher resolution, the ALMA C 18 O observations resolve the molecular gas into multiple velocity-coherent filaments spanning ∼8-13 km s -1, with distinct kinematic domains at ∼9-10.5, 10.5-11.5, and 12-13 km s -1 converging toward the hub. The ALMA and JCMT position-velocity (PV) diagrams show consistent velocity structures across their respective spatial scales, with the ALMA-resolved features embedded within the broader molecular gas velocity field traced by JCMT, demonstrating a multiscale kinematic connection. These results support a hierarchical picture in which converging flows and filamentary accretion contribute to hub growth and ongoing star formation in Mon R2, while other dynamical processes may also contribute to the observed kinematics.",
+      "summary": "We present a multiscale kinematic study of the hub-filament system in Mon R2 using James Clerk Maxwell Telescope (JCMT) 13 CO(3-2) and Atacama Large Millimeter/submillimeter Array (ALMA) C 18 O(1-0) observations to investigate how molecular gas converges toward the central hub and connects across cloud-to-core scales. The 13 CO data reveal several velocity-coherent filaments with diverse position angles converging toward the central region hosting massive…",
+      "authors": [
+        "Lokesh Kumar Dewangan",
+        "O. R. Jadhav",
+        "A. K. Maity",
+        "Saurabh Sharma",
+        "Ram K. Yadav"
+      ],
+      "published": "2026-10-27",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29T09:49:46+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeab98",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeab98",
+      "url": "https://doi.org/10.3847/1538-4357/aeab98",
+      "pdf_url": "",
+      "openalex_id": "W7213914466",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "star formation",
+          "observations",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_949d4b1efe30",
+      "title": "Dust Growth in Evolving Filamentary Molecular Clouds: Signatures in Ionization, Resistivity, and Infrared Scattering",
+      "abstract": "Studies of dust growth in molecular clouds often prescribe the collapse history, leaving unclear how magnetic regulation of core formation shapes dust evolution and its observable and nonideal MHD signatures. We address this problem by performing one-zone dust evolution and ionization calculations along time-dependent density and magnetic-field histories extracted from three-dimensional nonideal MHD simulations of core formation through filament fragmentation. A stronger initial magnetic field delays contraction and thereby gives dust grains more time to grow at a given density. In our models, this delayed contraction leads to mass-weighted mean dust sizes of 1.2 and 3.1 μ m at n H = 10 6 cm -3 for B ini = 20 and 50 μ G, respectively. The associated depletion of very small dust grains reduces the adsorption of charged particles onto dust grain surfaces and lowers the conductivity: relative to models without dust growth, the ionization fraction increases from ∼10 -9 to ∼10 -8, the ambipolar resistivity increases, and the ion-neutral drift velocity rises to several m s -1 in the weak-magnetic-field model and approximately 10 m s -1 in the strong-magnetic-field model. These drift velocities remain below the observationally suggested range of 30-100 m s -1, indicating that still stronger magnetic fields may be required. The evolved dust populations also attain single-scattering albedos of order ω λ ∼ 0.8 at 3.6-4.5 μ m, with the stronger field shifting the onset of efficient infrared scattering toward lower densities. These results demonstrate that the magnetically controlled collapse timescale, rather than density alone, links dust growth to ionization, ambipolar diffusion, and infrared scattering in prestellar cores.",
+      "summary": "Studies of dust growth in molecular clouds often prescribe the collapse history, leaving unclear how magnetic regulation of core formation shapes dust evolution and its observable and nonideal MHD signatures. These results demonstrate that the magnetically controlled collapse timescale, rather than density alone, links dust growth to ionization, ambipolar diffusion, and infrared scattering in prestellar cores.",
+      "authors": [
+        "Hayato Uchimura",
+        "Yoshiaki Misugi",
+        "Daisuke Takaishi",
+        "Taishi Tsuchiyama",
+        "Tomoki Tokunaga",
+        "Rintaro Shibakawa",
+        "Yusuke Tsukamoto"
+      ],
+      "published": "2026-10-27",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29T09:49:46+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea978",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea978",
+      "url": "https://doi.org/10.3847/1538-4357/aea978",
+      "pdf_url": "",
+      "openalex_id": "W7214129268",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 31.0
+      },
+      "matched": {
+        "molecular": [
+          "filament",
+          "magnetic",
+          "magnetic field",
+          "magnetic fields",
+          "mhd",
+          "molecular clouds"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_cb944ec131cc",
+      "title": "A Targeted Location Hypothesis and Recovery Test for Planet Nine Based on IRAS-AKARI Candidate Astrometry and Deep Optical Imaging",
+      "abstract": "A Targeted Location Hypothesis and Recovery Test for Planet Nine Based on IRAS-AKARI Candidate Astrometry and Deep Optical Imaging Kevin L. BrownIndependent Researcher This paper presents a falsifiable, targeted observational search hypothesis for Planet Nine, combining published far-infrared candidate astrometry, physically constrained orbital reconstruction, archival astronomical data, and deep optical imaging. The research does not claim that Planet Nine has been discovered, that any published far-infrared candidate is a planet, or that the gravitational interpretation underlying the Planet Nine hypothesis has been conclusively established. Its central contribution is a reproducible strategy for prioritizing and testing a specific candidate location while distinguishing historical observational evidence from calculated extrapolations and unverified orbital interpretations. Primary IRAS-AKARI Candidate The primary target is the published far-infrared candidate pair: IRAS F02211-4844, observed in 1983. AKARI-MUSL J0220440-491247, observed in 2006. The reported catalog positions are separated by 47.4586 arcminutes across approximately 23 years. This long-baseline displacement provides a specific observational hypothesis: the two infrared detections may represent one slowly moving, distant solar-system object. The original July 30, 2026, hypothesis identified this candidate as the highest-priority targeted recovery lane among the published alternatives considered, based on its multi-epoch astrometric leverage, finite search geometry, observational feasibility, and potential for a decisive positive or negative result. Original Recovery Coordinates and Observing Window The registered tangent-plane extrapolation gives a November 2026 recovery center of: Right Ascension: 34.6827° (02h18m44s)Declination: -49.8358° (-49°50′09′′)Coordinate reference: J2000 The original recovery geometry includes a circular core field with a radius of 1.1° and an extended motion corridor approximately 3.5° long and 1.5° wide. The primary observing window remains November 5-13, 2026, with a secondary comparison window of June 20-July 10, 2027. These historical coordinates and observing windows are preserved for scientific traceability. They are not claimed to represent a confirmed ephemeris or a uniquely determined planetary orbit. Version 1.3 - Parallax-Aware Recovery Framework The principal revision addresses an important limitation of linear astrometric extrapolation. The apparent position of a distant solar-system object depends on its heliocentric orbit, Earth's observing position, annual parallax, observation timing, and measurement uncertainty. Accordingly, Version 1.3 introduces a physically constrained orbital-family framework: [\\hat{\\mathbf n}(t)=\\frac{\\mathbf r_P(t)-\\mathbf r_E(t)}{|\\mathbf r_P(t)-\\mathbf r_E(t)|}.] Rather than assuming that two catalog positions determine a unique present-day location, the revised method proposes generating families of admissible bound trajectories consistent with the historical astrometry. These orbital families can then be propagated to candidate observing dates to construct uncertainty-weighted recovery regions. The original linear search center remains the registered reference hypothesis against which improved physical propagation can be evaluated. No completed orbital fit or statistically calibrated recovery-region probability is claimed. ISSP-Guided Search Prioritization The research uses Informational Scalar Scan Protocol (ISSP) as a structured research-navigation and route-selection framework, prioritizing approaches that offer high observational discrimination, lower avoidable uncertainty, and efficient use of telescope resources. The resulting search sequence is: Historical IRAS/AKARI source verification → Parallax-aware orbital-family reconstruction → Archival optical recovery → Uncertainty-weighted deep imaging → Independent orbital determination. The revised approach emphasizes checking existing observations before requesting new telescope time. Relevant resources include IRAS, AKARI, DECam, Dark Energy Survey imaging, Rubin Observatory products where accessible, and other suitable optical and infrared archives. ISSP ranking is treated as an analytical research-prioritization method, not as independent empirical detection or proof of a planetary location. Observational Recovery and Validation The proposed recovery procedure combines deep optical imaging, consecutive-night astrometry, shift-and-stack processing, forced photometry, synthetic-source injection, and longer-baseline observations. The working imaging target is approximately r = 25.5-26, with a primary expected apparent-motion range of several arcseconds per day for distant objects near opposition. Version 1.3 additionally requires realistic observing-footprint calculations, uncertainty-aware search coverage, and explicit accounting for detector masks, survey cadence, background conditions, and detection efficiency. The protocol distinguishes four increasingly demanding findings: Verification that the original infrared detections are credible astronomical sources. Evidence that the IRAS and AKARI detections represent one moving object. Modern optical recovery and determination of a gravitationally bound heliocentric orbit. Independent evidence that the recovered body possesses the physical and dynamical properties required of Planet Nine. A result at one stage does not automatically establish the subsequent stages. Falsification and Null-Result Interpretation The hypothesis is designed to permit meaningful rejection. The primary IRAS-AKARI candidate lane is weakened or rejected if the original detections prove to be artifacts, cirrus, unrelated sources, or catalog-processing errors; if no physically plausible common orbital trajectory connects them; or if sufficiently complete observations exclude compatible moving sources over the tested recovery domain. The revised methodology introduces a conditional detection-probability framework: [P_{\\mathrm{det}}=\\int \\epsilon(\\boldsymbol\\theta)p(\\boldsymbol\\theta\\mid D_{\\mathrm{IR}}),d\\boldsymbol\\theta,] where the orbital distribution conditioned on infrared observations is combined with the search's detection-efficiency model. This provides a mathematical basis for assessing how strongly a documented nondetection constrains the candidate. A null result applies to the tested candidate, orbital families, brightness range, motion range, and observational coverage. It does not independently falsify Planet Nine's existence elsewhere in the outer solar system. Updated Scientific Context Version 1.3 incorporates subsequent Planet Nine search developments, including 2026 research by Phan and collaborators investigating additional far-infrared detections and the expanding observational capabilities of the Vera C. Rubin Observatory. These developments strengthen the motivation for reconstructing historical source records, searching for intermediate detections, and testing physically admissible orbital tracks before allocating extensive new observing resources. The proposed candidate remains distinct from the highest-probability regions of some dynamical Planet Nine models. A successful recovery of a distant moving object would not, by itself, establish that it is responsible for the orbital structure of distant trans-Neptunian objects. Scientific Contribution and Current Status The paper's contribution is a dated, falsifiable candidate-recovery hypothesis supported by a progressively refined observational methodology. It combines a named historical candidate, an explicitly registered search field, a physical orbital reconstruction proposal, archive-first investigation, quantified observational completeness, and independently testable recovery criteria. The manuscript remains a prospective observational research proposal. No new planet detection, independently validated IRAS-AKARI orbital association, completed orbit fit, or observational confirmation of Planet Nine is reported. A positive result would justify further dynamical and physical characterization. A sufficiently complete negative result would narrow or reject the specified far-infrared candidate interpretation. Either outcome would provide a testable contribution to resolving uncertainty in the search for a possible distant planetary-mass object. Keywords Planet Nine; outer solar system; trans-Neptunian objects; IRAS; AKARI; far-infrared astronomy; planetary dynamics; astrometry; annual parallax; orbital reconstruction; orbital uncertainty; deep optical imaging; Vera C. Rubin Observatory; shift-and-stack; observational completeness; falsifiable hypothesis; ISSP; scientific reproducibility.",
+      "summary": "A Targeted Location Hypothesis and Recovery Test for Planet Nine Based on IRAS-AKARI Candidate Astrometry and Deep Optical Imaging Kevin L. This provides a mathematical basis for assessing how strongly a documented nondetection constrains the candidate.",
+      "authors": [
+        "Kevin Brown"
+      ],
+      "published": "2026-10-27",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29T09:49:46+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.21726213",
+      "doi_url": "https://doi.org/10.5281/zenodo.21726213",
+      "url": "https://doi.org/10.5281/zenodo.21726213",
+      "pdf_url": "",
+      "openalex_id": "W7223861411",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 20.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "astronomical",
+          "astronomy",
+          "observation",
+          "observations",
+          "observatory",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_d377776d59c9",
       "title": "The origin and distribution of diffuse HI in the close interacting MHONGOOSE galaxy systems",
@@ -106,7 +279,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-10-28T09:25:28+08:00",
+      "last_seen": "2026-10-29T09:49:46+08:00",
       "sources": [
         "arXiv"
       ],
@@ -129,11 +302,11 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
-          "star formation",
           "galaxy",
-          "observations"
+          "observations",
+          "star formation",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -215,6 +388,50 @@
         ]
       },
       "primary_topic": "submm"
+    },
+    {
+      "id": "p_0a2b4e0fd33c",
+      "title": "PIM-like additive manufacturing and characterization of a MnZn ferrite magnetic core",
+      "abstract": "Additive manufacturing offers flexibility in terms of shapes, and currently enables the printing of a variety of materials for electrical engineering. This article presents the fabrication and magnetic characterization of a MnZn soft ferrite toroidal core produced by additive manufacturing. The parts are manufactured using the PIM-like process for which the 3D printing step is performed using powder filled polymer pellets. After debinding and sintering steps, a dense core with magnetic performance comparable to that of a conventional ferrite is obtained. The process is an original one for the production of soft ferrite parts. Microstructural and magnetic characterizations were carried out to obtain its grain size and main magnetic properties, i.e. its hysteresis loops and associated power losses as a function of induction and frequency. The evolution of the temperature behavior of the ferrite is also presented.",
+      "summary": "Additive manufacturing offers flexibility in terms of shapes, and currently enables the printing of a variety of materials for electrical engineering. The parts are manufactured using the PIM-like process for which the 3D printing step is performed using powder filled polymer pellets.",
+      "authors": [
+        "Ghali Sqalli",
+        "Vincent Martin",
+        "Frédéric Gillon",
+        "Ulrich Soupremanien",
+        "Denis Najjar",
+        "Jean-François Witz",
+        "Abdelkader Bénabou",
+        "Michel Hecquet"
+      ],
+      "published": "2026-10-26",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29T09:49:46+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-76367-2",
+      "doi_url": "https://doi.org/10.1038/s41598-026-76367-2",
+      "url": "https://doi.org/10.1038/s41598-026-76367-2",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-76367-2_reference.pdf",
+      "openalex_id": "W7223668417",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 11.0
+      },
+      "matched": {
+        "molecular": [
+          "dense core",
+          "magnetic"
+        ]
+      },
+      "primary_topic": "molecular"
     },
     {
       "id": "p_62be1de31100",
@@ -300,7 +517,7 @@
       ],
       "published": "2026-10-23",
       "first_seen": "2026-10-25",
-      "last_seen": "2026-10-28T09:25:28+08:00",
+      "last_seen": "2026-10-29T09:49:46+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1719,7 +1936,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-28T09:25:28+08:00",
+      "last_seen": "2026-10-29T09:49:46+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

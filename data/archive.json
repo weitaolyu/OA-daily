@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T09:49:46+08:00",
-    "generated_label": "2026-10-29 09:49",
-    "today": "2026-10-29",
+    "generated_at": "2026-10-30T09:58:50+08:00",
+    "generated_label": "2026-10-30 09:58",
+    "today": "2026-10-30",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 133,
-    "new_count": 5,
-    "digest_url": "digests/2026-10-29.md",
+    "paper_count": 136,
+    "new_count": 3,
+    "digest_url": "digests/2026-10-30.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,156 @@
   ],
   "papers": [
     {
+      "id": "p_79cc60143c74",
+      "title": "Experimental Demonstration of Double-Fourier Interferometer Imaging for Future Space-Based Far-Infrared Observatories",
+      "abstract": "Far-infrared (FIR) astronomy is crucial for observing star formation, active galactic nuclei, and protoplanetary systems, but its effectiveness is severely limited by poor diffraction-limited spatial resolution. To overcome this limitation, a double-Fourier interferometer (DFI), which couples a spatial interferometer with a Fourier transform spectrometer, has been proposed to deliver high-resolution broadband spectral imaging. Despite various conceptual and prototype studies, a comprehensive demonstration of DFI capabilities has been lacking. In this study, we present the validation of key DFI observing techniques using a laboratory testbed operating in the 0.3 to 2.1 THz optical bandwidth. We detail the instrument's ideal response alongside necessary calibrations for intensity imbalances, non-linear phase errors, and phase-center offsets. Our experimental results successfully demonstrate aperture synthesis for both one- and two-dimensional targets, accurately recovering source geometries. Furthermore, we prove the instrument's sensitivity to spatially dependent spectral variations by utilizing a low-pass optical filter on extended sources. Finally, we validate wide-field imaging capabilities by combining data from independent pixels in a detector array, each sensitive to different regions of the source plane. The experimental data show significant agreement with theoretical predictions, with minor deviations attributed to optical aberrations and perspective effects. These laboratory demonstrations validate the DFI architecture as a highly capable and mature technology for future space-based FIR observatories.",
+      "summary": "Far-infrared (FIR) astronomy is crucial for observing star formation, active galactic nuclei, and protoplanetary systems, but its effectiveness is severely limited by poor diffraction-limited spatial resolution. Our experimental results successfully demonstrate aperture synthesis for both one- and two-dimensional targets, accurately recovering source geometries.",
+      "authors": [
+        "Jeremy P. Scott",
+        "Locke D. Spencer",
+        "Chris Benson",
+        "David Naylor",
+        "Berke Ricketti",
+        "Dinula De Silva",
+        "Vince Weiler"
+      ],
+      "published": "2026-10-28",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30T09:58:50+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.IM",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.38105v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.38105v1",
+      "arxiv_id": "2610.38105",
+      "arxiv_url": "https://arxiv.org/abs/2610.38105v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 30.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "thz",
+          "astronomy",
+          "star formation",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_b80b0b7afb91",
+      "title": "ALESS-JWST: Dust-driven Morphologies and Hidden Stellar Mass in z ∼ 3 Submillimeter Galaxies",
+      "abstract": "We present JWST/NIRCam and MIRI observations of 12 z ∼ 3 submillimeter galaxies (SMGs), combined with high-resolution (0. ′′ 08-0. ′′ 16) ALMA 870 μ m imaging, enabling spatially resolved spectral energy distribution (SED) fitting on ∼kiloparsec scales. We find a resolved star-forming main sequence linking the surface densities of star formation rate and stellar mass, suggesting that star formation remains coupled to the local mass distribution even in heavily obscured systems. Our resolved SED analysis reveals a stellar mass bias in integrated fits (median ∼0.2 dex offset), despite including rest-frame ∼2 μ m MIRI imaging. Rather than classical “outshining,” this effect is driven by spatially varying dust attenuation: a “dust-obscuration bias” that causes obscured stellar mass to be missed. SMG morphologies are strongly wavelength-dependent. At rest-frame optical wavelengths, central obscuration produces large stellar-dust spatial offsets and inflated sizes, while at longer wavelengths these effects diminish. Rest-frame ∼1.5-3 μ m MIRI imaging is less affected by dust than NIRCam and reveals compact stellar structures closely matching the 870 μ m dust continuum. Centrally concentrated dust attenuation drives both the apparent spatial offsets and size variations, demonstrating that dust geometry is the primary driver of structural diversity. Consequently, morphologies inferred from rest-frame wavelengths ≲1.6 μ m can be significantly biased without longer-wavelength constraints. The intrinsic stellar mass and dust continuum sizes are consistent (R e,870 μ m / R e,* = 1.0 ± 0.4), supporting a picture in which SMGs host compact, heavily obscured star formation that builds dense stellar cores, consistent with their evolution into massive quiescent galaxies. Such obscured structures and associated biases may be common among massive star-forming galaxies at z ≳ 1, making these effects broadly relevant.",
+      "summary": "We present JWST/NIRCam and MIRI observations of 12 z ∼ 3 submillimeter galaxies (SMGs), combined with high-resolution (0. ′′ 08-0. ′′ 16) ALMA 870 μ m imaging, enabling spatially resolved spectral energy distribution (SED) fitting on ∼kiloparsec scales. Our resolved SED analysis reveals a stellar mass bias in integrated fits (median ∼0.2 dex offset), despite including rest-frame ∼2 μ m MIRI imaging.",
+      "authors": [
+        "Juno Li",
+        "Elisabete da Cunha",
+        "Jacqueline Hodge",
+        "Ian R. Smail",
+        "Sarah Kendrew",
+        "Andrew J Battisti",
+        "Misty Cracraft",
+        "Leindert Boogaard",
+        "William Nielsen Brandt",
+        "Chian-Chou Chen",
+        "P. Cox",
+        "Kirsten Kraiberg Knudsen",
+        "Cheng-Lin Liao",
+        "G. Calistro Rivera",
+        "Matus Rybak",
+        "A. M. Swinbank",
+        "Paul P. van der Werf",
+        "Fabian Walter",
+        "A. Weiß",
+        "B. A. Westoby"
+      ],
+      "published": "2026-10-28",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30T09:58:50+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeac4b",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeac4b",
+      "url": "https://doi.org/10.3847/1538-4357/aeac4b",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeac4b/pdf",
+      "openalex_id": "W7224102392",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 25.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxies",
+          "observations",
+          "star formation",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_df336f1f5037",
+      "title": "A chemical inventory of the disk around the class 0 protostar L1527 IRS with ALMA",
+      "abstract": "Planet formation starts in disks that are still embedded within their natal envelopes. Here, we compile an extensive inventory of the chemical composition of the disk and envelope (< 3500 au) around the Class 0 protostar L1527 IRS. Using all publicly available ALMA (Atacama Large Millimeter/submillimeter Array) data, we report the detection of 40 molecules, including isotopologues. Of these, 23 are different molecular species and 29 are reported here for the first time toward L1527 in ALMA observations. CH 3 OH is the only complex organic molecule detected, while the hydrocarbon CH 3 CCH is the largest molecule detected. Overall, only a few programs are sensitive enough to detect emission unambiguously originating from the disk based on the kinematics. Nitrogen-bearing molecules are predominantly detected on more extended scales, while hydrocarbons show a distinct tail roughly along the southeastern outflow cavity wall, probably due to a stronger UV field in the eastern outflow lobe. The L1527 IRS protostellar system is not rich in sulfur-bearing molecules, with only strong emission observed for CS and SO. Overall, the envelope appears dominated by a carbon-rich chemistry, which seems to transition into an oxygen-rich chemistry in the disk. We calculate column densities of all detected species, providing a starting point to quantify the chemical diversity among young disks and the chemical evolution of the planet-forming material.",
+      "summary": "Planet formation starts in disks that are still embedded within their natal envelopes. Using all publicly available ALMA (Atacama Large Millimeter/submillimeter Array) data, we report the detection of 40 molecules, including isotopologues.",
+      "authors": [
+        "Merel L. R. van ’t Hoff",
+        "Łukasz Tychoniec",
+        "J. J. Tobin",
+        "D. Harsono"
+      ],
+      "published": "2026-10-28",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30T09:58:50+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Frontiers in Astronomy and Space Sciences",
+      "doi": "10.3389/fspas.2026.1885693",
+      "doi_url": "https://doi.org/10.3389/fspas.2026.1885693",
+      "url": "https://doi.org/10.3389/fspas.2026.1885693",
+      "pdf_url": "https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2026.1885693/pdf",
+      "openalex_id": "W7224124461",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_c77917a0066e",
       "title": "Research Progress of Superconducting Microstrips Single-Photon Detectors",
       "abstract": "Superconducting microstrips single-photon detectors (SMSPDs) are a novel type of single-photon sensor based on superconducting thin films patterned into micrometer-scale strip widths. Compared with superconducting nanowire single-photon detectors (SNSPDs), SMSPDs not only substantially lower the fabrication dependence on high-precision electron-beam lithography, but also exhibit lower kinetic inductance, higher bias current, and weaker polarization sensitivity. These advantages pave a new route toward superconducting single-photon detection systems with large active areas and low dark-count rates. Because of their performance, SMSPDs exhibit tremendous application potential in cutting-edge fields such as quantum communication, LiDAR, dark-matter searches, and high-energy particle detection. Accordingly, this paper provides a systematic review of recent advances in SMSPD research, covering the underlying physical mechanisms, material systems, geometrical design, readout circuitry, and application domains. Firstly, this review elaborates on the photon response mechanism of SMSPDs and clarifies its correlation with vortex dynamics. Secondly, this review categorizes the superconducting materials used for SMSPD fabrication and analyzes the influences of characteristic thin-film parameters on device performance. Furthermore, this work concludes the evolution and optimization strategies of geometrical design and readout circuit schemes for SMSPDs, and presents the current application status. Finally, we offer perspectives on its future development trajectory. This review provides a foundation in physical mechanisms and design guidance for the development of large active area SMSPDs with high efficiency and low dark counts.",
@@ -50,7 +200,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -91,7 +241,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -99,7 +249,7 @@
       "doi": "10.3847/1538-4357/aeab98",
       "doi_url": "https://doi.org/10.3847/1538-4357/aeab98",
       "url": "https://doi.org/10.3847/1538-4357/aeab98",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeab98/pdf",
       "openalex_id": "W7213914466",
       "oa": true,
       "type": "article",
@@ -112,10 +262,10 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
-          "star formation",
           "observations",
+          "star formation",
+          "submillimeter",
           "telescope"
         ]
       },
@@ -137,7 +287,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -145,7 +295,7 @@
       "doi": "10.3847/1538-4357/aea978",
       "doi_url": "https://doi.org/10.3847/1538-4357/aea978",
       "url": "https://doi.org/10.3847/1538-4357/aea978",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea978/pdf",
       "openalex_id": "W7214129268",
       "oa": true,
       "type": "article",
@@ -178,7 +328,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -199,10 +349,10 @@
       },
       "matched": {
         "submm": [
-          "far infrared",
-          "far-infrared",
           "astronomical",
           "astronomy",
+          "far infrared",
+          "far-infrared",
           "observation",
           "observations",
           "observatory",
@@ -279,7 +429,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "arXiv"
       ],
@@ -406,7 +556,7 @@
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -439,39 +589,41 @@
       "abstract": "Understanding the evolution of solids in protoplanetary discs is important to comprehend the formation of giant planets cores and terrestrial planets. The ALMA Large Program AGE-PRO studied key disc properties in a survey of 30 protoplanetary discs across three evolutionary stages: the embedded phase (0.5-1 Myr), the middle-age phase (1-3 Myr), and the end of the disc lifetime (2-6 Myr). Preliminary dust properties were estimated using 1.3 mm observations, but a multi-wavelength analysis provides a better constraint of important properties such as the dust disc mass, the dust temperature, and the maximum grain size. We present new ALMA 3.1 mm and 1.5 mm (Bands 3 and 5) continuum observations of the complete survey of 30 AGE-PRO discs. We fitted the observed visibilities and derived radial brightness profiles, spatially resolving 20 discs from the AGE-PRO sample at the two studied wavelengths. A multi-wavelength modelling was performed including also the radial profiles from the 1.3 mm observations. Our results replicate trends obtained from the single wavelength analysis: the dust disc size seems to be constant over age and the dust disc mass decreases with time, with a factor $\\sim$10-40 uncertainty from opacity assumptions. This result implies much lower gas-to-dust mass ratios for the discs in our sample than previously reported. In addition, the derived spectral indices are consistent with optically thick emission in a large fraction of the AGE-PRO discs, in particular for the Ophiuchus and Lupus discs.",
       "summary": "Understanding the evolution of solids in protoplanetary discs is important to comprehend the formation of giant planets cores and terrestrial planets. We present new ALMA 3.1 mm and 1.5 mm (Bands 3 and 5) continuum observations of the complete survey of 30 AGE-PRO discs.",
       "authors": [
-        "Camila Pulgar\\'es",
-        "Laura M. P\\'erez",
+        "Camila Pulgarés",
+        "Laura M. Pérez",
         "Carolina Agurto-Gangas",
         "Lilian Luo",
         "Paola Pinilla",
         "Anibal Sierra",
         "Miguel Vioque",
-        "Nicol\\'as Kurtovic",
+        "Nicolás Kurtovic",
         "Rossella Anania",
         "John Carpenter",
-        "Lucas Cieza",
+        "Lucas A. Cieza",
         "Dingshan Deng",
-        "Camilo Gonz\\'alez-Ruilova",
-        "Michiel R. Hogerheijde",
-        "James Miley",
+        "Camilo González-Ruilova",
+        "M. R. Hogerheijde",
+        "James M. Miley",
         "Ke Zhang"
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-10-27T09:30:05+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.EP",
+      "venue": "Monthly Notices of the Royal Astronomical Society",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.32906",
-      "pdf_url": "https://arxiv.org/pdf/2610.32906",
+      "doi": "10.1093/mnras/stag2043",
+      "doi_url": "https://doi.org/10.1093/mnras/stag2043",
+      "url": "https://doi.org/10.1093/mnras/stag2043",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2043/72541921/stag2043.pdf",
       "arxiv_id": "2610.32906",
       "arxiv_url": "https://arxiv.org/abs/2610.32906",
+      "openalex_id": "W7223696722",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
@@ -1936,7 +2088,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-29T09:49:46+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2072,20 +2224,22 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-25T08:21:09+08:00",
+      "last_seen": "2026-10-30T09:58:50+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "Astronomy and Astrophysics",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.27064",
+      "doi": "10.1051/0004-6361/202661857",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661857",
+      "url": "https://doi.org/10.1051/0004-6361/202661857",
       "pdf_url": "https://arxiv.org/pdf/2610.27064",
       "arxiv_id": "2610.27064",
       "arxiv_url": "https://arxiv.org/abs/2610.27064",
+      "openalex_id": "W7223122425",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"

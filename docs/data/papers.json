@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T09:58:50+08:00",
-    "generated_label": "2026-10-30 09:58",
-    "today": "2026-10-30",
+    "generated_at": "2026-10-31T09:37:17+08:00",
+    "generated_label": "2026-10-31 09:37",
+    "today": "2026-10-31",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 136,
-    "new_count": 3,
-    "digest_url": "digests/2026-10-30.md",
+    "paper_count": 145,
+    "new_count": 9,
+    "digest_url": "digests/2026-10-31.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,441 @@
   ],
   "papers": [
     {
+      "id": "p_5f97362b9162",
+      "title": "Simulation-Informed Dust Masses in Typical $6<z<14$ JWST Galaxies",
+      "abstract": "Direct detections of dust in typical $z>8$ galaxies remain untenable, despite the presence of dust suggested by rest-frame UV/optical spectro-photometry. Informed by cosmological zoom-in simulations where dust particles evolve on-the-fly, we present a novel method for inferring dust masses in high-redshift galaxies using stellar half-light radii and UV/optical attenuation. Our methods reproduce observed trends at lower redshift, ultimately diverging from Milky Way-based calibration factors by up to $\\sim1.5$ dex. We apply this method to observed JWST galaxies from $6<z<14$, and find dust masses in the range $M_{\\rm dust}\\sim10^3-10^5\\,M_\\odot$ that are fully consistent with upper limits from ALMA, and suggest an early dust enrichment period by supernovae followed by efficient grain destruction in the hot gas. Future observations may use our tabulated calibration to infer dust masses over a wide range of stellar masses and redshifts.",
+      "summary": "Direct detections of dust in typical $z>8$ galaxies remain untenable, despite the presence of dust suggested by rest-frame UV/optical spectro-photometry. We apply this method to observed JWST galaxies from $6<z<14$, and find dust masses in the range $M_{\\rm dust}\\sim10^3-10^5\\,M_\\odot$ that are fully consistent with upper limits from ALMA, and suggest an early dust enrichment period by supernovae followed by efficient grain destruction in the hot gas.",
+      "authors": [
+        "Jed McKinney",
+        "Dhruv T. Zimmerman",
+        "Desika Narayanan",
+        "Caitlin M. Casey",
+        "Julian B. Munoz",
+        "Paul Torrey",
+        "Hui Li",
+        "Federico Marinacci"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.37821",
+      "pdf_url": "https://arxiv.org/pdf/2610.37821",
+      "arxiv_id": "2610.37821",
+      "arxiv_url": "https://arxiv.org/abs/2610.37821",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 9.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxies",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_f11483c6eea7",
+      "title": "Searching for Circumplanetary Dust in the Cavity of the AB Aurigae Disk with ALMA",
+      "abstract": "The young intermediate-mass star AB Aurigae is surrounded by a transition disk whose cavity contains several proposed protoplanets, including the debated source \"AB Aur b\" at a projected separation of $\\approx 0.6$ arcsec ($\\approx 93$ au). To search for circumplanetary material associated with these candidates, we have obtained the most sensitive ($\\sim 20$ $\\mu$Jy/beam rms) and highest angular resolution ($\\sim 30$ mas) ALMA Band 7 (0.88 mm) observations of AB Aur to date. We recover the asymmetric dust ring in the continuum emission peaking at $\\sim 0.9$ arcsec ($\\sim 140$ au) and compact emission at the stellar position, but detect no point source at the location of AB Aur b or any of the other proposed protoplanet candidates down to a $3\\sigma$ limit of $60$ $\\mu$Jy. For optically thin emission, this corresponds to a dust mass of $\\lesssim 0.0059 M_\\oplus$ (for a dust temperature of 40 K), comparable to the circumplanetary disk around PDS 70 c. The $^{12}$CO emission fills the continuum cavity, revealing inner spiral structure and a clear rotation pattern. The gas at the position of AB Aur b is smoothly connected to the ambient disk with no localized excess or obvious kinematic deviation. If any proposed candidates are accreting, their circumplanetary material must have a low dust mass, a small physical size, dust that is optically thick, or a dearth of large mm-emitting grains.",
+      "summary": "The young intermediate-mass star AB Aurigae is surrounded by a transition disk whose cavity contains several proposed protoplanets, including the debated source \"AB Aur b\" at a projected separation of $\\approx 0.6$ arcsec ($\\approx 93$ au). The $^{12}$CO emission fills the continuum cavity, revealing inner spiral structure and a clear rotation pattern.",
+      "authors": [
+        "Lillian Jiang",
+        "Brendan P. Bowler",
+        "Ya-lin Wu",
+        "Yifan Zhou"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.37792",
+      "pdf_url": "https://arxiv.org/pdf/2610.37792",
+      "arxiv_id": "2610.37792",
+      "arxiv_url": "https://arxiv.org/abs/2610.37792",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_920a972b27ff",
+      "title": "Flow-based neural networks for scalable high resolution imaging of VLBI observations",
+      "abstract": "Bayesian sampling methods in very-long-baseline interferometry enable reliable imaging of astronomical sources with a record high angular resolution. However, even after the transition from classical MCMC methods to flow-based neural networks, they remain computationally expensive as the number of recovered features grows. We used WaveletFlow neural network architecture to increase the number of pixels in the recovered image distribution, addressing the scaling issues of previous models. We applied the algorithm to both model data and archive RadioAstron project observations of M87 and ALMA telescope observations of HL Tau. While yielding comparable fidelity of the individual images, the algorithm provides more statistical information compared to CLEAN, which may be crucial for future research on compact astronomical objects such as active galactic nuclei.",
+      "summary": "Bayesian sampling methods in very-long-baseline interferometry enable reliable imaging of astronomical sources with a record high angular resolution. While yielding comparable fidelity of the individual images, the algorithm provides more statistical information compared to CLEAN, which may be crucial for future research on compact astronomical objects such as active galactic nuclei.",
+      "authors": [
+        "Lev Kats",
+        "Alexey Goldin",
+        "Andrey S. Andrianov"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.IM",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.38978",
+      "pdf_url": "https://arxiv.org/pdf/2610.38978",
+      "arxiv_id": "2610.38978",
+      "arxiv_url": "https://arxiv.org/abs/2610.38978",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "astronomical",
+          "observations",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_759cb4e13202",
+      "title": "Witnessing AGN outflows cooling and enriching CGM at Cosmic Noon",
+      "abstract": "Understanding the physical properties and phase interactions within galactic outflows remains a major challenge. In this talk, I will present results from a detailed study of the multi-phase outflows in the z ~ 2.8 submillimeter galaxy-quasar system SMM J02399-0136, a uniquely rich environment for exploring large-scale feedback. Leveraging high-resolution observations from HST, JWST, and ALMA/ACA across a suite of emission lines-including Ly⍺, [O III], [C II], [N II], [C I], and CO-we map a complex structure of ionized, neutral, and molecular gas extending from the QSO out to 60 kpc. These observations reveal jet-ISM interactions, collimated outflows, filamentary and enriched CGM, with evidence for periodic feedback, turbulence, strong UV/optical line cooling. I will discuss how multi-line diagnostics constrain key physical conditions-such as density, ionization state, and chemical abundance, and highlight how deep imaging enables new insights into feedback processes at galactic scales.",
+      "summary": "Understanding the physical properties and phase interactions within galactic outflows remains a major challenge. I will discuss how multi-line diagnostics constrain key physical conditions-such as density, ionization state, and chemical abundance, and highlight how deep imaging enables new insights into feedback processes at galactic scales.",
+      "authors": [
+        "Bo Peng",
+        "Fabrizio Arrigoni Battaia",
+        "Amit Vishwas",
+        "Carl Ferkinhoff",
+        "Mingyu Li",
+        "Edoardo Iani",
+        "Fengwu Sun",
+        "Gordon J. Stacey",
+        "Thomas Nikola",
+        "Cody Lamarche",
+        "Catie Ball",
+        "Christopher Rooney",
+        "Qiong Li",
+        "Carl Ferkinhoff",
+        "Gordon J. Stacey",
+        "Zheng Cai",
+        "Rob Ivison"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.23775741",
+      "doi_url": "https://doi.org/10.5281/zenodo.23775741",
+      "url": "https://doi.org/10.5281/zenodo.23775741",
+      "pdf_url": "",
+      "openalex_id": "W7224495188",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 14.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "galaxy",
+          "ism",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_e45dfb404f11",
+      "title": "The Dense Gas Structures around MMS 2/OMC-3 Traced by C 18 O Emission",
+      "abstract": "We report the Atacama Large Millimeter/submillimeter Array observations of 1.3 mm continuum, C 18 O (J = 2-1), and N 2 D + (J = 3-2) toward the millimeter multisystem MMS 2 in the Orion molecular cloud 3 region at an angular resolution of 1. ′′ 59 (∼620 au). MMS 2 is in the flat-spectrum phase, with its protostars in the late stage of the main accretion phase. We detect the centrally condensed structures traced by C 18 O emission associated with the 1.3 mm continuum sources MMS 2-North and MMS 2-South, which are spatially resolved and unresolved, respectively. The estimated diameter and mass of the centrally condensed structure associated with MMS 2-North are 1. ′′ 64 (∼640 au) and 3.0 × 10 -4 M ⊙, respectively. We also detect an extended structure traced by C 18 O emission associated with the circumbinary envelope at a scale of 5. ′′ 70 (∼2240 au) with an estimated gas mass of 1.4 × 10 -2 M ⊙. In addition, we detect a filamentary structure traced by N 2 D + emission to the south of MMS 2, which is spatially offset from the C 18 O emission. This offset may be attributed to the influence of the warm surrounding environment.",
+      "summary": "We report the Atacama Large Millimeter/submillimeter Array observations of 1.3 mm continuum, C 18 O (J = 2-1), and N 2 D + (J = 3-2) toward the millimeter multisystem MMS 2 in the Orion molecular cloud 3 region at an angular resolution of 1. ′′ 59 (∼620 au). We detect the centrally condensed structures traced by C 18 O emission associated with the 1.3 mm continuum sources MMS 2-North and MMS 2-South, which are spatially resolved and unresolved,…",
+      "authors": [
+        "Yuhua Liu",
+        "Satoko Takahashi",
+        "Masahiro N. Machida"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea60f",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea60f",
+      "url": "https://doi.org/10.3847/1538-4357/aea60f",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea60f/pdf",
+      "openalex_id": "W7224423995",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "molecular cloud",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_7750514c4f98",
+      "title": "Periodic activity on the (sub)millimetre surface of the asymptotic giant branch star Mira A",
+      "abstract": "Evolved stars on the asymptotic giant branch (AGB) lose mass through stellar winds launched from their dynamic extended atmospheres. Recent high-angular-resolution observations of the archetypal AGB star Mira A (o Ceti) have revealed compact hotspots on its (sub)millimetre surface, whose origin remains unclear. We aim to characterise the (sub)millimetre photosphere of Mira A and investigate the properties and temporal behaviour of the compact hotspots detected on its surface. We analysed 19 epochs of high-angular-resolution observations obtained with the Atacama Large Millimetre/submillimetre Array in Bands 4, 6, 7, and 9, covering frequencies between ∼,131.30 and 669.25,GHz. The complex visibilities were fitted with parametric models to derive the flux density, size, morphology, and brightness temperature of the stellar disc and an additional, more compact component across multiple pulsation phases and observing frequencies. Our results show that, near maximum light, the flux density of the stellar disc increases with frequency while its apparent size decreases, in agreement with the expected stratified radio photosphere. In Band 6, both the flux density and the size of the stellar disc appear to vary with pulsation phase, with the largest measured values occurring close to optical maximum light and the lowest observed around minimum light. Compact hotspots are detected in Bands 6 and 7 near maximum light, with their brightness temperatures exceeding those of the stellar disc by several thousand kelvin and reaching a temperature excess of ∼ 8200,K in Band 6. They are highly energetic and are detected over timescales of weeks, while the available observations also suggest potential longer-term changes in both their position and intensity. Hotspot activity appears to occur repeatedly across multiple pulsation cycles and may be linked to strong shocks, magnetic activity, and/or episodic mass ejections and could therefore play an important role in the mass-loss process in AGB stars.",
+      "summary": "Evolved stars on the asymptotic giant branch (AGB) lose mass through stellar winds launched from their dynamic extended atmospheres. In Band 6, both the flux density and the size of the stellar disc appear to vary with pulsation phase, with the largest measured values occurring close to optical maximum light and the lowest observed around minimum light.",
+      "authors": [
+        "M. Andriantsaralaza",
+        "Behzad Bojnordi Arbab",
+        "W. H. T. Vlemmings",
+        "T. Khouri",
+        "L. Planquart",
+        "K. T. Wong",
+        "J. Alcolea",
+        "E. M. L. Humphreys",
+        "S. del Palacio",
+        "Markus Wittkowski"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661338",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661338",
+      "url": "https://doi.org/10.1051/0004-6361/202661338",
+      "pdf_url": "",
+      "openalex_id": "W7224518686",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "submillimetre",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_94e3f9cd9f8b",
+      "title": "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS) VIII. First interstellar detection of fully deuterated methyl cyanide",
+      "abstract": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star forming regions. Our primary goal is to search for the fully deuterated form of methyl cyanide, CD3CN, in the ISM. We used a sensitive imaging spectral survey of the protostellar system L1551 IRS5 in the Taurus molecular cloud performed as part of the Large Program carried out with the Atacama Large Millimeter/submillimeter Array (ALMA) called Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). We derived the column densities of methyl cyanide and several of its less abundant isotopologs, including deuterated ones, under the assumption of local thermodynamic equilibrium. All three deuterated isotopologs of methyl cyanide were detected toward the northern binary component of L1551 IRS5. In particular, we report the first interstellar detection of CD3CN. The measured D/H ratio increases by about half an order of magnitude from one deuterated isotopolog to the next, in a similar way as what was measured for methanol in several other low-mass protostars. This suggests that methyl cyanide predominantly forms like methanol on the surface of dust grains during the cold prestellar phase. However, the measured factor of 2 difference between the D/H ratios of methyl cyanide and methanol may either indicate that gas-phase processes during the warm-up stage contribute approximately equally to the production of methyl cyanide, or that methyl cyanide and its deuterated isotopologs are formed during the prestellar phase at a somewhat earlier time than methanol. Multiply deuterated isotopologs are crucial to understand the formation and inheritance of molecules in the ISM by coupling observations and astrochemical models. Unfortunately, no model has so far investigated the deuteration of methyl cyanide up to the fully deuterated form. [Abridged]",
+      "summary": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star forming regions. In particular, we report the first interstellar detection of CD3CN.",
+      "authors": [
+        "A. Belloche",
+        "J. K. Jørgensen",
+        "M. N. Drozdovskaya",
+        "S. Spezzano",
+        "A. Coutens",
+        "J. -E. Lee",
+        "F. Cruz-Sáenz de Miera",
+        "D. Harsono",
+        "J. -H. Jeong",
+        "S. Maret",
+        "B. A. McGuire",
+        "P. Nazari",
+        "A. L. Plunkett",
+        "Y. -L. Yang",
+        "H. -S. Yun"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.40365v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40365v1",
+      "arxiv_id": "2610.40365",
+      "arxiv_url": "https://arxiv.org/abs/2610.40365v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 24.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "interstellar",
+          "ism",
+          "molecular cloud",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_6a4a1ef018e8",
+      "title": "An Empirically Calibrated [C II] Luminosity-Halo Mass Relation for Line Intensity Mapping",
+      "abstract": "Millimeter-wave line intensity mapping aims to observe the high-redshift universe through the 158 $\\mu$m fine-structure line of [C II], the brightest far-infrared line of star-forming galaxies. Whether a [C II] experiment at $z>4$ measures the clustering of large-scale structure, which carries rich cosmological information, rather than the shot noise of the emitters depends on the amplitude and the shape of the [C II] power spectrum. Forecasts often build the power spectrum from a halo mass--luminosity relation, $L(M_h)$, chained from scaling relations measured in other regimes or read off simulations, without a quantified uncertainty. We instead calibrate a double power-law $L(M_h,z)$ on [C II] data alone: the mean [C II] intensity from tomographic cross-correlation at $0.4<z<4.2$ and the luminosity-function measurements and limits at $z\\simeq0$ and $4.3\\lesssim z\\lesssim8$. The four parameters of the double power law are fitted at $z=4.5$ and $5.5$ separately, with no assumption about their evolution, and then jointly across $0<z<7$, and we examine how the uncertainty depends on the modeling assumptions. The shape of the power spectrum is settled by the existing data. The clustering peak stands a factor of $45\\,(23$-$93)$ and $64\\,(38$-$112)$ above the shot-noise floor at $z=4.5$ and $5.5$, and the two cross at $k_c\\simeq0.37$ and $0.44\\,h$Mpc$^{-1}$. The amplitude is known less well, the clustering power to $0.5-0.6$ dex and the shot noise to $0.7-0.9$ dex. The results show that the signal comes from halos accessible by current galaxy surveys, those that host the Lyman-break galaxies and Ly$\\alpha$ emitters at these redshifts. The luminosity-weighted bias is relatively high, with values of $4-5$.",
+      "summary": "Millimeter-wave line intensity mapping aims to observe the high-redshift universe through the 158 $\\mu$m fine-structure line of [C II], the brightest far-infrared line of star-forming galaxies. Whether a [C II] experiment at $z>4$ measures the clustering of large-scale structure, which carries rich cosmological information, rather than the shot noise of the emitters depends on the amplitude and the shape of the [C II] power spectrum.",
+      "authors": [
+        "Oliver Jeong",
+        "Martin White"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.CO",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.40550v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40550v1",
+      "arxiv_id": "2610.40550",
+      "arxiv_url": "https://arxiv.org/abs/2610.40550v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "galaxies",
+          "galaxy"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_a7c83f7b1086",
+      "title": "ALMA Observations of DEM L241/LMC P3 in the Large Magellanic Cloud: Evidence for the Formation of Cool Molecular Jets Driven by a Microquasar",
+      "abstract": "We present ALMA observations of DEML 241/LMC P3, the most luminous γ -ray binary consisting of a compact object and an O star, in CO emission. We have found a one-sided jet-like CO feature of 8 pc length and 1 pc width, which accompanies another weaker CO jet candidate with slightly different orientation. The one-sided CO jet exhibits striking alignment with LMC P3, suggesting that the jet was driven by LMC P3. We have determined the kinetic temperature of the CO jet to be significantly high at 33-60 K as compared with ∼15 K in the nearby nonjet CO cloud, where no radiative heat source is found. We interpret that the high temperatures are due to shock heating of a microquasar jet driven by the γ -ray binary, where the compact object has an accretion disk fed by the O star winds. The CO jet matches existing predictions from magnetohydrodynamical simulations, which show that CO jet can form from the interaction of the microquasar jet and an ambient interstellar medium (ISM) cloud. These results provide strong evidence that CO jets are a signature sculpted by microquasar jets, lending support for mass accretion in LMC P3 as the γ -ray origin. The results suggest a second case of CO jets potentially driven by a microquasar along with the CO jets in the microquasar candidate HESS J1023-575 recently identified in the Milky Way. Furthermore, our results suggest the use of submillimeter observations for identifying microquasars, opening a new possible window for their discovery and study.",
+      "summary": "We present ALMA observations of DEML 241/LMC P3, the most luminous γ -ray binary consisting of a compact object and an O star, in CO emission. Furthermore, our results suggest the use of submillimeter observations for identifying microquasars, opening a new possible window for their discovery and study.",
+      "authors": [
+        "Y. Fukui",
+        "G. R. Bhuvana",
+        "Hidetoshi Sano",
+        "Kisetsu Tsuge",
+        "R. Z. E. Alsaberi",
+        "R. Yamada",
+        "Yuya Asano",
+        "Aya Bamba",
+        "Miroslav Filipovic",
+        "Charles Law",
+        "N. Mizuno",
+        "Toshikazu Onishi",
+        "Paul P. Plucinsky",
+        "Gavin Rowell",
+        "Manami Sasaki",
+        "Piyush Sharda",
+        "Hiromasa Suzuki",
+        "Kengo Tachihara",
+        "Kazuki Tokuda",
+        "Yumiko Yamane"
+      ],
+      "published": "2026-10-29",
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31T09:37:17+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "doi": "10.3847/2041-8213/aea0cb",
+      "doi_url": "https://doi.org/10.3847/2041-8213/aea0cb",
+      "url": "https://doi.org/10.3847/2041-8213/aea0cb",
+      "pdf_url": "",
+      "openalex_id": "W7204861490",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 20.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "interstellar",
+          "ism",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_79cc60143c74",
       "title": "Experimental Demonstration of Double-Fourier Interferometer Imaging for Future Space-Based Far-Infrared Observatories",
       "abstract": "Far-infrared (FIR) astronomy is crucial for observing star formation, active galactic nuclei, and protoplanetary systems, but its effectiveness is severely limited by poor diffraction-limited spatial resolution. To overcome this limitation, a double-Fourier interferometer (DFI), which couples a spatial interferometer with a Fourier transform spectrometer, has been proposed to deliver high-resolution broadband spectral imaging. Despite various conceptual and prototype studies, a comprehensive demonstration of DFI capabilities has been lacking. In this study, we present the validation of key DFI observing techniques using a laboratory testbed operating in the 0.3 to 2.1 THz optical bandwidth. We detail the instrument's ideal response alongside necessary calibrations for intensity imbalances, non-linear phase errors, and phase-center offsets. Our experimental results successfully demonstrate aperture synthesis for both one- and two-dimensional targets, accurately recovering source geometries. Furthermore, we prove the instrument's sensitivity to spatially dependent spectral variations by utilizing a low-pass optical filter on extended sources. Finally, we validate wide-field imaging capabilities by combining data from independent pixels in a detector array, each sensitive to different regions of the source plane. The experimental data show significant agreement with theoretical predictions, with minor deviations attributed to optical aberrations and perspective effects. These laboratory demonstrations validate the DFI architecture as a highly capable and mature technology for future space-based FIR observatories.",
@@ -54,7 +489,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -77,12 +512,12 @@
       },
       "matched": {
         "submm": [
+          "astronomy",
           "far infrared",
           "far-infrared",
-          "thz",
-          "astronomy",
+          "protoplanetary",
           "star formation",
-          "protoplanetary"
+          "thz"
         ]
       },
       "primary_topic": "submm"
@@ -116,7 +551,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -160,7 +595,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -181,9 +616,9 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -200,7 +635,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -241,7 +676,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -287,7 +722,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -328,7 +763,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -429,7 +864,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "arXiv"
       ],
@@ -556,7 +991,7 @@
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -608,7 +1043,7 @@
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2088,7 +2523,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2224,7 +2659,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-30T09:58:50+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -3036,8 +3471,9 @@
       ],
       "published": "2026-10-13",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-10-20T16:59:43+08:00",
+      "last_seen": "2026-10-31T09:37:17+08:00",
       "sources": [
+        "arXiv",
         "OpenAlex"
       ],
       "venue": "The Astrophysical Journal",
@@ -3045,6 +3481,8 @@
       "doi_url": "https://doi.org/10.3847/1538-4357/ae9ead",
       "url": "https://doi.org/10.3847/1538-4357/ae9ead",
       "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ae9ead/pdf",
+      "arxiv_id": "2610.38934",
+      "arxiv_url": "https://arxiv.org/abs/2610.38934",
       "openalex_id": "W7221699389",
       "oa": true,
       "type": "article",
@@ -3053,12 +3491,14 @@
         "submm"
       ],
       "scores": {
-        "submm": 13.0
+        "submm": 17.0
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "astronomical"
+          "alma",
+          "astronomical",
+          "sub-millimeter",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"

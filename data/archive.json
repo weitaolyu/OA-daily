@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T09:37:17+08:00",
-    "generated_label": "2026-10-31 09:37",
-    "today": "2026-10-31",
+    "generated_at": "2026-11-01T09:14:25+08:00",
+    "generated_label": "2026-11-01 09:14",
+    "today": "2026-11-01",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 145,
-    "new_count": 9,
-    "digest_url": "digests/2026-10-31.md",
+    "paper_count": 151,
+    "new_count": 6,
+    "digest_url": "digests/2026-11-01.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,389 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_ebabe6675534",
+      "title": "VAPOLA -- A multiyear, multiband polarization survey of AGNs and Sgr A* at millimeter wavelengths with ALMA. II. Spectropolarimetric properties and their evolution from 2017 to 2023",
+      "abstract": "We aim to present a systematic analysis of the spectropolarimetric properties of a sample of 39 active galactic nuclei (AGNs) and Sagittarius A* observed with the Atacama Large Millimeter/submillimeter Array during five VLBI campaigns between 2017 and 2023. We characterized the compact cores in total intensity and polarization, focusing on the behavior of the linear-polarization (LP) fraction, electric vector position angle (EVPA), and Faraday rotation measure (RM) over time and spectral domains. We investigated both individual objects---such as M87, Sgr A*, 3C273, and 3C279---and ensemble properties of different source classes, including flat-spectrum radio quasars, BLLac objects, and other active galaxies. While total intensity and spectral index are generally stable on weekly timescales, polarization properties often exhibit strong variability, with significant day-to-day changes in LP, EVPA, and RM. Several sources display large EVPA rotations accompanied by variations in LP and RM, in some cases coinciding with flaring activity. We observe that the magnitude of RM increases with observing frequency for all sources for which we have reliable multiband measurements, consistent with Faraday rotation arising in a magnetized sheath surrounding the relativistic jet, although an origin in the accretion flow---particularly in the case of Sgr A*---cannot be ruled out.",
+      "summary": "We aim to present a systematic analysis of the spectropolarimetric properties of a sample of 39 active galactic nuclei (AGNs) and Sagittarius A* observed with the Atacama Large Millimeter/submillimeter Array during five VLBI campaigns between 2017 and 2023. We characterized the compact cores in total intensity and polarization, focusing on the behavior of the linear-polarization (LP) fraction, electric vector position angle (EVPA), and Faraday rotation…",
+      "authors": [
+        "Douglas Carlos",
+        "C. Goddi",
+        "Alejandro Mus",
+        "Nicola Marchili",
+        "Kazi L. J. Rygl",
+        "Ezequiel Albentosa-Ruíz",
+        "Iván Martí-Vidal",
+        "Kazunori Akiyama",
+        "Antxon Alberdi",
+        "W. Alef",
+        "Juan Carlos Algaba",
+        "Rohan Ganesh Amanaganti",
+        "Richard Anantua",
+        "Eleni Antonopoulou",
+        "Keiichi Asada",
+        "Rebecca Azulay",
+        "Anne-Kathrin Baczko",
+        "David R. Ball",
+        "Bidisha Bandyopadhyay",
+        "John Barrett",
+        "Michi Bauböck",
+        "Bradford A. Benson",
+        "Dan Bintley",
+        "Lindy Blackburn",
+        "R. Blundell",
+        "Katherine L. Bouman",
+        "Geoffrey C. Bower",
+        "Maciek Wielgus",
+        "Michael Bremer",
+        "Roger Brissenden",
+        "S. Britzen",
+        "Avery E. Broderick",
+        "Dominique Broguière",
+        "Thomas Bronzwaer",
+        "Sandra Bustamante",
+        "J. E. Carlstrom",
+        "Andrew Chael",
+        "Chi-kwan Chan",
+        "Chin-Shin Chang",
+        "Dominic O. Chang",
+        "Koushik Chatterjee",
+        "Erandi Chavez",
+        "Ming-Tang Chen",
+        "Yongjun Chen",
+        "Xiaopeng Cheng",
+        "Paul M. Chichura",
+        "Ilje Cho",
+        "Nicholas S. Conroy",
+        "John Edward Conway",
+        "T. M. Crawford",
+        "G. Crew",
+        "Alejandro Cruz-Osorio",
+        "Yuzhu Cui",
+        "Brandon Curd",
+        "Rohan Dahale",
+        "Jordy Davelaar",
+        "Joost de Kleuver",
+        "Mariafelicia De Laurentis",
+        "Roger Deane",
+        "Jason Dexter",
+        "Vedant Dhruv",
+        "Indu K. Dihingia",
+        "Sheperd S. Doeleman",
+        "Sergio A. Dzib",
+        "Razieh Emami",
+        "Heino Falcke",
+        "Joseph Farah",
+        "Vincent L. Fish",
+        "Edward B. Fomalont",
+        "H. Alyson Ford",
+        "Marianna Foschi",
+        "Raquel Fraga-Encinas",
+        "William T. Freeman",
+        "Per Friberg",
+        "Christian M. Fromm",
+        "Antonio Fuentes",
+        "Peter Louis Galison",
+        "Charles F. Gammie",
+        "Roberto García",
+        "Olivier Gentaz",
+        "Boris Georgiev",
+        "Roman Gold",
+        "Arturo I. Gómez-Ruiz",
+        "Brissa Gómez Miller",
+        "José Luis Gómez",
+        "Minfeng Gu",
+        "Mark Gurwell",
+        "Kazuhiro Hada",
+        "Daryl Haggard",
+        "Ronald Hesper",
+        "Dirk Heumann",
+        "Luis C. Ho",
+        "Paul Ho",
+        "D. Hoak",
+        "Mareki Honma",
+        "Chih-Wei L. Huang",
+        "David H. Hughes",
+        "Shiro Ikeda",
+        "C. M. Violette Impellizzeri",
+        "Makoto Inoue"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202662590",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202662590",
+      "url": "https://doi.org/10.1051/0004-6361/202662590",
+      "pdf_url": "",
+      "openalex_id": "W7203686914",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "galaxies",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_69d1089122f9",
+      "title": "No Blue without Red: Evolutionary Properties of Super-Early Galaxies",
+      "abstract": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. We investigate the physical origin of this diversity within the framework of the Attenuation-Free Model (AFM), in which radiation-driven outflows redistribute dust to large galactic radii, reducing the effective attenuation. Starting from a sample of 32 spectroscopically confirmed super-early galaxies, we apply the detailed AFM analysis to a subset of 17 systems with suitable size constraints and derive their key physical properties, including halo mass, star formation efficiency, metallicity, and outflow extent. We find that these systems reside in massive halos (log M / M ⊙ ∼ 10.7) and exhibit moderate (0.01 ≲ ε * ≲ 0.05) star formation efficiencies, while frequently reaching super-Eddington conditions that trigger powerful outflows. Within the AFM framework, we propose a possible evolutionary sequence in which galaxies transition from a dust-obscured “Red Monster’’ phase to a UV-bright”Blue Monster’’ phase as outflows clear their central regions. The recently confirmed red galaxy EGS-z11-R0 at z = 11.45 is naturally interpreted as a system observed during this obscured phase. Compact (r e ≲ 150 pc) sources are instead difficult to reconcile within AFM; we speculate that their emission is dominated by an AGN. Our results provide a coherent interpretation of super-early galaxy properties and highlight the key role of radiation-driven outflows in shaping galaxy evolution at cosmic dawn. Future observations with {} and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
+      "summary": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. Future observations with {} and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
+      "authors": [
+        "A. Ferrara",
+        "G. (G) Rodighiero",
+        "Stefano Carniani",
+        "Z. R. Zhang",
+        "M. Kohandel",
+        "B. Das"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Open Journal of Astrophysics",
+      "doi": "10.33232/001c.173391",
+      "doi_url": "https://doi.org/10.33232/001c.173391",
+      "url": "https://doi.org/10.33232/001c.173391",
+      "pdf_url": "",
+      "openalex_id": "W7162322225",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "star formation",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_f7ed11391808",
+      "title": "Juice/SWI during the Lunar-Earth-Gravity-Assist (LEGA) - Part 4: Antenna pointing and beam characterisation",
+      "abstract": "The Submillimetre Wave Instrument (SWI) onboard the Jupiter Icy Moons Explorer (Juice) spacecraft consists of a 29 cm off-axis paraboloid antenna and two double-sideband heterodyne receivers operating in the frequency ranges of 530-638 and 1066-1286 GHz. This instrument is designed to study Jupiter’s atmosphere and the exospheres of the Galilean moons. We used the Lunar-Earth-Gravity-Assist (LEGA) data from August 2024 to characterise this antenna using several SWI observations pointing towards the Earth. The data analysis of the LEGA observations dedicated to the antenna beam allows us to characterise the antenna beam Full Width at Half Maximum (FWHM), sidelobes, absolute pointing and receiver coalignement. Moreover, an estimate of the calibration efficiency factor has been obtained.",
+      "summary": "The Submillimetre Wave Instrument (SWI) onboard the Jupiter Icy Moons Explorer (Juice) spacecraft consists of a 29 cm off-axis paraboloid antenna and two double-sideband heterodyne receivers operating in the frequency ranges of 530-638 and 1066-1286 GHz. We used the Lunar-Earth-Gravity-Assist (LEGA) data from August 2024 to characterise this antenna using several SWI observations pointing towards the Earth.",
+      "authors": [
+        "R. Moreno",
+        "L. Rezac",
+        "Tomáš Formánek",
+        "Thibault Cavalié",
+        "C. Jarchow",
+        "E. Lellouch",
+        "P. Hartogh",
+        "Axel Murk",
+        "Mikko Kotiranta",
+        "Alberto Carrasco Gallardo",
+        "Samuel Goodyear",
+        "Ali Schulz-Ravanbakhsh",
+        "B. Dąbrowski",
+        "F. Herpin",
+        "Yasuko J. Kasai",
+        "Donal P. Murtagh",
+        "Michael Olberg",
+        "M. Rengel",
+        "Hideo Sagawa",
+        "S. Szutowicz",
+        "Eva Wirström"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Annales Geophysicae",
+      "doi": "10.5194/angeo-44-1227-2026",
+      "doi_url": "https://doi.org/10.5194/angeo-44-1227-2026",
+      "url": "https://doi.org/10.5194/angeo-44-1227-2026",
+      "pdf_url": "https://angeo.copernicus.org/articles/44/1227/2026/angeo-44-1227-2026.pdf",
+      "openalex_id": "W7155165303",
+      "oa": true,
+      "type": "article",
+      "citations": 3,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "observations",
+          "submillimetre",
+          "submillimetre wave"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_60374ec1d5c7",
+      "title": "JWST Reveals a Candidate Supermassive Black Hole Binary at z = 4.3 in the Brightest Submillimeter Galaxy in COSMOS-Web",
+      "abstract": "We present JWST/NIRSpec PRISM and G395M grating spectroscopy for AzTEC-1, a massive submillimeter bright galaxy at z = 4.34 in the COSMOS extragalactic field. The PRISM spectrum reveals strong H α, a significant Balmer break, and no H β detection, indicating a 100-400 Myr old stellar population and high dust attenuation. Baldwin-Phillips-Terlevich (BPT) line ratios indicate the presence of an active galactic nucleus (AGN). Decomposing narrow- and broad-line components, we recover broad, blueshifted H α with a velocity offset of 1245 km s -1 from the systemic narrow-line velocity and with FWHM ≈ 2500 km s -1. AzTEC-1’s smooth morphology and stellar age is suggestive of a past merger-induced starburst period that would have brought in a second supermassive black hole (SMBH), raising the possibility for a binary SMBH system. In this scenario, we assume that the lower-mass black hole (BH) hosts a broad-line region orbiting a quiescent primary. Evidence for an extended outflow is not found in the 2D spectrum, NIRCam imaging, resolved Atacama Large Millimeter/submillimeter Array (ALMA) observations of dust continuum, or CO, [C ii] 157 μ m, and [N ii] 2 05 μ m kinematics. AzTEC-1’s high central gas-mass surface density and dynamically unstable gas disk indicate that massive gas clouds external to the candidate binary SMBH’s orbit might have played a role in stalling infall from O (10 Myr) to O (100 Myr) through dynamical torques, which has been theorized to occur in the nuclei of massive galaxies like AzTEC-1. If the SMBH binary is confirmed, AzTEC-1 would be an excellent laboratory into the astrophysics driving low-frequency gravitational-wave detections.",
+      "summary": "We present JWST/NIRSpec PRISM and G395M grating spectroscopy for AzTEC-1, a massive submillimeter bright galaxy at z = 4.34 in the COSMOS extragalactic field. The PRISM spectrum reveals strong H α, a significant Balmer break, and no H β detection, indicating a 100-400 Myr old stellar population and high dust attenuation.",
+      "authors": [
+        "Jed McKinney",
+        "Ansh R. Gupta",
+        "Julián B. Muñoz",
+        "John Chisholm",
+        "Caitlin M. Casey",
+        "Stephanie M. Urbano Stawinski",
+        "Olivia R. Cooper",
+        "Erini Lambrides",
+        "Hollis B. Akins",
+        "Maximilien Franco",
+        "Archana Aravindan",
+        "Seiji Fujimoto",
+        "Kohei Inayoshi",
+        "Andreas L. Faisst",
+        "Jeyhan S. Kartaltepe",
+        "Michael Boylan-Kolchin"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal Letters",
+      "doi": "10.3847/2041-8213/aea0cd",
+      "doi_url": "https://doi.org/10.3847/2041-8213/aea0cd",
+      "url": "https://doi.org/10.3847/2041-8213/aea0cd",
+      "pdf_url": "",
+      "openalex_id": "W7224756008",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 26.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "astrophysics",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_5016f09e49c0",
+      "title": "A homogeneous comparison of protocluster AGN populations using Chandra observations of the HS1549 protocluster",
+      "abstract": "Protoclusters at high redshift provide a unique laboratory for studying the co-evolution of galaxies and supermassive black holes in the dense environments that will eventually form galaxy clusters. X-ray surveys of several protoclusters have revealed enhanced active galactic nucleus (AGN) activity relative to the field, but because each was designed around its own target, with different depths, footprints, and ancillary catalogues, obtaining a homogeneous comparison of these systems is challenging. Here, we present 190 ks of Chandra ACIS-I observations of the HS 1549+19 protocluster at redshift z = 2.85, a known overdensity of submillimetre galaxies (SMGs) and Ly α emitters hosting a hyperluminous central quasar and an enormous Ly α nebula. We identify nine X-ray AGN associated with the protocluster, three of them newly identified in this work. Two AGN show radio emission in excess of that expected from star formation, including the central quasar, whose extended radio and X-ray emission provides tentative evidence for jet activity. Additionally, one newly identified AGN is a candidate for merger-driven black hole growth with a nearby SMG. To compare HS 1549+19 directly with other well-studied protoclusters at z ≈ 2-3, we apply a common set of selection criteria to every field: a single X-ray luminosity threshold set by the shallowest survey, fixed physical apertures and comoving volume, spectroscopic membership, and a matched SMG flux limit. Under these cuts, HS 1549+19 shows one of the highest AGN fractions among SMGs in the sample, and a cumulative AGN space density two to four orders of magnitude above the field prediction. At the same time, the protocluster luminosity functions become broadly similar, indicating that some of the apparent field-to-field variation reflects differences in survey design rather than in the AGN populations themselves. These results show that homogeneous comparisons across protocluster X-ray surveys offer a practical way to separate environmental trends from survey-dependent effects.",
+      "summary": "Protoclusters at high redshift provide a unique laboratory for studying the co-evolution of galaxies and supermassive black holes in the dense environments that will eventually form galaxy clusters. Here, we present 190 ks of Chandra ACIS-I observations of the HS 1549+19 protocluster at redshift z = 2.85, a known overdensity of submillimetre galaxies (SMGs) and Ly α emitters hosting a hyperluminous central quasar and an enormous Ly α nebula.",
+      "authors": [
+        "Bonnie Slocombe"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Open Collections",
+      "doi": "10.14288/1.0457065",
+      "doi_url": "https://doi.org/10.14288/1.0457065",
+      "url": "https://doi.org/10.14288/1.0457065",
+      "pdf_url": "",
+      "openalex_id": "W7224907083",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "submillimetre",
+          "star formation",
+          "galaxies",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_bb04d60fea43",
+      "title": "A Search for Dust in the Outflow of the HH 212 Class 0 Protostellar System",
+      "abstract": "Perhaps the most visually striking phenomenon during star formation is the ejection of material along the direction of the protostar’s rotational axis. Observed in the form of molecular outflows and/or atomic jets, these features carry away mass, energy, and angular momentum from the system. Given the known dust content of protoplanetary disks, and the energetics of outflows, it has been suggested that it should be possible to lift dust from disks via winds, yet limited observational evidence has been presented in the literature. Any detection of dust within protostellar outflows not only puts constraints on the dust content in outflows, but if a sufficient amount of dust can be removed from the system, the mass budget for planet formation could also be affected. We present reimaging of archival, multifrequency dust continuum observations taken with the Atacama Large Millimeter/submillimeter Array (ALMA) toward the HH 212 protostellar system. We detect an extension in the dust emission, and, using multifrequency data in Bands 7 and 9, we estimate the spectral index of the emitting dust and the dust mass in the wind-launching region. We find a small but still significant amount of dust mass coincident with the molecular outflow cavity. This finding is assessed in relation to the hypothesis that the outflow could be capable of transporting dust away from the HH 212 protoplanetary disk.",
+      "summary": "Perhaps the most visually striking phenomenon during star formation is the ejection of material along the direction of the protostar’s rotational axis. We detect an extension in the dust emission, and, using multifrequency data in Bands 7 and 9, we estimate the spectral index of the emitting dust and the dust mass in the wind-launching region.",
+      "authors": [
+        "Adele Plunkett",
+        "P. Bjerkeli",
+        "Jon P. Ramsey",
+        "D. Harsono",
+        "Hannah Shoemaker"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01T09:14:25+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astronomical Journal",
+      "doi": "10.3847/1538-3881/aeacc2",
+      "doi_url": "https://doi.org/10.3847/1538-3881/aeacc2",
+      "url": "https://doi.org/10.3847/1538-3881/aeacc2",
+      "pdf_url": "",
+      "openalex_id": "W7222674393",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 17.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary",
+          "star formation",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_5f97362b9162",
       "title": "Simulation-Informed Dust Masses in Typical $6<z<14$ JWST Galaxies",
@@ -198,7 +581,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -219,11 +602,11 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "galaxy",
           "ism",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -240,7 +623,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -287,7 +670,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -308,8 +691,8 @@
       },
       "matched": {
         "submm": [
-          "submillimetre",
-          "observations"
+          "observations",
+          "submillimetre"
         ]
       },
       "primary_topic": "submm"
@@ -317,8 +700,8 @@
     {
       "id": "p_94e3f9cd9f8b",
       "title": "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS) VIII. First interstellar detection of fully deuterated methyl cyanide",
-      "abstract": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star forming regions. Our primary goal is to search for the fully deuterated form of methyl cyanide, CD3CN, in the ISM. We used a sensitive imaging spectral survey of the protostellar system L1551 IRS5 in the Taurus molecular cloud performed as part of the Large Program carried out with the Atacama Large Millimeter/submillimeter Array (ALMA) called Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). We derived the column densities of methyl cyanide and several of its less abundant isotopologs, including deuterated ones, under the assumption of local thermodynamic equilibrium. All three deuterated isotopologs of methyl cyanide were detected toward the northern binary component of L1551 IRS5. In particular, we report the first interstellar detection of CD3CN. The measured D/H ratio increases by about half an order of magnitude from one deuterated isotopolog to the next, in a similar way as what was measured for methanol in several other low-mass protostars. This suggests that methyl cyanide predominantly forms like methanol on the surface of dust grains during the cold prestellar phase. However, the measured factor of 2 difference between the D/H ratios of methyl cyanide and methanol may either indicate that gas-phase processes during the warm-up stage contribute approximately equally to the production of methyl cyanide, or that methyl cyanide and its deuterated isotopologs are formed during the prestellar phase at a somewhat earlier time than methanol. Multiply deuterated isotopologs are crucial to understand the formation and inheritance of molecules in the ISM by coupling observations and astrochemical models. Unfortunately, no model has so far investigated the deuteration of methyl cyanide up to the fully deuterated form. [Abridged]",
-      "summary": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star forming regions. In particular, we report the first interstellar detection of CD3CN.",
+      "abstract": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star-forming regions. Our primary goal is to search for the fully deuterated form of methyl cyanide, CD_3CN, in the interstellar medium (ISM). We used a sensitive imaging spectral survey of the protostellar system L1551 IRS5 in the Taurus molecular cloud performed as part of the Large Program carried out with the Atacama Large Millimeter/submillimeter Array (ALMA) called Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). We derived the column densities of methyl cyanide and several of its less abundant isotopologs, including deuterated ones, under the assumption of local thermodynamic equilibrium. All three deuterated isotopologs of methyl cyanide were detected toward the northern binary component of L1551 IRS5. In particular, we report the first interstellar detection of CD_3CN. The measured D/H ratio increases by about half an order of magnitude from one deuterated isotopolog to the next, in a similar way as what was measured for methanol in several other low-mass protostars. This suggests that methyl cyanide predominantly forms like methanol on the surface of dust grains during the cold prestellar phase. However, the measured factor of 2 difference between the D/H ratios of methyl cyanide and methanol may either indicate that gas-phase processes during the warm-up stage contribute approximately equally to the production of methyl cyanide, or that methyl cyanide and its deuterated isotopologs are formed during the prestellar phase at a somewhat earlier time than methanol. Multiply deuterated isotopologs are crucial to understand the formation and inheritance of molecules in the ISM by coupling observations and astrochemical models. Unfortunately, no model has so far investigated the deuteration of methyl cyanide up to the fully deuterated form. More advanced models will be needed to test whether methyl cyanide is predominantly formed and deuterated on the surface of dust grains and inherited from the prestellar phase, as the observational results may suggest.",
+      "summary": "Deuteration is a powerful metric to gain insight into the formation pathways of interstellar molecules in star-forming regions. In particular, we report the first interstellar detection of CD_3CN.",
       "authors": [
         "A. Belloche",
         "J. K. Jørgensen",
@@ -338,20 +721,22 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "Astronomy and Astrophysics",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.40365v1",
+      "doi": "10.1051/0004-6361/202662538",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202662538",
+      "url": "https://doi.org/10.1051/0004-6361/202662538",
       "pdf_url": "https://arxiv.org/pdf/2610.40365v1",
       "arxiv_id": "2610.40365",
       "arxiv_url": "https://arxiv.org/abs/2610.40365v1",
+      "openalex_id": "W7224922544",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
@@ -383,7 +768,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv"
       ],
@@ -443,7 +828,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -451,7 +836,7 @@
       "doi": "10.3847/2041-8213/aea0cb",
       "doi_url": "https://doi.org/10.3847/2041-8213/aea0cb",
       "url": "https://doi.org/10.3847/2041-8213/aea0cb",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/2041-8213/aea0cb/pdf",
       "openalex_id": "W7204861490",
       "oa": true,
       "type": "article",
@@ -464,11 +849,11 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "interstellar",
           "ism",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -489,7 +874,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv"
       ],
@@ -551,7 +936,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -595,7 +980,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -635,7 +1020,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -676,7 +1061,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -722,7 +1107,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -763,7 +1148,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -864,7 +1249,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv"
       ],
@@ -991,7 +1376,7 @@
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1043,7 +1428,7 @@
       ],
       "published": "2026-10-26",
       "first_seen": "2026-10-27",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2523,7 +2908,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2659,7 +3044,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-01T09:14:25+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

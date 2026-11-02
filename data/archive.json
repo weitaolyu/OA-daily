@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T09:14:25+08:00",
-    "generated_label": "2026-11-01 09:14",
-    "today": "2026-11-01",
+    "generated_at": "2026-11-02T09:31:43+08:00",
+    "generated_label": "2026-11-02 09:31",
+    "today": "2026-11-02",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
     "paper_count": 151,
-    "new_count": 6,
-    "digest_url": "digests/2026-11-01.md",
+    "new_count": 0,
+    "digest_url": "digests/2026-11-02.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -147,7 +147,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -178,8 +178,8 @@
     {
       "id": "p_69d1089122f9",
       "title": "No Blue without Red: Evolutionary Properties of Super-Early Galaxies",
-      "abstract": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. We investigate the physical origin of this diversity within the framework of the Attenuation-Free Model (AFM), in which radiation-driven outflows redistribute dust to large galactic radii, reducing the effective attenuation. Starting from a sample of 32 spectroscopically confirmed super-early galaxies, we apply the detailed AFM analysis to a subset of 17 systems with suitable size constraints and derive their key physical properties, including halo mass, star formation efficiency, metallicity, and outflow extent. We find that these systems reside in massive halos (log M / M ⊙ ∼ 10.7) and exhibit moderate (0.01 ≲ ε * ≲ 0.05) star formation efficiencies, while frequently reaching super-Eddington conditions that trigger powerful outflows. Within the AFM framework, we propose a possible evolutionary sequence in which galaxies transition from a dust-obscured “Red Monster’’ phase to a UV-bright”Blue Monster’’ phase as outflows clear their central regions. The recently confirmed red galaxy EGS-z11-R0 at z = 11.45 is naturally interpreted as a system observed during this obscured phase. Compact (r e ≲ 150 pc) sources are instead difficult to reconcile within AFM; we speculate that their emission is dominated by an AGN. Our results provide a coherent interpretation of super-early galaxy properties and highlight the key role of radiation-driven outflows in shaping galaxy evolution at cosmic dawn. Future observations with {} and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
-      "summary": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. Future observations with {} and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
+      "abstract": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. We investigate the physical origin of this diversity within the framework of the Attenuation-Free Model (AFM), in which radiation-driven outflows redistribute dust to large galactic radii, reducing the effective attenuation. Starting from a sample of 32 spectroscopically confirmed super-early galaxies, we apply the detailed AFM analysis to a subset of 17 systems with suitable size constraints and derive their key physical properties, including halo mass, star formation efficiency, metallicity, and outflow extent. We find that these systems reside in massive halos (log M / M ⊙ ∼ 10.7) and exhibit moderate (0.01 ≲ ε * ≲ 0.05) star formation efficiencies, while frequently reaching super-Eddington conditions that trigger powerful outflows. Within the AFM framework, we propose a possible evolutionary sequence in which galaxies transition from a dust-obscured “Red Monster’’ phase to a UV-bright”Blue Monster’’ phase as outflows clear their central regions. The recently confirmed red galaxy EGS-z11-R0 at z = 11.45 is naturally interpreted as a system observed during this obscured phase. Compact (r e ≲ 150 pc) sources are instead difficult to reconcile within AFM; we speculate that their emission is dominated by an AGN. Our results provide a coherent interpretation of super-early galaxy properties and highlight the key role of radiation-driven outflows in shaping galaxy evolution at cosmic dawn. Future observations with JWST and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
+      "summary": "The discovery of numerous luminous, super-early galaxies at z > 10 by JWST has revealed a striking diversity in their ultraviolet (UV) properties, ranging from extremely blue, dust-poor systems to a smaller population of significantly reddened sources. Future observations with JWST and ALMA will be essential to test these predictions and further constrain the nature of the earliest galaxies.",
       "authors": [
         "A. Ferrara",
         "G. (G) Rodighiero",
@@ -190,7 +190,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -212,11 +212,11 @@
       "matched": {
         "submm": [
           "alma",
-          "star formation",
           "dust",
           "galaxies",
           "galaxy",
-          "observations"
+          "observations",
+          "star formation"
         ]
       },
       "primary_topic": "submm"
@@ -251,7 +251,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -304,7 +304,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -312,7 +312,7 @@
       "doi": "10.3847/2041-8213/aea0cd",
       "doi_url": "https://doi.org/10.3847/2041-8213/aea0cd",
       "url": "https://doi.org/10.3847/2041-8213/aea0cd",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/2041-8213/aea0cd/pdf",
       "openalex_id": "W7224756008",
       "oa": true,
       "type": "article",
@@ -325,13 +325,13 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "astrophysics",
           "dust",
           "galaxies",
           "galaxy",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -390,7 +390,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -398,7 +398,7 @@
       "doi": "10.3847/1538-3881/aeacc2",
       "doi_url": "https://doi.org/10.3847/1538-3881/aeacc2",
       "url": "https://doi.org/10.3847/1538-3881/aeacc2",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-3881/aeacc2/pdf",
       "openalex_id": "W7222674393",
       "oa": true,
       "type": "article",
@@ -581,7 +581,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -623,7 +623,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -670,7 +670,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -721,7 +721,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -768,7 +768,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "arXiv"
       ],
@@ -828,7 +828,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -874,7 +874,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "arXiv"
       ],
@@ -936,7 +936,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -980,7 +980,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1020,7 +1020,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1061,7 +1061,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1107,7 +1107,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1148,7 +1148,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1249,7 +1249,7 @@
       ],
       "published": "2026-10-27",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3044,7 +3044,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-01T09:14:25+08:00",
+      "last_seen": "2026-11-02T09:31:43+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

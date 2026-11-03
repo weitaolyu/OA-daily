@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-03",
+    "total": 3,
+    "counts": {
+      "mkid": 0,
+      "submm": 3,
+      "molecular": 0
+    },
+    "generated": "2026-11-03 11:29"
+  },
+  {
     "date": "2026-11-02",
     "total": 0,
     "counts": {

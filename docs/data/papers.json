@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T09:31:43+08:00",
-    "generated_label": "2026-11-02 09:31",
-    "today": "2026-11-02",
+    "generated_at": "2026-11-03T11:29:01+08:00",
+    "generated_label": "2026-11-03 11:29",
+    "today": "2026-11-03",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 151,
-    "new_count": 0,
-    "digest_url": "digests/2026-11-02.md",
+    "paper_count": 154,
+    "new_count": 3,
+    "digest_url": "digests/2026-11-03.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,103 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_a6165f4f9949",
+      "title": "The assembly of dusty galaxies at $z \\geq 4$: grain growth and the evolutionary origin of the dust-to-stellar-mass scatter",
+      "abstract": "Understanding dust evolution is essential for interpreting the properties of galaxies across cosmic time. Nearby galaxies have revealed a detailed picture of dust enrichment, but whether the same picture applies in the early Universe remains unclear. Here we explore the origin of interstellar dust in simulated galaxies at $z \\sim 5$. Starting from the dust-to-stellar mass relation, we select five simulated star-forming galaxies with $SFR> 1 M_\\odot yr^{-1}$ and $ log(M_\\star/M_\\odot) > 8$. We focus on three low-mass systems with comparable stellar masses ($log(M_\\star/M_\\odot) \\sim 8.7$) but significantly different dust masses ($log(M_{\\rm dust}/M_\\odot) \\sim 5.1-6.2$), to investigate the origin of the scatter in the relation. Our analysis combines outputs from the cosmological hydrodynamical simulation dustyGadget, a semi-analytical model for stellar dust production, and radiative-transfer post-processing with SKIRT. We confirm that stellar dust production alone reproduces only the low-dust branch of the relation. Grain growth is required to recover both its S-shape and the observed scatter, as established for nearby galaxies. The transition to efficient grain growth occurs at lower metallicity than locally, consistent with the denser interstellar medium of high-redshift systems. Differences in dust content reflect different stages of galaxy assembly. Progressively longer star formation histories lead to greater chemical enrichment and denser ISM, promoting increasingly efficient grain growth. We therefore identify the assembly stage as the key regulator of dust growth at high redshift. Mock observations show that JWST multi-band imaging can reveal the structural diversity of galaxies within the scatter, although the reconstruction of clumpy morphologies may remain incomplete. Their dust continuum emission remains below the sensitivity of current ALMA continuum surveys.",
+      "summary": "Understanding dust evolution is essential for interpreting the properties of galaxies across cosmic time. Nearby galaxies have revealed a detailed picture of dust enrichment, but whether the same picture applies in the early Universe remains unclear.",
+      "authors": [
+        "Alessia D'Angelo",
+        "Raffaella Schneider",
+        "Luca Graziani",
+        "Claudia Di Cesare",
+        "Rosa Valiante",
+        "Gerg\\H{o} Popping",
+        "Giulia Rodighiero",
+        "Laura Bisigello",
+        "Denis Burgarella",
+        "Giovanni Gandolfi",
+        "Koki Otaki",
+        "Tommaso Zana"
+      ],
+      "published": "2026-11-02",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03T11:29:01+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.40790",
+      "pdf_url": "https://arxiv.org/pdf/2610.40790",
+      "arxiv_id": "2610.40790",
+      "arxiv_url": "https://arxiv.org/abs/2610.40790",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "star formation",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "ism",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c45824c0d099",
+      "title": "The Effect of Large Apertures on Atmospheric Noise Spectra for Millimeter-wave Telescopes",
+      "abstract": "Ground-based millimeter and submillimeter telescopes produce astronomical maps that contain a combination of noise inherent to themselves as well as contamination from foregrounds, with the strongest foreground being fluctuating atmospheric emission. While the emission of the turbulent atmosphere itself follows a scale-free power law, the atmosphere as seen by the telescope is modified by the properties of the instrument optics. A naive power-law extrapolation of the atmospheric noise spectrum ignores the blurring effect of the near-field beam, which becomes more pronounced for larger telescope apertures and at higher multipoles. In this work, we use a toy model to derive a semianalytic estimate of the atmospheric noise spectrum that takes into account the effects of near-field optics. We show that it has an appreciable effect for large-aperture telescopes, suggesting that ultra-sensitive, high-resolution experiments are not necessarily limited by the atmosphere on small angular scales. We also present an estimate of the atmospheric knee as a function of the primary aperture, the atmospheric scale height, and the outer scale of turbulence.",
+      "summary": "Ground-based millimeter and submillimeter telescopes produce astronomical maps that contain a combination of noise inherent to themselves as well as contamination from foregrounds, with the strongest foreground being fluctuating atmospheric emission. We show that it has an appreciable effect for large-aperture telescopes, suggesting that ultra-sensitive, high-resolution experiments are not necessarily limited by the atmosphere on small angular scales.",
+      "authors": [
+        "Thomas W. Morris",
+        "Neelima Sehgal"
+      ],
+      "published": "2026-10-30",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03T11:29:01+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.CO",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2610.41252v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.41252v1",
+      "arxiv_id": "2610.41252",
+      "arxiv_url": "https://arxiv.org/abs/2610.41252v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "astronomical",
+          "submillimeter",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_ebabe6675534",
       "title": "VAPOLA -- A multiyear, multiband polarization survey of AGNs and Sgr A* at millimeter wavelengths with ALMA. II. Spectropolarimetric properties and their evolution from 2017 to 2023",
@@ -147,7 +244,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -190,7 +287,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -251,7 +348,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -286,8 +383,8 @@
       "summary": "We present JWST/NIRSpec PRISM and G395M grating spectroscopy for AzTEC-1, a massive submillimeter bright galaxy at z = 4.34 in the COSMOS extragalactic field. The PRISM spectrum reveals strong H α, a significant Balmer break, and no H β detection, indicating a 100-400 Myr old stellar population and high dust attenuation.",
       "authors": [
         "Jed McKinney",
-        "Ansh R. Gupta",
-        "Julián B. Muñoz",
+        "Ansh Gupta",
+        "Julian B. Munoz",
         "John Chisholm",
         "Caitlin M. Casey",
         "Stephanie M. Urbano Stawinski",
@@ -304,7 +401,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -390,7 +487,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -581,7 +678,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -623,7 +720,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -664,13 +761,13 @@
         "L. Planquart",
         "K. T. Wong",
         "J. Alcolea",
-        "E. M. L. Humphreys",
-        "S. del Palacio",
-        "Markus Wittkowski"
+        "E. Humphreys",
+        "S del Palacio",
+        "M. Wittkowski"
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -721,7 +818,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -768,7 +865,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "arXiv"
       ],
@@ -828,7 +925,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -859,6 +956,54 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_407ad52592fa",
+      "title": "Resolved structure and orbital motion of a localized 1 au-scale dust accumulation in the protoplanetary disk around TW Hydrae",
+      "abstract": "We present the results of high-resolution (${\\sim }1$ au) Atacama Large Millimeter/submillimeter Array (ALMA) observations of the TW Hya protoplanetary disk in the Band 6 dust continuum, as well as the $^{13}{\\rm CO}$ and ${\\rm C}\\, {}^{18}{\\rm O}$ J = 2-1 emission lines. The primary focus of this study is to investigate the kinematics, internal morphology, and local gas environment of the prominent dust blob at a radius of 52 au. By comparing our 2021 data with archival observations from 2017, we detect the proper motion of the blob. The measured azimuthal velocity of 3.3 $\\pm$0.9 km s$^{-1}$ is fully consistent with local Keplerian rotation. Combined with the lack of significant radial migration over the 4-year baseline, this confirms that the structure is robustly co-moving with the disk system. Crucially, our high-resolution continuum map resolves the blob into a distinct double-peaked morphology separated by $\\sim$1.7 au azimuthally. We robustly validate this double-peaked substructure by reproducing it in the independent 2017 dataset using a sparse-modeling image reconstruction technique. We discuss potential physical origins for this double-peaked morphology, including an inclined circumplanetary disk with an inner dust cavity, the roots of planet-induced spiral arms, or alternative hydrodynamic scenarios that do not involve an actively accreting planet such as the U-turn trajectory of secondary dust or a short-lived hydrodynamic gas vortex. We detect no compact gas emission counterparts associated with the continuum blob. Since these CO lines likely trace optically thick upper atmospheric layers, the absence of localized vertical gas perturbations suggests that if an embedded planet is responsible for the dust structure, then its mass must be exceptionally low.",
+      "summary": "We present the results of high-resolution (${\\sim }1$ au) Atacama Large Millimeter/submillimeter Array (ALMA) observations of the TW Hya protoplanetary disk in the Band 6 dust continuum, as well as the $^{13}{\\rm CO}$ and ${\\rm C}\\, {}^{18}{\\rm O}$ J = 2-1 emission lines. By comparing our 2021 data with archival observations from 2017, we detect the proper motion of the blob.",
+      "authors": [
+        "Takashi Tsukagoshi",
+        "Takayuki Muto",
+        "Hideko Nomura",
+        "R. Kawabe",
+        "Satoshi Okuzumi",
+        "Shigeru Ida",
+        "Jun Hashimoto",
+        "Taichi Uyama",
+        "Motohide Tamura"
+      ],
+      "published": "2026-10-28",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03T11:29:01+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Publications of the Astronomical Society of Japan",
+      "doi": "10.1093/pasj/psag146",
+      "doi_url": "https://doi.org/10.1093/pasj/psag146",
+      "url": "https://arxiv.org/abs/2609.34523",
+      "pdf_url": "https://arxiv.org/pdf/2609.34523",
+      "openalex_id": "W7214807202",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_79cc60143c74",
       "title": "Experimental Demonstration of Double-Fourier Interferometer Imaging for Future Space-Based Far-Infrared Observatories",
       "abstract": "Far-infrared (FIR) astronomy is crucial for observing star formation, active galactic nuclei, and protoplanetary systems, but its effectiveness is severely limited by poor diffraction-limited spatial resolution. To overcome this limitation, a double-Fourier interferometer (DFI), which couples a spatial interferometer with a Fourier transform spectrometer, has been proposed to deliver high-resolution broadband spectral imaging. Despite various conceptual and prototype studies, a comprehensive demonstration of DFI capabilities has been lacking. In this study, we present the validation of key DFI observing techniques using a laboratory testbed operating in the 0.3 to 2.1 THz optical bandwidth. We detail the instrument's ideal response alongside necessary calibrations for intensity imbalances, non-linear phase errors, and phase-center offsets. Our experimental results successfully demonstrate aperture synthesis for both one- and two-dimensional targets, accurately recovering source geometries. Furthermore, we prove the instrument's sensitivity to spatially dependent spectral variations by utilizing a low-pass optical filter on extended sources. Finally, we validate wide-field imaging capabilities by combining data from independent pixels in a detector array, each sensitive to different regions of the source plane. The experimental data show significant agreement with theoretical predictions, with minor deviations attributed to optical aberrations and perspective effects. These laboratory demonstrations validate the DFI architecture as a highly capable and mature technology for future space-based FIR observatories.",
@@ -874,7 +1019,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "arXiv"
       ],
@@ -913,30 +1058,30 @@
       "abstract": "We present JWST/NIRCam and MIRI observations of 12 z ∼ 3 submillimeter galaxies (SMGs), combined with high-resolution (0. ′′ 08-0. ′′ 16) ALMA 870 μ m imaging, enabling spatially resolved spectral energy distribution (SED) fitting on ∼kiloparsec scales. We find a resolved star-forming main sequence linking the surface densities of star formation rate and stellar mass, suggesting that star formation remains coupled to the local mass distribution even in heavily obscured systems. Our resolved SED analysis reveals a stellar mass bias in integrated fits (median ∼0.2 dex offset), despite including rest-frame ∼2 μ m MIRI imaging. Rather than classical “outshining,” this effect is driven by spatially varying dust attenuation: a “dust-obscuration bias” that causes obscured stellar mass to be missed. SMG morphologies are strongly wavelength-dependent. At rest-frame optical wavelengths, central obscuration produces large stellar-dust spatial offsets and inflated sizes, while at longer wavelengths these effects diminish. Rest-frame ∼1.5-3 μ m MIRI imaging is less affected by dust than NIRCam and reveals compact stellar structures closely matching the 870 μ m dust continuum. Centrally concentrated dust attenuation drives both the apparent spatial offsets and size variations, demonstrating that dust geometry is the primary driver of structural diversity. Consequently, morphologies inferred from rest-frame wavelengths ≲1.6 μ m can be significantly biased without longer-wavelength constraints. The intrinsic stellar mass and dust continuum sizes are consistent (R e,870 μ m / R e,* = 1.0 ± 0.4), supporting a picture in which SMGs host compact, heavily obscured star formation that builds dense stellar cores, consistent with their evolution into massive quiescent galaxies. Such obscured structures and associated biases may be common among massive star-forming galaxies at z ≳ 1, making these effects broadly relevant.",
       "summary": "We present JWST/NIRCam and MIRI observations of 12 z ∼ 3 submillimeter galaxies (SMGs), combined with high-resolution (0. ′′ 08-0. ′′ 16) ALMA 870 μ m imaging, enabling spatially resolved spectral energy distribution (SED) fitting on ∼kiloparsec scales. Our resolved SED analysis reveals a stellar mass bias in integrated fits (median ∼0.2 dex offset), despite including rest-frame ∼2 μ m MIRI imaging.",
       "authors": [
-        "Juno Li",
+        "J. C. Li",
         "Elisabete da Cunha",
-        "Jacqueline Hodge",
-        "Ian R. Smail",
+        "J. A. Hodge",
+        "I. Smail",
         "Sarah Kendrew",
         "Andrew J Battisti",
         "Misty Cracraft",
-        "Leindert Boogaard",
+        "L. A. Boogaard",
         "William Nielsen Brandt",
-        "Chian-Chou Chen",
+        "C. -C. Chen",
         "P. Cox",
-        "Kirsten Kraiberg Knudsen",
-        "Cheng-Lin Liao",
+        "K. K. Knudsen",
+        "C. -L. Liao",
         "G. Calistro Rivera",
         "Matus Rybak",
         "A. M. Swinbank",
-        "Paul P. van der Werf",
+        "P. P. van der Werf",
         "Fabian Walter",
-        "A. Weiß",
+        "A. Weiss",
         "B. A. Westoby"
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -948,7 +1093,7 @@
       "openalex_id": "W7224102392",
       "oa": true,
       "type": "article",
-      "citations": 0,
+      "citations": 1,
       "topics": [
         "submm"
       ],
@@ -980,7 +1125,7 @@
       ],
       "published": "2026-10-28",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3044,7 +3189,7 @@
       ],
       "published": "2026-10-19",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-11-02T09:31:43+08:00",
+      "last_seen": "2026-11-03T11:29:01+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

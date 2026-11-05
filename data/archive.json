@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T10:22:24+08:00",
-    "generated_label": "2026-11-04 10:22",
-    "today": "2026-11-04",
+    "generated_at": "2026-11-05T10:30:29+08:00",
+    "generated_label": "2026-11-05 10:30",
+    "today": "2026-11-05",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 161,
-    "new_count": 7,
-    "digest_url": "digests/2026-11-04.md",
+    "paper_count": 167,
+    "new_count": 6,
+    "digest_url": "digests/2026-11-05.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,319 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_e4a5a4596ccd",
+      "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
+      "abstract": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) presents detailed constraints on structure and properties of a sample of 24 debris discs at millimetre wavelengths, including measurements of vertical thicknesses for a subsample of discs. We estimated sizes and total masses of large bodies that feed collisional cascades producing the observed millimetre dust in 11 ARKS discs with a well constrained vertical thickness. Separately, we estimated the sizes and total masses of large bodies that could be gravitationally stirring these discs, assuming that such stirring is the origin of the vertical thickness. We used a semi-analytic particle-in-a-box collisional model and a semi-analytic model of stirring through gravitational scattering. We accounted for the dependence of collisional damping efficiency on the average collision velocity. We find that planetesimals feeding the collisional cascades are less than 20 km in size, while the total masses in the planetesimals are lower than 200 M$_\\oplus$. There is a good agreement between minimum disc masses inferred from millimetre and infrared observations. The hypothetical stirrers are always larger in size than the planetesimals, but they do not necessarily contain most of the disc mass. In agreement with previous work, the observed dust masses can be explained by steady-state collisional models with reasonable disc masses. The measured vertical scale-heights can be explained by gravitational stirring from embedded large bodies of reasonable properties. However, more advanced models are needed to address the observed non-Gaussian vertical profiles, along with the dependence of disc scale-height on particle size and stellocentric distance.",
+      "summary": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) presents detailed constraints on structure and properties of a sample of 24 debris discs at millimetre wavelengths, including measurements of vertical thicknesses for a subsample of discs. We estimated sizes and total masses of large bodies that feed collisional cascades producing the observed millimetre dust in 11 ARKS discs with a well constrained vertical thickness.",
+      "authors": [
+        "M. R. Jankovic",
+        "A. V. Krivov",
+        "T. D. Pearce",
+        "A. A. Sefilian",
+        "M. C. Wyatt",
+        "E. Chiang",
+        "C. del Burgo",
+        "Y. Han",
+        "J. Jovicic",
+        "S. Marino",
+        "B. Zawadzki",
+        "A. M. Hughes",
+        "T. L\\\"ohne",
+        "P. Luppe",
+        "J. P. Marshall",
+        "Th. Henning",
+        "H. E. Schlichting",
+        "S. Mac Manamon",
+        "N. Pawellek",
+        "D. J. Wilner"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.04976",
+      "pdf_url": "https://arxiv.org/pdf/2611.04976",
+      "arxiv_id": "2611.04976",
+      "arxiv_url": "https://arxiv.org/abs/2611.04976",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_d7f97f1df6b2",
+      "title": "Outer pressure bumps beyond the dust disc: Missing Outer Rings in the exoALMA Sample: Physical Mechanisms Suppressing Dust Ring Formation Despite Strong Pressure Bumps",
+      "abstract": "The exoALMA survey has revealed candidate gas pressure bumps at radii beyond the observed millimetre continuum discs in several protoplanetary systems, raising the question of whether these regions could host undetected dust structures. We investigate this for nine of the exoALMA discs by reconstructing gas surface density profiles from midplane pressure gradient measurements derived from $^{12}$CO and $^{13}$CO ALMA Band 7 observations. We evolve the dust using DustPy across a grid of turbulence and fragmentation parameters ($\\alpha \\in \\{10^{-4}, 10^{-3}\\}$; $v_\\mathrm{frag} \\in \\{1, 10\\}\\,\\mathrm{m\\,s^{-1}}$), followed by radiative transfer calculations with RADMC-3D to give predictions for the continuum emission. We find that the dominant outcome across the explored parameter space is efficient outer dust trapping, leading to prominent outer continuum rings that should be detectable at ALMA Band 7, in tension with the observations. The $^{13}$CO-based reconstructions almost universally produce detectable outer rings, whereas the $^{12}$CO-based reconstructions show more variation. We further test delayed formation of the outer pressure bump and enhanced outer-disc turbulence as possible suppression mechanisms of ring formation. Enhanced turbulence weakens the predicted outer continuum emission most effectively, although the efficiency of the mechanism depends on the system explored and on where the turbulence transition is placed. Delayed bump formation generally does not prevent rapid outer dust accumulation.",
+      "summary": "The exoALMA survey has revealed candidate gas pressure bumps at radii beyond the observed millimetre continuum discs in several protoplanetary systems, raising the question of whether these regions could host undetected dust structures. We find that the dominant outcome across the explored parameter space is efficient outer dust trapping, leading to prominent outer continuum rings that should be detectable at ALMA Band 7, in tension with the observations.",
+      "authors": [
+        "Lilian Luo",
+        "Paola Pinilla",
+        "Jochen Stadler"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.04676",
+      "pdf_url": "https://arxiv.org/pdf/2611.04676",
+      "arxiv_id": "2611.04676",
+      "arxiv_url": "https://arxiv.org/abs/2611.04676",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_f01940e9f5bd",
+      "title": "Measuring the gas mass of the protoplanetary disk around HD 179218 with CO isotopologues",
+      "abstract": "Carbon monoxide (CO) isotopologues are widely used to estimate protoplanetary disk gas masses, but their reliability is often compromised by CO freeze-out and subsequent chemical processing. The disk around the luminous Herbig star HD~179218 ($L_* \\sim 100\\,L_\\odot$, $M_* \\sim 3.0\\,M_\\odot$) offers a rare test case of CO-based mass measurements. Its CO snowline lies beyond the outer disk edge, and thus CO remains in the gas phase throughout. We present ALMA and NOEMA observations of six CO isotopologue lines ($^{13}$CO, C$^{18}$O, and C$^{17}$O, $J$=2--1 and 1--0). Fitting the spectral energy distribution yields $M_{dust} \\approx 3 \\times 10^{-5}\\, M_\\odot$. Modeling CO isotopologue emission with the thermochemical code DALI yields the gas-disk characteristic radius ($R_{c} \\approx 90$~au) and the gas mass ($M_{gas} \\approx 8 \\times 10^{-3}\\, M_\\odot$). These results yield a gas-to-dust ratio of $\\sim$270 for our fiducial dust opacity ($a_{\\rm max} = 1$~mm), above the canonical interstellar value of $\\sim$100. The thermal structure of our best-fitting model confirms that CO never freezes out in this disk, so the elevated ratio is not an artifact of CO depletion; together with the compact millimeter dust disk relative to the gas disk, it is consistent with substantial inward radial drift of millimeter dust. In addition, we find a gas cavity inside 50\\,au that encloses the compact millimeter dust disk---the inverse of a typical transition disk---which we attribute to photoevaporative clearing of the inner gas after the pebbles drifted inward. HD~179218 thus provides a clean benchmark for studying the gas mass distribution and gas--dust interaction in protoplanetary disks, free from the CO-depletion biases that affect colder disks.",
+      "summary": "Carbon monoxide (CO) isotopologues are widely used to estimate protoplanetary disk gas masses, but their reliability is often compromised by CO freeze-out and subsequent chemical processing. The disk around the luminous Herbig star HD~179218 ($L_* \\sim 100\\,L_\\odot$, $M_* \\sim 3.0\\,M_\\odot$) offers a rare test case of CO-based mass measurements.",
+      "authors": [
+        "Nina Weichmann",
+        "Ke Zhang",
+        "Leon Trapman",
+        "Ao Zhang"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.04030",
+      "pdf_url": "https://arxiv.org/pdf/2611.04030",
+      "arxiv_id": "2611.04030",
+      "arxiv_url": "https://arxiv.org/abs/2611.04030",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "dust",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_43f733e7bd69",
+      "title": "Constraining Dust Properties Along the Minor Axis of Andromeda",
+      "abstract": "Previous studies of dust emission in M31 based primarily on Herschel data have reported inconsistent radial trends in the dust emissivity index ($\\beta$), partly due to limited wavelength coverage and the intrinsic $T_{\\rm dust}$-$\\beta$ degeneracy. We aim to improve the constraints of $\\beta$ determinations and obtain the spatial surface density and temperature distributions at GMC scales in M31 by extending the spectral coverage into the millimeter regime and by quantifying the impact of wavelength coverage on the $T_{\\rm dust}$-$\\beta$ degeneracy. We present new IRAM 30m NIKA2 1.15 mm observations along the minor axis of M31 at an angular resolution of 11 arcsec, corresponding to $\\sim 40$ pc at the distance of M31. These data are used with Herschel and JCMT SCUBA-2 maps to perform pixel-by-pixel single-component modified blackbody fitting. Including the 850 $\\mu$m and 1.15 mm data helps reduce the $T_{\\rm dust}$-$\\beta$ degeneracy and yields an average emissivity index of $\\beta \\approx 1.8$, systematically lower than values derived from far-infrared-only analyses. Radial analysis shows higher $\\beta$ values in the 5 kpc ring compared to the 10 kpc ring. The elevated $\\beta$ values in the inner 5 kpc may be linked to changes in dust composition, potentially associated with enhanced starlight heating in this region. Millimeter wavelength coverage is important for improving $\\beta$ constraints in M31. The lower $\\beta$ values inferred from the 250--1150 $\\mu$m SED fitting suggest possible variations in dust emissivity and highlight the importance of sampling the long-wavelength SED slope in nearby galaxies.",
+      "summary": "Previous studies of dust emission in M31 based primarily on Herschel data have reported inconsistent radial trends in the dust emissivity index ($\\beta$), partly due to limited wavelength coverage and the intrinsic $T_{\\rm dust}$-$\\beta$ degeneracy. We present new IRAM 30m NIKA2 1.15 mm observations along the minor axis of M31 at an angular resolution of 11 arcsec, corresponding to $\\sim 40$ pc at the distance of M31.",
+      "authors": [
+        "Sihan Jiao",
+        "Linjing Feng",
+        "Henrik Beuther",
+        "Hauyu Baobab Liu",
+        "Yuxin Lin",
+        "Jingwen Wu",
+        "Chao-Wei Tsai",
+        "Di Li",
+        "Kiyoaki Doi",
+        "Jakob den Brok",
+        "Fengwei Xu",
+        "Simón D. Reyes-Reyes",
+        "Carsten Kramer",
+        "Ryan P. Keenan",
+        "Xiangyu Zhang",
+        "Fanyi Meng",
+        "Zongnan Li",
+        "Fangyuan Deng",
+        "Yuxiang Liu"
+      ],
+      "published": "2026-11-03",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.04319v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.04319v1",
+      "arxiv_id": "2611.04319",
+      "arxiv_url": "https://arxiv.org/abs/2611.04319v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 23.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "galaxies",
+          "herschel",
+          "observations",
+          "scuba-2"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c62241b75eba",
+      "title": "Code Dependence of Sedov-Taylor Supernova Remnant Evolution: FLASH, Athena, and RAMSES",
+      "abstract": "Supernovae play a crucial role in the self-regulation of star-forming galaxies: supernova remnants disrupt giant molecular clouds, curtailing star formation in open clusters, and supernova-deposited momentum drives galactic outflows. The energy-conserving Sedov-Taylor phase captures the transfer of momentum from the expanding remnant to the interstellar medium. However, Eulerian grid codes suffer advective losses that may impact momentum deposition, depending on the numerical technique. We performed three-dimensional magnetohydrodynamic simulations comparing remnant expansion in FLASH, Athena, and RAMSES, varying density, adiabatic index and numerical resolution, and toggling a uni-directional magnetic field. We find a maximum relative difference of ∼30%, decreasing with resolution. However, since state-of-the-art isolated galaxy simulations resolve the Sedov-Taylor phase with 8-16 grid cells, substantial differences may persist between codes.",
+      "summary": "Supernovae play a crucial role in the self-regulation of star-forming galaxies: supernova remnants disrupt giant molecular clouds, curtailing star formation in open clusters, and supernova-deposited momentum drives galactic outflows. We find a maximum relative difference of ∼30%, decreasing with resolution.",
+      "authors": [
+        "Isabel Barrios Lombardi",
+        "Ryan Jeffrey Farber"
+      ],
+      "published": "2026-11-03",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Research Notes of the AAS",
+      "doi": "10.3847/2515-5172/aebbb9",
+      "doi_url": "https://doi.org/10.3847/2515-5172/aebbb9",
+      "url": "https://doi.org/10.3847/2515-5172/aebbb9",
+      "pdf_url": "",
+      "openalex_id": "W7225165938",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 20.0
+      },
+      "matched": {
+        "molecular": [
+          "molecular clouds",
+          "magnetic field",
+          "magnetohydrodynamic",
+          "magnetic",
+          "star formation"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_1bfbe0b4c4f0",
+      "title": "CCAT: Prime-Cam Control System and Related Software",
+      "abstract": "Prime-Cam is one of the primary instruments being developed for use by the CCAT collaboration with the Fred Young Submillimeter Telescope (FYST), which is undergoing construction at a height of 5600 m in Cerro Chajnantor. Prime-Cam can host up to seven instrument modules with kinetic inductance detectors (KIDs), including broadband modules ranging 280-850 GHz and imaging spectrometers for line-intensity mapping. Prime-Cam requires a number of hardware devices for standard operation and data collection, and so a distributed control system must be developed for software integration of these devices and user-friendliness when controlling Prime-Cam in the field, especially during remote operation that will be typical during observations. The Prime-Cam Control System (PCS) is being developed using the Observatory Control System (OCS) framework originally developed for Simons Observatory (SO) and is adapted for Prime-Cam and CCAT-specific requirements. Within OCS/PCS, hardware devices are controlled individually by long-running software processes known as agents, which are typically deployed in Docker containers running in the background of one of the Prime-Cam network computers. These agents are controlled by client scripts through the command line or frontend tools like Nextline and PCS-web. PCS also makes use of several external open source software tools for remote operations, data management, and logging. This system is being tested in the lab in preparation for deployment in 2026 for use with Prime-Cam on FYST.",
+      "summary": "Prime-Cam is one of the primary instruments being developed for use by the CCAT collaboration with the Fred Young Submillimeter Telescope (FYST), which is undergoing construction at a height of 5600 m in Cerro Chajnantor. Prime-Cam can host up to seven instrument modules with kinetic inductance detectors (KIDs), including broadband modules ranging 280-850 GHz and imaging spectrometers for line-intensity mapping.",
+      "authors": [
+        "Alicia Middleton",
+        "James Burgoyne",
+        "Victoria Butler",
+        "Scott Chapman",
+        "Cody J. Duell",
+        "Min Gao",
+        "Graham Gibson",
+        "Ben Keller",
+        "Lawrence T. Lin",
+        "Michael D. Niemack",
+        "Darshan A. Patel",
+        "Samantha Walker",
+        "Yuhan Wang",
+        "Ruixuan",
+        "Xie"
+      ],
+      "published": "2026-11-03",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05T10:30:29+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "Proc. SPIE 14155, Software and Cyberinfrastructure for Astronomy IX, 1415508 (19 Aug 2026)",
+      "journal_ref": "Proc. SPIE 14155, Software and Cyberinfrastructure for Astronomy IX, 1415508 (19 Aug 2026)",
+      "doi": "10.1117/12.3105331",
+      "doi_url": "https://doi.org/10.1117/12.3105331",
+      "url": "https://arxiv.org/abs/2611.05253v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.05253v1",
+      "arxiv_id": "2611.05253",
+      "arxiv_url": "https://arxiv.org/abs/2611.05253v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "mkid",
+        "submm"
+      ],
+      "scores": {
+        "mkid": 17.0,
+        "submm": 18.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "kinetic inductance detectors",
+          "submillimeter"
+        ],
+        "submm": [
+          "ccat",
+          "observations",
+          "observatory",
+          "submillimeter",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_abd95fa3322a",
       "title": "Planet-gap-induced ice lines form observable dust rings in protoplanetary disks",
@@ -215,7 +528,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -236,8 +549,8 @@
       },
       "matched": {
         "submm": [
-          "submillimetre",
-          "observation"
+          "observation",
+          "submillimetre"
         ]
       },
       "primary_topic": "submm"
@@ -254,7 +567,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "arXiv"
       ],
@@ -291,7 +604,7 @@
     {
       "id": "p_3b8f9d2abb69",
       "title": "H 0557$-$385: A Candidate Missing Link Between Radio-Quiet Seyferts and Young Radio Galaxies",
-      "abstract": "The Seyfert 1 galaxy H 0557$-$385 (z = 0.034) has long been classified as radio-quiet on the basis of its radio-to-optical flux ratio, yet its radio properties are physically inconsistent with this designation. We present a broadband ($0.076 - 258.8$ GHz) radio spectral analysis combining new Australia Telescope Compact Array (ATCA) observations with archival Murchison Widefield Array (MWA), Australian Square Kilometre Array Pathfinder (ASKAP) and Atacama Large Millimeter/submillimeter Array (ALMA) data. The spectrum requires a two-component model: a compact, self-absorbed component with a stratified gigahertz-peaked (GPS)/high-frequency-peaked (HFP) spectral shape (turnover at $9.4^{+0.6}_{-0.5}$ GHz), superposed on an extended, optically thin power-law lobe ($α_{\\rm pl} = -0.78$) that dominates below ~1.6 GHz. The derived parameters $-$ a source size of ~15 pc, an equipartition magnetic field of 2.8 mG, a synchrotron age of $\\lesssim1.8\\times10^{3}$ yr, and a time-averaged jet power of ${\\sim}5\\times10^{41}$ $-$ $5\\times10^{44}$ erg s$^{-1}$ $-$ are characteristic of compact steep-spectrum and GPS young radio galaxies, not of canonical radio-quiet AGN. The two-component structure admits two interpretations that the present data cannot distinguish: the extended emission may be the growing lobe of a genuinely young, expanding radio galaxy, or relic plasma from an earlier episode of a transient or recurrent jet. Under either, H 0557$-$385 is better understood as an intermediate object: optically a Seyfert, but with the radio-physical properties of a newly ignited or recently re-triggered radio galaxy. It is therefore a candidate missing link between radio-quiet AGN and large-scale radio galaxies. Distinguishing these scenarios will require high-resolution imaging and multi-epoch monitoring",
+      "abstract": "The Seyfert 1 galaxy H 0557$-$385 (z = 0.034) has long been classified as radio-quiet on the basis of its radio-to-optical flux ratio, yet its radio properties are physically inconsistent with this designation. We present a broadband ($0.076 - 258.8$ GHz) radio spectral analysis combining new Australia Telescope Compact Array (ATCA) observations with archival Murchison Widefield Array (MWA), Australian Square Kilometre Array Pathfinder (ASKAP) and Atacama Large Millimeter/submillimeter Array (ALMA) data. The spectrum requires a two-component model: a compact, self-absorbed component with a stratified gigahertz-peaked (GPS)/high-frequency-peaked (HFP) spectral shape (turnover at $9.4^{+0.6}_{-0.5}$ GHz), superposed on an extended, optically thin power-law lobe ($\\alpha_{\\rm pl} = -0.78$) that dominates below ~1.6 GHz. The derived parameters $-$ a source size of ~15 pc, an equipartition magnetic field of 2.8 mG, a synchrotron age of $\\lesssim1.8\\times10^{3}$ yr, and a time-averaged jet power of ${\\sim}5\\times10^{41}$ $-$ $5\\times10^{44}$ erg s$^{-1}$ $-$ are characteristic of compact steep-spectrum and GPS young radio galaxies, not of canonical radio-quiet AGN. The two-component structure admits two interpretations that the present data cannot distinguish: the extended emission may be the growing lobe of a genuinely young, expanding radio galaxy, or relic plasma from an earlier episode of a transient or recurrent jet. Under either, H 0557$-$385 is better understood as an intermediate object: optically a Seyfert, but with the radio-physical properties of a newly ignited or recently re-triggered radio galaxy. It is therefore a candidate missing link between radio-quiet AGN and large-scale radio galaxies. Distinguishing these scenarios will require high-resolution imaging and multi-epoch monitoring",
       "summary": "The Seyfert 1 galaxy H 0557$-$385 (z = 0.034) has long been classified as radio-quiet on the basis of its radio-to-optical flux ratio, yet its radio properties are physically inconsistent with this designation. We present a broadband ($0.076 - 258.8$ GHz) radio spectral analysis combining new Australia Telescope Compact Array (ATCA) observations with archival Murchison Widefield Array (MWA), Australian Square Kilometre Array Pathfinder (ASKAP) and Atacama…",
       "authors": [
         "J. Chauhan",
@@ -309,7 +622,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "arXiv"
       ],
@@ -332,11 +645,11 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "galaxies",
           "galaxy",
           "observations",
+          "submillimeter",
           "telescope"
         ]
       },
@@ -360,7 +673,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -454,7 +767,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "arXiv"
       ],
@@ -593,7 +906,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -636,7 +949,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -648,7 +961,7 @@
       "openalex_id": "W7162322225",
       "oa": true,
       "type": "article",
-      "citations": 0,
+      "citations": 2,
       "topics": [
         "submm"
       ],
@@ -697,7 +1010,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -709,7 +1022,7 @@
       "openalex_id": "W7155165303",
       "oa": true,
       "type": "article",
-      "citations": 3,
+      "citations": 4,
       "topics": [
         "submm"
       ],
@@ -750,7 +1063,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -836,7 +1149,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1167,7 +1480,7 @@
       ],
       "published": "2026-10-29",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-04T10:22:24+08:00",
+      "last_seen": "2026-11-05T10:30:29+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

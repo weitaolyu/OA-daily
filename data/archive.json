@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T10:30:29+08:00",
-    "generated_label": "2026-11-05 10:30",
-    "today": "2026-11-05",
+    "generated_at": "2026-11-06T10:29:59+08:00",
+    "generated_label": "2026-11-06 10:29",
+    "today": "2026-11-06",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 167,
-    "new_count": 6,
-    "digest_url": "digests/2026-11-05.md",
+    "paper_count": 172,
+    "new_count": 5,
+    "digest_url": "digests/2026-11-06.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,257 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_31aa07dffdb2",
+      "title": "Satellite remote sensing of polar clouds: a review of cloud detection, phase identification, and microphysical property retrieval (2001-2025)",
+      "abstract": "Polar clouds play important roles in regulating the surface energy budget, atmospheric moisture cycle, precipitation, and sea-ice variability, while their occurrence, vertical structure, thermodynamic phase, and microphysical properties remain difficult to characterize consistently across the Arctic and Antarctic. Satellite remote sensing enables broad-scale monitoring of polar clouds, yet high-albedo snow and ice surfaces, weak cloud-surface thermal contrast, frequent temperature inversions, and persistent mixed-phase conditions make cloud detection and property retrieval substantially more difficult than at lower latitudes. This review synthesizes progress during the quarter-century 2001-2025 in polar cloud satellite remote sensing with a focus on satellite-based polar cloud detection, cloud phase identification, and microphysical retrieval. It first analyzes the synergistic monitoring capabilities of multi-source satellite sensors, including passive multispectral imagers, active radars and lidars, and microwave radiometers. It then explores in depth the evolution of cloud detection methods from static physical thresholds to deep learning algorithms that integrate spatial information and multimodal features. For cloud phase identification and microphysical retrieval, this paper reviews the physical principles and technical limitations of representative methods, including threshold and Lookup Table (LUT) methods, Optimal Estimation Method (OEM), variational and Bayesian retrievals, analytical and empirical methods, and machine-learning approaches, with particular attention to the challenges associated with ice-liquid phase partitioning and vertical heterogeneity in polar mixed-phase clouds. Finally, it identifies the deficiencies in current research regarding the application of far-infrared and high-frequency submillimeter-wave bands, the construction of full-spatiotemporal coverage observation networks, and the physical consistency of data-driven models, and outlines priorities for developing a continuous, multi-dimensional polar cloud monitoring system based on coordinated high- and low-orbit observations, recent and forthcoming satellite instruments, and physically constrained artificial intelligence.",
+      "summary": "Polar clouds play important roles in regulating the surface energy budget, atmospheric moisture cycle, precipitation, and sea-ice variability, while their occurrence, vertical structure, thermodynamic phase, and microphysical properties remain difficult to characterize consistently across the Arctic and Antarctic. This review synthesizes progress during the quarter-century 2001-2025 in polar cloud satellite remote sensing with a focus on satellite-based…",
+      "authors": [
+        "Zhuohan Jiang",
+        "Liu L",
+        "Zhihui Li",
+        "Huan Liu",
+        "Shulei Li",
+        "Wanxia Deng"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06T10:29:59+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "doi": "10.1016/j.isprsjprs.2026.10.046",
+      "doi_url": "https://doi.org/10.1016/j.isprsjprs.2026.10.046",
+      "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.046",
+      "pdf_url": "",
+      "openalex_id": "W7225237669",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 26.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "submillimeter wave",
+          "far infrared",
+          "far-infrared",
+          "observation",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c06005640522",
+      "title": "Near-Quantum-Limited Readout for the Princeton Axion Search using a sub-GHz Kinetic Inductance Traveling Wave Parametric Amplifier",
+      "abstract": "Parametric amplifiers are a workhorse for near-quantum-limited measurements above 1 GHz. However, amplifier development has been more limited below 1 GHz. We present a kinetic inductance traveling-wave parametric amplifier (KI-TWPA) operating over 300-700 MHz, with gain exceeding 30 dB and pump powers of a few hundred nanowatts. The system noise performance, as measured by a variable-temperature noise source, is 2.5-3.5 quanta. This device is a versatile new tool for precision measurements of sub-GHz signals, with applications including readout of semiconductor spin qubits, superconducting detector arrays, and searches for new physics beyond the Standard Model. We characterize aspects of the amplifier performance relevant to axion searches, including gain drift, compression point, amplifier noise at various operating temperatures, readout with an input circulator, and magnetic field insensitivity.",
+      "summary": "Parametric amplifiers are a workhorse for near-quantum-limited measurements above 1 GHz. This device is a versatile new tool for precision measurements of sub-GHz signals, with applications including readout of semiconductor spin qubits, superconducting detector arrays, and searches for new physics beyond the Standard Model.",
+      "authors": [
+        "Joe Wiedemann",
+        "Roman Kolevatov",
+        "Jianyang Fu",
+        "Joelle-Marie Begin",
+        "Nate Otto",
+        "Felix St-Amour",
+        "Lyman Page",
+        "Henry LeDuc",
+        "Peter Day",
+        "Saptarshi Chaudhuri"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06T10:29:59+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · quant-ph",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.06761v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06761v1",
+      "arxiv_id": "2611.06761",
+      "arxiv_url": "https://arxiv.org/abs/2611.06761v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 14.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "readout"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
+      "id": "p_95688d3f3fbb",
+      "title": "Magnetic Properties of Galactic Molecular Clouds",
+      "abstract": "The earliest studies of molecular clouds (MCs) showed scaling relations between mass and radius M$\\sim$R^s with exponent s $\\approx$ 2, known as the third Larson relation. More recent CO surveys indicate 2 < s < 3 in the inner Milky Way (MW) and nearby galaxies. These observations appear consistent with the virial equilibrium (VE) of magnetically subcritical clouds, bound by the pressure Pe of the midplane ISM. The VE equations for such clouds are consistent with 2 < s < 3 for magnetically subcritical clouds, but not for magnetically critical, supercritical, or nonmagnetic clouds. We fit the subcritical VE equations to M-R trends observed in CO surveys of $\\sim$1500 clouds, with correlation coefficients 0.8 - 1. The fits indicate median mass-to-flux ratio lambda $\\approx$ 0.7, magnetic field strength Btot $\\approx$ 60$\\mathrm{\\mu G}$, and Pe/k $\\approx$ 5 x 10^5 cm^-3 K in the inner MW, with lesser values in M33 and M31. For 18 MW \"bones,\" VE analysis assuming likely values of Pe also indicates subcritical values of lambda, as found from polarization observations. These results indicate that many giant molecular clouds (GMCs) are consistent with pressure-bound magnetically subcritical virial equilibrium. If so, GMCs may have low star formation efficiency (SFE) because their relatively strong fields cause filaments, clumps and cores to form slowly, while feedback and turbulence disperse them rapidly. The fields in their clumps and cores are likely weak enough to allow star-forming collapse, according to Zeeman and DCF observations, and according to MHD simulations which predict SFE $\\approx$ 0.5-2%.",
+      "summary": "The earliest studies of molecular clouds (MCs) showed scaling relations between mass and radius M$\\sim$R^s with exponent s $\\approx$ 2, known as the third Larson relation. These results indicate that many giant molecular clouds (GMCs) are consistent with pressure-bound magnetically subcritical virial equilibrium.",
+      "authors": [
+        "Philip C. Myers",
+        "Ian W. Stephens",
+        "Simon Coudé",
+        "Nicole Karnath",
+        "Howard A. Smith"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06T10:29:59+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.06792v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06792v1",
+      "arxiv_id": "2611.06792",
+      "arxiv_url": "https://arxiv.org/abs/2611.06792v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 40.0
+      },
+      "matched": {
+        "molecular": [
+          "field strength",
+          "magnetic",
+          "magnetic field",
+          "mhd",
+          "molecular clouds",
+          "polarization",
+          "star formation",
+          "turbulence",
+          "zeeman"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_8537ee6b91fc",
+      "title": "How Eccentric is the Debris Disk of ε Eridani? ALMA Reveals a Near-circular Belt",
+      "abstract": "The nearby (3.2 pc) K2V star ε Eridani hosts the closest detected debris disk and an exo-Jupiter analog (ε Eridani b). In this work, we reanalyse Atacama Large Millimeter/submillimeter Array (ALMA) Band 6 (1.29 mm) observations of ε Eridani to assess whether its outer debris belt exhibits a nonzero eccentricity, potentially induced by planet-disk interactions. Considering two models, one that accounts for the disk’s forced eccentricity (e f) and another that accounts for a proper eccentricity (e p), we place stringent (99.7th-percentile) upper limits of e f < 2.6% and e p < 6.8%, respectively, and find tentative evidence for a nonzero forced eccentricity of e f = 1.6 2 - 0.40 + 0.39% at the 4 σ level. This corresponds to the lowest millimeter-derived upper limit on the forced eccentricity of any debris disk to date, which, together with the low upper limit on the proper eccentricity, suggests that the outer belt is nearly circular and dynamically cold. We further explore planetary system architectures that are consistent with these ALMA-based results in combination with Spitzer/IRAC, JWST/NIRCam F444W, and JWST/MIRI F2550W data. Together, these analyses provide insight into potential planet-disk interactions in this nearby system, constraining any additional planet beyond ε Eridani b to masses ranging from ∼2 × 10 -4 to 0.3 M Jup at orbital separations of ∼6-60 au.",
+      "summary": "The nearby (3.2 pc) K2V star ε Eridani hosts the closest detected debris disk and an exo-Jupiter analog (ε Eridani b). We further explore planetary system architectures that are consistent with these ALMA-based results in combination with Spitzer/IRAC, JWST/NIRCam F444W, and JWST/MIRI F2550W data.",
+      "authors": [
+        "Oto Ulrich",
+        "Joshua Bennett Lovell",
+        "David Wilner",
+        "Antranik A. Sefilian",
+        "Mark Booth"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06T10:29:59+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeaedf",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeaedf",
+      "url": "https://doi.org/10.3847/1538-4357/aeaedf",
+      "pdf_url": "",
+      "openalex_id": "W7216370555",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_2315f1ca74e2",
+      "title": "DOWSING, Dust Observations With SCUBA-2 In Nearby Galaxies: I. Dust in M81",
+      "abstract": "We present a resolved far-infrared/sub-millimetre study of dust in the nearby spiral galaxy M81 using Herschel PACS/SPIRE and JCMT SCUBA-2 observations from 70 to $850\\,μ\\mathrm{m}$. We model the dust emission using both single-temperature modified blackbody (SMBB) fits and point process mapping (PPMAP), comparing pixel-by-pixel SED-fitting with image cubes of dust surface density as a function of position and temperature. For fixed $β= 1.9$ and a dust opacity of $κ_{350\\,μ\\mathrm{m}} = 1.92\\,\\mathrm{cm}^{2}\\,\\mathrm{g}^{-1}$, SMBB gives an integrated dust mass of $(1.77 \\pm 0.09) \\times 10^{7}\\,M_\\odot$, while PPMAP gives $(2.65 \\pm 0.13) \\times10^{7}\\,M_\\odot$. The higher PPMAP mass is expected because real lines of sight contain dust over a range of temperatures, whereas SMBB assumes a single effective temperature and can underestimate the dust mass. Both methods show enhanced dust surface densities along the spiral arms and a radially declining dust temperature, with the warmest dust in the central region. Variable-$β$ fits indicate only moderate spatial variation in $β$ for well-constrained pixels, but the strong $T$-$β$ degeneracy motivates a fixed emissivity index for the main analysis. Combining the dust maps with HI data, we find a positive radial gas-to-dust ratio gradient, with $d\\log_{10}(\\mathrm{GDR})/dR = 0.065\\,\\mathrm{dex}\\,\\mathrm{kpc}^{-1}$. Comparison with M81's metallicity gradient implies a declining dust-to-metals ratio, potentially consistent with more efficient grain growth in the inner disc. The star formation rate is modest, $\\sim 0.27\\,M_\\odot\\,{\\rm yr}^{-1}$, and is strongly concentrated along the spiral arms. These results suggest that the dust, gas, and star-forming structures of M81 are strongly shaped by its spiral arms, while the central region hosts the warmest dust in the disc.",
+      "summary": "We present a resolved far-infrared/sub-millimetre study of dust in the nearby spiral galaxy M81 using Herschel PACS/SPIRE and JCMT SCUBA-2 observations from 70 to $850\\,μ\\mathrm{m}$. Combining the dust maps with HI data, we find a positive radial gas-to-dust ratio gradient, with $d\\log_{10}(\\mathrm{GDR})/dR = 0.065\\,\\mathrm{dex}\\,\\mathrm{kpc}^{-1}$.",
+      "authors": [
+        "M. Uzuner",
+        "M. W. L. Smith",
+        "S. Eales",
+        "A. Chung",
+        "E. J. Chung",
+        "D. L. Clements",
+        "I. De Looze",
+        "D. J. Eden",
+        "L. Fanciullo",
+        "L. C. Ho",
+        "F. Kemper",
+        "K. Pattle",
+        "M. Relaño",
+        "A. Saintonge",
+        "X. Tang",
+        "S. A. Van Der Giessen",
+        "J. Wang",
+        "T. G. Williams",
+        "C. D. Wilson"
+      ],
+      "published": "2026-11-04",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06T10:29:59+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.07044v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.07044v1",
+      "arxiv_id": "2611.07044",
+      "arxiv_url": "https://arxiv.org/abs/2611.07044v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 42.0
+      },
+      "matched": {
+        "submm": [
+          "scuba-2",
+          "sub-millimetre",
+          "far infrared",
+          "far-infrared",
+          "herschel",
+          "star formation",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_e4a5a4596ccd",
       "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
@@ -213,7 +464,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "arXiv"
       ],
@@ -258,7 +509,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -279,10 +530,10 @@
       },
       "matched": {
         "molecular": [
-          "molecular clouds",
+          "magnetic",
           "magnetic field",
           "magnetohydrodynamic",
-          "magnetic",
+          "molecular clouds",
           "star formation"
         ]
       },
@@ -312,7 +563,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "arXiv"
       ],
@@ -528,7 +779,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -567,7 +818,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "arXiv"
       ],
@@ -622,20 +873,22 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "Monthly Notices of the Royal Astronomical Society",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2611.03818v1",
+      "doi": "10.1093/mnras/stag2102",
+      "doi_url": "https://doi.org/10.1093/mnras/stag2102",
+      "url": "https://doi.org/10.1093/mnras/stag2102",
       "pdf_url": "https://arxiv.org/pdf/2611.03818v1",
       "arxiv_id": "2611.03818",
       "arxiv_url": "https://arxiv.org/abs/2611.03818v1",
+      "openalex_id": "W7225272556",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
@@ -673,7 +926,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-05T10:30:29+08:00",
+      "last_seen": "2026-11-06T10:29:59+08:00",
       "sources": [
         "OpenAlex"
       ],

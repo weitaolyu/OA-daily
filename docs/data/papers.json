@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T09:57:38+08:00",
-    "generated_label": "2026-11-07 09:57",
-    "today": "2026-11-07",
+    "generated_at": "2026-11-08T09:28:06+08:00",
+    "generated_label": "2026-11-08 09:28",
+    "today": "2026-11-08",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 177,
-    "new_count": 5,
-    "digest_url": "digests/2026-11-07.md",
+    "paper_count": 184,
+    "new_count": 7,
+    "digest_url": "digests/2026-11-08.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,377 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_15bab49094a7",
+      "title": "When the Shadow Meets Its Measure: Assessing the Feasibility of Submillimeter Black Hole Shadow Imaging in Megamaser-disk Active Galactic Nuclei",
+      "abstract": "Well-modeled water megamaser disks offer a path to black hole shadow (BHS) tests of strong-field gravity beyond Sgr A* and M87*: their very long baseline interferometry (VLBI) angular dynamics precisely constrains M • / D, the maser-disk orientation, and the dynamical center within the maser reference frame, thereby predicting the fiducial Schwarzschild BHS angular size without an externally adopted distance. We assess 21 megamaser galaxies as BHS targets using published maser measurements to calculate BHS angular sizes and baseline requirements. We combine new Submillimeter Array (SMA) continuum observations with archival Atacama Large Millimeter/submillimeter Array (ALMA) and Very Large Array (VLA) measurements to estimate arcsecond-scale 230 GHz flux densities and identify the strongest nuclear-region sources for higher-resolution follow-up. We also estimate the maximum dust and extended-jet contributions, examine limited variability measurements, and, for the leading candidate NGC 4258, evaluate the astrometry required to detect a spin-dependent offset between the BHS center and the maser dynamical center. Only NGC 4258 has an adopted BHS angular size resolvable with an Earth-L2 baseline; the other adopted sizes require longer baselines, while an Earth-L4/L5 separation would be sufficient for all. Five sources reach S 230 ≳ 10 mJy. However, whether the observed 230 GHz emission arises on BHS scales and is sufficiently optically thin to reveal a BHS remains unknown throughout the sample. NGC 4258’s submillimeter excess is consistent with a thin disk transitioning to an advection-dominated flow; its spin-offset test remains infeasible with present maser astrometry.",
+      "summary": "Well-modeled water megamaser disks offer a path to black hole shadow (BHS) tests of strong-field gravity beyond Sgr A* and M87*: their very long baseline interferometry (VLBI) angular dynamics precisely constrains M • / D, the maser-disk orientation, and the dynamical center within the maser reference frame, thereby predicting the fiducial Schwarzschild BHS angular size without an externally adopted distance. We combine new Submillimeter Array (SMA)…",
+      "authors": [
+        "RomanBurridge",
+        "Geoffrey C. Bower"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/ae8a42",
+      "doi_url": "https://doi.org/10.3847/1538-4357/ae8a42",
+      "url": "https://doi.org/10.3847/1538-4357/ae8a42",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ae8a42/pdf",
+      "openalex_id": "W7118128532",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 23.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxies",
+          "observations",
+          "sma",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_119b081a214d",
+      "title": "The NIKA2 Cosmological Legacy Survey in COSMOS: Final 1.2,mm and 2,mm source catalogs and redshift distribution of dusty star-forming galaxies",
+      "abstract": "Dusty star-forming galaxies (DSFGs) play a major role in the overall star formation in the Universe at high redshift. While deep near-infrared surveys, particularly with JWST, can now identify many heavily obscured galaxies, (sub)millimeter observations are essential for measuring their dust emission and quantifying their dust content and obscured star formation. We present the final 1.2,mm and 2,mm source catalogs and the redshift distribution of the millimeter-selected population from the NIKA2 Cosmological Legacy Survey (N2CLS) in the COSMOS field. Our aim was to provide a comprehensive dataset for studying the physical properties and evolution of high-redshift DSFGs and to compare the observed redshift distribution with theoretical predictions. We analyzed deep NIKA2 observations at 1.2,mm and 2,mm, covering ∼1070,arcmin2$ with median noise levels of 315,mathrm μJy and 91,mathrm μJy, respectively. Sources were extracted with a signal-to-noise ratio (S/N) threshold of 3.9, ensuring ≥80% purity. We identified multiwavelength counterparts using high-resolution interferometric (sub)millimeter data (NOEMA, ALMA) and radio observations (VLA, MeerKAT). Redshifts were compiled from spectroscopic and photometric catalogs (e.g., COSMOSWeb). We compared the redshift distribution to predictions from the SIDES simulations and other galaxy evolution models (e.g., SHARK and FLAMINGO). The N2CLS master catalog includes 323 sources detected at ≥80% purity, with 104 sources detected in both bands, 197 only at 1.2,mm, and 22 only at 2,mm. Multiwavelength identifications were secured for ∼89% of the sample. The redshift distribution of 1.2,mm high-purity (geq95%) sources peaks at $2.8 ± 0.1, consistent with the epoch of peak cosmic star formation. In the total sample, we lack redshifts for sim2% of the identified galaxies plus 34 sources for which no accurate positional proxy is available, preventing the identification of a multiwavelength counterpart. We identified 66 galaxies at z > 4 (19 with spectroscopic redshifts). The observed redshift distribution agrees well with the SIDES simulations, while four other galaxy evolution models are statistically inconsistent with the data. Using NIKA2 at the IRAM 30,m telescope, we conducted N2CLS, the largest contiguous deep millimeter survey to date at this depth with homogeneous coverage. This homogeneous coverage is important, as 25% of N2CLS sources lack a SCUBA2 850,̊m μ m counterpart, likely because the strongly nonuniform noise distribution of the SCUBA2 map results in lower sensitivity in parts of the field. The released data products, including maps, catalogs, and multiwavelength identifications, provide a legacy dataset for studying dust-obscured galaxy evolution. The N2CLS bridges wide-area single-dish observations and high-resolution interferometric studies, enabling future investigations into the physical properties and cosmic evolution of DSFGs.",
+      "summary": "Dusty star-forming galaxies (DSFGs) play a major role in the overall star formation in the Universe at high redshift. This homogeneous coverage is important, as 25% of N2CLS sources lack a SCUBA2 850,̊m μ m counterpart, likely because the strongly nonuniform noise distribution of the SCUBA2 map results in lower sensitivity in parts of the field.",
+      "authors": [
+        "Cristian Carvajal-Bohorquez",
+        "G. Lagache",
+        "A. Beelen",
+        "R. Adam",
+        "P. Ade",
+        "H. Ajeddig",
+        "Stergios Amarantidis",
+        "P. André",
+        "Manuel Aravena",
+        "Hervé Aussel",
+        "A. Benoît",
+        "Stefano Berta",
+        "M. Béthermin",
+        "L.J. Bing",
+        "Angel Manuel Bongiovanni",
+        "J. Bounmy",
+        "O. Bourrion",
+        "M. Calvo",
+        "Caitlin M. Casey",
+        "A. Catalano",
+        "Damien Cherouvrier",
+        "U. Chowdhury",
+        "M. De Petris",
+        "F.-X. Désert",
+        "S. Doyle",
+        "E. F. C. Driessen",
+        "G. Ejlali",
+        "Andreas L. Faisst",
+        "A. Ferragamo",
+        "A. Gomez",
+        "J. Goupy",
+        "C. Hanser",
+        "Shuowen Jin",
+        "Jeyhan S. Kartaltepe",
+        "S. Katsioli",
+        "F. Kéruzoré",
+        "C. Kramer",
+        "B. Ladjelat",
+        "S. Leclercq",
+        "J.-F. Lestrade",
+        "Juan Francisco Macias-Perez",
+        "S. C. Madden",
+        "Felix Martinez",
+        "Anaëlle J. Maury",
+        "F. Mayet",
+        "A. Monfardini",
+        "A. Moyer-Anin",
+        "M. Muñoz-Echeverría",
+        "I. Myserlis",
+        "R. Neri",
+        "A. Paliwal",
+        "L. Perotto",
+        "G. Pisano",
+        "N. Ponthieu",
+        "V. Revéret",
+        "A. J. Rigby",
+        "A. Ritacco",
+        "H. Roussel",
+        "F. Ruppin",
+        "Miguel Sánchez-Portal",
+        "S. Savorgnano",
+        "K. Schuster",
+        "A. Sievers",
+        "Sune Toft",
+        "C. Tucker",
+        "Jorge A. Zavala",
+        "R. Zylka"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202660707",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202660707",
+      "url": "https://doi.org/10.1051/0004-6361/202660707",
+      "pdf_url": "",
+      "openalex_id": "W7160038234",
+      "oa": true,
+      "type": "article",
+      "citations": 3,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "observations",
+          "star formation",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_7941230bd5d2",
+      "title": "New Detections of H 2 CO and c-C 3 H 2 in Planetary Nebulae: Broadening the Organic Inventory",
+      "abstract": "Observations of H 2 CO and c-C 3 H 2 were conducted toward six planetary nebulae (PNs; M1-7, M1-8, M2-48, M4-9, NGC 6445, and NGC 6853) at 1, 2, and 3 mm using the Arizona Radio Observatory’s 12 m antenna and Submillimeter Telescope (SMT). H 2 CO was detected toward all six nebulae on the basis of multiple transitions: the J Ka,Kc = 2 1,2 → 1 1,1, 2 0,2 → 1 0,1, and 2 1,1 → 1 1,0 lines at 2 mm and the J Ka,Kc = 3 0,3 → 2 0,2 transition at 1 mm. The c-C 3 H 2 molecule was identified in three sources, M1-7, M4-9, and NGC 6445, from 2 and 3 mm transitions (J Ka,Kc = 2 1,2 → 1 0,1, 3 1,2 → 2 2,1, and 4 1,4 → 3 0,3). These detections increase the number of PNs known to contain H 2 CO from five to 11, and for c-C 3 H 2 from four to seven. From a radiative transfer analysis, column densities of N tot (H 2 CO) ∼ 3.2 × 10 11 -1.2 × 10 13 cm -2 and N tot (c-C 3 H 2) ∼ 6.7 × 10 11 -6.3 × 10 12 cm -2 were determined. These values correspond to fractional abundances of f (H 2 CO/H 2) ∼ (0.3-2.4) × 10 -8 and f (c-C 3 H 2 /H 2) ∼ (1.6-6.6) × 10 -9. M4-9 exhibits the highest abundance of each molecule. Based on all known identifications in PNs, H 2 CO appears to be present in both carbon- and oxygen-rich nebulae, whereas c-C 3 H 2 is associated with only carbon-rich types. This result appears to reflect the chemistry of the previous asymptotic giant branch phase and is consistent with chemical continuity throughout PN evolution. Within the small sample, both species show fairly constant abundances across a nebular age range of 700-12,000 yr, with no statistically significant decrease. Both H 2 CO and c-C 3 H 2 are commonly observed in diffuse clouds. Therefore, their ongoing identifications in PNs suggest chemical continuity from the late phases of stellar evolution into the formation of the diffuse interstellar medium.",
+      "summary": "Observations of H 2 CO and c-C 3 H 2 were conducted toward six planetary nebulae (PNs; M1-7, M1-8, M2-48, M4-9, NGC 6445, and NGC 6853) at 1, 2, and 3 mm using the Arizona Radio Observatory’s 12 m antenna and Submillimeter Telescope (SMT). H 2 CO was detected toward all six nebulae on the basis of multiple transitions: the J Ka,Kc = 2 1,2 → 1 1,1, 2 0,2 → 1 0,1, and 2 1,1 → 1 1,0 lines at 2 mm and the J Ka,Kc = 3 0,3 → 2 0,2 transition at 1 mm.",
+      "authors": [
+        "K. R. Gold",
+        "Lucy M Ziurys"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeab84",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeab84",
+      "url": "https://doi.org/10.3847/1538-4357/aeab84",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeab84/pdf",
+      "openalex_id": "W7225430606",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "interstellar",
+          "observations",
+          "observatory",
+          "submillimeter",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_39fe26acc763",
+      "title": "Extension of 2-Ethoxyethanol Rotational Spectroscopy and Its Search in the Interstellar Medium",
+      "abstract": "Motivated by the recent detections of related alkoxy alcohols in the interstellar medium (ISM), we conducted a rotational spectroscopic study of 2-ethoxyethanol (C 2 H 5 OCH 2 CH 2 OH) to enable its search in the ISM. Quantum chemical calculations were performed to identify the lowest-energy conformers and predict their spectroscopic parameters. The rotational spectrum of the most stable conformer, -sc +sc ap ap-, was measured using complementary spectrometers covering the frequency regions 2-20, 6.5-18, 150-220, 230-330, and 370-500 GHz. A total of 2628 distinct transitions were assigned and fitted using a Watson A-reduced Hamiltonian, allowing the determination of rotational and centrifugal distortion constants up to the octic level. The resulting spectroscopic predictions are suitable for astronomical observations in the (sub)millimeter-wave domains. Using these new data, a search for -sc +sc ap ap- 2-ethoxyethanol was carried out toward NGC 6334I using Atacama Large Millimeter/submillimeter Array (ALMA) observations. No detection was obtained, and an upper limit column density of 1.1 × 10 17 cm -2 was derived.",
+      "summary": "Motivated by the recent detections of related alkoxy alcohols in the interstellar medium (ISM), we conducted a rotational spectroscopic study of 2-ethoxyethanol (C 2 H 5 OCH 2 CH 2 OH) to enable its search in the ISM. No detection was obtained, and an upper limit column density of 1.1 × 10 17 cm -2 was derived.",
+      "authors": [
+        "Agathe Maillard",
+        "D. Archie Stewart",
+        "J. Demaison",
+        "Manuel Goubet",
+        "Roman A. Motiyenko",
+        "Elias M. Neeman",
+        "Brett A. McGuire"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeaae5",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeaae5",
+      "url": "https://doi.org/10.3847/1538-4357/aeaae5",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeaae5/pdf",
+      "openalex_id": "W7225404896",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 20.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "astronomical",
+          "interstellar",
+          "ism",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_8316c3da3a7f",
+      "title": "Enhanced electron-beam lithography to reduce the frequency scatter of 200-400 GHz superconducting microstrip resonators for on-chip filterbank spectrometers",
+      "abstract": "Integrated superconducting spectrometers provide the instantaneous bandwidth, sensitivity, and scalable architecture required for large-scale spectroscopic surveys in submillimeter-wave astronomy and cosmology. However, the accuracy with which the resonant frequencies of superconducting microstrip bandpass filters can be spaced has limited the spectral resolution of these spectrometers with continuous spectral coverage to F/ΔF < 500. The origin of this frequency scatter has been largely unknown. In this work, we demonstrate a fourfold improvement in the frequency spacing of superconducting microstrip resonators by optimizing electron-beam lithography. We find that reducing the electron-beam step size also reduces the random frequency scatter and that avoiding main-field stitching across filter patterns can eliminate a systematic frequency shift between groups of resonators, indicating the different origins of these two modes of frequency deviation. These findings demonstrate that nanometer-scale control of lithographic processes is imperative for the realization of next-generation integrated superconducting spectrometers with higher spectral resolution.",
+      "summary": "Integrated superconducting spectrometers provide the instantaneous bandwidth, sensitivity, and scalable architecture required for large-scale spectroscopic surveys in submillimeter-wave astronomy and cosmology. In this work, we demonstrate a fourfold improvement in the frequency spacing of superconducting microstrip resonators by optimizing electron-beam lithography.",
+      "authors": [
+        "Leon G. G. Olde Scholtenhuis",
+        "David Johannes Thoen",
+        "J. Baselmans",
+        "K. Karatsu",
+        "L. H. Martin",
+        "S. Vollebregt",
+        "Akira Endo"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "APL Engineering Physics",
+      "doi": "10.1063/5.0345761",
+      "doi_url": "https://doi.org/10.1063/5.0345761",
+      "url": "https://doi.org/10.1063/5.0345761",
+      "pdf_url": "",
+      "openalex_id": "W7165659861",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 17.0
+      },
+      "matched": {
+        "submm": [
+          "astronomy",
+          "submillimeter",
+          "submillimeter wave"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_89089352369e",
+      "title": "Dynamical Impacts of Accretion Streamers on Protoplanetary Disks",
+      "abstract": "Recent observations suggest that accretion streamers are common in protoplanetary disks, yet their dynamical impact on disk evolution remains poorly understood. Using three-dimensional hydrodynamic simulations with mass-infall rates of 10 -8 -10 -6 M ⊙ yr -1, we investigate how streamer accretion influences the structure and evolution of protoplanetary disks. We find that a prograde streamer can excite disk eccentricity globally to values as high as ∼0.4. The resulting eccentric disk develops prominent spiral arms and crescent-shaped overdensities whose spatial structures agree remarkably well with analytic eccentric-disk theory. It also undergoes significant warping, and exhibits enhanced and variable stellar accretion. In contrast, retrograde streamer accretion efficiently removes disk angular momentum, producing a compact disk and, in extreme cases, triggering disk breaking. Using synthetic Atacama Large Millimeter/submillimeter Array (ALMA) molecular-line observations, we show that streamer-driven perturbations generate observable kinematic signatures, including Doppler flips in moment maps and wiggles in position-velocity diagrams. Remarkably, these signatures can persist for up to 100 kyr after infall has ceased, suggesting that some kinematic disturbances observed in disks without currently detected streamers may be relics of past infall events. Finally, we discuss the implications of streamer-driven disk evolution for planet formation and planet-disk interactions.",
+      "summary": "Recent observations suggest that accretion streamers are common in protoplanetary disks, yet their dynamical impact on disk evolution remains poorly understood. We find that a prograde streamer can excite disk eccentricity globally to values as high as ∼0.4.",
+      "authors": [
+        "Han-Gyeol Yun",
+        "Jeong-Eun Lee",
+        "Jaehan Bae",
+        "Woong-Tae Kim"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aead94",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aead94",
+      "url": "https://doi.org/10.3847/1538-4357/aead94",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aead94/pdf",
+      "openalex_id": "W7214786589",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 14.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations",
+          "protoplanetary",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_a18048a09783",
+      "title": "An ALMA View on Molecular Complexity: Water, Methanol, and Methyl Formate in the HD 100546 and IRS 48 Disks",
+      "abstract": "Water and methanol are the fundamental constituents of interstellar and cometary ices; understanding their abundances in disks is therefore of high importance to reveal how this ice reservoir evolves across the timeline of star and planet formation. We present Atacama Large Millimeter/submillimeter Array (ALMA) Band 5 line emission observations of water and methanol in the warm Herbig disks of HD 100546 and IRS 48. While the IRS 48 disk is methanol-rich, water vapor is not detected, implying a high methanol-to-water column density ratio of >0.2, possibly reflecting a distinct ice composition. Methanol and water are both detected in the HD 100546 disk, leading to a CH 3 OH/H 2 O ratio of ∼0.02, consistent with the median of the cometary distribution and with the lower edge of the distribution of young stellar objects (YSOs). We suggest that the gas-phase methanol-to-water ratio in the HD 100546 disk directly reveals the ice reservoir subsequently sublimated in the warm disk stage. Moreover, we report a methyl formate-to-methanol ratio in the IRS 48 disk of ∼0.2, consistent with the upper edge of the distribution of YSOs. The methyl formate-to-methanol ratio in the HD 100546 disk is ∼2, much higher than in younger and older sources, possibly reflecting a chemical enhancement of gas-phase methyl formate. We additionally constrain non-LTE conditions, optical depths, and emitting regions of the methanol lines in both disks. These results offer a new opportunity to probe the chemical trail of molecular complexity in the intermediate-disk stage, bridging early and late phases of the star and planet formation history.",
+      "summary": "Water and methanol are the fundamental constituents of interstellar and cometary ices; understanding their abundances in disks is therefore of high importance to reveal how this ice reservoir evolves across the timeline of star and planet formation. These results offer a new opportunity to probe the chemical trail of molecular complexity in the intermediate-disk stage, bridging early and late phases of the star and planet formation history.",
+      "authors": [
+        "L. Rampinelli",
+        "Stefano Facchini",
+        "M. De Simone",
+        "Margot Leemker",
+        "Alice S. Booth",
+        "M. Benisty",
+        "Pietro Curone",
+        "Humphreys Elizabeth",
+        "Leonardo Testi"
+      ],
+      "published": "2026-11-06",
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08T09:28:06+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb11e",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb11e",
+      "url": "https://doi.org/10.3847/1538-4357/aeb11e",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeb11e/pdf",
+      "openalex_id": "W7222947796",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 18.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "interstellar",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_351b1d2e121c",
       "title": "Why a Multi-Cycle Treasury Program is Essential to Maximize JWST's Scientific Contributions to Galaxy Formation",
@@ -599,7 +970,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -611,7 +982,7 @@
       "openalex_id": "W7131230785",
       "oa": true,
       "type": "article",
-      "citations": 0,
+      "citations": 3,
       "topics": [
         "submm"
       ],
@@ -661,7 +1032,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -669,11 +1040,11 @@
       "doi": "10.3847/1538-4357/aea3f6",
       "doi_url": "https://doi.org/10.3847/1538-4357/aea3f6",
       "url": "https://doi.org/10.3847/1538-4357/aea3f6",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea3f6/pdf",
       "openalex_id": "W7208781064",
       "oa": true,
       "type": "article",
-      "citations": 0,
+      "citations": 1,
       "topics": [
         "submm",
         "molecular"
@@ -715,7 +1086,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -765,7 +1136,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -808,7 +1179,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -858,7 +1229,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -914,7 +1285,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1126,7 +1497,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1171,7 +1542,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1225,7 +1596,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1441,7 +1812,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1480,7 +1851,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1535,7 +1906,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -1588,7 +1959,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-08T09:28:06+08:00",
       "sources": [
         "OpenAlex"
       ],

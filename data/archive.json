@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T09:28:06+08:00",
-    "generated_label": "2026-11-08 09:28",
-    "today": "2026-11-08",
+    "generated_at": "2026-11-09T09:45:05+08:00",
+    "generated_label": "2026-11-09 09:45",
+    "today": "2026-11-09",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 184,
-    "new_count": 7,
-    "digest_url": "digests/2026-11-08.md",
+    "paper_count": 186,
+    "new_count": 2,
+    "digest_url": "digests/2026-11-09.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,86 @@
   ],
   "papers": [
     {
+      "id": "p_e65044d95a93",
+      "title": "The Dual-Channel Quantum-Well Model - Key Physical Interpretations (Verbatim Statements)",
+      "abstract": "The Dual-Channel Quantum-Well Model - Key Physical Interpretations (Verbatim Statements) Note: This table contains 21 entries, each taken verbatim from the relevant discussions; no self-invented interpretations, terms, or formulas are added. The source document is noted at the end of each entry. No. / Topic Verbatim statement Source 1. Calibration Rules for the Three Types of Quantum Wells The three types of quantum wells are calibrated without regard to size or dimension; only their nesting level (number of layers) and the internal count of wells matter, with no volume constraint and their scale left arbitrary. Core 3 - Core Dynamics Deduction Record 2. Attribute Status of Quantum Wells and Underlying Annihilation Pairs Both the quantum-well structure and the underlying annihilation pairs belong to the first attribute of the universe, with no distinction of 'primary' vs 'secondary' between them. A quantum well provides nothing but a venue; it is the annihilation pairs that 'perform' within it, and every physical effect, including gravity (i.e. the gathering tendency of positive quantum wells), is realised by the reactions of the underlying pairs. Core 3 §4.3 3. Definition of the Three Types of Quantum Wells There are three types of quantum wells: positive, negative, and neutral. Positive wells perform gathering; negative wells perform outward diffusion; neutral wells are what this model defines as vacuum. Inside a neutral quantum well, half consists of positive quantum wells and half of negative quantum wells; this is one kind of nesting of quantum wells, and a quantum well may have both an inner wall and an outer wall. Core 3 §2.1; Main Paper 「vacuum」 definition (Postulate VI) 4. Matching Relation for the Entry and Exit of Annihilation Pairs For whatever reason, whenever a positive annihilation pair jumps out of a quantum well, a negative pair jumps into that same well, and vice versa - one exits, the other enters; positive and negative follow one another. Core 3 opening emphasis 5. Location of Our Universe Our universe lies inside the neutral quantum well of the quasi-super quantum well; its precise location is currently assumed to be in the region where the background microwave radiation of the quasi-super system lies. This neutral-well layer is also the host of other universes. Core 3 Location section 6. Super-Radiation and the Habitable Zone The entire quasi-super quantum-well system is super-radiation, and its photons are super-photons; life cannot exist under super-radiation. The interior of the accretion disk of the quasi-super quantum well carries super-radiation that necessarily appears as soon as the disk turns on, and there survival is impossible - this universe is not there. The relatively close vicinity of the quasi-super well is better, because the super-radiation there has been frequency-shifted down to a low level, acting only weakly at the outer fringe of the neutral well without doing great harm to the whole universe; our very existence is the best testimony to this. Core 3 Location section 7. Scaling of the Actions of the Two Wells The gathering action of the positive quantum well scales with radius as 1/R2, from the three-dimensional spherical symmetry of conserved gathering flux ∮F+·dS = 4πR2F+(R) = constant, yielding F+(R)=A/R2. The diffusion action of the negative quantum well is posited to scale as R^{1/3}, i.e. F-(R)=B·R^{1/3}. The coefficients A and B are to be calibrated. Core 3 §5.4 8. Comparison of the Reaction Speeds of the Two Wells The reaction speed of the positive well follows the same scaling, v+=A/R2; the reaction speed of the negative well is the square of its action, v-=B·R^{2/3}. The speed difference is Δv(R)=B·R^{2/3}-A/R2, with crossing point R*=(A/B)^{3/8}. For R R* the negative well reacts faster and the outward tendency dominates; at R=R* the two are equal. All coefficients are to be calibrated; only structural forms and criteria are given. Core 3 §5.4 9. Stability Mechanism at the Centre of the Quasi-Super Quantum Well To prove that the centre is stable one must use the black-hole-style bounded oscillation of eruption-and-replenishment: a balance of attack and defence at the centre together with eruption-and-replenishment (positive annihilation pairs are squeezed out → negative pairs jump in and fill the spot on the spot → the squeezed-out positive pairs diffuse outward → the peripheral creation system replenishes them → and so on in alternation). The centre's quantum-well nesting density is thereby locked for long periods at a stable high value, neither collapsing through nor dispersing, and remains always bounded. Core 3 §5.5 10. Definition of the Black-Hole Horizon The horizon is not a mathematical light-cone boundary; it is the position where the positive-energy density reaches the critical value (when viewed from outside in, the positive-energy density rises from small to large and sharply climbs to the critical value). At this point the inward gathering of positive wells and the outward diffusion of negative wells cancel each other, and, because of the dissipation of the underlying grid, photons cannot escape. Horizon & Shadow Derivation §2 11. Relation Between Horizon and Shadow The horizon and the shadow are the same place, with the same diameter. The horizon is the boundary where photons can no longer get out; the shadow is the projection of that boundary as seen by an external observer, i.e. what it looks like - the dark disc together with the bright ring. They are not two distinct positions. Horizon & Shadow Derivation §6.3 12. Photosphere Outside the Horizon Outside the horizon, at about 1.5 times the horizon radius, there is a thin photosphere (photon ring), which is the radius at which light can travel. There photons travel through negative wells inside the neutral (vacuum) wells, acting as 'temporary electrons' with electron-like speeds slower than light. Once this layer thickens and its effective mass reaches a threshold, light falls into the black hole and vanishes; fresh light and positive energy are continuously supplied from outside (light and positive energy being compressed inward, and the creation system on the inner side of the accretion disk feeding in), so that falling and replenishing balance and maintain a thin, isotropic, spherical submillimetre-radio emission shell. Horizon & Shadow Derivation §6.2 13. Onion Structure Inside a Black Hole The interior of a black hole is not a smooth singularity but an onion of alternating positive and negative quantum-well layers nested one inside another: positive layers are gathering layers, negative layers are diffusion layers; the closer to the centre, the deeper the nesting and the smaller the inter-layer spacing, and vice versa moving outward. It can be probed via gravitational-wave echoes, fine structure in the shadow, and discrete spectra of quasi-normal modes. Horizon & Shadow Derivation §8 14. Hard Rule for Formulas in This Model Within this theory and model, every physical formula must be tied to the three types of quantum wells and to the positive and negative annihilation pairs within them; any formula not so tied does not count as a physical formula of this model and may be used only as a yardstick for order-of-magnitude comparison. Central Critical Criterion §Appendix I 15. Measurement: Lower Distance Bounds in the Three Quantum-Well Attribute Regions In measurement or observation, when a positive quantum well is introduced, one must distinguish three regions: (i) the negative-well dominated region (the small-scale background), where the energy upper bound sets a minimum resolvable scale Δx_min-; (ii) the neutral-well region (i.e. vacuum), where the neutral attribute must first be 'opened' (broken) with a certain kinetic energy before compression or detection can take place, yielding Δx_min^N; detection is impossible when E_max ≤ ε_N; (iii) the positive-well dominated region, where the newly introduced positive well must keep a non-fusion distance d_min+ from existing positive wells. The overall resolvable scale is the largest of the three, Δx_min = max{Δx_min-, Δx_min^N, d_min+}. These scales cannot be measured directly and can only be inferred indirectly from outer observable signals; statements about the composition of the electron are cited only from Core Interpretation 2 §1.2, with no analysis of formation conditions. Central Critical Criterion §3 16. The Centre Does Not Collapse to a Singularity In this system, positive wells gather and negative wells diffuse. If positive wells gathered alone, with no diffusion by negative wells to squeeze out the excess positive pairs, their gathering would never be interrupted, the centre would be pressed further and further down without returning to equilibrium - i.e. a singularity in the sense of general relativity. The centre spoken of here is precisely this singularity centre. The positive annihilation pairs at the centre are squeezed out - that is, the threshold (valve value) there has been reached: the threshold makes the annihilation pairs of the positive quantum well jump out, and the level or topological structure of the quantum well is about to change; the positive pairs that have jumped out are then filled by negative pairs, which weakens the tendency of the positive well's level, nesting level, or topological deformation to increase, because the level of the negative wells there has increased again. So, over and over, a dynamic equilibrium is reached: the centre reaches the very degree at which the quantum-well threshold changes - positive pairs jump out of the well, negative pairs jump into this well and become negative wells - and this offsets the increase in the positive we",
+      "summary": "The Dual-Channel Quantum-Well Model - Key Physical Interpretations (Verbatim Statements) Note: This table contains 21 entries, each taken verbatim from the relevant discussions; no self-invented interpretations, terms, or formulas are added. Measurement: Lower Distance Bounds in the Three Quantum-Well Attribute Regions In measurement or observation, when a positive quantum well is introduced, one must distinguish three regions: (i) the negative-well…",
+      "authors": [
+        "weihui lu"
+      ],
+      "published": "2026-11-07",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09T09:45:05+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24036428",
+      "doi_url": "https://doi.org/10.5281/zenodo.24036428",
+      "url": "https://doi.org/10.5281/zenodo.24036428",
+      "pdf_url": "",
+      "openalex_id": "W7225460089",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "submillimetre",
+          "observation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_511717bb82ac",
+      "title": "Molecules in the shadows of the protoplanetary disk HD 143006. Evidence of C/O,≳,1 from simultaneously modeling fourteen ALMA lines",
+      "abstract": "The inner disk of the T,Tauri star HD,143006 is inclined and casts a broad shadow over a large portion of the outer disk. We use this extraordinary geometry to study the impact of stellar ultraviolet (UV) irradiation on disk chemistry, temperature, and line formation. We present new ALMA observations of this disk, covering CO, 13 CO, C^18O, CN, HCN, HCO^+$, CS, and C_3H_2. Combined with previously published C_2H, N_2H^+ and H_2CO observations, these data constitute an extensive dataset of fourteen ALMA lines from nine different molecules. We subdivide these data into two disk halves: the illuminated part and the shadowed part. We develop ProDiMo models for these two disk halves by optionally including an inclined inner disk that blocks the stellar illumination of the upper layers of the outer disk without hindering the stellar illumination of the outer disk along the midplane. The observed line flux contrasts between the illuminated and the shadowed disk sides are not very pronounced. We explain this phenomenon by introducing ``equilibrated models'' that consider a slow heating and cooling relaxation of gas parcels orbiting in and out of the shadow. Our results fit the radial line intensity profiles of all ALMA lines, both in flux and radial shape, with an overall reduced ̧hi of about 2.3, both from the illuminated and the shadowed disk sides, along with two ALMA continuum images, where we see evidence of radial drift, and the spectral energy distribution (SED) beyond 20,μm, all with one model. In most cases, the line intensities only increase slightly on the illuminated side because the gas warms up slowly, although fast UV photochemistry significantly reduces the observable molecular concentrations. The dust temperatures increase even more rapidly, but this has little effect on the line formation. However, for the lines of N_2H^+ and CS, which probe deeper layers where the gas and dust temperatures are coupled, slow UV desorption of ices such as NH_3 and H_2S plays a crucial role. This can result in a brightening of these lines on the shadowed side. Our analysis suggests with high confidence that the carbon-to-oxygen ratio in the outer disk of HD,143006 is slightly greater than one (∼,1.05). The disk mass is fit to be as low as 0.0012,M_⊙. However, almost equally well-fitting models with a fixed disk mass of $0.021 M_⊙ can be obtained after readjusting the disk shape, dust, and gas heating and cooling parameters.",
+      "summary": "The inner disk of the T,Tauri star HD,143006 is inclined and casts a broad shadow over a large portion of the outer disk. We present new ALMA observations of this disk, covering CO, 13 CO, C^18O, CN, HCN, HCO^+$, CS, and C_3H_2.",
+      "authors": [
+        "Sierk E. van Terwisga",
+        "P. Woitke",
+        "A. M. Weiss",
+        "A. D. Bosman",
+        "Leon Trapman"
+      ],
+      "published": "2026-11-07",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09T09:45:05+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661449",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661449",
+      "url": "https://doi.org/10.1051/0004-6361/202661449",
+      "pdf_url": "",
+      "openalex_id": "W7214083719",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_15bab49094a7",
       "title": "When the Shadow Meets Its Measure: Assessing the Feasibility of Submillimeter Black Hole Shadow Imaging in Megamaser-disk Active Galactic Nuclei",
       "abstract": "Well-modeled water megamaser disks offer a path to black hole shadow (BHS) tests of strong-field gravity beyond Sgr A* and M87*: their very long baseline interferometry (VLBI) angular dynamics precisely constrains M • / D, the maser-disk orientation, and the dynamical center within the maser reference frame, thereby predicting the fiducial Schwarzschild BHS angular size without an externally adopted distance. We assess 21 megamaser galaxies as BHS targets using published maser measurements to calculate BHS angular sizes and baseline requirements. We combine new Submillimeter Array (SMA) continuum observations with archival Atacama Large Millimeter/submillimeter Array (ALMA) and Very Large Array (VLA) measurements to estimate arcsecond-scale 230 GHz flux densities and identify the strongest nuclear-region sources for higher-resolution follow-up. We also estimate the maximum dust and extended-jet contributions, examine limited variability measurements, and, for the leading candidate NGC 4258, evaluate the astrometry required to detect a spin-dependent offset between the BHS center and the maser dynamical center. Only NGC 4258 has an adopted BHS angular size resolvable with an Earth-L2 baseline; the other adopted sizes require longer baselines, while an Earth-L4/L5 separation would be sufficient for all. Five sources reach S 230 ≳ 10 mJy. However, whether the observed 230 GHz emission arises on BHS scales and is sufficiently optically thin to reveal a BHS remains unknown throughout the sample. NGC 4258’s submillimeter excess is consistent with a thin disk transitioning to an advection-dominated flow; its spin-offset test remains infeasible with present maser astrometry.",
@@ -49,7 +129,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -156,7 +236,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -199,7 +279,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -245,7 +325,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -266,12 +346,12 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "astronomical",
           "interstellar",
           "ism",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -292,7 +372,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -300,7 +380,7 @@
       "doi": "10.1063/5.0345761",
       "doi_url": "https://doi.org/10.1063/5.0345761",
       "url": "https://doi.org/10.1063/5.0345761",
-      "pdf_url": "",
+      "pdf_url": "https://pubs.aip.org/aip/aep/article-pdf/doi/10.1063/5.0345761/21194975/016101_1_5.0345761.pdf",
       "openalex_id": "W7165659861",
       "oa": true,
       "type": "article",
@@ -333,7 +413,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -380,7 +460,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -401,10 +481,10 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
           "interstellar",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -970,7 +1050,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1032,7 +1112,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1086,7 +1166,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1136,7 +1216,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1179,7 +1259,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1229,7 +1309,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1285,7 +1365,7 @@
       ],
       "published": "2026-11-04",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1497,7 +1577,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1542,7 +1622,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1596,7 +1676,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1906,7 +1986,7 @@
       ],
       "published": "2026-11-02",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-08T09:28:06+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2061,7 +2141,7 @@
       ],
       "published": "2026-11-01",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-07T09:57:38+08:00",
+      "last_seen": "2026-11-09T09:45:05+08:00",
       "sources": [
         "OpenAlex"
       ],

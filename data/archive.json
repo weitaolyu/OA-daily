@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T12:08:48+08:00",
-    "generated_label": "2026-11-10 12:08",
-    "today": "2026-11-10",
+    "generated_at": "2026-11-11T09:57:33+08:00",
+    "generated_label": "2026-11-11 09:57",
+    "today": "2026-11-11",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 190,
-    "new_count": 4,
-    "digest_url": "digests/2026-11-10.md",
+    "paper_count": 192,
+    "new_count": 2,
+    "digest_url": "digests/2026-11-11.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,9 +39,58 @@
   ],
   "papers": [
     {
+      "id": "p_933880da0ee8",
+      "title": "Intermediate-redshift ultra-luminous infrared galaxies as transitioning objects between main sequence and starburst galaxies",
+      "abstract": "With their star formation efficiencies (SFE) and star formation rates (SFR) falling between normal star-forming galaxies and starbursts (SBs), ultra-luminous infrared galaxies (ULIRGs) at intermediate redshifts ($0.2<z<1$) have been postulated to be good probes of galaxies transitioning between these two regimes. Here, we present new Atacama Large Millimetre Array (ALMA) observations of a representative sample of 22 ULIRGs at redshifts $0.46<z<0.81$ evenly distributed across dust temperature ranges of $25<T_{\\rm dust}<50~K$ and spanning infrared luminosities of $10^{12.0}<L_\\text{IR}<10^{12.7}~L_\\odot$. We detected CO(2-1) emission in 14 of these galaxies (64%). The SFE of these 14 targets are all similar, corresponding to depletion timescales on the order of hundreds of Myr. By employing two different versions of the main sequence relation of galaxies -- one based on the specific SFR (sSFR) and one based on directly observable parameters (CO and IR luminosities) -- we statistically confirm that the present sample of intermediate redshift ULIRGs indeed lies in the transitional region between MS and SB galaxies. In addition, we establish that the SFE of our sample of ULIRGs is a strong indicator of the position of a galaxy relative to the MS and the SB branches. Based on the observed morphologies and star-forming properties, we suggest that minor mergers provide a viable mechanism for temporarily enhancing the SFR and SFE of intermediate-redshift ULIRGs, although other evolutionary phases and pathways cannot be excluded.",
+      "summary": "With their star formation efficiencies (SFE) and star formation rates (SFR) falling between normal star-forming galaxies and starbursts (SBs), ultra-luminous infrared galaxies (ULIRGs) at intermediate redshifts ($0.2<z<1$) have been postulated to be good probes of galaxies transitioning between these two regimes. Here, we present new Atacama Large Millimetre Array (ALMA) observations of a representative sample of 22 ULIRGs at redshifts $0.46<z<0.81$…",
+      "authors": [
+        "J. -H. Kim",
+        "D. Rigopoulou",
+        "M. Pereira-Santaella",
+        "L. Barrufet",
+        "A. Alonso-Herrero",
+        "I. Garc\\'ia-Bernete",
+        "C. Pearson"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11T09:57:33+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.12147",
+      "pdf_url": "https://arxiv.org/pdf/2611.12147",
+      "arxiv_id": "2611.12147",
+      "arxiv_url": "https://arxiv.org/abs/2611.12147",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "star formation",
+          "dust",
+          "galaxies",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_33ddd0e64c84",
       "title": "Evidence for Ambipolar Diffusion from Ion-Neutral Velocity Drift in HH 212",
-      "abstract": "We present the Atacama Large Millimeter/submillimeter Array Band 7 observations of the hyperfine structure of C$^{17}$O (3-2) and the H$^{13}$CO$^{+}$ (4-3) molecular line emissions of the Class 0 protostellar system HH 212 at $\\sim$ 44 au spatial resolution. Radiative transfer models interpreted in the framework of non-ideal MHD of the envelope allow us to estimate an envelope mass of $M_{env}\\sim0.12\\,M_\\odot$ and a mass infall rate of $\\dot{M}_{env}\\sim4.4-5.7\\times10^{-6}\\,M_\\odot\\,\\mathrm{yr}^{-1}$, consistent with values reported in the literature. The models also reveal a systematic radial velocity drift between the neutral tracer (C$^{17}$O (3-2)) and the ionized species (H$^{13}$CO$^{+}$ (4-3)) of $0.1-0.3$ km s$^{-1}$, exceeding the spectral resolution of 0.105 km s$^{-1}$ and consistent with possible ambipolar diffusion in the envelope. The ambipolar diffusion fraction, $f_{AD}\\sim 0.1-1$, and the Hall parameter, $β_{i,H_2}\\gg1$, indicate partial ion-neutral decoupling, with non-ideal effects becoming more significant toward the inner regions. In the envelope, our analysis shows that rotational energy decreases from $\\sim 50\\,\\%$ of the gravitational energy at $R_{cen}$ to $\\sim 25\\,\\%$ at $2R_{cen}$ and $\\sim4\\,\\%$ at 1100 au. In contrast, for $B_0=1$ mG, magnetic energy increases from $\\sim 0.4\\,\\%$ of the gravitational energy at $R_{cen}$ to $\\sim2.6\\,\\%$ at $2R_{cen}$ and $\\sim20\\,\\%$ at 1100 au. The drift velocity expected from radial force balance is consistent with the modeled drift velocity within $\\sim300-400$ au of the central source but is lower at larger radii. These results are consistent with a scenario in which ambipolar diffusion leads to partial ion-neutral decoupling, allowing neutrals to move faster than ions within the envelope.",
+      "abstract": "We present the Atacama Large Millimeter/submillimeter Array Band 7 observations of the hyperfine structure of C$^{17}$O (3-2) and the H$^{13}$CO$^{+}$ (4-3) molecular line emissions of the Class 0 protostellar system HH 212 at $\\sim$ 44 au spatial resolution. Radiative transfer models interpreted in the framework of non-ideal MHD of the envelope allow us to estimate an envelope mass of $M_{env}\\sim0.12\\,M_\\odot$ and a mass infall rate of $\\dot{M}_{env}\\sim4.4-5.7\\times10^{-6}\\,M_\\odot\\,\\mathrm{yr}^{-1}$, consistent with values reported in the literature. The models also reveal a systematic radial velocity drift between the neutral tracer (C$^{17}$O (3-2)) and the ionized species (H$^{13}$CO$^{+}$ (4-3)) of $0.1-0.3$ km s$^{-1}$, exceeding the spectral resolution of 0.105 km s$^{-1}$ and consistent with possible ambipolar diffusion in the envelope. The ambipolar diffusion fraction, $f_{AD}\\sim 0.1-1$, and the Hall parameter, $\\beta_{i,H_2}\\gg1$, indicate partial ion-neutral decoupling, with non-ideal effects becoming more significant toward the inner regions. In the envelope, our analysis shows that rotational energy decreases from $\\sim 50\\,\\%$ of the gravitational energy at $R_{cen}$ to $\\sim 25\\,\\%$ at $2R_{cen}$ and $\\sim4\\,\\%$ at 1100 au. In contrast, for $B_0=1$ mG, magnetic energy increases from $\\sim 0.4\\,\\%$ of the gravitational energy at $R_{cen}$ to $\\sim2.6\\,\\%$ at $2R_{cen}$ and $\\sim20\\,\\%$ at 1100 au. The drift velocity expected from radial force balance is consistent with the modeled drift velocity within $\\sim300-400$ au of the central source but is lower at larger radii. These results are consistent with a scenario in which ambipolar diffusion leads to partial ion-neutral decoupling, allowing neutrals to move faster than ions within the envelope.",
       "summary": "We present the Atacama Large Millimeter/submillimeter Array Band 7 observations of the hyperfine structure of C$^{17}$O (3-2) and the H$^{13}$CO$^{+}$ (4-3) molecular line emissions of the Class 0 protostellar system HH 212 at $\\sim$ 44 au spatial resolution. The models also reveal a systematic radial velocity drift between the neutral tracer (C$^{17}$O (3-2)) and the ionized species (H$^{13}$CO$^{+}$ (4-3)) of $0.1-0.3$ km s$^{-1}$, exceeding the…",
       "authors": [
         "J. A. López-Vázquez",
@@ -54,7 +103,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -77,8 +126,8 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -86,8 +135,8 @@
     {
       "id": "p_931c5016bf96",
       "title": "B-fields In STar-forming Region Observations (BISTRO): Population-Level Universality and Environmental Structuring of 450/850 $μ$m Polarization Signatures",
-      "abstract": "We observed 69 molecular cloud regions at 450 and 850 $μ$m with the POL-2 polarimeter on the James Clerk Maxwell Telescope and matched the maps to a common $12.6''$ beam. Polarization fractions are typically lower at 450 $μ$m. The median of 30 measured ratios is $P_{450}/P_{850} = 0.69 \\pm 0.02_{\\rm sys} \\pm 0.03_{\\rm stat}$. Across 35 regions with reliable spectral indices of total ($α$) and polarized ($γ$) intensity, the medians over sources are $\\langleα\\rangle = 3.33$ and $\\langleγ\\rangle = 2.85$-$3.04$. The median $γ- α$ is $-0.57$ to $-0.45$, with $γ< α$ in 24-27 regions. These ranges span the two extreme placements of $3σ$ limits for polarized intensity below the noise floor. The position angles at the two wavelengths agree within $10^\\circ$ in 10 of 13 regional medians, disfavoring a geometric origin that would rotate the angles. The medians of $γ-α$ in 9 low-mass, 19 high-mass and 7 Central Molecular Zone (CMZ) regions are not ordered low-mass $<$ high-mass $<$ CMZ (Jonckheere-Terpstra $p = 0.43$-$0.70$). A difference among classes is not robustly detected. The Kruskal-Wallis $p = 0.056$-$0.078$ becomes $p = 0.026$-$0.041$ when the Rosette Molecular Cloud alone is excluded, although the high-mass class has the lowest median in every treatment. The classes follow a distance sequence (the beam spans 0.008-0.51 pc), coupling environment and physical scale. Within clouds, the 450 $μ$m polarization fraction decreases with Herschel column density in all 7 fields with sufficient dynamic range. Coefficients from pooled pixels mix trends within clouds, differences between clouds, and the influence of OMC 1. They therefore do not define a single law for individual pixels. The wavelength dependence across sources provides a benchmark for grain alignment. We cannot order it by environment and do not propose a unique mechanism.",
-      "summary": "We observed 69 molecular cloud regions at 450 and 850 $μ$m with the POL-2 polarimeter on the James Clerk Maxwell Telescope and matched the maps to a common $12.6''$ beam. The median of 30 measured ratios is $P_{450}/P_{850} = 0.69 \\pm 0.02_{\\rm sys} \\pm 0.03_{\\rm stat}$.",
+      "abstract": "We observed 69 molecular cloud regions at 450 and 850 $\\mu$m with the POL-2 polarimeter on the James Clerk Maxwell Telescope and matched the maps to a common $12.6''$ beam. Polarization fractions are typically lower at 450 $\\mu$m. The median of 30 measured ratios is $P_{450}/P_{850} = 0.69 \\pm 0.02_{\\rm sys} \\pm 0.03_{\\rm stat}$. Across 35 regions with reliable spectral indices of total ($\\alpha$) and polarized ($\\gamma$) intensity, the medians over sources are $\\langle\\alpha\\rangle = 3.33$ and $\\langle\\gamma\\rangle = 2.85$-$3.04$. The median $\\gamma - \\alpha$ is $-0.57$ to $-0.45$, with $\\gamma < \\alpha$ in 24-27 regions. These ranges span the two extreme placements of $3\\sigma$ limits for polarized intensity below the noise floor. The position angles at the two wavelengths agree within $10^\\circ$ in 10 of 13 regional medians, disfavoring a geometric origin that would rotate the angles. The medians of $\\gamma-\\alpha$ in 9 low-mass, 19 high-mass and 7 Central Molecular Zone (CMZ) regions are not ordered low-mass $<$ high-mass $<$ CMZ (Jonckheere-Terpstra $p = 0.43$-$0.70$). A difference among classes is not robustly detected. The Kruskal-Wallis $p = 0.056$-$0.078$ becomes $p = 0.026$-$0.041$ when the Rosette Molecular Cloud alone is excluded, although the high-mass class has the lowest median in every treatment. The classes follow a distance sequence (the beam spans 0.008-0.51 pc), coupling environment and physical scale. Within clouds, the 450 $\\mu$m polarization fraction decreases with Herschel column density in all 7 fields with sufficient dynamic range. Coefficients from pooled pixels mix trends within clouds, differences between clouds, and the influence of OMC 1. They therefore do not define a single law for individual pixels. The wavelength dependence across sources provides a benchmark for grain alignment. We cannot order it by environment and do not propose a unique mechanism.",
+      "summary": "We observed 69 molecular cloud regions at 450 and 850 $\\mu$m with the POL-2 polarimeter on the James Clerk Maxwell Telescope and matched the maps to a common $12.6''$ beam. The median of 30 measured ratios is $P_{450}/P_{850} = 0.69 \\pm 0.02_{\\rm sys} \\pm 0.03_{\\rm stat}$.",
       "authors": [
         "Ray S. Furuya",
         "David Berry",
@@ -160,7 +209,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -185,15 +234,15 @@
       },
       "matched": {
         "submm": [
-          "pol-2",
           "herschel",
           "molecular cloud",
           "observations",
+          "pol-2",
           "telescope"
         ],
         "molecular": [
-          "molecular cloud",
           "grain alignment",
+          "molecular cloud",
           "polarization",
           "star-forming region"
         ]
@@ -251,7 +300,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -295,7 +344,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -338,7 +387,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -445,7 +494,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -488,7 +537,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -534,7 +583,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -581,7 +630,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -622,7 +671,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -669,7 +718,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1224,6 +1273,47 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_da5e5d949070",
+      "title": "Missing Outer Rings in the exoALMA Sample: Physical Mechanisms Suppressing Dust Ring Formation Despite Strong Pressure Bumps",
+      "abstract": "The exoALMA survey has revealed candidate gas pressure bumps at radii beyond the observed millimetre continuum discs in several protoplanetary systems, raising the question of whether these regions could host undetected dust structures. We investigate this for nine of the exoALMA discs by reconstructing gas surface density profiles from midplane pressure gradient measurements derived from 12CO and 13CO ALMA Band 7 observations. We evolve the dust using dustpy across a grid of turbulence and fragmentation parameters (α ∈ {10-4, 10-3}; vfrag ∈ {1, 10} m s-1), followed by radiative transfer calculations with radmc-3d to give predictions for the continuum emission. We find that the dominant outcome across the explored parameter space is efficient outer dust trapping, leading to prominent outer continuum rings that should be detectable at ALMA Band 7, in tension with the observations. The 13CO-based reconstructions almost universally produce detectable outer rings, whereas the 12CO-based reconstructions show more variation. We further test delayed formation of the outer pressure bump and enhanced outer-disc turbulence as possible suppression mechanisms of ring formation. Enhanced turbulence weakens the predicted outer continuum emission most effectively, although the efficiency of the mechanism depends on the system explored and on where the turbulence transition is placed. Delayed bump formation generally does not prevent rapid outer dust accumulation.",
+      "summary": "The exoALMA survey has revealed candidate gas pressure bumps at radii beyond the observed millimetre continuum discs in several protoplanetary systems, raising the question of whether these regions could host undetected dust structures. We find that the dominant outcome across the explored parameter space is efficient outer dust trapping, leading to prominent outer continuum rings that should be detectable at ALMA Band 7, in tension with the observations.",
+      "authors": [
+        "Lilian Luo",
+        "Paola Pinilla",
+        "Jochen Stadler"
+      ],
+      "published": "2026-11-05",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11T09:57:33+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stag2109",
+      "doi_url": "https://doi.org/10.1093/mnras/stag2109",
+      "url": "https://doi.org/10.1093/mnras/stag2109",
+      "pdf_url": "",
+      "openalex_id": "W7225254332",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_86624f990a0b",
       "title": "Digging into the Interior of Hot Cores with ALMA (DIHCA). VIII. Feeding a high-mass binary system in the making",
       "abstract": "We analyze the gas kinematics in the proto-binary NGC 6334I(N) ALMAe9-ALMAe14 system with the Atacama Large Millimeter/submillimeter Array (ALMA) at 1.33 mm with an angular resolution of 66 mas (~90 au). With a separation of 740 au between the system members, these observations allow a detailed study of the gas motion around this likely binary system hosting at least one growing high-mass star. Some CH$_3$OH lines tracing cold gas ($E_u/k_B$~100 K) reveal the presence of ordered circumbinary gas motion around the binary system within a ~1000 au radius, and rotation around the individual sources with rotation axes pointing roughly in the same direction. We estimate a central source mass, uncorrected for inclination, of 2 M$_\\odot$ for the secondary, while the primary has an estimated mass of 5 M$_\\odot$ as reported in previous works. The CH$_3$OH transitions with higher $E_u/k_B$ ($\\gtrsim400$ K) values reveal circumstellar gas rotation in ALMAe9 consistent with the cold gas tracers. The vibrationally excited SO emission also traces rotation around ALMAe9 and potentially an accretion shock from a flow feeding the circumstellar disk of ALMAe14. We identify two potential inflows feeding the circumstellar disks from the circumbinary gas at rates of ~$10^{-6}-10^{-4}$ M$_\\odot$ yr$^{-1}$ from CH$_3$OH emission. An additional third inflow seems to be feeding the primary from gas at larger scales.",
@@ -1244,7 +1334,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1310,7 +1400,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1372,7 +1462,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-10T12:08:48+08:00",
+      "last_seen": "2026-11-11T09:57:33+08:00",
       "sources": [
         "OpenAlex"
       ],

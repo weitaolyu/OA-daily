@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-11T09:57:33+08:00",
-    "generated_label": "2026-11-11 09:57",
-    "today": "2026-11-11",
+    "generated_at": "2026-11-12T11:04:01+08:00",
+    "generated_label": "2026-11-12 11:04",
+    "today": "2026-11-12",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 192,
-    "new_count": 2,
-    "digest_url": "digests/2026-11-11.md",
+    "paper_count": 197,
+    "new_count": 5,
+    "digest_url": "digests/2026-11-12.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -38,6 +38,280 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_0d500f352a87",
+      "title": "Molecular signatures of shocked gas and enhanced cosmic-ray ionization in supernova remnant W49B revealed by ALMA",
+      "abstract": "Galactic supernova remnants (SNRs) interacting with molecular clouds (MCs) provide important laboratories for investigating how supernova feedback is transferred to the interstellar medium. We performed observations of the HCO+ J=1-0, 3-2, and 4-3 lines, as well as the CO J=3-2 line, toward the eastern and western regions of SNR W49B using the Atacama Large Millimeter/submillimeter Array (ALMA) and the Atacama Pathfinder Experiment (APEX) telescope. In W49B west, we identify twelve regions with broad-line profiles in both HCO+ and CO emission, with FWHM of 25-60 km/s, providing clear evidence of SNR-MC interaction. These emissions are compact (at $\\sim$5 arcsec resolution) and spatially coincident with 2.12~$\\mu$m H$_2$ emission, but generally offset from the 1.64~$\\mu$m [Fe~II] and radio continuum peaks. Non-LTE analyses yield shocked-gas densities of (0.5-1.6) $\\times 10^5$~cm$^{-3}$ and high $N_{\\rm HCO+}/N_{\\rm CO}$ abundance ratios of (4.2-14.5) $\\times 10^{-4}$. Reproducing such high abundance ratios in shocked MCs requires high cosmic ray ionization rates (CRIRs) of a few 10$^{-14}$-10$^{-13}$~s$^{-1}$, about 3-4 orders of magnitude above the standard Galactic level. Some regions exhibit enhanced HCO+/CO intensity ratios in their high-velocity line wings, possibly due to multiple unresolved shocks spanning a range of velocities and gas densities, spatial variations in the CRIR, or both. By contrast, the ratio remains nearly constant with velocity in other regions. For these regions, we further explore the propagation of low-energy CRs through the post-shock layer. An energy-budget analysis of a representative shocked clump indicates that the shock-associated kinetic-energy reservoir substantially exceeds cumulative CR and X-ray heating inputs, with CR heating exceeding X-ray heating.[abridged]",
+      "summary": "Galactic supernova remnants (SNRs) interacting with molecular clouds (MCs) provide important laboratories for investigating how supernova feedback is transferred to the interstellar medium. In W49B west, we identify twelve regions with broad-line profiles in both HCO+ and CO emission, with FWHM of 25-60 km/s, providing clear evidence of SNR-MC interaction.",
+      "authors": [
+        "Wenjin Yang",
+        "Ping Zhou",
+        "Zhi-Yu Zhang",
+        "Gao-Yuan Zhang",
+        "Bon-Chul Koo",
+        "Yan Gong",
+        "Ruo-Yu Liu",
+        "Hidetoshi Sano",
+        "Tian-Yu Tu",
+        "Yang Chen",
+        "Tram N. Le",
+        "Lianghao Lin",
+        "Friedrich Wyrowski"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12T11:04:01+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.13519v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13519v1",
+      "arxiv_id": "2611.13519",
+      "arxiv_url": "https://arxiv.org/abs/2611.13519v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 19.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "observations",
+          "submillimeter",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_cc945463fa38",
+      "title": "Mapping Gas Accretion and Stellar Kinematics to Subkiloparsec Scales in NGC 4696 with JWST/NIRSpec",
+      "abstract": "We present JWST/NIRSpec Integral Field Unit spectroscopy of the central 618 × 618 pc 2 (∼3′′ × 3′′) of NGC 4696, the brightest cluster galaxy in the Centaurus cluster. Leveraging the ∼ 0. ′′ 1 (20.6 pc) pixel size of JWST, we resolve a compact rotating circumnuclear disk (CND) (radius of ∼120 pc) traced by Pa α and H 2 1 - 0 S(1) emission, which allows a reassessment of the active galactic nucleus position based on the kinematic center of this disk. A central Pa α velocity dispersion reaching σ ∼ 449 km s -1 implies an SMBH mass of ∼10 9 M ⊙, corresponding to a sphere of influence of r inf ∼ 60 pc, resolved by our observations. Position-velocity diagrams reveal an increase from ∼-200 to ∼600 km s -1 on scales of ∼150 pc (a gradient of 4.7 km s -1 pc -1) and an accretion rate of ∼18 M ⊙ yr -1 feeding the CND. The Pa α emission shows a double component in the core, with a high-dispersion redshifted component reaching σ ∼ 600 km s -1. In contrast, MUSE H α observations covering the ∼10 kpc-scale filamentary structure recover only weak velocity gradients (≲150 km s -1) within ∼300 × 300 pc 2 and do not resolve the disk due to larger point-spread functions and pixel sizes. Atacama Large Millimeter/submillimeter Array CO(2-1) data reveal only compact molecular clumps within a ∼410 × 410 pc 2 region, with no extended counterpart to the structures traced by Pa α and H 2 1 - 0 S(1). Stellar kinematics show a smooth velocity field and broad dispersion profile, clearly decoupled from both the multiphase gas and the hot intracluster medium probed by XRISM. These results provide a direct, spatially resolved view of gas dynamics within the inner few hundred parsecs, demonstrating the power of JWST/NIRSpec to probe SMBH feeding.",
+      "summary": "We present JWST/NIRSpec Integral Field Unit spectroscopy of the central 618 × 618 pc 2 (∼3′′ × 3′′) of NGC 4696, the brightest cluster galaxy in the Centaurus cluster. Position-velocity diagrams reveal an increase from ∼-200 to ∼600 km s -1 on scales of ∼150 pc (a gradient of 4.7 km s -1 pc -1) and an accretion rate of ∼18 M ⊙ yr -1 feeding the CND.",
+      "authors": [
+        "Mathieu Marquis",
+        "Julie Hlavacek-Larrondo",
+        "Olivia Pereira",
+        "Michael Reefe",
+        "Hyunseop Choi",
+        "J. K. Barrera-Ballesteros",
+        "Benjamin Vigneron",
+        "Ming Sun",
+        "Rebecca Canning",
+        "Gregory Taylor",
+        "Loïc Albert",
+        "Francesco D'Eugenio",
+        "Megan E. Donahue",
+        "Andrew C. Fabian",
+        "G. J. Ferland",
+        "John S. Gallagher",
+        "Marie-Lou Gendron-Marsolais",
+        "P. Guillard",
+        "Minghao Guo",
+        "Nina Hatch",
+        "Ralf Kotulla",
+        "Yuan Li",
+        "R. Maiolino",
+        "Allison W. S. Man",
+        "Michael A. McDonald",
+        "Brian R. McNamara",
+        "Valeria Olivares",
+        "Marine Prunier",
+        "Christopher S. Reynolds",
+        "Rhea Carter",
+        "A. Richard-Laferrière",
+        "Helen R. Russell",
+        "Philippe Salomé",
+        "Prathamesh Tamhane",
+        "Auriane Thilloy",
+        "Grant R Tremblay",
+        "G. Mark Voit",
+        "S A Walker"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12T11:04:01+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aead9f",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aead9f",
+      "url": "https://doi.org/10.3847/1538-4357/aead9f",
+      "pdf_url": "",
+      "openalex_id": "W7222387221",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 9.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_865870155f25",
+      "title": "Empirical constraints on cosmic-ray scattering in NGC 1333 from dust polarisation",
+      "abstract": "Cosmic rays (CRs) regulate molecular-cloud ionization and chemistry. Gyro-resonant scattering by magnetic fluctuations sets their mean free path and, on larger scales, their effective diffusion coefficient. However, coefficients inferred from CR distributions averaged over cloud to Galactic scales leave local magnetic structure unresolved. We use the magnetic-field structure of NGC 1333 and its embedded protostellar core IRAS 4A to estimate local CR scattering rates and effective diffusion coefficients, $D(E)$, and examine their variation with environment and scale. We analyse JCMT/POL-2 maps of nine NGC 1333 regions and ALMA Band 7 maps of two IRAS 4A regions. We estimate plane-of-sky field strengths and derive fluctuation spectra from polarisation-angle structure functions. Where these spectra are sufficiently constrained, we apply quasi-linear gyro-resonant theory to calculate CR pitch-angle scattering rates and $D(E)$. The measured fluctuations constrain CR scattering over proton energy intervals of approximately 0.24-5.3 PeV in NGC 1333 and 10-57 TeV in IRAS 4A. Within these intervals, $D(E)$ spans approximately $3\\times10^{28}$-$10^{31}\\,{\\rm cm^2\\,s^{-1}}$. Scattering varies substantially between regions and is stronger where the magnetic-field angular dispersion is greater. Extrapolation to common energies suggests scattering in IRAS 4A is one to two orders of magnitude stronger than its surroundings. Within the directly probed intervals, the scattering mean free paths exceed the individual region sizes. The inferred diffusion coefficients therefore characterise local scattering conditions. A cloud-scale diffusive regime requires CRs to sample multiple regions with different scattering rates. Dust polarisation observations therefore provide constraints on CR scattering in clouds, connecting scattering to cloud-scale transport at energies accessible to $\\gamma$-ray observatories.",
+      "summary": "Cosmic rays (CRs) regulate molecular-cloud ionization and chemistry. The measured fluctuations constrain CR scattering over proton energy intervals of approximately 0.24-5.3 PeV in NGC 1333 and 10-57 TeV in IRAS 4A.",
+      "authors": [
+        "Szu-Ting Chen",
+        "Ellis R. Owen",
+        "Alison M. W. Mitchell",
+        "Shih-Ping Lai",
+        "Sheng-Jun Lin"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12T11:04:01+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.HE",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.14203v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14203v1",
+      "arxiv_id": "2611.14203",
+      "arxiv_url": "https://arxiv.org/abs/2611.14203v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "molecular"
+      ],
+      "scores": {
+        "submm": 15.0,
+        "molecular": 37.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "molecular cloud",
+          "observations",
+          "pol-2"
+        ],
+        "molecular": [
+          "alma",
+          "dust polarisation",
+          "jcmt",
+          "magnetic",
+          "magnetic field",
+          "molecular cloud",
+          "polarisation"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_07baeac0fd77",
+      "title": "Angular momentum transport in a newborn protostar--disc system: magnetic braking, spiral arms and the magneto-rotational instability",
+      "abstract": "Angular momentum transport in young protostar--disc systems involves magnetic braking, magneto-rotational turbulence and gravitational instability, mechanisms that are usually studied separately and on different scales. We present a three-dimensional non-ideal magnetohydrodynamic simulation, including Ohmic and ambipolar diffusion, that follows the collapse of a $1~M_\\odot$ dense core continuously from the cloud scale to the formation of the protostar, and then the resulting protostar--disc system for $\\sim 64~\\mathrm{yr}$ at a resolution of $\\sim 10^{-4}~\\mathrm{AU}$ at the protostellar surface. We decompose the azimuthally averaged angular momentum budget into Reynolds, Maxwell and gravitational torques, each split into a radial and a meridional component, over a quasi-steady phase of the evolution. The collapse produces a thick disc an order of magnitude more massive than the protostar, whose specific angular momentum decreases as it accretes. Accretion through the disc is vertically layered, with accreting and decreting layers at the same radius, a pattern set layer by layer by the torques. The transport separates into three regimes delimited by the coupling of the magnetic field to the gas. Magnetic braking operates in the envelope. Maxwell stresses dominate inside $\\sim 0.1~\\mathrm{AU}$, where the field recouples and the magneto-rotational instability develops. In the ambipolar dead zone that makes up the bulk of the disc, the Reynolds stress dominates, carried by $m=2$ spiral arms in a marginally unstable disc, with the gravitational stress as a secondary contributor. Meridional transport is as important as radial transport, so that a one-dimensional viscous model fitted to the net mass flux would require a negative $\\alpha$ over part of the disc.",
+      "summary": "Angular momentum transport in young protostar--disc systems involves magnetic braking, magneto-rotational turbulence and gravitational instability, mechanisms that are usually studied separately and on different scales. We present a three-dimensional non-ideal magnetohydrodynamic simulation, including Ohmic and ambipolar diffusion, that follows the collapse of a $1~M_\\odot$ dense core continuously from the cloud scale to the formation of the protostar,…",
+      "authors": [
+        "Antonin Borderies",
+        "Benoît Commerçon",
+        "Adnan Ali Ahmad"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12T11:04:01+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.SR",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.13729v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.13729v1",
+      "arxiv_id": "2611.13729",
+      "arxiv_url": "https://arxiv.org/abs/2611.13729v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 22.0
+      },
+      "matched": {
+        "molecular": [
+          "dense core",
+          "magnetic",
+          "magnetic field",
+          "magnetohydrodynamic",
+          "turbulence"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_600a03889e0d",
+      "title": "ALMA Observations of the Molecular Gas in the Elliptical Galaxies NGC 2865 and NGC 4697",
+      "abstract": "We present the results of our Atacama Large Millimeter/submillimeter Array (ALMA) 2.6 mm observations of the bona fide elliptical galaxies NGC 2865 and NGC 4697. Both targets were detected in 2.6 mm continuum and in CO(1-0) emission. The continuum is unresolved in both sources at scales of ∼ 0. ′′ 8. The detected molecular gas masses are (1.5 ± 0.5) × 10 7 M ⊙ (NGC 2865) and (1.2 ± 0.1) × 10 7 M ⊙ (NGC 4697). The extent of the molecular gas is similar (i.e., within 300 pc of the center) for both targets, but the distributions are quite different, with NGC 2865 showing a centrally peaked distribution with an extension westwards of the nucleus, while NGC 4697 has a highly inclined, slightly warped molecular disk (8° variation in the inclination as a function of radial distance) with offset symmetric peaks. The kinematics of the molecular gas for NGC 2865 could not be studied in detail, but NGC 4697 shows a clear rotation pattern. On average, the excitation of the molecular interstellar medium in these objects is subthermal, with CO(2-1)/CO(1-0) ∼ 0.5. At least for NGC 4697, this seems to be due to a higher fraction of low-excitation gas when compared with spiral galaxies. The molecular disk in NGC 4697 appears stable against gravitational collapse, which seems to justify the very low star formation rates reported in the literature.",
+      "summary": "We present the results of our Atacama Large Millimeter/submillimeter Array (ALMA) 2.6 mm observations of the bona fide elliptical galaxies NGC 2865 and NGC 4697. The detected molecular gas masses are (1.5 ± 0.5) × 10 7 M ⊙ (NGC 2865) and (1.2 ± 0.1) × 10 7 M ⊙ (NGC 4697).",
+      "authors": [
+        "Baltasar Vila-Vilaró",
+        "D. Espada",
+        "J. Cepa",
+        "Paulo C. Cortés"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12T11:04:01+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astronomical Journal",
+      "doi": "10.3847/1538-3881/aeb2f0",
+      "doi_url": "https://doi.org/10.3847/1538-3881/aeb2f0",
+      "url": "https://doi.org/10.3847/1538-3881/aeb2f0",
+      "pdf_url": "",
+      "openalex_id": "W7225696439",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 23.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "alma",
+          "interstellar",
+          "star formation",
+          "galaxies",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_933880da0ee8",
       "title": "Intermediate-redshift ultra-luminous infrared galaxies as transitioning objects between main sequence and starburst galaxies",
@@ -103,7 +377,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "arXiv"
       ],
@@ -209,7 +483,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "arXiv"
       ],
@@ -300,7 +574,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -344,7 +618,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "arXiv"
       ],
@@ -387,7 +661,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -494,7 +768,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -537,7 +811,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -583,7 +857,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -630,7 +904,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -671,7 +945,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -718,7 +992,7 @@
       ],
       "published": "2026-11-06",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-12T11:04:01+08:00",
       "sources": [
         "OpenAlex"
       ],

@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T11:04:01+08:00",
-    "generated_label": "2026-11-12 11:04",
-    "today": "2026-11-12",
+    "generated_at": "2026-11-13T10:38:55+08:00",
+    "generated_label": "2026-11-13 10:38",
+    "today": "2026-11-13",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 197,
-    "new_count": 5,
-    "digest_url": "digests/2026-11-12.md",
+    "paper_count": 201,
+    "new_count": 4,
+    "digest_url": "digests/2026-11-13.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,278 @@
   ],
   "papers": [
     {
+      "id": "p_e34214782760",
+      "title": "Validation of PREFIRE mid- and far-infrared radiances during the WHAFFFERS campaign",
+      "abstract": "Despite containing up to half of the Earth's thermal emission to space, the far-infrared spectral region (FIR, defined here as 100-667 cm -1 or 15-100 μm) has seldom been observed from satellites. This has contributed to substantial uncertainties in the spectroscopy of water vapour, radiative properties of clouds, and surface spectral emissivity; these in turn limit confidence in modelled FIR energy flows. With the advent of the Polar Radiant Energy in the Far-InfraRed Experiment (PREFIRE), a step is taken towards new, systematic, spectral observations of the Earth in the FIR. Launched in 2024, the two PREFIRE CubeSats offer a new perspective of Earth's outgoing longwave energy with moderate spectral resolution. However, the observational uncertainty budget requires further consolidation. In this study we assess the accuracy of PREFIRE spectral measurements through a “ground-to-space” closure experiment. Using zenith-viewing observations from the ground-based Far INfrarEd Spectrometer for Surface Emissivity (FINESSE) recorded during the WHAFFFERS campaign, we constrain atmospheric data taken from in situ sensors. With this optimised profile data we simulate PREFIRE-observed radiances for an overflight of our field site in eastern Canada. Simulations of the FINESSE radiances are in very good agreement with observations, while those from PREFIRE indicate some bias beyond the calculated uncertainties. We find that atmospheric water vapour specification, uncertain surface properties, and instrument noise dominate the uncertainties. Based on these findings, we highlight proposed techniques for closure experiments using terrestrial and satellite instruments alike. Such experiments will provide a ground-truth for validation of future FIR satellite missions.",
+      "summary": "Despite containing up to half of the Earth's thermal emission to space, the far-infrared spectral region (FIR, defined here as 100-667 cm -1 or 15-100 μm) has seldom been observed from satellites. Using zenith-viewing observations from the ground-based Far INfrarEd Spectrometer for Surface Emissivity (FINESSE) recorded during the WHAFFFERS campaign, we constrain atmospheric data taken from in situ sensors.",
+      "authors": [
+        "Benedict Pery",
+        "Helen Brindley",
+        "Jonathan Murray",
+        "Sophie Mosselmans",
+        "Sanjeevani Panditharatne",
+        "Laura Warwick",
+        "Robin James Hogan",
+        "Yi Huang",
+        "Benjamin Riot-Bretêcher",
+        "H. Oetjen",
+        "Dirk Schuettemeyer",
+        "Tristan L’Ecuyer"
+      ],
+      "published": "2026-11-11",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13T10:38:55+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Atmospheric measurement techniques",
+      "doi": "10.5194/amt-19-7183-2026",
+      "doi_url": "https://doi.org/10.5194/amt-19-7183-2026",
+      "url": "https://doi.org/10.5194/amt-19-7183-2026",
+      "pdf_url": "https://amt.copernicus.org/articles/19/7183/2026/amt-19-7183-2026.pdf",
+      "openalex_id": "W7161001193",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 21.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_f6845f59c233",
+      "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-induced Minor-axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
+      "abstract": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging. We show that brightness asymmetry along the minor axis of highly inclined disks provides a simple, powerful geometric diagnostic of vertical dust structure. Using radiative transfer modeling with RADMC-3D, we generate synthetic continuum images showing that the observed asymmetry arises naturally from disk inclination, optical depth, and dust scale height. We apply this framework to nine Class 0 and I disks from the Atacama Large Millimeter/submillimeter Array (ALMA) Large Program, Early Planet Formation in Embedded Disks (eDisk), using Markov Chain Monte Carlo (MCMC) fitting. Outflow observations independently validate the inferred near- and far-side geometries; all eight sources with useful outflow constraints agree with the orientations predicted by the dust continuum modeling. Our results indicate that most embedded disks show no strong evidence of significant dust settling, with dust scale heights comparable to the gas scale height. Given that the literature indicates Class II disks tend to be well settled, our results reinforce the notion that significant dust settling occurs during the Class I phase, when deeply embedded Class 0 disks transition to their more revealed Class II counterparts. Intriguingly, the timing of dust settling appears to broadly coincide with the development of widespread dust substructures, suggesting that gravitationally driven vertical dust concentration may have triggered substructure formation.",
+      "summary": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. Given that the literature indicates Class II disks tend to be well settled, our results reinforce the notion that significant dust settling occurs during the Class I phase, when deeply embedded Class 0 disks transition to their more revealed Class II counterparts.",
+      "authors": [
+        "Sidhant Kumar Suar",
+        "Zhe-Yu Daniel Lin",
+        "Zhi-Yun Li",
+        "Nagayoshi Ohashi",
+        "Shigehisa Takakuwa",
+        "John Tobin",
+        "Leslie W. Looney",
+        "Mayank Narang",
+        "Youngwoo Choi",
+        "Woojin Kwon",
+        "Patrick Sheehan",
+        "Ilseung Han"
+      ],
+      "published": "2026-11-11",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13T10:38:55+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeaf4b",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeaf4b",
+      "url": "https://doi.org/10.3847/1538-4357/aeaf4b",
+      "pdf_url": "",
+      "openalex_id": "W7215074830",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 14.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_829343917a9a",
+      "title": "Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument",
+      "abstract": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. Accurate $R(V)$ values are crucial for dereddening astronomical colors and understanding the interstellar medium. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars. We use XGBoost to predict stars' intrinsic colors from their spectroscopic parameters ($T_\\mathrm{eff}$, $\\log g$, $[\\mathrm{Fe/H}]$) and subtract them from observed colors to measure reddening in combinations of the $g$, $r$, $z$, $W1$, and $W2$ bands. This approach directly measures reddening, unlike the common thermal-emission-based method of Schlegel et al. (1998; SFD). The reddening is accurate to roughly 0.02 mag in $g-r$ and $r-z$. We develop a forward model to map $g-r$ and $g-W1$ reddenings to $R(V)$ and find significant variation in $R(V)$, with $σ_\\mathrm{NMAD}(R(V)) = 0.23$, in dusty regions ($E(g-r) > 0.1$) at high Galactic latitudes observed by DESI. In this footprint, $R(V)$ is bimodal, with modes at 2.9 and 3.4, likely due to large-spatial-scale correlations in the shape of the extinction curve combined with the relatively small number of distinct sightlines with substantial reddening. We find no strong relationship between $R(V)$ and other tracers of the interstellar medium, such as thermal emission, dust temperature, spectral emissivity index $β$, and $Hα$. However, the error in the SFD-predicted extinction correlates well with $R(V)$, implying that a single optical reddening combined with the far-infrared dust brightness can predict variations in the extinction curve.",
+      "summary": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars.",
+      "authors": [
+        "Sarv Parteek Singh",
+        "Edward F. Schlafly",
+        "Rongpu Zhou",
+        "Sergey E. Koposov",
+        "Joan R. Najita",
+        "J. Aguilar",
+        "S. Ahlen",
+        "C. Allende Prieto",
+        "D. Bianchi",
+        "D. Brooks",
+        "A. Carnero Rosell",
+        "F. J. Castander",
+        "E. Chaussidon",
+        "T. Claybaugh",
+        "A. P. Cooper",
+        "A. Cuceu",
+        "K. S. Dawson",
+        "A. de la Macorra",
+        "Biprateep Dey",
+        "P. Doel",
+        "S. Ferraro",
+        "J. E. Forero-Romero",
+        "E. Gaztañaga",
+        "Satya Gontcho A Gontcho",
+        "G. Gutierrez",
+        "J. Guy",
+        "C. Hahn",
+        "H. K. Herrera-Alcantar",
+        "R. Joyce",
+        "T. Karim",
+        "R. Kehoe",
+        "D. Kirkby",
+        "A. Kremin",
+        "A. Lambert",
+        "C. Lamman",
+        "M. Landriau",
+        "L. Le Guillou",
+        "M. E. Levi",
+        "M. Manera",
+        "P. Martini",
+        "A. Meisner",
+        "R. Miquel",
+        "J. Moustakas",
+        "A. D. Myers",
+        "S. Nadathur",
+        "J. A. Newman",
+        "E. Paillas",
+        "W. J. Percival",
+        "C. Poppett",
+        "F. Prada",
+        "I. Pérez-Ràfols",
+        "C. Ravoux",
+        "G. Rossi",
+        "R. Ruggeri",
+        "L. Samushia",
+        "E. Sanchez",
+        "C. Saulder",
+        "D. Schlegel",
+        "M. Schubnell",
+        "H. Seo",
+        "J. Silber",
+        "M. Siudek",
+        "G. Tarlé",
+        "B. A. Weaver",
+        "H. Zou"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13T10:38:55+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.14639v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14639v1",
+      "arxiv_id": "2611.14639",
+      "arxiv_url": "https://arxiv.org/abs/2611.14639v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 16.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "astronomical",
+          "interstellar",
+          "dust"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_4c457c8ca1a3",
+      "title": "Tracing Galactic Dust Reddening with Polycyclic Aromatic Hydrocarbon Emission: SPHEREx Observations of the North Ecliptic Pole",
+      "abstract": "We investigate the ability of SPHEREx observations of the $3.3$ $μ$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $μ$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP). We convert the PAH feature strength to reddening by applying a radiation field correction and a linear scale factor. The resulting $E(B-V)$ map is consistent with far-infrared, stellar, and HI-based reddening maps at arcminute scales, exhibiting a typical $E(B-V)$ difference of $\\lesssim 7$ mmag. A galaxy count test finds that all reddening maps have a dispersion of $\\approx11$ mmag in $E(B-V)$ relative to what would be needed to produce spatially uniform galaxy counts. While there is some evidence that reddening is overestimated by our map at high PAH abundances, this effect is smaller than the uncertainties on the applied radiation field corrections and limited to $\\sim$10 mmag in the most extreme regions of the NEP. For a diffuse, high Galactic latitude region like the NEP and at the sensitivities of our validation metrics, the SPHEREx PAH-emission based reddening map matches the accuracy of existing reddening maps while being capable of accessing a higher angular resolution of $\\sim6''$.",
+      "summary": "We investigate the ability of SPHEREx observations of the $3.3$ $μ$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $μ$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP).",
+      "authors": [
+        "Dennis Lee",
+        "Brandon Hensley",
+        "Tzu-Ching Chang",
+        "Olivier Doré",
+        "Matt Ashby",
+        "Shuang-Shuang Chen",
+        "Yun-Ting Cheng",
+        "Yi-Kuan Chiang",
+        "Brendan Crill",
+        "Ari Cukierman",
+        "Andreas Faisst",
+        "Joe Hora",
+        "Zhaoyu",
+        "Huai",
+        "Howard Hui",
+        "Woong-Seob Jeong",
+        "Miju Kang",
+        "Carey Lisse",
+        "Dan Masters",
+        "Gary Melnick",
+        "Chi Nguyen",
+        "Roberta Paladini",
+        "Ji Yeon Seok",
+        "Volker Tolls",
+        "Michael Werner",
+        "Mike Zemcov"
+      ],
+      "published": "2026-11-10",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13T10:38:55+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.14640v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14640v1",
+      "arxiv_id": "2611.14640",
+      "arxiv_url": "https://arxiv.org/abs/2611.14640v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "dust",
+          "galaxy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_0d500f352a87",
       "title": "Molecular signatures of shocked gas and enhanced cosmic-ray ionization in supernova remnant W49B revealed by ALMA",
       "abstract": "Galactic supernova remnants (SNRs) interacting with molecular clouds (MCs) provide important laboratories for investigating how supernova feedback is transferred to the interstellar medium. We performed observations of the HCO+ J=1-0, 3-2, and 4-3 lines, as well as the CO J=3-2 line, toward the eastern and western regions of SNR W49B using the Atacama Large Millimeter/submillimeter Array (ALMA) and the Atacama Pathfinder Experiment (APEX) telescope. In W49B west, we identify twelve regions with broad-line profiles in both HCO+ and CO emission, with FWHM of 25-60 km/s, providing clear evidence of SNR-MC interaction. These emissions are compact (at $\\sim$5 arcsec resolution) and spatially coincident with 2.12~$\\mu$m H$_2$ emission, but generally offset from the 1.64~$\\mu$m [Fe~II] and radio continuum peaks. Non-LTE analyses yield shocked-gas densities of (0.5-1.6) $\\times 10^5$~cm$^{-3}$ and high $N_{\\rm HCO+}/N_{\\rm CO}$ abundance ratios of (4.2-14.5) $\\times 10^{-4}$. Reproducing such high abundance ratios in shocked MCs requires high cosmic ray ionization rates (CRIRs) of a few 10$^{-14}$-10$^{-13}$~s$^{-1}$, about 3-4 orders of magnitude above the standard Galactic level. Some regions exhibit enhanced HCO+/CO intensity ratios in their high-velocity line wings, possibly due to multiple unresolved shocks spanning a range of velocities and gas densities, spatial variations in the CRIR, or both. By contrast, the ratio remains nearly constant with velocity in other regions. For these regions, we further explore the propagation of low-energy CRs through the post-shock layer. An energy-budget analysis of a representative shocked clump indicates that the shock-associated kinetic-energy reservoir substantially exceeds cumulative CR and X-ray heating inputs, with CR heating exceeding X-ray heating.[abridged]",
@@ -60,7 +332,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "arXiv"
       ],
@@ -139,7 +411,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -147,7 +419,7 @@
       "doi": "10.3847/1538-4357/aead9f",
       "doi_url": "https://doi.org/10.3847/1538-4357/aead9f",
       "url": "https://doi.org/10.3847/1538-4357/aead9f",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aead9f/pdf",
       "openalex_id": "W7222387221",
       "oa": true,
       "type": "article",
@@ -160,9 +432,9 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "galaxy",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -181,7 +453,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "arXiv"
       ],
@@ -236,7 +508,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "arXiv"
       ],
@@ -281,7 +553,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -289,7 +561,7 @@
       "doi": "10.3847/1538-3881/aeb2f0",
       "doi_url": "https://doi.org/10.3847/1538-3881/aeb2f0",
       "url": "https://doi.org/10.3847/1538-3881/aeb2f0",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-3881/aeb2f0/pdf",
       "openalex_id": "W7225696439",
       "oa": true,
       "type": "article",
@@ -302,12 +574,12 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "alma",
-          "interstellar",
-          "star formation",
           "galaxies",
-          "observations"
+          "interstellar",
+          "observations",
+          "star formation",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -377,7 +649,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "arXiv"
       ],
@@ -483,7 +755,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "arXiv"
       ],
@@ -574,7 +846,7 @@
       ],
       "published": "2026-11-07",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-12T11:04:01+08:00",
+      "last_seen": "2026-11-13T10:38:55+08:00",
       "sources": [
         "OpenAlex"
       ],

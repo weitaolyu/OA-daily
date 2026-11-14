@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T10:38:55+08:00",
-    "generated_label": "2026-11-13 10:38",
-    "today": "2026-11-13",
+    "generated_at": "2026-11-14T10:28:04+08:00",
+    "generated_label": "2026-11-14 10:28",
+    "today": "2026-11-14",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 201,
-    "new_count": 4,
-    "digest_url": "digests/2026-11-13.md",
+    "paper_count": 213,
+    "new_count": 12,
+    "digest_url": "digests/2026-11-14.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,572 @@
   ],
   "papers": [
     {
+      "id": "p_3c3d8a14b46e",
+      "title": "Which Grains Align? The Radiative-Torque Alignment Size and the Aligned Mass Fraction in Five Environments",
+      "abstract": "Only grains above a certain size are expected to align with the magnetic field by radiative torques, and that size decides how much of the dust mass can polarise light. This paper evaluates an alignment-size scaling with gas density and radiation strength for five environments and converts the result into the aligned mass fraction of a power-law size distribution. In diffuse gas the alignment size is 0.055 microns and the aligned mass fraction is 0.6184; in a dense core the alignment size rises to 1.078 microns and the aligned fraction falls to 0.0; near a massive star strong radiation lowers the alignment size to 0.0402 microns and the aligned fraction rises to 0.6978. In the dense core the alignment size exceeds the largest grains the standard distribution contains, so within that distribution no mass remains aligned at all; polarisation from dense cores is therefore intrinsically suppressed by the loss of aligned mass, quite apart from field geometry, and any polarisation that is observed from such cores must be carried by grains grown beyond the standard distribution, which is itself evidence for that growth. All values are computed from stated scalings, not measured.",
+      "summary": "Only grains above a certain size are expected to align with the magnetic field by radiative torques, and that size decides how much of the dust mass can polarise light. All values are computed from stated scalings, not measured.",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24180496",
+      "doi_url": "https://doi.org/10.5281/zenodo.24180496",
+      "url": "https://doi.org/10.5281/zenodo.24180496",
+      "pdf_url": "",
+      "openalex_id": "W7225866379",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 25.0
+      },
+      "matched": {
+        "molecular": [
+          "dense core",
+          "dense cores",
+          "magnetic field",
+          "polarisation",
+          "magnetic"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_6656f4a902f9",
+      "title": "B-fields And Dust in InterstelLar FiLAments Using Dust POLarization (BALLAD-POL): V. Magnetic Fields and Grain Alignment Mechanisms in Serpens Main Using JCMT/POL-2 Polarization",
+      "abstract": "We investigate magnetic fields ($B$-field) and grain alignment mechanisms in Serpens Main using 850 $\\mu$m dust polarization observations from JCMT/POL-2. We derive a map of $B$-field strength and calculate the mass-to-flux ratio and Alfv\\'enic Mach number, suggesting the subdominance of $B$-fields over gravity but their dominance over turbulence. Fitting the Ricean mean model to the nondebiased polarization fraction ($P$) as a function of emission intensity ($I$) yields a slope $\\alpha = 0.68\\pm0.01$, revealing depolarization. To understand its origins, we examine the dependence of $P$ on gas column density ($N({\\rm H}_{2})$), dust temperature ($T_{\\rm d}$), and polarization angle dispersion function ($S$). We find no correlation between $P$ and $S$, whereas for $P\\times S$, an observational proxy for alignment efficiency decreases with increasing $N({\\rm H}_{2})$. This suggests that $B$-field tangling is not the primary cause of depolarization and instead points to reduced grain alignment in denser regions. To test this interpretation within radiative torque (RAT) alignment theory, we calculate the minimum size of aligned grains ($a_{\\rm align}$) and magnetic relaxation strength ($\\delta_{\\rm mag,sp}$) using $N({\\rm H}_{2})$, $T_{\\rm d}$, and our estimated $B$-field map. We find that both $P$ and $P \\times S$ decrease with increasing $a_{\\rm align}$, supporting reduced grain alignment as the main cause of depolarization in Serpens Main. However, neither $P$ nor $P \\times S$ shows a correlation with $\\delta_{\\rm mag,sp}$, suggesting that enhanced grain alignment due to magnetic relaxation is insufficient to compensate for the reduced alignment associated with increasing $a_{\\rm align}$ toward denser regions.",
+      "summary": "We investigate magnetic fields ($B$-field) and grain alignment mechanisms in Serpens Main using 850 $\\mu$m dust polarization observations from JCMT/POL-2. Fitting the Ricean mean model to the nondebiased polarization fraction ($P$) as a function of emission intensity ($I$) yields a slope $\\alpha = 0.68\\pm0.01$, revealing depolarization.",
+      "authors": [
+        "Sadhana Singh",
+        "Thiem Hoang",
+        "Pham Ngoc Diep",
+        "Nguyen Bich Ngoc",
+        "Woojin Kwon"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.16385",
+      "pdf_url": "https://arxiv.org/pdf/2611.16385",
+      "arxiv_id": "2611.16385",
+      "arxiv_url": "https://arxiv.org/abs/2611.16385",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 19.0
+      },
+      "matched": {
+        "submm": [
+          "pol-2",
+          "interstellar",
+          "dust",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_ca42e741a9a9",
+      "title": "ALMA quiet Sun observations compared with a simulated MURaM-ChE chromosphere",
+      "abstract": "Aims. We assess the ability of the MURaM-ChE enhanced network simulation to reproduce the chromospheric millimeter brightness observed with ALMA and investigate the properties of the simulated emission. Methods. We analyze synthetic brightness temperatures from the MURaM-ChE model in ALMA Bands 3 (3.2 mm) and 6 (1.3 mm) and compare them with ALMA observations of quiet-Sun, network, and enhanced network regions. We examine the statistical properties of the brightness distributions, their dependence on magnetic field strength, and their variation with wavelength, using results from Bifrost enhanced network snapshots as additional reference cases. Results. The MURaM-ChE model reproduces the range and variability of brightness temperatures observed in enhanced network regions, with particularly close agreement found for the 23 April 2017 data set. The reference Bifrost snapshots produce lower brightness temperatures in both bands, with values below even those measured by ALMA in the quiet Sun. The systematic offset between the models is present in both bands and is likely associated with differences in atmospheric density stratification and the resulting effective formation heights. Both the observations and simulations show an overall increase in brightness temperature with magnetic field strength and wavelength, although significant scatter is present. Conclusions. The results indicate that the MURaM-ChE model provides a physically consistent representation of chromospheric conditions in enhanced network regions and captures key properties of the observed millimeter emission. The comparison highlights the sensitivity of millimeter brightness to atmospheric stratification and magnetic structure and demonstrates the diagnostic potential of ALMA observations for constraining chromospheric models.",
+      "summary": "We assess the ability of the MURaM-ChE enhanced network simulation to reproduce the chromospheric millimeter brightness observed with ALMA and investigate the properties of the simulated emission. The comparison highlights the sensitivity of millimeter brightness to atmospheric stratification and magnetic structure and demonstrates the diagnostic potential of ALMA observations for constraining chromospheric models.",
+      "authors": [
+        "Maria Loukitcheva",
+        "Sami K. Solanki",
+        "Damien Przybylski",
+        "Stephen M. White",
+        "Robert Cameron"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.SR",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.17028",
+      "pdf_url": "https://arxiv.org/pdf/2611.17028",
+      "arxiv_id": "2611.17028",
+      "arxiv_url": "https://arxiv.org/abs/2611.17028",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 10.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c3865e2fe51d",
+      "title": "The Magnetic Critical Mass-to-Flux Ratio in Observed Cores: How Many Cores Are Magnetically Supercritical?",
+      "abstract": "This paper addresses a single question: Given the field strengths inferred from Zeeman and polarisation measurements, how large a mass can magnetic flux alone support in a core, and by what factor do observed core masses exceed that support? Using published molecular-cloud and young-stellar-object measurements as inputs, and carrying the spin-torsion density bound of 9.72 x 10^57 kilograms per cubic metre and its critical shear of 8.56 x 10^32 per second as fixed comparison scales, the calculation finds that for representative field strengths of 10 to 100 microgauss the magnetic critical mass ranges from a few solar masses in a small core to several hundred in a cloud envelope, and the representative cores considered here are supercritical by factors of about one and a half to two, so magnetic support delays collapse but does not prevent it in these cases; no quantity supplied by the density or shear bound enters this comparison, which is stated as a negative result for the frame in this channel. The headline values are: n supercritical = 4; lambda range = 1.47 to 2.20; Mcrit quiescent Msun = 2.3. All values are computed from the stated formulae and inputs; this is a simulated and computed study, not a measurement. Where the comparison scales supplied by the torsion framework turn out to be too remote to influence the process, that outcome is reported as a negative result rather than passed over.",
+      "summary": "This paper addresses a single question: Given the field strengths inferred from Zeeman and polarisation measurements, how large a mass can magnetic flux alone support in a core, and by what factor do observed core masses exceed that support? Using published molecular-cloud and young-stellar-object measurements as inputs, and carrying the spin-torsion density bound of 9.72 x 10^57 kilograms per cubic metre and its critical shear of 8.56 x 10^32 per second…",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24174106",
+      "doi_url": "https://doi.org/10.5281/zenodo.24174106",
+      "url": "https://doi.org/10.5281/zenodo.24174106",
+      "pdf_url": "",
+      "openalex_id": "W7225881711",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "molecular"
+      ],
+      "scores": {
+        "molecular": 20.0
+      },
+      "matched": {
+        "molecular": [
+          "magnetic",
+          "molecular cloud",
+          "polarisation",
+          "zeeman"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_f0ca33cc72bd",
+      "title": "Peering into the Midplane of the DM Tau Disk Using N 2 H + and DCO +",
+      "abstract": "Planets form in the midplanes of protoplanetary disks; thus, investigating the properties of the midplane region can shed light on the physical and chemical processes governing the evolution of planetary systems. In this work, we study the conditions near the midplane of the disk around DM Tau using 0. ′′ 3 (∼43 au) Atacama Large Millimeter/submillimeter Array ​​​​​observations of N 2 H + (J = 3-2) and DCO + (J = 4-3). The radial profiles reveal that DCO + is centrally peaked, with a depression near 120 au, while N 2 H + exhibits a central depression and a peak near 100 au. In addition, both molecules display extended emission out to 400 au. Using parametric models to interpret our observations, we note that a fiducial model based on CO-derived parameters captures the features within 200 au, but fails to reproduce the outer disk emission. We explore various mechanisms that could account for this extended emission and conclude that it is best reproduced by an increased external UV penetration and cosmic-ray/X-ray ionization rate, possibly enhanced by radial drift. These processes affect the precursors of N 2 H + and DCO +: increased UV leads to the photodesorption of CO and N 2, while ionization enhances H 3 + abundance. Besides, the observed N 2 H + and DCO + features are broadly consistent with previous CO snowline constraints, but can also be shaped by processes such as ionization, CO depletion, and multiple chemical pathways. Thus, using these molecular ions as robust CO snowline tracers requires additional constraints from complementary molecular tracers and detailed chemical modeling.",
+      "summary": "Planets form in the midplanes of protoplanetary disks; thus, investigating the properties of the midplane region can shed light on the physical and chemical processes governing the evolution of planetary systems. The radial profiles reveal that DCO + is centrally peaked, with a depression near 120 au, while N 2 H + exhibits a central depression and a peak near 100 au.",
+      "authors": [
+        "Amina Diop",
+        "Kevin Flaherty",
+        "Chunhua Qi",
+        "Ilse Cleeves",
+        "A. Meredith Hughes",
+        "Agnes Kospal",
+        "Sean Andrews",
+        "David J. Wilner",
+        "Jacob B. Simon",
+        "Deryl E. Long"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astronomical Journal",
+      "doi": "10.3847/1538-3881/aeb2ef",
+      "doi_url": "https://doi.org/10.3847/1538-3881/aeb2ef",
+      "url": "https://doi.org/10.3847/1538-3881/aeb2ef",
+      "pdf_url": "",
+      "openalex_id": "W7221795160",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 9.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_2495eb106429",
+      "title": "Magellanic Outflow and Chemistry Survey (MAGOS): the Outflow-Luminosity Scaling Relations in the Large and Small Magellanic Clouds",
+      "abstract": "Understanding massive star formation in low-metallicity environments is crucial for constraining the universality of star formation across cosmic evolution. In this Letter, we present the first systematic survey of massive protostellar outflows in the Large and Small Magellanic Clouds (LMC and SMC, $Z\\sim$0.2--0.5 $Z_\\odot$), as part of the Magellanic Outflow and Chemistry Survey (MAGOS). MAGOS targets 40 massive young stellar objects (MYSOs) with luminosities of (1--23)$\\times 10^4$ $L_\\odot$ with the Atacama Large Millimeter/submillimeter Array (ALMA) at 0.85 mm at a linear resolution of $\\sim$0.1 pc. Using CO (3--2), we identify blue- and red-shifted outflows associated with the primary continuum sources toward 29 targets in the LMC and 10 targets in the SMC. Comparing the outflow mass, momentum, energy, and force versus luminosity scaling relations in MAGOS with those in the Galaxy, we find that the LMC CO outflows have a similar slope in the mass-luminosity relation, suggesting that CO remains an effective tracer of massive protostellar outflows at $Z\\sim$0.5 $Z_\\odot$. In contrast, despite the large scatter, the SMC CO outflows are deficient at high luminosity and show flatter scaling relations than the LMC and the Galaxy. This is consistent with reduced CO abundances due to enhanced photodissociation at high luminosity and low metallicity ($Z\\sim$0.2 $Z_\\odot$), although the possibility of intrinsically weak outflow launching cannot be ruled out with the current data.",
+      "summary": "Understanding massive star formation in low-metallicity environments is crucial for constraining the universality of star formation across cosmic evolution. In this Letter, we present the first systematic survey of massive protostellar outflows in the Large and Small Magellanic Clouds (LMC and SMC, $Z\\sim$0.2--0.5 $Z_\\odot$), as part of the Magellanic Outflow and Chemistry Survey (MAGOS).",
+      "authors": [
+        "Suinan Zhang",
+        "Kei E. I. Tanaka",
+        "Yichen Zhang",
+        "Takashi Shimonishi",
+        "Yu Cheng",
+        "Kenji Furuya",
+        "Asako Sato"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.16830v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.16830v1",
+      "arxiv_id": "2611.16830",
+      "arxiv_url": "https://arxiv.org/abs/2611.16830v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 14.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "galaxy",
+          "star formation",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_2252e285af5f",
+      "title": "Image Profile (IMPRO) Fitting of Massive Protostars. I. Method Development and Test Cases of Cepheus A and G35.20-0.74N",
+      "abstract": "Massive stars play a critical role in the evolution of galaxies, but their formation remains poorly understood. One challenge is accurate measurement of the physical properties of massive protostars, such as current stellar mass, envelope mass, outflow cavity properties, and system orientation. Spectral energy distribution (SED) fitting is widely used to test models against observations. The far-infrared SED traces cold dust in envelopes, while the near- and mid-infrared (MIR) probes emission from outflow cavities and/or the inner envelope. However, SED fitting has degeneracies limiting its ability to yield accurate measurements of protostellar properties. Here, we develop image profile (IMPRO) fitting as a method to improve the characterization of protostars. We use brightness distributions from multiwavelength MIR images of massive protostars taken by SOFIA/FORCAST as part of the SOFIA Massive Star Formation (SOMA) survey to constrain protostellar properties by comparing them to a grid of radiative transfer models. We develop a fitting pipeline to extract information along the outflow axis, which is then combined with the SED fitting to yield improved constraints on protostellar properties. We apply the IMPRO fitting method to the nearby massive protostar Cepheus A, finding that its properties become more tightly constrained compared to SED fitting, especially in the inclination of the source. However, for the more distant G35.20-0.74N, we find that the spatial resolution of SOFIA/FORCAST limits the utility of this combined fitting pipeline. However, higher-resolution MIR observations, e.g., with JWST, are expected to greatly expand the applicability of this fitting technique to protostars across the Galaxy.",
+      "summary": "Massive stars play a critical role in the evolution of galaxies, but their formation remains poorly understood. We develop a fitting pipeline to extract information along the outflow axis, which is then combined with the SED fitting to yield improved constraints on protostellar properties.",
+      "authors": [
+        "Yao-Lun Yang",
+        "Jonathan C. Tan",
+        "R. Fedriani",
+        "Yichen Zhang"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeab81",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeab81",
+      "url": "https://doi.org/10.3847/1538-4357/aeab81",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeab81/pdf",
+      "openalex_id": "W4414490046",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 18.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "galaxies",
+          "galaxy",
+          "observations",
+          "sofia",
+          "star formation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_e90ca7773b48",
+      "title": "Far-infrared Polarization Properties of Nearby Star-forming Regions: A New Compendium of SOFIA/HAWC+ Observations",
+      "abstract": "We present a comprehensive polarimetric study of 26 nearby molecular clouds in four far-infrared bands (53-214 μ m) using 52 archival SOFIA/HAWC+ datasets, over half of which are unpublished. Far-infrared dust polarization observations probe the plane-of-sky magnetic field. To investigate scale-dependent trends, we group the molecular clouds by distance and analyze the data at common angular (25′′) and common physical (0.052 pc and 0.32 pc) resolutions. The two shorter wavelengths are more impacted by smoothing, exhibiting a larger decrease in percent polarization. We analyze the polarization spectrum-the polarization fraction as a function of wavelength-and find that it depends more strongly on column density than dust temperature. We find a “falling” spectrum at the 0.052 pc resolution, but find a “flat” spectrum at the 0.32 pc resolution, suggesting that resolution plays an important role in the observed polarization spectra. We propose that warm dust grain emission in small-scale structures (≲ 0.1 pc) traces different magnetic field geometries only resolved in our near regime data. There is no preferred magnetic field orientation across our data, which suggests that the magnetic field in our ∼parsec-scale regions is decoupled from the large-scale field that is primarily parallel to the Galactic plane. The relationship between percent polarization and column density varies between clouds, but the correlation between percent polarization and polarization angle dispersion is consistent across regions. This compendium highlights the value of observing at multiple far-infrared wavelengths and enables additional population-level studies of magnetic fields and dust across star-forming environments.",
+      "summary": "We present a comprehensive polarimetric study of 26 nearby molecular clouds in four far-infrared bands (53-214 μ m) using 52 archival SOFIA/HAWC+ datasets, over half of which are unpublished. We find a “falling” spectrum at the 0.052 pc resolution, but find a “flat” spectrum at the 0.32 pc resolution, suggesting that resolution plays an important role in the observed polarization spectra.",
+      "authors": [
+        "Kaitlyn Karpovich",
+        "Susan E. Clark",
+        "Enrique López-Rodríguez"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb007",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb007",
+      "url": "https://doi.org/10.3847/1538-4357/aeb007",
+      "pdf_url": "",
+      "openalex_id": "W7134920504",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "molecular"
+      ],
+      "scores": {
+        "submm": 27.0,
+        "molecular": 37.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "observations",
+          "sofia"
+        ],
+        "molecular": [
+          "dust polarization",
+          "magnetic",
+          "magnetic field",
+          "magnetic fields",
+          "molecular clouds",
+          "polarimetric",
+          "polarization"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
+      "id": "p_fdb34ee4697d",
+      "title": "Estimation of Precipitable Water Vapor over the Caucasus Region Using the Mesoscale WRF Model",
+      "abstract": "Ground-based millimeter and submillimeter astronomy requires detailed astroweather and astroclimatic studies of potential sites in mountain regions. Using the mesoscale WRF model, validated against data from three upper-air stations, we examined the spatiotemporal distribution of precipitable water vapor (PWV), effective height of water vapor, wind field and cloudiness over the Caucasus region for the period from 26 March to 4 April 2025. Three operating observatories-SAO RAS, GAS GAO and Peak Terskol as well as three mountain summits in Dagestan, namely Dzhufudag, Kurapdag and Shunudag, promising for millimeter and submillimeter observations-were considered. The sites fall into two groups differing in the variability in PWV: a western group with values of 9.3 ± 1.9 mm at SAO RAS and GAS GAO (coefficient of variation 20-21%) and an eastern group (Dagestan) with a drier atmosphere ranging from 2.8 ± 1.2 to 4.3 ± 1.6 mm (36-42%). Given the similar values of effective height, the key factors driving the contrast in moisture content are the heights of sites, synoptic advection, and the specific pattern of airflows around local topographic features. The averaged PWV field is strongly shaped by orography: ranging from 4-8 mm along the high-mountain part of the Caucasus Range to 16-20 mm over the lowlands. On the night of 1-2 April 2025, when the regional minimum was observed, PWV fell by 3.7 and 2.7 mm in the western and the eastern group, the contrast between the sectors rose from a factor of 2.1 to a factor of 3.8, and the effective height dropped to 1497 and 1338 m. The driest site, Kurapdag, proved to be the windiest: the mean night-time wind speed there reaches 6.8 m/s against 1.8 m/s at SAO RAS. The comparison with the ERA5 reanalysis showed that the area-mean PWV over the 1 km domain is 10.6 mm in ERA5 and 9.3-9.6 mm in WRF. ERA5 reproduces the temporal behavior of PWV (r = 0.80-0.88), but owing to its smoothed orography it overestimates PWV over the ridges and underestimates it in the valleys. The differences between the WRF domains are largest on passing from a grid spacing of 9 km to 3 km. A linear regression between the ERA5 and WRF fields removes only 17-29% of the discrepancy at the summits, so that recalculating the reanalysis PWV to the summit level requires methods that explicitly account for the difference in terrain height.",
+      "summary": "Ground-based millimeter and submillimeter astronomy requires detailed astroweather and astroclimatic studies of potential sites in mountain regions. The averaged PWV field is strongly shaped by orography: ranging from 4-8 mm along the high-mountain part of the Caucasus Range to 16-20 mm over the lowlands.",
+      "authors": [
+        "Maxim Y. Shikhovtsev",
+        "A. Yu. Shikhovtsev",
+        "Anatoly A. Lezhenin",
+        "Viacheslav S. Gradov",
+        "P. G. Kovadlo"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Forecasting",
+      "doi": "10.3390/forecast8060108",
+      "doi_url": "https://doi.org/10.3390/forecast8060108",
+      "url": "https://doi.org/10.3390/forecast8060108",
+      "pdf_url": "",
+      "openalex_id": "W7225865548",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "astronomy",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_e193a69bfd8e",
+      "title": "Development of a Cryogenic Anti-Coincidence System Based on Scintillating Crystals Read Out with Kinetic Inductance Detectors for BULLKID-DM",
+      "abstract": "The BULLKID-DM experiment has been proposed to search for WIMP-like dark matter particles with a mass of 1 GeV or lower and with a WIMP-nucleon interaction cross section down to $10^{-43}$ cm$^2$. To achieve this goal, the experiment utilizes a detector consisting of a stack of 16 silicon wafers instrumented with phonon-mediated superconducting Kinetic Inductance Detectors (KIDs), to be operated at the underground facility of the Laboratori Nazionali del Gran Sasso (LNGS), Italy. To reduce the residual background arising from $\\gamma$-rays, neutrons, and muons, a cryogenic active anti-coincidence system (veto) operating at mK temperature, surrounding the main detector, is under development. The veto detector consists of segmented scintillating crystals read out by phonon-mediated KID light detectors. Current status and future developments of the veto system are presented. In particular, we focus on cryogenic tests of both bismuth germanate (BGO) and gadolinium aluminum gallium garnet (GAGG) crystals, which had been previously chosen as veto candidate crystals according to our preliminary studies on the dependence of their optical properties (i.e. light yield and scintillation decay time) on temperature. We finally present the operation and preliminary tests of a two-module veto prototype with multiplexed readout.",
+      "summary": "The BULLKID-DM experiment has been proposed to search for WIMP-like dark matter particles with a mass of 1 GeV or lower and with a WIMP-nucleon interaction cross section down to $10^{-43}$ cm$^2$. To achieve this goal, the experiment utilizes a detector consisting of a stack of 16 silicon wafers instrumented with phonon-mediated superconducting Kinetic Inductance Detectors (KIDs), to be operated at the underground facility of the Laboratori Nazionali del…",
+      "authors": [
+        "T. Lari",
+        "G. Spina",
+        "A. Acevedo-Rentería",
+        "L. E. Ardila-Perez",
+        "L. Bandiera",
+        "C. Bonomo",
+        "M. Calvo",
+        "M. Cappelli",
+        "R. Caravita",
+        "F. Carillo",
+        "F. Cescato",
+        "U. Chowdhury",
+        "D. A. Crovo",
+        "A. Cruciani",
+        "A. D'Addabbo",
+        "M. del Gallo Roccagiovine",
+        "M. De Lucia",
+        "G. Del Castello",
+        "D. Delicato",
+        "F. Ferraro",
+        "M. Folcarelli",
+        "S. Fu",
+        "R. Gartmann",
+        "M. Grassi",
+        "V. Guidi",
+        "D. L. Helis",
+        "L. Malagutti",
+        "A. Mazzolari",
+        "A. Monfardini",
+        "T. Muscheid",
+        "D. Nicolò",
+        "F. Paolucci",
+        "D. Pasciuto",
+        "L. Pesce",
+        "C. Puglia",
+        "D. Quaranta",
+        "C. M. A. Roda",
+        "S. Roddaro",
+        "M. Romagnoni",
+        "G. Signorelli",
+        "F. Simon",
+        "A. Tartari",
+        "E. Vázquez-Jáuregui",
+        "K. Zhao",
+        "M. Vignati"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · physics.ins-det",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.17089v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17089v1",
+      "arxiv_id": "2611.17089",
+      "arxiv_url": "https://arxiv.org/abs/2611.17089v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 32.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "kinetic inductance detectors",
+          "readout"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
+      "id": "p_5c11a6cf778b",
+      "title": "Crest factor optimization of multi-tone signals generated for low-temperature sensor readout",
+      "abstract": "Microwave kinetic inductance detectors (MKID) are a growing technology of cryogenic detectors and have a great potential in radio-astronomy and cosmic microwave background (CMB) characterization. A review of the general readout performance requirements for experiments requiring the multiplexing of large arrays (~10.000 pixels) of such cryogenic detectors is presented. The focus is on the crest factor optimization process for proper excitation and readout of these large arrays of detectors. It is shown an algorithm to optimize the phase generation of the carriers to obtain a low crest factor, favoring the dynamic range usage of the electronic chain.",
+      "summary": "Microwave kinetic inductance detectors (MKID) are a growing technology of cryogenic detectors and have a great potential in radio-astronomy and cosmic microwave background (CMB) characterization. A review of the general readout performance requirements for experiments requiring the multiplexing of large arrays (~10.000 pixels) of such cryogenic detectors is presented.",
+      "authors": [
+        "L. H. Arnaldi"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "2023 Argentine Conference on Electronics (CAE)",
+      "journal_ref": "2023 Argentine Conference on Electronics (CAE)",
+      "doi": "10.1109/cae56623.2023.10086985",
+      "doi_url": "https://doi.org/10.1109/cae56623.2023.10086985",
+      "url": "https://arxiv.org/abs/2611.17207v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17207v1",
+      "arxiv_id": "2611.17207",
+      "arxiv_url": "https://arxiv.org/abs/2611.17207v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 39.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "kinetic inductance detectors",
+          "microwave kinetic inductance detectors",
+          "mkid",
+          "readout"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
+      "id": "p_b97730230bce",
+      "title": "A Fifty-Metre Millimetre-Wave Single Dish: Surface Accuracy, Ruze Efficiency and Beam Size Computed Across the Submillimetre Bands",
+      "abstract": "A 50 m single-dish telescope for millimetre and submillimetre astronomy is designed from the physics of its reflecting surface. With an actively controlled surface of 55 micrometres root-mean-square accuracy, the Ruze formula gives aperture efficiencies of 0.57 at 230 GHz, 0.40 at 345 GHz and 0.06 at 690 GHz, an effective area of 782 square metres and a gain of 0.28 K per Jy at 345 GHz. Beam widths are 6.6, 4.4 and 2.2 arcseconds at the three bands. The structure is estimated at 2,100 tonnes and the operating power at 620 kW. All figures are computed from the stated surface model; the design is simulated, not measured.",
+      "summary": "A 50 m single-dish telescope for millimetre and submillimetre astronomy is designed from the physics of its reflecting surface. All figures are computed from the stated surface model; the design is simulated, not measured.",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14T10:28:04+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24150285",
+      "doi_url": "https://doi.org/10.5281/zenodo.24150285",
+      "url": "https://doi.org/10.5281/zenodo.24150285",
+      "pdf_url": "",
+      "openalex_id": "W7225863324",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 18.0
+      },
+      "matched": {
+        "submm": [
+          "submillimetre",
+          "astronomy",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_e34214782760",
       "title": "Validation of PREFIRE mid- and far-infrared radiances during the WHAFFFERS campaign",
       "abstract": "Despite containing up to half of the Earth's thermal emission to space, the far-infrared spectral region (FIR, defined here as 100-667 cm -1 or 15-100 μm) has seldom been observed from satellites. This has contributed to substantial uncertainties in the spectroscopy of water vapour, radiative properties of clouds, and surface spectral emissivity; these in turn limit confidence in modelled FIR energy flows. With the advent of the Polar Radiant Energy in the Far-InfraRed Experiment (PREFIRE), a step is taken towards new, systematic, spectral observations of the Earth in the FIR. Launched in 2024, the two PREFIRE CubeSats offer a new perspective of Earth's outgoing longwave energy with moderate spectral resolution. However, the observational uncertainty budget requires further consolidation. In this study we assess the accuracy of PREFIRE spectral measurements through a “ground-to-space” closure experiment. Using zenith-viewing observations from the ground-based Far INfrarEd Spectrometer for Surface Emissivity (FINESSE) recorded during the WHAFFFERS campaign, we constrain atmospheric data taken from in situ sensors. With this optimised profile data we simulate PREFIRE-observed radiances for an overflight of our field site in eastern Canada. Simulations of the FINESSE radiances are in very good agreement with observations, while those from PREFIRE indicate some bias beyond the calculated uncertainties. We find that atmospheric water vapour specification, uncertain surface properties, and instrument noise dominate the uncertainties. Based on these findings, we highlight proposed techniques for closure experiments using terrestrial and satellite instruments alike. Such experiments will provide a ground-truth for validation of future FIR satellite missions.",
@@ -59,7 +625,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -108,7 +674,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -140,7 +706,7 @@
     {
       "id": "p_829343917a9a",
       "title": "Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument",
-      "abstract": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. Accurate $R(V)$ values are crucial for dereddening astronomical colors and understanding the interstellar medium. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars. We use XGBoost to predict stars' intrinsic colors from their spectroscopic parameters ($T_\\mathrm{eff}$, $\\log g$, $[\\mathrm{Fe/H}]$) and subtract them from observed colors to measure reddening in combinations of the $g$, $r$, $z$, $W1$, and $W2$ bands. This approach directly measures reddening, unlike the common thermal-emission-based method of Schlegel et al. (1998; SFD). The reddening is accurate to roughly 0.02 mag in $g-r$ and $r-z$. We develop a forward model to map $g-r$ and $g-W1$ reddenings to $R(V)$ and find significant variation in $R(V)$, with $σ_\\mathrm{NMAD}(R(V)) = 0.23$, in dusty regions ($E(g-r) > 0.1$) at high Galactic latitudes observed by DESI. In this footprint, $R(V)$ is bimodal, with modes at 2.9 and 3.4, likely due to large-spatial-scale correlations in the shape of the extinction curve combined with the relatively small number of distinct sightlines with substantial reddening. We find no strong relationship between $R(V)$ and other tracers of the interstellar medium, such as thermal emission, dust temperature, spectral emissivity index $β$, and $Hα$. However, the error in the SFD-predicted extinction correlates well with $R(V)$, implying that a single optical reddening combined with the far-infrared dust brightness can predict variations in the extinction curve.",
+      "abstract": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. Accurate $R(V)$ values are crucial for dereddening astronomical colors and understanding the interstellar medium. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars. We use XGBoost to predict stars' intrinsic colors from their spectroscopic parameters ($T_\\mathrm{eff}$, $\\log g$, $[\\mathrm{Fe/H}]$) and subtract them from observed colors to measure reddening in combinations of the $g$, $r$, $z$, $W1$, and $W2$ bands. This approach directly measures reddening, unlike the common thermal-emission-based method of Schlegel et al. (1998; SFD). The reddening is accurate to roughly 0.02 mag in $g-r$ and $r-z$. We develop a forward model to map $g-r$ and $g-W1$ reddenings to $R(V)$ and find significant variation in $R(V)$, with $\\sigma_\\mathrm{NMAD}(R(V)) = 0.23$, in dusty regions ($E(g-r) > 0.1$) at high Galactic latitudes observed by DESI. In this footprint, $R(V)$ is bimodal, with modes at 2.9 and 3.4, likely due to large-spatial-scale correlations in the shape of the extinction curve combined with the relatively small number of distinct sightlines with substantial reddening. We find no strong relationship between $R(V)$ and other tracers of the interstellar medium, such as thermal emission, dust temperature, spectral emissivity index $\\beta$, and $H\\alpha$. However, the error in the SFD-predicted extinction correlates well with $R(V)$, implying that a single optical reddening combined with the far-infrared dust brightness can predict variations in the extinction curve.",
       "summary": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars.",
       "authors": [
         "Sarv Parteek Singh",
@@ -211,7 +777,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "arXiv"
       ],
@@ -234,11 +800,11 @@
       },
       "matched": {
         "submm": [
+          "astronomical",
+          "dust",
           "far infrared",
           "far-infrared",
-          "astronomical",
-          "interstellar",
-          "dust"
+          "interstellar"
         ]
       },
       "primary_topic": "submm"
@@ -246,8 +812,8 @@
     {
       "id": "p_4c457c8ca1a3",
       "title": "Tracing Galactic Dust Reddening with Polycyclic Aromatic Hydrocarbon Emission: SPHEREx Observations of the North Ecliptic Pole",
-      "abstract": "We investigate the ability of SPHEREx observations of the $3.3$ $μ$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $μ$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP). We convert the PAH feature strength to reddening by applying a radiation field correction and a linear scale factor. The resulting $E(B-V)$ map is consistent with far-infrared, stellar, and HI-based reddening maps at arcminute scales, exhibiting a typical $E(B-V)$ difference of $\\lesssim 7$ mmag. A galaxy count test finds that all reddening maps have a dispersion of $\\approx11$ mmag in $E(B-V)$ relative to what would be needed to produce spatially uniform galaxy counts. While there is some evidence that reddening is overestimated by our map at high PAH abundances, this effect is smaller than the uncertainties on the applied radiation field corrections and limited to $\\sim$10 mmag in the most extreme regions of the NEP. For a diffuse, high Galactic latitude region like the NEP and at the sensitivities of our validation metrics, the SPHEREx PAH-emission based reddening map matches the accuracy of existing reddening maps while being capable of accessing a higher angular resolution of $\\sim6''$.",
-      "summary": "We investigate the ability of SPHEREx observations of the $3.3$ $μ$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $μ$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP).",
+      "abstract": "We investigate the ability of SPHEREx observations of the $3.3$ $\\mu$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $\\mu$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP). We convert the PAH feature strength to reddening by applying a radiation field correction and a linear scale factor. The resulting $E(B-V)$ map is consistent with far-infrared, stellar, and HI-based reddening maps at arcminute scales, exhibiting a typical $E(B-V)$ difference of $\\lesssim 7$ mmag. A galaxy count test finds that all reddening maps have a dispersion of $\\approx11$ mmag in $E(B-V)$ relative to what would be needed to produce spatially uniform galaxy counts. While there is some evidence that reddening is overestimated by our map at high PAH abundances, this effect is smaller than the uncertainties on the applied radiation field corrections and limited to $\\sim$10 mmag in the most extreme regions of the NEP. For a diffuse, high Galactic latitude region like the NEP and at the sensitivities of our validation metrics, the SPHEREx PAH-emission based reddening map matches the accuracy of existing reddening maps while being capable of accessing a higher angular resolution of $\\sim6''$.",
+      "summary": "We investigate the ability of SPHEREx observations of the $3.3$ $\\mu$m polycyclic aromatic hydrocarbon (PAH) emission feature to trace Galactic dust reddening. Applying a spectral template-based method to SPHEREx data, we measure the strength of the $3.3$ $\\mu$m PAH feature in each $6''.2$ pixel of a $22^{\\circ}$ by $22^{\\circ}$ region centered on the north ecliptic pole (NEP).",
       "authors": [
         "Dennis Lee",
         "Brandon Hensley",
@@ -278,7 +844,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "arXiv"
       ],
@@ -301,9 +867,9 @@
       },
       "matched": {
         "submm": [
+          "dust",
           "far infrared",
           "far-infrared",
-          "dust",
           "galaxy",
           "observations"
         ]
@@ -332,7 +898,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "arXiv"
       ],
@@ -411,7 +977,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -453,7 +1019,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "arXiv"
       ],
@@ -508,7 +1074,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "arXiv"
       ],
@@ -553,7 +1119,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-13T10:38:55+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3549,32 +4115,35 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-10-31T09:37:17+08:00",
+      "last_seen": "2026-11-14T10:28:04+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.EP",
+      "venue": "The Astrophysical Journal Letters",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.37792",
+      "doi": "10.3847/2041-8213/aeba88",
+      "doi_url": "https://doi.org/10.3847/2041-8213/aeba88",
+      "url": "https://doi.org/10.3847/2041-8213/aeba88",
       "pdf_url": "https://arxiv.org/pdf/2610.37792",
       "arxiv_id": "2610.37792",
       "arxiv_url": "https://arxiv.org/abs/2610.37792",
+      "openalex_id": "W7224813947",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
       ],
       "scores": {
-        "submm": 11.0
+        "submm": 18.0
       },
       "matched": {
         "submm": [
           "alma",
           "dust",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"

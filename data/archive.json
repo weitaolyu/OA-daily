@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T10:28:04+08:00",
-    "generated_label": "2026-11-14 10:28",
-    "today": "2026-11-14",
+    "generated_at": "2026-11-15T09:57:14+08:00",
+    "generated_label": "2026-11-15 09:57",
+    "today": "2026-11-15",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 213,
-    "new_count": 12,
-    "digest_url": "digests/2026-11-14.md",
+    "paper_count": 216,
+    "new_count": 3,
+    "digest_url": "digests/2026-11-15.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,106 @@
   ],
   "papers": [
     {
+      "id": "p_ed8daed20127",
+      "title": "The 200-300 GHz Survey for 18 Class II Disks in the Ophiuchus Star-forming Complex",
+      "abstract": "We measured the 198-310 GHz flux densities of 18 Class II protoplanetary disks in the Ophiuchus star-forming complex using the Submillimeter Array (SMA). The ∼200-300 GHz spectral indices (α 200-300) of these disks are 2.3 - 0.5 + 0.2. In this observed frequency range, emission properties of the Ophiuchus disks are very similar to the 48 spatially compact Class II disks in the Taurus-Auriga region observed in a previous SMA survey. Combining the Ophiuchus and Taurus-Auriga samples, the Pearson correlation coefficient between α 200-300 and the flux density at 250 GHz (F 250GHz) is 0.27 (p = 0.02). We do not find a convincing correlation between α 200-300 and the R 95% radius of the disks. Our interpretation for the α 200-300 values being close to 2 in the spatially compact disks is that at ≳200 GHz frequencies, the continuum emission in these disks is dominated by optically thick dust thermal emission, independent of F 250GHz and R 95%. As a result, the (sub)millimeter luminosity and the apparent disk size are positively correlated, which has been found in numerous resolved emission surveys of Class II disks. In young clusters with ages of ∼1-2 Myr, Class II disks with smaller radii or lower (sub)millimeter luminosities are not necessarily those in which the dust mass budget has been consumed or dispersed.",
+      "summary": "We measured the 198-310 GHz flux densities of 18 Class II protoplanetary disks in the Ophiuchus star-forming complex using the Submillimeter Array (SMA). In this observed frequency range, emission properties of the Ophiuchus disks are very similar to the 48 spatially compact Class II disks in the Taurus-Auriga region observed in a previous SMA survey.",
+      "authors": [
+        "Chia-Ying Chung",
+        "Hauyu Baobab Liu",
+        "Chuan-Yung Lin",
+        "Linjing Feng",
+        "Sean M. Andrews",
+        "Mark Gurwell",
+        "Melvyn C. H. Wright"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15T09:57:14+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal Supplement Series",
+      "doi": "10.3847/1538-4365/aead93",
+      "doi_url": "https://doi.org/10.3847/1538-4365/aead93",
+      "url": "https://doi.org/10.3847/1538-4365/aead93",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4365/aead93/pdf",
+      "openalex_id": "W7220438830",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "protoplanetary",
+          "sma",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_2fea686d7972",
+      "title": "Multilayer magnetic structure toward NGC 1333 revealed by a square-degree optical polarimetric survey",
+      "abstract": "The interpretation of magnetic-field morphologies in star-forming regions can be complicated by the superposition of interstellar structures at different distances along the line of sight. Stellar distances combined with optical polarimetry provide a means of identifying and estimating the contribution of foreground polarization. We investigated the large-scale magnetic-field morphology toward NGC 1333 in the Perseus molecular cloud, aiming to characterize the field associated with the cloud while accounting for the contribution of an intervening polarized layer. We conducted a wide-field R-band optical polarimetric survey covering nearly one square degree toward NGC 1333, obtaining linear polarization measurements for approximately 840 stars with distance estimates from DR3 and. We analyzed the polarization--distance relation and the Stokes parameters to identify distinct line-of-sight components and estimate the contribution of an intermediate-distance foreground layer. After subtracting this contribution in Stokes space, we characterized the magnetic-field orientation using circular statistics and the angular dispersion function (ADF). We also compared the resulting morphology with CO molecular-line emission and polarization measurements from, near-infrared observations, and JCMT/POL-2. Gaia StarHorse Planck The polarization--distance relation distinguishes a weakly polarizing nearby component at dłesssim160 pc, an intermediate-distance polarized contribution traced by stars at approximately 160 and 300 pc, and a component associated with the Perseus molecular cloud at distances beyond approximately 300 pc. After foreground correction, the plane-of-sky magnetic field exhibits a smooth large-scale rotation across the surveyed region, from a mean orientation of 126 and 0.095^ in the northwestern region to $ 162 _ in the southeastern region. Circular statistics indicate that the field remains well ordered in both regions. The ADF analysis yields turbulent-to-ordered magnetic-field strength ratios of 0.054^ +0.025 -0.022 +0.021 _ -0.047 in the northwestern and southeastern regions, respectively. The corresponding plane-of-sky magnetic-field strengths, 59^ +44 _ -23 μ and 46^ G +50 _ -13 μ, are consistent within their uncertainties. The turbulent-to-ordered magnetic-field ratios and the corresponding plane-of-sky magnetic-field strengths should be regarded as approximate estimates, since residual sightline-to-sightline foreground fluctuations may contribute to the measured angular dispersion. CO observations reveal the same velocity components in both regions but with systematically varying relative contributions across the field. The foreground-corrected optical polarization agrees with the large-scale orientation inferred from and is broadly consistent with near-infrared and JCMT/POL-2 measurements. Nonetheless, the latter reveal localized departures in the denser star-forming structures. G Planck The combination of stellar distances and wide-field optical polarimetry provides a way to estimate foreground polarization and investigate the magnetic-field morphology associated with NGC 1333. The results favor a coherent cloud-scale magnetic field whose projected orientation changes smoothly across the region, accompanied by systematic variations in the relative contributions of molecular-gas velocity components. Comparisons with complementary polarimetric tracers further show that this large-scale organization coexists with localized magnetic-field variations within the denser structures.",
+      "summary": "The interpretation of magnetic-field morphologies in star-forming regions can be complicated by the superposition of interstellar structures at different distances along the line of sight. We conducted a wide-field R-band optical polarimetric survey covering nearly one square degree toward NGC 1333, obtaining linear polarization measurements for approximately 840 stars with distance estimates from DR3 and.",
+      "authors": [
+        "G. A. P. Franco",
+        "J. M. Girart",
+        "F. O. Alves"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15T09:57:14+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661716",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661716",
+      "url": "https://doi.org/10.1051/0004-6361/202661716",
+      "pdf_url": "",
+      "openalex_id": "W7225426000",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "molecular"
+      ],
+      "scores": {
+        "submm": 11.0,
+        "molecular": 39.0
+      },
+      "matched": {
+        "submm": [
+          "interstellar",
+          "molecular cloud",
+          "observations",
+          "pol-2"
+        ],
+        "molecular": [
+          "field strength",
+          "jcmt",
+          "magnetic",
+          "magnetic field",
+          "molecular cloud",
+          "planck",
+          "polarimetric",
+          "polarimetry",
+          "polarization",
+          "stokes"
+        ]
+      },
+      "primary_topic": "molecular"
+    },
+    {
       "id": "p_3c3d8a14b46e",
       "title": "Which Grains Align? The Radiative-Torque Alignment Size and the Aligned Mass Fraction in Five Environments",
       "abstract": "Only grains above a certain size are expected to align with the magnetic field by radiative torques, and that size decides how much of the dust mass can polarise light. This paper evaluates an alignment-size scaling with gas density and radiation strength for five environments and converts the result into the aligned mass fraction of a power-law size distribution. In diffuse gas the alignment size is 0.055 microns and the aligned mass fraction is 0.6184; in a dense core the alignment size rises to 1.078 microns and the aligned fraction falls to 0.0; near a massive star strong radiation lowers the alignment size to 0.0402 microns and the aligned fraction rises to 0.6978. In the dense core the alignment size exceeds the largest grains the standard distribution contains, so within that distribution no mass remains aligned at all; polarisation from dense cores is therefore intrinsically suppressed by the loss of aligned mass, quite apart from field geometry, and any polarisation that is observed from such cores must be carried by grains grown beyond the standard distribution, which is itself evidence for that growth. All values are computed from stated scalings, not measured.",
@@ -48,7 +148,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -71,9 +171,9 @@
         "molecular": [
           "dense core",
           "dense cores",
+          "magnetic",
           "magnetic field",
-          "polarisation",
-          "magnetic"
+          "polarisation"
         ]
       },
       "primary_topic": "molecular"
@@ -167,6 +267,52 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_e8911186e506",
+      "title": "The ISM Environment of Ionizing Sources in NGC 4214: HST, Herschel, FAST, and VLA H I Observations",
+      "abstract": "We characterize the interstellar medium (ISM) around resolved ionizing sources in NGC 4214 using the Hubble Space Telescope (HST), Herschel, the Five-hundred-meter Aperture Spherical Telescope (FAST), and the Very Large Array (VLA). At a common 11. ′′ 4 resolution, 70 μ m emission correlates with the smoothed stellar-density and ionizing-rate fields (Spearman ρ = 0.801 and 0.753, respectively); the far-infrared (FIR) color association is weaker. The FAST H i cube yields an optically thin mass of (6.85 ± 0.72) × 10 8 M ⊙. The robust- and natural-weighted VLA products yield (5.94 ± 0.36) × 10 8 M ⊙ and (5.03 ± 0.30) × 10 8 M ⊙, respectively, 13% and 27% below FAST. At an effective resolution of ∼160 pc, strong ionizing sources have a median offset of 231 pc from assigned H i peaks, compared with 258 pc for radially matched VLA-pixel controls. This comparison is descriptive, and the weak age-offset correlation does not establish an age-ordered clearing sequence. Separately, the VLA moment maps show spatially varying second-moment line widths and residual velocities. These measurements provide resolved environmental context for the dust-attenuated Lyman-continuum (LyC) escape fraction previously inferred by Y. Choi et al. (2020), f esc = 2 5 - 15 + 16%. Matched H i and ionized-gas imaging and kinematics, together with far-ultraviolet (FUV) absorption, can test how neutral-gas structure and covering relate to LyC transmission.",
+      "summary": "We characterize the interstellar medium (ISM) around resolved ionizing sources in NGC 4214 using the Hubble Space Telescope (HST), Herschel, the Five-hundred-meter Aperture Spherical Telescope (FAST), and the Very Large Array (VLA). These measurements provide resolved environmental context for the dust-attenuated Lyman-continuum (LyC) escape fraction previously inferred by Y.",
+      "authors": [
+        "Siqi Liu",
+        "Xucheng Yin",
+        "Bo Qiu",
+        "A-Li Luo"
+      ],
+      "published": "2026-11-12",
+      "first_seen": "2026-11-15",
+      "last_seen": "2026-11-15T09:57:14+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb097",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb097",
+      "url": "https://doi.org/10.3847/1538-4357/aeb097",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeb097/pdf",
+      "openalex_id": "W7225892386",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 22.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "herschel",
+          "interstellar",
+          "dust",
+          "ism",
+          "observations",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_c3865e2fe51d",
       "title": "The Magnetic Critical Mass-to-Flux Ratio in Observed Cores: How Many Cores Are Magnetically Supercritical?",
       "abstract": "This paper addresses a single question: Given the field strengths inferred from Zeeman and polarisation measurements, how large a mass can magnetic flux alone support in a core, and by what factor do observed core masses exceed that support? Using published molecular-cloud and young-stellar-object measurements as inputs, and carrying the spin-torsion density bound of 9.72 x 10^57 kilograms per cubic metre and its critical shear of 8.56 x 10^32 per second as fixed comparison scales, the calculation finds that for representative field strengths of 10 to 100 microgauss the magnetic critical mass ranges from a few solar masses in a small core to several hundred in a cloud envelope, and the representative cores considered here are supercritical by factors of about one and a half to two, so magnetic support delays collapse but does not prevent it in these cases; no quantity supplied by the density or shear bound enters this comparison, which is stated as a negative result for the frame in this channel. The headline values are: n supercritical = 4; lambda range = 1.47 to 2.20; Mcrit quiescent Msun = 2.3. All values are computed from the stated formulae and inputs; this is a simulated and computed study, not a measurement. Where the comparison scales supplied by the torsion framework turn out to be too remote to influence the process, that outcome is reported as a negative result rather than passed over.",
@@ -176,7 +322,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -224,7 +370,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -232,7 +378,7 @@
       "doi": "10.3847/1538-3881/aeb2ef",
       "doi_url": "https://doi.org/10.3847/1538-3881/aeb2ef",
       "url": "https://doi.org/10.3847/1538-3881/aeb2ef",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-3881/aeb2ef/pdf",
       "openalex_id": "W7221795160",
       "oa": true,
       "type": "article",
@@ -245,9 +391,9 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "observations",
-          "protoplanetary"
+          "protoplanetary",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -268,7 +414,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -312,7 +458,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -357,7 +503,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -365,7 +511,7 @@
       "doi": "10.3847/1538-4357/aeb007",
       "doi_url": "https://doi.org/10.3847/1538-4357/aeb007",
       "url": "https://doi.org/10.3847/1538-4357/aeb007",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeb007/pdf",
       "openalex_id": "W7134920504",
       "oa": true,
       "type": "article",
@@ -412,7 +558,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -433,9 +579,9 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "astronomy",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -494,7 +640,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -534,7 +680,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -576,7 +722,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -597,8 +743,8 @@
       },
       "matched": {
         "submm": [
-          "submillimetre",
           "astronomy",
+          "submillimetre",
           "telescope"
         ]
       },
@@ -625,7 +771,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -674,7 +820,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -682,7 +828,7 @@
       "doi": "10.3847/1538-4357/aeaf4b",
       "doi_url": "https://doi.org/10.3847/1538-4357/aeaf4b",
       "url": "https://doi.org/10.3847/1538-4357/aeaf4b",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeaf4b/pdf",
       "openalex_id": "W7215074830",
       "oa": true,
       "type": "article",
@@ -777,7 +923,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -844,7 +990,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -898,7 +1044,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -977,7 +1123,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1019,7 +1165,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1074,7 +1220,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1119,7 +1265,7 @@
       ],
       "published": "2026-11-10",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -4115,7 +4261,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-15T09:57:14+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -4125,7 +4271,7 @@
       "doi": "10.3847/2041-8213/aeba88",
       "doi_url": "https://doi.org/10.3847/2041-8213/aeba88",
       "url": "https://doi.org/10.3847/2041-8213/aeba88",
-      "pdf_url": "https://arxiv.org/pdf/2610.37792",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/2041-8213/aeba88/pdf",
       "arxiv_id": "2610.37792",
       "arxiv_url": "https://arxiv.org/abs/2610.37792",
       "openalex_id": "W7224813947",

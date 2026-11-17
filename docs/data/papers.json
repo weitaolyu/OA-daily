@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T10:12:16+08:00",
-    "generated_label": "2026-11-16 10:12",
-    "today": "2026-11-16",
+    "generated_at": "2026-11-17T12:31:33+08:00",
+    "generated_label": "2026-11-17 12:31",
+    "today": "2026-11-17",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 218,
-    "new_count": 2,
-    "digest_url": "digests/2026-11-16.md",
+    "paper_count": 223,
+    "new_count": 5,
+    "digest_url": "digests/2026-11-17.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,173 @@
   ],
   "papers": [
     {
+      "id": "p_8d592f001e15",
+      "title": "Parallel Critical Field and Kinetic Inductance of a Five-Nanometre Niobium Nitride Film",
+      "abstract": "A film thinner than its own coherence length responds to a parallel magnetic field in a way no bulk formula describes, because the vortex that would carry flux through the film cannot fit inside it. This paper computes the enhanced parallel critical field of a detector-grade niobium nitride film from the Tinkham thin-film relation, and sets beside it the kinetic inductance that governs detector reset time. Both quantities trace back to the same dirty-limit penetration depth, so the budget ties a magnetic measurement to an electronic one. For sputtered niobium nitride film, five nanometres thick, of the grade used for superconducting nanowire single-photon detectors: detector zero-temperature critical field 19.3 tesla; detector orbital slope field 19.3 tesla; detector Pauli paramagnetic ceiling 28.5 tesla; detector Maki parameter 0.959. For the detector-grade nitride film, its zero-temperature critical field 19.3 tesla (detector) supplies for the detector sample, the field ceiling, a detector figure, extrapolated to absolute zero. detector readings beside the detector-grade nitride film inputs set the detector scale at 19.3 tesla. For the detector-grade nitride film, its orbital slope field 19.3 tesla (detector) stands as for the detector sample, the slope estimate, a detector figure, from transition behaviour. detector comparisons later in the detector-grade nitride film discussion return to 19.3 tesla.",
+      "summary": "A film thinner than its own coherence length responds to a parallel magnetic field in a way no bulk formula describes, because the vortex that would carry flux through the film cannot fit inside it. For sputtered niobium nitride film, five nanometres thick, of the grade used for superconducting nanowire single-photon detectors: detector zero-temperature critical field 19.3 tesla; detector orbital slope field 19.3 tesla; detector Pauli paramagnetic ceiling…",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-15",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17T12:31:33+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24242987",
+      "doi_url": "https://doi.org/10.5281/zenodo.24242987",
+      "url": "https://doi.org/10.5281/zenodo.24242987",
+      "pdf_url": "",
+      "openalex_id": "W7233560732",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 10.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
+      "id": "p_f67c6e8aa825",
+      "title": "Design Blueprint: A Night-Only Cryogenic Telescope Balloon Sized by Cryogen Hold Time, Night Lift and Radiative Cooling Budgets",
+      "abstract": "Design blueprint derived from the source paper (DOI 10.5281/zenodo.24247994): This paper presents a computed design for zero-pressure balloon flying a cryogenically cooled far-infrared telescope on night flights, operating on the following principle: the balloon launches before dusk, observes through one or several nights with a cryogen-cooled telescope whose cold optics suppress thermal background, and lands or recharges cryogen before thermal limits end the observing window. Frost Lantern holds its 4 K detector stage for 5.9 days on 420 litres of cryogen boiling off at 58 litres per day, while 390 kg of ballast protects 2.1 night observing cycles at 35.0 km. Far-infrared astronomy fights the warmth of its own telescope. A balloon lifts the instrument above most atmospheric emission, cryogen cools the optics toward the detector's own temperature, and the flight lasts exactly as long as the cold does. Sizing follows from computed lift-gas, envelope-stress, float-altitude, thermal day-night, ballast and energy-endurance and payload-recovery budgets, each worked in the deposited calculation script from stated inputs. This is a computed study with a civilian scientific purpose and no targeting or weapon application. SIMULATED, NOT MEASURED. Status: DESIGN BLUEPRINT - SIMULATED, NOT MEASURED - NOT BUILT. All numbers are simulated values from the source paper's computation, deposited with this blueprint as compute.py and results.json. The design is a civilian scientific balloon system and has no targeting or weapon application. AI-use disclosure: Dave, an AI research system, assisted with the computation and drafting under the author's direction; author of record William Alexander Aldred.",
+      "summary": "Design blueprint derived from the source paper (DOI 10.5281/zenodo.24247994): This paper presents a computed design for zero-pressure balloon flying a cryogenically cooled far-infrared telescope on night flights, operating on the following principle: the balloon launches before dusk, observes through one or several nights with a cryogen-cooled telescope whose cold optics suppress thermal background, and lands or recharges cryogen before thermal limits end…",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-15",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17T12:31:33+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24248792",
+      "doi_url": "https://doi.org/10.5281/zenodo.24248792",
+      "url": "https://doi.org/10.5281/zenodo.24248792",
+      "pdf_url": "",
+      "openalex_id": "W7233561835",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "astronomy",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_e7d5b95e138d",
+      "title": "A Night-Only Cryogenic Telescope Balloon Sized by Cryogen Hold Time, Night Lift and Radiative Cooling Budgets",
+      "abstract": "This paper presents a computed design for zero-pressure balloon flying a cryogenically cooled far-infrared telescope on night flights, operating on the following principle: the balloon launches before dusk, observes through one or several nights with a cryogen-cooled telescope whose cold optics suppress thermal background, and lands or recharges cryogen before thermal limits end the observing window. Frost Lantern holds its 4 K detector stage for 5.9 days on 420 litres of cryogen boiling off at 58 litres per day, while 390 kg of ballast protects 2.1 night observing cycles at 35.0 km. Far-infrared astronomy fights the warmth of its own telescope. A balloon lifts the instrument above most atmospheric emission, cryogen cools the optics toward the detector's own temperature, and the flight lasts exactly as long as the cold does. Sizing follows from computed lift-gas, envelope-stress, float-altitude, thermal day-night, ballast and energy-endurance and payload-recovery budgets, each worked in the deposited calculation script from stated inputs. This is a computed study with a civilian scientific purpose and no targeting or weapon application. SIMULATED, NOT MEASURED.",
+      "summary": "This paper presents a computed design for zero-pressure balloon flying a cryogenically cooled far-infrared telescope on night flights, operating on the following principle: the balloon launches before dusk, observes through one or several nights with a cryogen-cooled telescope whose cold optics suppress thermal background, and lands or recharges cryogen before thermal limits end the observing window. Frost Lantern holds its 4 K detector stage for 5.9 days…",
+      "authors": [
+        "William Alexander Aldred"
+      ],
+      "published": "2026-11-15",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17T12:31:33+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24247993",
+      "doi_url": "https://doi.org/10.5281/zenodo.24247993",
+      "url": "https://doi.org/10.5281/zenodo.24247993",
+      "pdf_url": "",
+      "openalex_id": "W7233616813",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "astronomy",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_095bf21de81c",
+      "title": "Detection of CH$_2$NH on Titan",
+      "abstract": "Saturn's moon, Titan, presents a chemical environment where abiotic synthesis of organics essential for life -- including amino acids and nucleotide bases -- may naturally occur. The assessment of Titan's organic content begins with characterizing its atmospheric chemical inventory, where many predicted molecular species remain unidentified. Here, we present the definitive spectroscopic detection of CH$_2$NH (methanimine) on Titan from observations with the Atacama Large Millimeter/submillimeter Array. CH$_2$NH represents the first stable imine (C=N) to be detected on Titan, and may be integral for further biomolecule formation as a precursor to glycine and adenine. We find abundances of CH$_2$NH at the 0.1--1 ppb level in Titan's mesosphere through multiple valid vertical profile configurations, yielding total column densities ranging from $\\sim0.9$--$3\\times10^{13}$ cm$^{-2}$. Middle-atmospheric abundances are commensurate with recent photochemical model predictions. However, models with parameterized galactic cosmic ray (GCR) fluxes, which exhibit a secondary, stratospheric formation site, are shown to provide poor fits to the data. Thus, our results provide confirmation of predicted formation and destruction pathways for CH$_2$NH in the upper atmosphere, and demonstrate secondary formation mechanisms in the lower atmosphere require adjustments. The latter presents an important barrier for fully estimating Titan's lower atmospheric composition, as enhanced production by GCR is predicted for additional N-bearing species, such as NH$_3$ and CH$_3$NH$_2$ (methylamine). The detection of CH$_2$NH provides the motivation to search for additional species fundamental for prebiotic molecule formation, which will dramatically improve our understanding of complex molecular synthesis of relevance to astrobiology in CH$_4$-rich environments.",
+      "summary": "Saturn's moon, Titan, presents a chemical environment where abiotic synthesis of organics essential for life -- including amino acids and nucleotide bases -- may naturally occur. Here, we present the definitive spectroscopic detection of CH$_2$NH (methanimine) on Titan from observations with the Atacama Large Millimeter/submillimeter Array.",
+      "authors": [
+        "Alexander E. Thelen",
+        "Conor A. Nixon",
+        "Martin A. Cordiner",
+        "Steven B. Charnley",
+        "Véronique Vuitton",
+        "Benjamin Benne",
+        "Jean-Christophe Loison",
+        "Kevin M. Hickson",
+        "Nicholas A. Teanby",
+        "Katherine de Kleer",
+        "Bryan Butler",
+        "Zbigniew Kisiel",
+        "Karen Willacy",
+        "Michel Dobrijevic",
+        "Patrick G. J. Irwin"
+      ],
+      "published": "2026-11-14",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17T12:31:33+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.19063v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.19063v1",
+      "arxiv_id": "2611.19063",
+      "arxiv_url": "https://arxiv.org/abs/2611.19063v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_a6f15d4c21a7",
       "title": "WISDOM Project - XXIX. Catalogue of CO observations of nearby galaxies and the CO Tully-Fisher relation",
       "abstract": "We present Tully-Fisher relations (TFRs) that use carbon monoxide (CO) as the kinematic tracer and Wide-Field Infrared Survey Explorer (WISE) W1-band and Two Micron All Sky Survey (2MASS) Ks-band magnitudes as tracers of stellar luminosity. CO data were obtained using the Atacama Large Millimeter/submillimeter Array for the mm-Wave Interferometric Survey of Dark Object Masses (WISDOM) project for a sample of 102 galaxies located at redshifts z ≲ 0.03, with 81 detections. The best-fitting reverse W1-band and Ks-band CO TFRs are $M_{W1}=(-7.18\\pm 0.93)\\left[\\log \\left(\\frac{W_{50}/\\sin i}{\\text{km~s}^{-1}}\\right)-2.6\\right]+(-24.04\\pm 0.13)$ and $M_{K_\\text{s}}=(-5.95\\pm 0.62)\\left[\\log \\left(\\frac{W_{50}/\\sin i}{\\text{km~s}^{-1}}\\right)-2.6\\right]+(-24.01\\pm 0.10)$, respectively, where W50 is the velocity width of each integrated CO spectrum at 50% of its maximum, i is the galaxy inclination and M is the galaxy absolute magnitude. Our results are in excellent agreement with those of Tiley et al. (2016b), and together they constitute a robust local benchmark for the CO TFR. We however measure a shallower slope and a smaller zero-point offset compared to the relation of Tully & Pierce (2000). Due to the morphological diversity of our sample, we construct separate late-type and early-type galaxy (ETG) CO TFRs, finding that ETGs are 1.40 ± 0.39 mag fainter at W1 band and 0.89 ± 0.28 mag fainter at Ks band at a given velocity width. We also generate and include a comprehensive catalogue of WISDOM CO data products for use in future molecular gas studies.",
@@ -60,7 +227,7 @@
       ],
       "published": "2026-11-14",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -81,10 +248,56 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
           "galaxies",
           "galaxy",
-          "observations"
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_db4cccc41c17",
+      "title": "Developments Towards Superconducting On-Chip Fourier Transform Spectrometers (SOFTS)",
+      "abstract": "We need spectroscopic imaging at sub-millimetre wavelengths to answer fundamental questions about the origins of our universe, structure formation and galaxy evolution. Often, there are steep trade-offs between the number of detectors and their spectral resolving power in completing such 3D surveys. Novel astrophotonics technologies, such as the Superconducting On-Chip Fourier Transform Spectrometer (SOFTS), are underway to break instrumentation barriers and enable the packing of a focal-plane array with many high spectral resolution submillimeter detectors. Here, we summarize recent advances in SOFTS development, focusing on potential spectroscopic resolution and packing density within a focal plane array.",
+      "summary": "We need spectroscopic imaging at sub-millimetre wavelengths to answer fundamental questions about the origins of our universe, structure formation and galaxy evolution. Often, there are steep trade-offs between the number of detectors and their spectral resolving power in completing such 3D surveys.",
+      "authors": [
+        "Nikita Klimovich",
+        "Ritoban Basu Thakur",
+        "Dan Cunnane",
+        "Paul Goldsmith",
+        "Phil Mauskopf",
+        "Peter K. Day",
+        "Boon-Kok Tan"
+      ],
+      "published": "2026-11-13",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17T12:31:33+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.IM",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.18860v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.18860v1",
+      "arxiv_id": "2611.18860",
+      "arxiv_url": "https://arxiv.org/abs/2611.18860v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 15.0
+      },
+      "matched": {
+        "submm": [
+          "sub-millimetre",
+          "submillimeter",
+          "galaxy"
         ]
       },
       "primary_topic": "submm"
@@ -105,7 +318,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -146,7 +359,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -199,7 +412,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -328,7 +541,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -351,10 +564,10 @@
       },
       "matched": {
         "mkid": [
-          "microwave kinetic inductance detectors",
-          "kinetic inductance detectors",
-          "mkid",
           "kinetic inductance",
+          "kinetic inductance detectors",
+          "microwave kinetic inductance detectors",
+          "mkid",
           "readout"
         ]
       },
@@ -373,7 +586,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -416,7 +629,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -464,7 +677,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -508,7 +721,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -552,7 +765,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -597,7 +810,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -652,7 +865,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -734,7 +947,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -774,7 +987,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "arXiv"
       ],
@@ -816,7 +1029,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -852,7 +1065,7 @@
       "authors": [
         "Benedict Pery",
         "Helen Brindley",
-        "Jonathan Murray",
+        "J. E. Murray",
         "Sophie Mosselmans",
         "Sanjeevani Panditharatne",
         "Laura Warwick",
@@ -865,7 +1078,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -914,7 +1127,7 @@
       ],
       "published": "2026-11-11",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -4355,7 +4568,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-16T10:12:16+08:00",
+      "last_seen": "2026-11-17T12:31:33+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

@@ -1,10 +1,15 @@
 # OA Daily Digest
 
-一个零依赖的每日开放获取（Open Access）文献雷达，聚焦三个方向：
+一个零依赖的每日开放获取（Open Access）文献雷达，覆盖以下相关方向：
 
-- **MKIDs 探测器**：微波动能电感探测器、超导谐振器阵列、读电子学、毫米/亚毫米焦平面
-- **亚毫米波天文**：亚毫米波/远红外/太赫兹观测、仪器、连续谱相机、星际介质
+- **MKIDs 探测器**：MKID、KID、LEKID、超导谐振器阵列、读电子学及毫米/亚毫米焦平面
+- **亚毫米波天文**：毫米/亚毫米波、远红外和太赫兹观测、仪器、连续谱相机及星际介质
 - **分子云磁场**：分子云与致密核磁场、尘埃偏振、Zeeman 测量、磁流体力学
+- **亚毫米波偏振仪**：偏振探测、偏振调制、半波片和毫米/亚毫米波偏振仪
+- **超导微波谐振器**：超导微波谐振器、共面波导、微波腔及其损耗
+- **超导材料与薄膜**：超导材料、薄膜、合金、能隙、准粒子及表面损耗
+- **亚毫米波光学**：准光学系统、透镜、馈源、波导、分光与滤波器
+- **望远镜设计**：毫米/亚毫米波、远红外及射电望远镜的光学、结构与调试
 
 它每天从 **arXiv Atom API / arXiv RSS** 和 **OpenAlex** 抓取新记录，合并去重、按关键词相关性打分，并为每篇论文生成一段**自动提取的速读总结**。生成：
 
@@ -16,7 +21,7 @@
 
 页面只保存论文的**标题、作者、摘要、自动速读总结和公开链接**，不下载、不托管出版商全文；你点链接即可去 arXiv 或期刊页面阅读。
 
-> 这个文件夹里已经附带一份抓取于 **2026-10-20** 的归档（约 90 篇），上传到 GitHub 后即可直接看到成品页面；之后由 Actions 每日增量更新。
+> 文件夹附带一份示例归档，上传到 GitHub 后即可直接看到页面；之后由 Actions 每日增量更新。
 
 页面不依赖任何前端框架或 CDN，断网时也能直接打开本地 HTML。
 
@@ -27,14 +32,14 @@
 要求 Python 3.10+，不需要安装第三方包。
 
 ```powershell
-python scripts/fetch_papers.py --days 7
+python scripts\fetch_papers.py --days 7
 start docs\index.html
 ```
 
 第一次建立归档时，建议用 `--seed` 回填一段时间的文献，避免把 60 天的旧论文全部标成“今日新增”：
 
 ```powershell
-python scripts/fetch_papers.py --days 60 --seed
+python scripts\fetch_papers.py --days 60 --seed
 start docs\index.html
 ```
 
@@ -43,7 +48,13 @@ start docs\index.html
 只重新生成页面、不联网：
 
 ```powershell
-python scripts/fetch_papers.py --offline
+python scripts\fetch_papers.py --offline
+```
+
+运行主题匹配测试：
+
+```powershell
+python -m unittest discover -s tests
 ```
 
 常用参数：
@@ -97,6 +108,22 @@ OpenAlex 提供“polite pool”，带上联系邮箱可以获得更稳定的配
 
 `.gitignore` 只是可选的忽略规则，不影响网页运行。
 
+### 如果网站建好了但一直不更新
+
+先看仓库 **Actions** 页面：
+
+- 只有 `pages build and deployment` 这一条记录 → 说明 `.github/workflows/daily.yml` 根本没上传，定时任务不存在。按下面的「修复缺失的工作流」添加。
+- 有 `Daily OA digest` 但失败 → 点进去看日志。常见原因：`Settings → Actions → General → Workflow permissions` 没给 **Read and write**。
+- 有 `Daily OA digest` 且成功，但页面没变 → 说明 **Settings → Pages → Source** 还是 `Deploy from a branch`，需要改成 `GitHub Actions`。
+
+修复缺失的工作流：
+
+1. 仓库首页 → **Add file → Create new file**
+2. 文件名输入 `.github/workflows/daily.yml`
+3. 粘贴本地同名文件的内容，**Commit changes**
+4. **Settings → Pages → Source** 选 `GitHub Actions`
+5. **Actions → Daily OA digest → Run workflow**
+
 ### 工作流做了什么
 
 1. `actions/checkout` 拉取仓库。
@@ -128,20 +155,21 @@ OpenAlex 提供“polite pool”，带上联系邮箱可以获得更稳定的配
   ],
   "openalex_queries": ["kinetic inductance", "MKID", "LEKID"],
   "require_groups": [
-    ["microwave kinetic inductance", "kinetic inductance", "mkid", "mkids", "lebid"]
+    ["microwave kinetic inductance", "kinetic inductance", "mkid", "mkids", "lekid"]
   ],
   "min_score": 7,
   "weights": {
     "microwave kinetic inductance detector": 12,
     "kinetic inductance": 5,
-    "mkid": 8
+    "mkid": 8,
+    "lekid": 8
   }
 }
 ```
 
 关键字段：
 
-- `arxiv_queries`：一组**简单** arXiv 查询。脚本会为每条查询追加 `submittedDate` 日期窗口，再在本地用主题关键词和分类过滤；拆成小查询可以避免超大布尔查询被 arXiv 限流。
+- `arxiv_queries`：一组 arXiv 查询（可使用简短的 `AND` 组合）。脚本会为每条查询追加 `submittedDate` 日期窗口，再在本地用主题关键词和分类过滤；拆成小查询可以避免超大布尔查询被 arXiv 限流。
 - `arxiv_categories`：该主题允许的 arXiv 分类；RSS 或 API 返回的论文至少命中一个分类才会归入该主题。
 - `openalex_queries`：OpenAlex 的 `search` 查询列表；每条结果都会再用本地关键词规则过滤。
 - `require_groups`：必须同时命中的关键词组。比如“分子云磁场”要求同时出现“分子云/致密核”和“磁场/偏振/Zeeman”。
@@ -150,6 +178,10 @@ OpenAlex 提供“polite pool”，带上联系邮箱可以获得更稳定的配
 - `color` / `icon` / `label`：只影响页面展示。
 
 新增一个主题时，复制一个对象、改 `id`（必须唯一）、`label`、检索词和权重即可；页面会自动多出一个筛选标签。
+
+`KID` / `KIDs` 也可能指儿童，因此只有同时出现超导、谐振器、低温读出等探测器相关上下文时才会归入 MKIDs 主题。新的主题增加了查询数量，抓取可能比原来耗时更长；请求间隔仍由 `--delay` 控制。
+
+更改配置后，新规则用于后续抓取；已有归档记录只有重新抓取并合并时才会获得新的主题标签，`--offline` 不会重新分类。需要补抓以前的文献时可运行 `python scripts\fetch_papers.py --days 60 --seed`；结果仍受每个查询的数量上限和源站限流影响。
 
 > 调参建议：先看 `docs/data/papers.json` 里被丢弃/保留的标题，再微调 `min_score` 和 `require_groups`。宁可少而准，也不要让“submillimeter”匹配到微纳加工论文。
 
@@ -182,9 +214,11 @@ OpenAlex 提供“polite pool”，带上联系邮箱可以获得更稳定的配
 │       ├── YYYY-MM-DD.md         # 每日 Markdown 日报
 │       ├── index.md              # 日报归档目录
 │       └── index.json            # 归档元数据
-└── scripts/
-    ├── fetch_papers.py           # 抓取、打分、合并、渲染
-    └── template.html             # 仪表盘模板
+├── scripts/
+│   ├── fetch_papers.py           # 抓取、打分、合并、渲染
+│   └── template.html             # 仪表盘模板
+└── tests/
+    └── test_topic_config.py      # 主题匹配测试
 ```
 
 ---

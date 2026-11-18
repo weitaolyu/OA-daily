@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-17T12:31:33+08:00",
-    "generated_label": "2026-11-17 12:31",
-    "today": "2026-11-17",
+    "generated_at": "2026-11-18T11:43:08+08:00",
+    "generated_label": "2026-11-18 11:43",
+    "today": "2026-11-18",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 223,
-    "new_count": 5,
-    "digest_url": "digests/2026-11-17.md",
+    "paper_count": 226,
+    "new_count": 3,
+    "digest_url": "digests/2026-11-18.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -39,6 +39,146 @@
   ],
   "papers": [
     {
+      "id": "p_db8426db7abf",
+      "title": "Survey of Orion disks with ALMA (SODA). IV: Millimeter variability of protoplanetary disks",
+      "abstract": "Short-term millimeter-wavelength variability in Class II young stellar objects (YSOs) has been considered minimal and is often dismissed as very rare in Atacama Large Millimeter Array (ALMA)-based studies on short timescales. However, recent findings suggest that variability on sub-day timescales is significant. We aim to quantify short-timescale (≈1 hour to ≈3 days) millimeter-flux variability in unresolved Class II YSO disks observed as part of the Survey of Orion Disks with ALMA (SODA) survey, leveraging its large dataset to assess the statistical significance of such variability across the Lynds Dark Nebulae (LDN) 1641 and LDN 1647 regions in Orion. We analyzed ALMA Band 6 observations of 873 YSOs obtained over multiple epochs using a custom flux extraction pipeline to separate individual execution blocks. By computing variability factors and statistical deviations from the mean flux, we identified sources exhibiting significant variability, accounting for noise and calibrator stability. Even with conservative selection criteria, we identified 20 variable sources within the sample (≈5.3% of all detections). The maximum of the measured variability factor is ≥7 over about one hour. More liberal selection criteria yield up to 60 sources that could be called potentially variable (≈15.9%). The number of variable sources detected in our sample indicates physical processes operating on timescales of hours, likely associated with magnetic reconnection and/or synchrotron radiation or strong cases of magnetic-accretion changes. These detections highlight the need to reconsider typical stability assumptions in single-epoch observations and call for follow-up studies in star-forming regions with ALMA. Masses derived from unresolved measurements could potentially be biased by this sort of variability.",
+      "summary": "Short-term millimeter-wavelength variability in Class II young stellar objects (YSOs) has been considered minimal and is often dismissed as very rare in Atacama Large Millimeter Array (ALMA)-based studies on short timescales. Even with conservative selection criteria, we identified 20 variable sources within the sample (≈5.3% of all detections).",
+      "authors": [
+        "D. Krebs",
+        "A. Hacar",
+        "J. Forbrich",
+        "van Terwisga"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18T11:43:08+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202556956",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202556956",
+      "url": "https://doi.org/10.1051/0004-6361/202556956",
+      "pdf_url": "",
+      "openalex_id": "W7222984304",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 11.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_a641cc008920",
+      "title": "Rapid Protoplanetary Disk Evolution and Debris Disk Formation in Taurus-Auriga",
+      "abstract": "We present a Submillimeter Array (SMA) 1.3mm (225GHz) continuum emission survey of Young Stellar Objects (YSOs) in the Taurus-Auriga star-forming region, comprising 69 class III and 5 class I/II YSOs with spectral types B9-M3, as part of a total sample of 149 class II and 82 class III YSOs. This represents a complete sample (100%) of class II and III YSOs with spectral types earlier than K3, and a near-complete sample (85%) for spectral types earlier than M2. The survey has a median $3σ$ sensitivity of 1.4mJy. We did not find any emission from circumstellar dust around class III YSOs, but present three detections that can be attributed to variable stellar activity, and one from an unresolved companion. We compile and model spectral energy distributions (SEDs) for the sample, and report 27 class III YSOs with excess thermal emission. We demonstrate that the class III YSOs in Taurus are typically older than their class II counterparts. We produce millimeter luminosity and dust disk mass distributions, and present evidence for a bifurcation between the class II and III populations, implying that ${\\gtrsim}99.5\\%$ of the dust mass is dispersed or transformed as YSOs transition from the class II to III stage. The combined infrared and millimeter properties demonstrate that warm (inner) and cold (outer) dust reservoirs evolve on comparable timescales: there is a rapid evolution across the radial extent of disks. We demonstrate that the survey properties are broadly consistent with a belt population that formed planetesimals from class II disks with an efficiency of a few tenths to a few tens of percent.",
+      "summary": "We present a Submillimeter Array (SMA) 1.3mm (225GHz) continuum emission survey of Young Stellar Objects (YSOs) in the Taurus-Auriga star-forming region, comprising 69 class III and 5 class I/II YSOs with spectral types B9-M3, as part of a total sample of 149 class II and 82 class III YSOs. The survey has a median $3σ$ sensitivity of 1.4mJy.",
+      "authors": [
+        "Joshua B. Lovell",
+        "Sean M. Andrews",
+        "Grant M. Kennedy",
+        "David J. Wilner",
+        "Richard Alexander",
+        "Adam L. Kraus",
+        "Daniel M. Krolikowski",
+        "Luca Matrà",
+        "Mark C. Wyatt",
+        "Jonathan P. Williams"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18T11:43:08+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.EP",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.21884v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21884v1",
+      "arxiv_id": "2611.21884",
+      "arxiv_url": "https://arxiv.org/abs/2611.21884v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "submillimeter",
+          "sma",
+          "dust",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_fc24842d58de",
+      "title": "A near-quantum-limited diamond maser amplifier operating at millikelvin temperatures",
+      "abstract": "Current microwave quantum technologies require the amplification of weak signals with minimal added noise at millikelvin temperatures. To date, this stringent requirement has been met exclusively by superconducting technologies, such as Josephson or kinetic-inductance parametric amplifiers. A fundamentally distinct alternative approach could be offered by masers, the microwave counterpart of lasers, which were predicted as early as the 1950s to achieve quantum-limited noise performance under ideal conditions. However, their dependence on cryogenic operation historically limited further advancement. Here we demonstrate the first-ever non-superconducting, near-quantum-limited maser amplifier operating at millikelvin temperatures utilising nitrogen impurity spins (P1 centres) in diamond. Population inversion is achieved via microwave pumping, exploiting a four-spin cross-relaxation mechanism. We realise a maximum power gain exceeding 30 dB, an added noise of approximately 2.55 quanta above the standard quantum limit, and a maximum 1 dB output compression point of -63 dBm at 6.595 GHz. The ability to operate in strong static magnetic fields of arbitrary orientation may offer a complementary, non-superconducting route for applications such as semiconducting spin-qubit readout, magnetic-resonance spectroscopy, and dark-matter axion searches.",
+      "summary": "Current microwave quantum technologies require the amplification of weak signals with minimal added noise at millikelvin temperatures. Here we demonstrate the first-ever non-superconducting, near-quantum-limited maser amplifier operating at millikelvin temperatures utilising nitrogen impurity spins (P1 centres) in diamond.",
+      "authors": [
+        "Morihiro Ohta",
+        "Ching-Ping Lee",
+        "Vincent P. M. Sietses",
+        "Ivan Kostylev",
+        "Jason Ball",
+        "Peter Moroshkin",
+        "Tatsuki Hamamoto",
+        "Y. Kobayashi",
+        "Shinobu Onoda",
+        "Takeshi Ohshima",
+        "Junichi Isoya",
+        "Hiroki Takahashi",
+        "Yuimaru Kubo"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18T11:43:08+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-026-79021-7",
+      "doi_url": "https://doi.org/10.1038/s41467-026-79021-7",
+      "url": "https://doi.org/10.1038/s41467-026-79021-7",
+      "pdf_url": "",
+      "openalex_id": "W4411474812",
+      "oa": true,
+      "type": "article",
+      "citations": 3,
+      "topics": [
+        "mkid"
+      ],
+      "scores": {
+        "mkid": 7.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "readout"
+        ]
+      },
+      "primary_topic": "mkid"
+    },
+    {
       "id": "p_8d592f001e15",
       "title": "Parallel Critical Field and Kinetic Inductance of a Five-Nanometre Niobium Nitride Film",
       "abstract": "A film thinner than its own coherence length responds to a parallel magnetic field in a way no bulk formula describes, because the vortex that would carry flux through the film cannot fit inside it. This paper computes the enhanced parallel critical field of a detector-grade niobium nitride film from the Tinkham thin-film relation, and sets beside it the kinetic inductance that governs detector reset time. Both quantities trace back to the same dirty-limit penetration depth, so the budget ties a magnetic measurement to an electronic one. For sputtered niobium nitride film, five nanometres thick, of the grade used for superconducting nanowire single-photon detectors: detector zero-temperature critical field 19.3 tesla; detector orbital slope field 19.3 tesla; detector Pauli paramagnetic ceiling 28.5 tesla; detector Maki parameter 0.959. For the detector-grade nitride film, its zero-temperature critical field 19.3 tesla (detector) supplies for the detector sample, the field ceiling, a detector figure, extrapolated to absolute zero. detector readings beside the detector-grade nitride film inputs set the detector scale at 19.3 tesla. For the detector-grade nitride film, its orbital slope field 19.3 tesla (detector) stands as for the detector sample, the slope estimate, a detector figure, from transition behaviour. detector comparisons later in the detector-grade nitride film discussion return to 19.3 tesla.",
@@ -48,7 +188,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -84,7 +224,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -105,9 +245,9 @@
       },
       "matched": {
         "submm": [
+          "astronomy",
           "far infrared",
           "far-infrared",
-          "astronomy",
           "telescope"
         ]
       },
@@ -123,7 +263,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -144,9 +284,9 @@
       },
       "matched": {
         "submm": [
+          "astronomy",
           "far infrared",
           "far-infrared",
-          "astronomy",
           "telescope"
         ]
       },
@@ -176,7 +316,7 @@
       ],
       "published": "2026-11-14",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -199,8 +339,8 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "observations"
+          "observations",
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -227,7 +367,7 @@
       ],
       "published": "2026-11-14",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -272,7 +412,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -295,9 +435,9 @@
       },
       "matched": {
         "submm": [
+          "galaxy",
           "sub-millimetre",
-          "submillimeter",
-          "galaxy"
+          "submillimeter"
         ]
       },
       "primary_topic": "submm"
@@ -318,7 +458,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -359,7 +499,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -412,7 +552,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -456,20 +596,22 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-14T10:28:04+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "The Astrophysical Journal",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2611.16385",
+      "doi": "10.3847/1538-4357/aeb6db",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb6db",
+      "url": "https://doi.org/10.3847/1538-4357/aeb6db",
       "pdf_url": "https://arxiv.org/pdf/2611.16385",
       "arxiv_id": "2611.16385",
       "arxiv_url": "https://arxiv.org/abs/2611.16385",
+      "openalex_id": "W7226001229",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
@@ -479,10 +621,10 @@
       },
       "matched": {
         "submm": [
-          "pol-2",
-          "interstellar",
           "dust",
-          "observations"
+          "interstellar",
+          "observations",
+          "pol-2"
         ]
       },
       "primary_topic": "submm"
@@ -541,7 +683,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -586,7 +728,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -629,7 +771,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -677,7 +819,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -721,7 +863,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -765,7 +907,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -810,7 +952,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -865,7 +1007,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -947,7 +1089,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -987,7 +1129,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1029,7 +1171,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -4568,7 +4710,7 @@
       ],
       "published": "2026-10-30",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-17T12:31:33+08:00",
+      "last_seen": "2026-11-18T11:43:08+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

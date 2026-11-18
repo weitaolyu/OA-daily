@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a daily open-access literature digest for three astronomy topics.
+"""Build a daily open-access literature digest for configured research topics.
 
 Sources
 -------
@@ -1101,7 +1101,7 @@ def render_digest(
     lines.extend(
         [
             "",
-            "> 主题：MKIDs 探测器 / 亚毫米波天文 / 分子云磁场 · "
+            f"> 主题：{' / '.join(md_text(topic.label) for topic in topics)} · "
             f"[打开交互式仪表盘](../index.html) · [日报归档](index.md)",
             "",
         ]

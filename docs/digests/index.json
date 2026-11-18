@@ -1,13 +1,18 @@
 [
   {
     "date": "2026-11-18",
-    "total": 3,
+    "total": 40,
     "counts": {
       "mkid": 1,
-      "submm": 2,
-      "molecular": 0
+      "submm": 10,
+      "molecular": 0,
+      "polarimetry": 1,
+      "resonators": 4,
+      "superconducting_materials": 20,
+      "submm_optics": 0,
+      "telescope_design": 4
     },
-    "generated": "2026-11-18 11:43"
+    "generated": "2026-11-18 18:49"
   },
   {
     "date": "2026-11-17",

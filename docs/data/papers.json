@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T11:21:39+08:00",
-    "generated_label": "2026-11-20 11:21",
-    "today": "2026-11-20",
+    "generated_at": "2026-11-21T11:14:16+08:00",
+    "generated_label": "2026-11-21 11:14",
+    "today": "2026-11-21",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 295,
-    "new_count": 32,
-    "digest_url": "digests/2026-11-20.md",
+    "paper_count": 316,
+    "new_count": 21,
+    "digest_url": "digests/2026-11-21.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -78,6 +78,415 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_8dbf3a325428",
+      "title": "An ALMA sub-kiloparsec test of the Kennicutt--Schmidt relation in a strongly lensed dusty star-forming galaxy at z∼2.78",
+      "abstract": "Star formation is a key process driving galaxy evolution, but understanding how it proceeds within the interstellar medium (ISM) requires observations that resolve the cold molecular gas and dust on sub-kiloparsec (sub-kpc) scales. At z,∼,2--3, near the peak of cosmic star formation, such spatial resolution can generally only be achieved through strong gravitational lensing. We present an ALMA study of SMM:J065837.6-555705, hereafter SMM,J0658, a 20 main-sequence star-forming galaxy at z_̊m CO,=,2.7768,±,0.0002 that is lensed by the Bullet Cluster (1E,0657-56; z,=,0.296) into three images. We used 0 and 0 ALMA Band-3 data to test the Kennicutt--Schmidt (KS) relation at sub-kpc scales at cosmic noon. Using a JWST-based parametric strong-lensing model of the Bullet Cluster, we reconstructed source-plane and rest-frame 803 ̆pmum dust-continuum maps down to physical scales of ∼,200 pc. We derived spatially resolved maps of the intrinsic molecular gas mass surface density (Σ_̊m mol), star formation rate surface density (Σ_̊m SFR), and molecular gas depletion time (τ_̊m dep), and quantified the scale dependence of the CO-to-dust flux ratio over apertures from 200 pc to 3.2 kpc across the reconstructed source. CO(3--2) The 0 ALMA data reveal massive (M_̊m mol,∼,10^9 _⊙) and dense star-forming clumps, with Σ_̊m mol,∼,1.3--2.3 times10^3 ̊m M ̊m M ̊m pc ^ -2, Σ_̊m SFR,∼,0.5--2.3 $ ̊m M _⊙, ̊m yr ^ -1, ̊m kpc ^ -2 $, and τ_̊m dep,∼,0.82--2.56 Gyr. The observed CO--dust spatial de-correlation produces a strong scale dependence on τ_̊m dep. We find a KS-relation breakdown scale of 0.8,±,0.1 kpc in SMM,J0658, which is consistent with the resolution of individual regions tracing distinct evolutionary stages of the star formation cycle within the ISM. The ALMA and JWST data also reveal evidence of a lensed galaxy pair at z,∼,2.78, although it remains uncertain whether SMM,J0658 is undergoing an early-stage interaction that could contribute to an enhanced star formation efficiency in localized regions of the ISM. Our results show that the apparent universality of the KS relation breaks down once individual regions of the star formation process are spatially resolved, in line with observations from the local Universe to z,∼,1. We extend this picture to z,∼,2.78, opening a new window onto the resolved properties of the clumpy cold ISM and the star formation cycle at cosmic noon.",
+      "summary": "Star formation is a key process driving galaxy evolution, but understanding how it proceeds within the interstellar medium (ISM) requires observations that resolve the cold molecular gas and dust on sub-kiloparsec (sub-kpc) scales. We present an ALMA study of SMM:J065837.6-555705, hereafter SMM,J0658, a 20 main-sequence star-forming galaxy at z_̊m CO,=,2.7768,±,0.0002 that is lensed by the Bullet Cluster (1E,0657-56; z,=,0.296) into three images.",
+      "authors": [
+        "Carla Cornil-Baiotto",
+        "J. Molina",
+        "G. Mahler",
+        "Gregor Rihtaršič",
+        "M. Boquien",
+        "Maruša Bradač",
+        "E. Ibar",
+        "A.H. Gonzalez",
+        "T. Verdugo",
+        "Omar Lopez-Cruz",
+        "J. Magana",
+        "V. Motta"
+      ],
+      "published": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661798",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661798",
+      "url": "https://doi.org/10.1051/0004-6361/202661798",
+      "pdf_url": "",
+      "openalex_id": "W7215069159",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 17.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "galaxy",
+          "interstellar",
+          "ism",
+          "observations",
+          "star formation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_8e252809cb28",
+      "title": "The accretion flow and jet of M87: broadband modelling across spatial scales",
+      "abstract": "The nearby radio galaxy M87 is an ideal laboratory for studying accretion flows and relativistic jet emission. The EHT collaboration conducted the most comprehensive multi-wavelength observational campaign of M87, in which radio instruments with resolutions ranging from tens of microarcseconds to about an arcsecond sampled different portions of the outflow. We model these data using a radiatively inefficient accretion flow (RIAF) with winds and a new multi-zone jet model, initially magnetically dominated, in which we solve the transport equation for the non-thermal electrons as they are injected, advected, and cooled along the jet. We then compare each radio flux with the jet emission within an effective aperture set by the angular scale of the corresponding observation and obtain the best fit for the jet parameters. The comparison across spatial scales favours a scenario in which the RIAF, rather than the jet, produces the compact 230 GHz emission, while the jet dominates the lower-frequency radio, optical/UV and X-ray emission. The Jet+RIAF model connects the Bondi-scale gas supply to an accretion rate at the horizon of ≈10-5 of the Eddington rate, consistent with EHT polarimetry, and the two jets carry in total ≈13 per cent of the accretion power, 1043 erg s-1. The framework presented in this work provides a simple way to disentangle the accretion-flow and jet contributions to the emission from nearby radio galaxies.",
+      "summary": "The nearby radio galaxy M87 is an ideal laboratory for studying accretion flows and relativistic jet emission. The EHT collaboration conducted the most comprehensive multi-wavelength observational campaign of M87, in which radio instruments with resolutions ranging from tens of microarcseconds to about an arcsecond sampled different portions of the outflow.",
+      "authors": [
+        "Eduardo M. Gutiérrez",
+        "Santiago del Palacio",
+        "Tomás Tobías Mazzei"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stag2222",
+      "doi_url": "https://doi.org/10.1093/mnras/stag2222",
+      "url": "https://doi.org/10.1093/mnras/stag2222",
+      "pdf_url": "",
+      "openalex_id": "W7223000237",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "polarimetry"
+      ],
+      "scores": {
+        "polarimetry": 10.0
+      },
+      "matched": {
+        "polarimetry": [
+          "230 ghz",
+          "polarimetry"
+        ]
+      },
+      "primary_topic": "polarimetry"
+    },
+    {
+      "id": "p_e829f8c6eb61",
+      "title": "Probing disk dynamics and dust evolution through shadows in protoplanetary disks: A case study of the HD 142527 disk",
+      "abstract": "Planet formation begins with dust growth and planetesimal formation within protoplanetary disks surrounding young stars. To understand these processes, it is essential to estimate dust grain sizes from disk observations. In this study, we develop an observational and analytic framework to constrain dust grain size in transition disks with inclined inner disks casting shadows on the outer disks, building on the use of the resulting temperature variations to estimate the cooling timescale. By constructing a three-dimensional model of the disk surface using near-infrared scattering light images and comparing it with submillimeter dust continuum maps, we estimate the spatial offset between the irradiated and shadowed regions to derive the cooling timescale. We then build an analytic model that calculates the cooling timescale at the dust thermal emission height with an assumed turbulent diffusion intensity to infer the dust surface density and dust grain size. Applying this method to the protoplanetary disk around HD 142527, we confirm the previously predicted thermal lag and find that the disk’s northern shadowed region cools on a timescale of a few percent of the orbital period and that the maximum grain size consistent with the observations is approximately 0.1-1 mm. We also find that the conditions required for the vertical shear instability, which needs a short cooling timescale, are satisfied, allowing turbulence with an intensity consistent with near-infrared observations. This study demonstrates that estimating cooling timescales is an effective tool for constraining dust grain size. Our approach can be generally applied to other transition disks with inner-disk-induced shadows.",
+      "summary": "Planet formation begins with dust growth and planetesimal formation within protoplanetary disks surrounding young stars. This study demonstrates that estimating cooling timescales is an effective tool for constraining dust grain size.",
+      "authors": [
+        "Yuya Fukuhara",
+        "Ryuta Orihara",
+        "Satoshi Okuzumi",
+        "Takayuki Muto"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Publications of the Astronomical Society of Japan",
+      "doi": "10.1093/pasj/psag153",
+      "doi_url": "https://doi.org/10.1093/pasj/psag153",
+      "url": "https://arxiv.org/abs/2607.17648",
+      "pdf_url": "https://arxiv.org/pdf/2607.17648",
+      "openalex_id": "W7169825944",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "observations",
+          "protoplanetary",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c020efc9bffd",
+      "title": "Nanosculpting in Superconducting Fe(Te,Se)/Bi2Te3 with Focused Si++ Ions and Implications on Vortex Pinning",
+      "abstract": "We demonstrate “nanosculpting” of ∼150 nm-wide focused ion beam (FIB)-irradiated channels into thin films of FeTe0.75Se0.25/Bi2Te3 (FTS/BT), a candidate topological superconductor, with a Si++ FIB. Systematic irradiation shows that increasing the ion dose, while keeping the beam energy constant, progressively suppresses both the critical temperature (Tc) and threshold current (I*) (the current at which the voltage reaches 20 mV), confirming the creation of a nanoregion with “degraded” superconductivity. Kelvin probe force microscopy, atomic force microscopy, and scanning electron microscopy corroborate the structural and electronic modification of the irradiated region. I* (B) measurements reveal a slower field-induced decay of I* at higher doses. These results are consistent with the irradiation-induced enhanced vortex pinning. Based on these observations, we discuss the next steps as future work toward the fabrication of lateral topological-Josephson Junctions based on FTS/BT, which can be a foundation for the development of robust and scalable fault-tolerant qubits.",
+      "summary": "We demonstrate “nanosculpting” of ∼150 nm-wide focused ion beam (FIB)-irradiated channels into thin films of FeTe0.75Se0.25/Bi2Te3 (FTS/BT), a candidate topological superconductor, with a Si++ FIB. I* (B) measurements reveal a slower field-induced decay of I* at higher doses.",
+      "authors": [
+        "Debarghya Mallick",
+        "Sujoy Ghosh",
+        "An-Hsi Chen",
+        "Qiangsheng Lu",
+        "Liam F. Collins",
+        "Sangsoo Kim",
+        "Gyula Eres",
+        "Ivan Kravchenko",
+        "Stephen Jesse",
+        "Steven Randolph",
+        "Scott T. Retterer",
+        "Matthew Brahlek",
+        "R. G. Moore"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "ACS Applied Electronic Materials",
+      "doi": "10.1021/acsaelm.6c01740",
+      "doi_url": "https://doi.org/10.1021/acsaelm.6c01740",
+      "url": "https://doi.org/10.1021/acsaelm.6c01740",
+      "pdf_url": "",
+      "openalex_id": "W4415090458",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 25.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "critical temperature",
+          "films",
+          "superconducting",
+          "superconductivity",
+          "superconductor",
+          "thin films"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_68798bf9663d",
+      "title": "Kinetic arrest of a disordered first-order phase transition in strained V 2 O 3 thin films",
+      "abstract": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition, taking the thermal and electric field-driven metal-insulator transition in epitaxialthin films as a prototype. By defining a coarse-grained mesoscopic order parameterrepresenting the metallic volume fraction coupled to the primary structural monoclinic distortion, we formulate a Time-Dependent Ginzburg-Landau framework integrated with a non-local elastic interaction kernel and an Imry-Wortis quenched disorder landscape. We derive an explicit dynamic criterion for the KA boundaryby analyzing the divergence of the intrinsic order-parameter relaxation time relative to experimental observation timescales. Our framework rigorously decouples the thermodynamic driving force from the kinetic activation barrier. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic temperatures. The simulated transformation kinetics exhibit an Avrami exponent suppression to values, reflecting slow, hindered domain-wall propagation. Furthermore, we examine the effect of an external electric field as an isothermal mechanism that lowers this kinetic barrier, providing a phenomenological description of threshold de-arrest and multi-level resistance states. We critically discuss this electronic barrier-lowering mechanism in comparison with electrothermal Joule heating, establish diagnostic criteria to distinguish them, and contextualize these non-equilibrium dynamics with related phenomena in disordered superconducting films.",
+      "summary": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition, taking the thermal and electric field-driven metal-insulator transition in epitaxialthin films as a prototype. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic temperatures.",
+      "authors": [
+        "Sindhunil Barman Roy"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Journal of Physics Condensed Matter",
+      "doi": "10.1088/1361-648x/aebfdd",
+      "doi_url": "https://doi.org/10.1088/1361-648x/aebfdd",
+      "url": "https://doi.org/10.1088/1361-648x/aebfdd",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-648X/aebfdd/pdf",
+      "openalex_id": "W7154509638",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 21.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "films",
+          "superconducting",
+          "thin films"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_3e7de9639b06",
+      "title": "Imaging atomic-scale surface structure and superconducting gap of the misfit layered compound (SnS)1.17NbS2",
+      "abstract": "Superlattices of van der Waals-coupled two-dimensional materials offer a platform for engineering electronic band structure and fostering emergent quantum states. Misfit layered compounds provide naturally assembled superlattices, in which crystallographically distinct two-dimensional subsystems coexist within a single bulk crystal. Therein, the presence of both commensurate and incommensurate lattice directions introduces structural modulation, which might alter real-space electronic orders such as superconductivity. Here, we investigate the atomic-scale surface structure and local superconductivity of the misfit layered compound (SnS) 1.17 NbS 2 using structural characterization, electrical transport, and low-temperature scanning tunnelling microscopy (STM). While X-ray diffraction and cross-sectional scanning transmission electron microscopy confirm the bulk misfit structure, STM resolves large SnS- and NbS 2 -terminated terraces, where the surface atomic registry differs from the bulk misfit structure. Furthermore, tunnelling spectroscopy at 2 K reveals nearly identical superconducting gaps on both terminations, and the spatial variation of the gap shows no visible modulation that corresponds to the misfit lattice. These results establish an atomic-scale picture of the surface structure and superconducting states of this naturally assembled misfit heterostructure.",
+      "summary": "Superlattices of van der Waals-coupled two-dimensional materials offer a platform for engineering electronic band structure and fostering emergent quantum states. Furthermore, tunnelling spectroscopy at 2 K reveals nearly identical superconducting gaps on both terminations, and the spatial variation of the gap shows no visible modulation that corresponds to the misfit lattice.",
+      "authors": [
+        "Dongming Zhao",
+        "Shamarita Deb",
+        "Lichen Ji",
+        "Souvik Das",
+        "Paul Simon",
+        "Raul Cardoso-Gil",
+        "S. Wirth",
+        "Walter Schnelle",
+        "Sushmita Chandra",
+        "Jian-Feng Ge",
+        "Claudia Felser"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Quantum Frontiers",
+      "doi": "10.1007/s44214-026-00114-x",
+      "doi_url": "https://doi.org/10.1007/s44214-026-00114-x",
+      "url": "https://doi.org/10.1007/s44214-026-00114-x",
+      "pdf_url": "",
+      "openalex_id": "W7221751112",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 37.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "compound",
+          "compounds",
+          "crystal",
+          "materials",
+          "superconducting gap",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_c9e72164ddf6",
+      "title": "Evidence for Clean d -Wave Superconductivity in the Samarium Nickelates",
+      "abstract": "The discovery of superconducting nickelates provides a unique opportunity to explore the pairing mechanism of high-temperature superconductivity. Here, we use ultrafast terahertz spectroscopy to probe the temperature-dependent superfluid density in an infinite-layer samarium nickelate film with a T_c of 20 K. The superfluid density decreases linearly with rising temperature, consistent with clean-limit d-wave pairing in cuprate superconductors. From this linear relation, we extract a superconducting gap Δ(0) = 2.5 ± 0.1 meV and a gap-to-T_c ratio, 2∆(0) /k_B T_c≈3, suggesting that this sample lies in the weak-coupling regime. Furthermore, the ratio of the mean free path to the coherence length, l/ξ, is determined to be ~1.5, confirming clean-limit behavior. These findings suggest strong parallels between the pairing mechanisms in nickelate and cuprate superconductors.",
+      "summary": "The discovery of superconducting nickelates provides a unique opportunity to explore the pairing mechanism of high-temperature superconductivity. Here, we use ultrafast terahertz spectroscopy to probe the temperature-dependent superfluid density in an infinite-layer samarium nickelate film with a T_c of 20 K.",
+      "authors": [
+        "Qingming Huang",
+        "Xiaofang Fu",
+        "Junlong Wu",
+        "Laifeng LI",
+        "Liang Qiao",
+        "Ye Yang"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical Review Letters",
+      "doi": "10.1103/fz8w-w61f",
+      "doi_url": "https://doi.org/10.1103/fz8w-w61f",
+      "url": "https://arxiv.org/abs/2512.20928",
+      "pdf_url": "https://arxiv.org/pdf/2512.20928",
+      "openalex_id": "W7117307079",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 20.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "film",
+          "superconducting",
+          "superconducting gap",
+          "superconductivity",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_5344650e8118",
+      "title": "Disentangling star formation rate indicators in H-ATLAS galaxies: UV, FIR and radio diagnostics from energy-balance SED fitting",
+      "abstract": "We compare three star formation rate (SFR) tracers --- far-ultraviolet (FUV), far-infrared (FIR) and 1.4\\,GHz radio emission --- for \\Nsamp\\ galaxies (median redshift 0.12) from the Herschel Astrophysical Terahertz Large Area Survey Data Release 1 catalogue, excluding quasars, AGN-dominated galaxies and unreliable redshifts. Energy-balance spectral energy distribution fitting with \\textsc{cigale} gives their attenuations, dust luminosities and SFRs self-consistently. The FUV attenuation correlates strongly with FIR luminosity (Spearman $\\rho=0.84$), largely through their common dependence on redshift (partial $\\rho=0.57$ at fixed $z$), and more tightly with the infrared excess ($\\rho=0.96$). The uncorrected UV SFR is over ten times below the FIR SFR for 67 per cent of the galaxies, and for all with $A_{\\rm FUV}>4$\\,mag. For 714 galaxies the FIRST 1.4\\,GHz flux density is at the noise level and is treated as an upper limit; as detections, these values push the fits to unrealistically low dust temperatures. The 84 radio detections have a median $q_{\\rm IR}$ of 2.51, close to the assumed 2.58. SFRs averaged over 10 and 100\\,Myr differ by under 2 per cent, because the model star formation histories are smooth. Without access to high-performance computing, all galaxies were fitted at $z=0$, with distance-dependent quantities rescaled. This lowers dust temperatures by a factor of about $(1+z)$ and biases stellar masses and, at $z>0.2$, attenuations, but changes dust luminosities and SFRs by only a few hundredths of a dex. These fits, with 16.3 million models per galaxy, show what UV-to-radio SED modelling can deliver on modest hardware.",
+      "summary": "We compare three star formation rate (SFR) tracers --- far-ultraviolet (FUV), far-infrared (FIR) and 1.4\\,GHz radio emission --- for \\Nsamp\\ galaxies (median redshift 0.12) from the Herschel Astrophysical Terahertz Large Area Survey Data Release 1 catalogue, excluding quasars, AGN-dominated galaxies and unreliable redshifts. For 714 galaxies the FIRST 1.4\\,GHz flux density is at the noise level and is treated as an upper limit; as detections, these values…",
+      "authors": [
+        "Boitumelo Gaolape",
+        "Rhodri Evans"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.26260v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26260v1",
+      "arxiv_id": "2611.26260",
+      "arxiv_url": "https://arxiv.org/abs/2611.26260v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 27.0
+      },
+      "matched": {
+        "submm": [
+          "astrophysical",
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "galaxies",
+          "galaxy",
+          "herschel",
+          "star formation",
+          "terahertz"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_27a9d4bebd77",
+      "title": "Benchmarking the accuracy of superconducting pair-pair correlations within constrained-path quantum Monte Carlo",
+      "abstract": "Ground state properties of the Hubbard model are of fundamental importance to understand the mechanism of unconventional superconductivity in the high-T_c cuprates and other materials. One of the most powerful numerical methods for strongly interacting models is quantum Monte Carlo, which however faces a fundamental limitation, the Fermion sign problem. The sign problem can be mitigated using approximate methods such as Constrained Path Monte Carlo, where the sign of the overlap with a trial wavefunction is constrained to remain positive. Beyond the constraint, additional approximations must be made in order to measure observables for operators that do not commute with the Hamiltonian. We examine critically the most commonly used approximation, back propagation, as well as a recently proposed constraint release measurement technique. In comparisons with a variety of systems that can be solved numerically exactly by other methods, we find that back propagation tends to underestimate long-range superconducting pair-pair correlations. Except in special cases such as one dimension, back propagation introduces an uncontrolled approximation even when the exact trial wavefunction is used. The constraint release technique can provide accurate results, with the disadvantages that it much more computationally expensive and reintroduces the sign problem.",
+      "summary": "Ground state properties of the Hubbard model are of fundamental importance to understand the mechanism of unconventional superconductivity in the high-T_c cuprates and other materials. Beyond the constraint, additional approximations must be made in order to measure observables for operators that do not commute with the Hamiltonian.",
+      "authors": [
+        "Jodie Roberts",
+        "Beau A. Thompson",
+        "Rudolf Torsten Clay"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/bk55-xnj5",
+      "doi_url": "https://doi.org/10.1103/bk55-xnj5",
+      "url": "https://arxiv.org/abs/2603.25858",
+      "pdf_url": "https://arxiv.org/pdf/2603.25858",
+      "openalex_id": "W7143339671",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 13.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "materials",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
     {
       "id": "p_b5dde444570f",
       "title": "Unveiling the Central Black Hole of NGC 3862: A Direct Mass Determination Using ALMA's High-Resolution Molecular Gas Kinematics",
@@ -196,7 +605,7 @@
     {
       "id": "p_9fb0a6590407",
       "title": "Comparative First-Principles Study of the Physical Properties, Phonon-Mediated Superconductivity and Functional Potential of Technetium-Based Binary Borides TcB2, Tc2B and Tc3B",
-      "abstract": "Phonon-mediated superconductivity in binary transition-metal borides reflects a balance between the metal d-states, metal-boron bonding, and the lattice vibrations that couple to them. Here, we compare P6/mmm TcB2 at 20 GPa with I4/mcm Tc2B and P4/mmm Tc3B at 0 GPa within a first-principles framework. Their mechanical responses differ appreciably: TcB2 is the most rigid under its compressed condition, Tc2B shows the strongest tendency toward ductility, and Tc3B falls between the two. Despite these differences, all three phases remain metallic. The states at the Fermi level are dominated by Tc-4d character, although the extent of Tc-d/B-p mixing varies from one compound to another. Charge redistribution is more directional and B-centered in TcB2, but more delocalized around the Tc network in Tc2B and Tc3B. Inclusion of spin-orbit coupling leaves all three compounds metallic. The optical response remains metallic and electric field polarization dependent, with substantial visible reflectivity and strong ultraviolet absorption. Low-frequency Tc rich vibrations dominate the electron-phonon coupling (EPC). With μ* = 0.10, the Tc values of TcB2, Tc2B, and Tc3B are 24.92, 11.07, and 15.12 K, respectively. Although Tc3B exhibits a higher electronic density of states at the Fermi level, N(EF), TcB2 couples most strongly to EPC-active low-frequency modes, showing that the superconducting hierarchy depends on electronic-phonon matching rather than DOS magnitude alone.",
+      "abstract": "Phonon-mediated superconductivity in binary transition-metal borides reflects a balance between the metal d-states, metal-boron bonding, and the lattice vibrations that couple to them. Here, we compare P6/mmm TcB2 at 20 GPa with I4/mcm Tc2B and P4/mmm Tc3B at 0 GPa within a first-principles framework. Their mechanical responses differ appreciably: TcB2 is the most rigid under its compressed condition, Tc2B shows the strongest tendency toward ductility, and Tc3B falls between the two. Despite these differences, all three phases remain metallic. The states at the Fermi level are dominated by Tc-4d character, although the extent of Tc-d/B-p mixing varies from one compound to another. Charge redistribution is more directional and B-centered in TcB2, but more delocalized around the Tc network in Tc2B and Tc3B. Inclusion of spin-orbit coupling leaves all three compounds metallic. The optical response remains metallic and electric field polarization dependent, with substantial visible reflectivity and strong ultraviolet absorption. Low-frequency Tc rich vibrations dominate the electron-phonon coupling (EPC). With {\\mu}* = 0.10, the Tc values of TcB2, Tc2B, and Tc3B are 24.92, 11.07, and 15.12 K, respectively. Although Tc3B exhibits a higher electronic density of states at the Fermi level, N(EF), TcB2 couples most strongly to EPC-active low-frequency modes, showing that the superconducting hierarchy depends on electronic-phonon matching rather than DOS magnitude alone.",
       "summary": "Phonon-mediated superconductivity in binary transition-metal borides reflects a balance between the metal d-states, metal-boron bonding, and the lattice vibrations that couple to them. Here, we compare P6/mmm TcB2 at 20 GPa with I4/mcm Tc2B and P4/mmm Tc3B at 0 GPa within a first-principles framework.",
       "authors": [
         "M. Rabi Us Sani Shapon",
@@ -207,7 +616,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -239,6 +648,129 @@
       "primary_topic": "superconducting_materials"
     },
     {
+      "id": "p_5ef4169e9012",
+      "title": "Wide-Area Nanoscale Characterization of Nanostructure Stability and Functional Bottlenecks in Self-Organized Materials With Structural Inhomogeneity",
+      "abstract": "Nanoscale spatial resolution over micrometer-scale observation areas is key to understanding and controlling heterogeneous materials, especially for industrial-scale applications. Transmission electron microscopy (TEM) is typically limited to submicrometer-scale areas and may be affected by sampling bias in systems containing structural inhomogeneities. Here, thin specimens prepared using a focused ion beam (FIB) were observed using scanning electron microscopy (SEM), enabling nanoscale structural imaging over micrometer-scale regions. This approach is applied to superconducting films containing nanorods, where critical current bottlenecks are governed by structural inhomogeneities. The YBa 2 Cu 3 O 7 +Ba 2 LuNbO 6 /SrTiO 3 film consists mainly of elongated nanorods. Regions with disrupted BaSnO 3 nanorods form connected percolative paths in the YBa 2 Cu 3 O 7 +BaSnO 3 /SrTiO 3 film, whereas disrupted and elongated nanorod regions coexist in the YBa 2 Cu 3 O 7 +BaSnO 3 /LaAlO 3 film. These structural variations are consistent with the difference in critical current density behavior. The present FIB-SEM approach reveals the spatial distributions of elongated and disrupted nanorods, enabling a comprehensive understanding of nanorod formation. Based on these observations, we develop a phenomenological energy model for nanorod stability. This work establishes a characterization strategy for identifying functional bottlenecks in self-organized materials.",
+      "summary": "Nanoscale spatial resolution over micrometer-scale observation areas is key to understanding and controlling heterogeneous materials, especially for industrial-scale applications. The present FIB-SEM approach reveals the spatial distributions of elongated and disrupted nanorods, enabling a comprehensive understanding of nanorod formation.",
+      "authors": [
+        "Tomoya Horide",
+        "Haruna Nogami",
+        "Alexy Bertrand",
+        "Yuga Yoshida",
+        "Ryusuke Kita",
+        "Manabu Ishimaru"
+      ],
+      "published": "2026-11-18",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Advanced Materials Technologies",
+      "doi": "10.1002/admt.71455",
+      "doi_url": "https://doi.org/10.1002/admt.71455",
+      "url": "https://doi.org/10.1002/admt.71455",
+      "pdf_url": "",
+      "openalex_id": "W7236756980",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 19.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "film",
+          "films",
+          "materials",
+          "superconducting"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_e8c9380c225a",
+      "title": "PROJECT SOVEREIGN GENESIS: TRIADIC SMART DEFLECTOR PANELS & CLOSED-LOOP SALVAGE ARCHITECTURE (V1.0) Non-Disposable, Self-Regenerating Kinetic & Photonic Armor for Interstellar Capital Ships, Tactical Fighters & Autonomous Drones",
+      "abstract": "This specification defines a non-disposable, self-regenerating active armor and closed-loop salvage architecture engineered for the Liberator-Class Interstellar Transport Platform, tactical interceptors, and autonomous drones under CERN-OHL-S-2.0. Consolidating Parts One through Seven, the document replaces single-use ablative heat shields and static Whipple bumpers with autonomous, hexagonal smart deflector plates operating in asymmetrical triadic clusters. Part One (Cover, License, Executive Thesis & System Topology): Establishes the Non-Disposable Armor Axiom, the \"Shark's Teeth\" continuous gap-replacement protocol, zero-drydock sustainability, and the master integration topology linking DOI 10.5281/zenodo.24354891 to the Sovereign Genesis open-hardware stack. Part Two (Structural Architecture, Radial-Axial Motors & Tri-Shocks): Specifies the five-layer 5.606 GPa nanodiamond-silk hexagonal rotor stratigraphy, full-span bearingless radial-axial flux magnetic motors (10,700 RPM / 1,400 m/s tip speed) with triadic gyroscopic torque cancellation, electro-active magnetorheological tri-adjustable shock struts (±28° reflective angle tilting), and superconducting Triple-Helix Mag-Seal hull rails. Part Three (Cognitive \"Baby Mind\" Edge Control & Triadic Swarm Logic): Defines the decentralized four-stage 5D silicate crystal edge-processor state machine (passive stealth watch, surge and vector lock), compound Dragonfly Eye micro-lens parallax tracking, zero-power Floquet Quantum Dot strain sensing, 2-microsecond asymmetrical triadic cross-fire choreography, and ORAC Triad three-way parity voting. Part Four (Parasitic Energy Harvesting & Thermal Diode Loop): Details how defensive kinetic rotation and impact spikes are converted into onboard power via segmented PbTe-Skutterudite-Bi2Te3 thermoelectric generators (ZT = 2.25, 60-72% nominal efficiency) with Dean Vortex microchannels, CISS spin-filtered Piezo-TENG vibration harvesters, and variable-reluctance regenerative magnetic braking (85% kinetic recovery into dual-mode 2.5 MJ/m3K Li-Na Basalt Power Cells), while an anisotropic CNF one-way thermal diode (0.015 W/mK lateral aerogel seal) and Vantablack Photon Vents (99.9% emissivity) manage net heat rejection. Part Five (Emergency Detachment, Medic Drones & Space-Dust ISRU): Covers Lorentz emergency panel decoupling, onboard xenon-helium micro-thrusters, three-drone non-contact Magnetoplasmonic Vacuum Tractor salvage (50 m range), automated quarantine airlock radiological and Quantum Cascade Laser space-dust triage, and APEX-FORGE 365 nm UV vitrimer liquefaction and Day-Zero sonic-levitated re-sintering. Part Six (Master Wiring, Stress-Test Validation & Fabrication BOM): Provides end-to-end resonant inductive and Airy optical air-gap wiring diagrams, worst-case operational survival floors (3.85 GPa derated tensile margin, 32% worst-case TEG efficiency, 110 ms gap closure under 3.8G), and a Tier-1 New Zealand compatible Bill of Materials printable via tomographic Volumetric Additive Manufacturing (VAM). Part Seven (Tactical Scaling for Interceptors, Fighter Craft & Autonomous Drones): Establishes the geometric scaling matrix down to 0.40 m Class B tactical fighter scales (66,800 RPM, 4.5 ms response, Control Moment Gyroscope super-maneuverability, and 15-second mother-ship rail-to-rail swaps) and 0.10 m Class C autonomous drone carapaces (267,000 RPM, spinning plasma re-entry shielding, and collective swarm protection).",
+      "summary": "This specification defines a non-disposable, self-regenerating active armor and closed-loop salvage architecture engineered for the Liberator-Class Interstellar Transport Platform, tactical interceptors, and autonomous drones under CERN-OHL-S-2.0. Part Six (Master Wiring, Stress-Test Validation & Fabrication BOM): Provides end-to-end resonant inductive and Airy optical air-gap wiring diagrams, worst-case operational survival floors (3.85 GPa derated…",
+      "authors": [
+        "David Michael Seagal"
+      ],
+      "published": "2026-11-18",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "doi": "10.5281/zenodo.24354890",
+      "doi_url": "https://doi.org/10.5281/zenodo.24354890",
+      "url": "https://doi.org/10.5281/zenodo.24354890",
+      "pdf_url": "",
+      "openalex_id": "W7236860854",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 15.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "compound",
+          "crystal",
+          "materials",
+          "superconducting"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_92120b38a751",
+      "title": "Dual-mode Meta-MXene utilizing moiré and quasi-bic resonances for terahertz biosensing applications",
+      "abstract": "This study introduces a dual-mode computational framework that utilizes twisted Moiré-integrated metamaterials to achieve high-precision terahertz refractive-index sensing of normal and pathological brain tissues. The Moiré Supercell Meta-MXene architecture relies on rotational spatial symmetry breaking-induced by an 11.4° interlayer rotation and a 1 μm coupling gap-as the key physical trigger driving strong dipole-BIC hybridization. This mechanism confirms the evolution of a non-radiating dark state into an accessible, highly localized quasi-Bound State in the Continuum (q-BIC), displaying a sharp reflection minimum of -40.147 dB at 9.948 THz. Concurrently, the Meta-MXene layer folding inherent to the twisted supercell creates an emergent Moiré-signature resonance at 8.524 THz-a spectral feature entirely absent in unrotated geometries. Numerical evaluations demonstrate that the primary q-BIC sensing channel achieves a peak Quality Factor (Q) of 28.62, whereas the induced Moiré mode acts as a stable reference benchmark with a peak Q of 42.66 and a baseline sensitivity of 208.6 GHz/RIU across the full refractive index span of brain tissue (1.333-1.483). For targeted pathological brain refractive-index sensing demonstration to discriminate healthy Gray Matter (n = 1.395) from highly aggressive Malignant Glioblastoma (n = 1.4470), the q-BIC resonance yields a localized diagnostic sensitivity of 462.4 GHz/RIU, supported by a 154.1 GHz/RIU sensitivity along the reference Moiré channel. Further, the heterostructure exhibits remarkable tolerance under realistic fabrication deviations, restricting perturbations to $$\\:{\\Delta\\:}\\text{f}=0.072\\:\\text{T}\\text{H}\\text{z}$$ and $$\\:{\\Delta\\:}\\text{Q}=5.146$$ for the Moiré mode and $$\\:{\\Delta\\:}\\text{f}=0.12\\:\\text{T}\\text{H}\\text{z}$$ and $$\\:{\\Delta\\:}\\text{Q}=\\:3.09\\:\\:$$ for the q-BIC mode, confirming robust electromagnetic field confinement. By combining the high-gain sensitivity of the q-BIC state with the spectral resilience of the Moiré feature, this dual-mode framework overcomes single-resonance limitations, providing a label-free THz diagnostic pathway for early-stage brain pathologies.",
+      "summary": "This study introduces a dual-mode computational framework that utilizes twisted Moiré-integrated metamaterials to achieve high-precision terahertz refractive-index sensing of normal and pathological brain tissues. Numerical evaluations demonstrate that the primary q-BIC sensing channel achieves a peak Quality Factor (Q) of 28.62, whereas the induced Moiré mode acts as a stable reference benchmark with a peak Q of 42.66 and a baseline sensitivity of 208.6…",
+      "authors": [
+        "Zienab EL-Wasif",
+        "Salah S. A. Obayya",
+        "Mohamed Farhat O. Hameed"
+      ],
+      "published": "2026-11-18",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-75483-3",
+      "doi_url": "https://doi.org/10.1038/s41598-026-75483-3",
+      "url": "https://doi.org/10.1038/s41598-026-75483-3",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-75483-3_reference.pdf",
+      "openalex_id": "W7236343680",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 16.0
+      },
+      "matched": {
+        "submm_optics": [
+          "metamaterials",
+          "terahertz",
+          "thz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
       "id": "p_db038f2821b7",
       "title": "Tuning interfacial superconductivity at the EuO/KTaO$_3$(111) interface with lightly Nb-doped KTaO$_3$",
       "abstract": "KTaO$_3$-based oxides provide a unique materials platform in which superconductivity emerges in close proximity to a ferroelectric instability. Here, we show that dilute Nb substitution enables tunable ferroelectric criticality in KTaO$_3$, and thereby enhances interfacial superconductivity. Nb dopants introduce local dipolar distortions which couple to the intrinsically soft transverse optical phonon of the host lattice, leading to a collective instability and the emergence of long-range ferroelectric order at a critical composition. By developing a self-consistent framework that incorporates thermal fluctuations of the soft phonons, we reproduce the evolution of dielectric properties across temperature and doping, including the approach to zero-temperature criticality. As the same soft phonon mode mediates the effective pairing interaction between interfacial electrons, its progressive softening toward the ferroelectric quantum critical point leads to an enhancement of interfacial superconductivity at the EuO/KTaO$_3$(111) interface. As a result, the superconducting onset temperature exhibits a maximum near the critical doping. These results suggest that ferroelectric criticality provides a practical design principle for enhancing superconductivity at EuO/KTaO$_3$(111) interfaces and may offer guidance for exploring related phenomena in other oxide interfaces where superconductivity is mediated by soft polar phonons.",
@@ -249,7 +781,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -293,7 +825,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -333,7 +865,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -341,7 +873,7 @@
       "doi": "10.1093/mnras/stag2193",
       "doi_url": "https://doi.org/10.1093/mnras/stag2193",
       "url": "https://doi.org/10.1093/mnras/stag2193",
-      "pdf_url": "",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2193/73799121/stag2193.pdf",
       "openalex_id": "W7153083859",
       "oa": true,
       "type": "article",
@@ -376,7 +908,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -418,7 +950,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -488,7 +1020,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -540,7 +1072,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -615,7 +1147,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -657,7 +1189,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -679,8 +1211,8 @@
       "matched": {
         "superconducting_materials": [
           "critical temperature",
-          "superconducting gap",
           "superconducting",
+          "superconducting gap",
           "superconductivity",
           "superconductors"
         ]
@@ -699,7 +1231,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -737,7 +1269,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -758,13 +1290,13 @@
       },
       "matched": {
         "molecular": [
+          "field strength",
+          "grain alignment",
+          "magnetic",
+          "magnetic field",
           "molecular cloud",
           "molecular clouds",
-          "grain alignment",
-          "magnetic field",
-          "polarisation",
-          "field strength",
-          "magnetic"
+          "polarisation"
         ]
       },
       "primary_topic": "molecular"
@@ -779,7 +1311,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -831,7 +1363,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -883,7 +1415,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -935,7 +1467,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -943,7 +1475,7 @@
       "doi": "10.5194/acp-26-16441-2026",
       "doi_url": "https://doi.org/10.5194/acp-26-16441-2026",
       "url": "https://doi.org/10.5194/acp-26-16441-2026",
-      "pdf_url": "",
+      "pdf_url": "https://acp.copernicus.org/articles/26/16441/2026/acp-26-16441-2026.pdf",
       "openalex_id": "W7165683861",
       "oa": true,
       "type": "article",
@@ -975,7 +1507,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -998,11 +1530,11 @@
       },
       "matched": {
         "resonators": [
-          "superconducting cavities",
-          "superconducting",
           "cavities",
           "cavity",
-          "microwave"
+          "microwave",
+          "superconducting",
+          "superconducting cavities"
         ]
       },
       "primary_topic": "resonators"
@@ -1018,7 +1550,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1056,7 +1588,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1250,10 +1782,194 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_e572b7042577",
+      "title": "Thomas-Fermi screening of electrostatic fields in a type-I superconductor",
+      "abstract": "The empirical London equations make distinct predictions for a superconductor's longitudinal and transverse electrodynamic response. Conventionally, this framework attributes the Meissner effect to the transverse component, with the longitudinal response predicted to remain unchanged upon entering the superconducting state, i.e., a static electric field is screened over the Thomas-Fermi length (λ TF ∼ 1 Å), just as in the nonsuperconducting metal. Hirsch [] has developed an alternative formalism, which predicts that the longitudinal screening length should instead be governed by the London penetration depth as the system is cooled below the superconducting transition temperature (T c). Here, we use a combination of qPlus atomic force microscopy and scanning tunneling microscopy/spectroscopy of single-crystal Pb(111) at ∼ 340 mK (T / T c ∼ 0.05) in an attempt to detect any modifications in electrostatic screening of the longitudinal tip field upon entering the superconducting phase. We quench superconductivity using a magnetic field of 200 mT normal to the Pb(111) surface. By measuring force-distance curves and local field-emission resonance spectra at the same sample position in the presence and absence of the magnetic field, we constrain the change in screening between the normal and superconducting state to less than ∼ 1%. This is between two to three orders of magnitude smaller than that predicted by Hirsch's theory, and entirely consistent with unmodified Thomas-Fermi screening across the superconducting transition.",
+      "summary": "The empirical London equations make distinct predictions for a superconductor's longitudinal and transverse electrodynamic response. By measuring force-distance curves and local field-emission resonance spectra at the same sample position in the presence and absence of the magnetic field, we constrain the change in screening between the normal and superconducting state to less than ∼ 1%.",
+      "authors": [
+        "Nikhil Seeja Sivakumar",
+        "Tyler James",
+        "Frederick Carlisle",
+        "Philip Moriarty",
+        "Brian Kiraly"
+      ],
+      "published": "2026-11-17",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/9x2v-9sb1",
+      "doi_url": "https://doi.org/10.1103/9x2v-9sb1",
+      "url": "https://doi.org/10.1103/9x2v-9sb1",
+      "pdf_url": "",
+      "openalex_id": "W7212003183",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 20.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "crystal",
+          "superconducting",
+          "superconductivity",
+          "superconductor",
+          "transition temperature"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_6e317fb4c28a",
+      "title": "Superheating field of clean superconductors near the type-I-type-II boundary: The low-temperature Meissner stability limit of niobium",
+      "abstract": "We calculate the low-temperature superheating field B sh of clean superconductors near the boundary between type-I and type-II superconductivity, with particular emphasis on niobium (Nb). Ginzburg-Landau theory is not applicable at low temperatures, while previous microscopic calculations have been limited to either the large- κ regime or the dirty limit. The clean, low- κ regime relevant to Nb has therefore remained unresolved. We solve the self-consistent nonlinear nonlocal Eilenberger problem for the Meissner state and then analyze its stability against small perturbations. For a Nb-like material with κ GL = 0.7, we obtain B sh ≃ 290 mT at T / T c = 0.2, using B c 0 ≃ 200 mT. For a TESLA-shaped Nb accelerator cavity, this corresponds to an intrinsic Meissner stability limit of about 67 MV / m.",
+      "summary": "We calculate the low-temperature superheating field B sh of clean superconductors near the boundary between type-I and type-II superconductivity, with particular emphasis on niobium (Nb). For a Nb-like material with κ GL = 0.7, we obtain B sh ≃ 290 mT at T / T c = 0.2, using B c 0 ≃ 200 mT.",
+      "authors": [
+        "Takayuki Kubo"
+      ],
+      "published": "2026-11-17",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical Review Accelerators and Beams",
+      "doi": "10.1103/2hv4-v8wf",
+      "doi_url": "https://doi.org/10.1103/2hv4-v8wf",
+      "url": "https://doi.org/10.1103/2hv4-v8wf",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/2hv4-v8wf",
+      "openalex_id": "W7164190194",
+      "oa": true,
+      "type": "article",
+      "citations": 5,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 21.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "material",
+          "niobium",
+          "superconductivity",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_b1b37c4152ec",
+      "title": "Nonuniform superconducting states from Majorana flat bands",
+      "abstract": "Zero-energy flat bands within the superconducting gap can give rise to competing ordered phases. We investigate such phases in topological superconductors based on the magnetic adatom platform hosting a flat band of Majorana edge states. Our self-consistent calculations of the superconducting order parameter show the emergence of both a pair density wave with edge-localized amplitude modulations, often a bond-wave order, and a phase crystal characterized by longer-wavelength edge-localized phase modulations. Both these states lower the free energy by gapping out the Majorana flat band but use different mechanisms tied to the underlying topology. In fact, at zero temperature, the uniform superconducting solution with Majorana flat band never survives. Instead, a pair density wave appears when sufficient Majorana modes exist with oppositely signed topological winding numbers, while a phase crystal appears in regions of the phase diagram where one nontrivial winding number is heavily dominating. A crossover region connects these two states with modulations in both amplitude and phase. At finite temperatures, the pair density wave survives up to around 80% of the bulk superconducting transition temperature, while the phase crystal only appears at lower temperatures and the crossover region is also strongly suppressed. Our findings establish the ubiquity of emergent nonuniform superconducting phases and their temperature-dependent behavior in topological superconductors.",
+      "summary": "Zero-energy flat bands within the superconducting gap can give rise to competing ordered phases. At finite temperatures, the pair density wave survives up to around 80% of the bulk superconducting transition temperature, while the phase crystal only appears at lower temperatures and the crossover region is also strongly suppressed.",
+      "authors": [
+        "Sushanth Varada",
+        "Aksel Kobiałka",
+        "A. Bhattacharya",
+        "Patric Holmvall",
+        "Annica M. Black-Schaffer"
+      ],
+      "published": "2026-11-17",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/q8w8-y7fk",
+      "doi_url": "https://doi.org/10.1103/q8w8-y7fk",
+      "url": "https://doi.org/10.1103/q8w8-y7fk",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/q8w8-y7fk",
+      "openalex_id": "W7160423727",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 21.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "crystal",
+          "superconducting",
+          "superconducting gap",
+          "superconductors",
+          "transition temperature"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_775142e7de42",
+      "title": "Loss mechanisms in cryogenic microwave epitaxial AlN resonators",
+      "abstract": "Epitaxial aluminum nitride (AlN) thin-film bulk acoustic resonators (FBARs) enable low-loss filtering for future 6G systems. They also provide a compact approach for qubit sensing at cryogenic temperatures. However, these devices are rarely characterized systematically from room temperature to cryogenic temperatures, and the mechanisms that limit their cryogenic performance remain unclear. In this work, we study a 15.6 GHz epitaxial AlN FBAR from room temperature to cryogenic temperatures to identify losses from the AlN film and those introduced by the electrodes, anchors, and other device layers. Small-signal RF measurements from 294K down to 6.5K show an increase in the unloaded Q max from 245 to 1729. A temperature-dependent model that includes phonon-phonon scattering, thermoelastic damping, dielectric loss, electrical loss, and anchor loss helps explain the measured Q (T) trend and identifies a transition from the Landau-Rumer to the Akhiezer regime near 270 K. The model indicates that acoustic energy leakage through the anchors and electrical loss set upper bounds on Q. Energy transfer from the main resonant mode to spurious acoustic modes can also lower the measured Q. Improving anchor isolation, suppressing spurious modes, and reducing electrode loss, including through superconducting electrodes, increase the cryogenic Q. These results guide the design of higher- Q acoustic resonators for high-frequency 6G filters and cryogenic quantum-microwave circuits.",
+      "summary": "Epitaxial aluminum nitride (AlN) thin-film bulk acoustic resonators (FBARs) enable low-loss filtering for future 6G systems. Small-signal RF measurements from 294K down to 6.5K show an increase in the unloaded Q max from 245 to 1729.",
+      "authors": [
+        "Hemant Gulupalli",
+        "Navnil Choudhury",
+        "Jiacheng Xie",
+        "Yufeng Wu",
+        "Huili Grace Xing",
+        "Hong X. Tang",
+        "Debdeep Jena",
+        "Kanad Basu",
+        "Wenwen Zhao"
+      ],
+      "published": "2026-11-17",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aebfaa",
+      "doi_url": "https://doi.org/10.1088/1361-6463/aebfaa",
+      "url": "https://arxiv.org/abs/2604.13364",
+      "pdf_url": "https://arxiv.org/pdf/2604.13364",
+      "openalex_id": "W7154567316",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "resonators",
+        "superconducting_materials"
+      ],
+      "scores": {
+        "resonators": 26.0,
+        "superconducting_materials": 16.0
+      },
+      "matched": {
+        "resonators": [
+          "ghz",
+          "low loss",
+          "microwave",
+          "resonators",
+          "rf",
+          "superconducting"
+        ],
+        "superconducting_materials": [
+          "aluminum",
+          "film",
+          "superconducting",
+          "thin film"
+        ]
+      },
+      "primary_topic": "resonators"
+    },
+    {
       "id": "p_32d696dbf8c4",
       "title": "Universal spectral mirage gaps in superconductors with time-reversal-symmetric spin-orbit coupling",
-      "abstract": "Spectral mirage gaps, regarded as evidence of finite-energy pairing correlations, have so far been mainly studied in superconductors with Ising spin-orbit coupling (SOC). Here, we show that superconductors with any time-reversal-symmetric SOC can generate mirage gaps near the SOC energy scale when the applied magnetic field has a component perpendicular to the SOC texture, whereas the parallel component produces Zeeman-split spectral features near the superconducting gap. We demonstrate this general principle in superconductors with Rashba and Rashba-Ising SOC. These universal field-dependent signatures establish superconducting spectroscopy as a powerful probe of SOC textures and strengths.",
-      "summary": "Spectral mirage gaps, regarded as evidence of finite-energy pairing correlations, have so far been mainly studied in superconductors with Ising spin-orbit coupling (SOC). We demonstrate this general principle in superconductors with Rashba and Rashba-Ising SOC.",
+      "abstract": "Magnetic-field-induced spectral mirage gaps, regarded as evidence of finite-energy pairing correlations, have so far been mainly studied in superconductors with Ising spin-orbit coupling (SOC). Here, we establish a general momentum-resolved description of mirage gaps in spin-singlet superconductors with time-reversal-symmetric SOC. A magnetic-field component perpendicular to the local SOC vector generates mirage-gap features near the SOC energy scale, whereas a parallel component produces Zeeman-split features near the superconducting gap. We further show that momentum-dependent SOC textures reshape the momentum-integrated mirage-gap profiles, as demonstrated for Rashba and mixed Rashba-Ising SOC. These universal field-dependent spectral signatures offer a potential spectroscopic probe of SOC textures and strengths. Their visibility, however, depends on the SOC anisotropy, field orientation, and disorder, with variations in SOC strength and moderate impurity scattering capable of obscuring the mirage-gap features.",
+      "summary": "Magnetic-field-induced spectral mirage gaps, regarded as evidence of finite-energy pairing correlations, have so far been mainly studied in superconductors with Ising spin-orbit coupling (SOC). We further show that momentum-dependent SOC textures reshape the momentum-integrated mirage-gap profiles, as demonstrated for Rashba and mixed Rashba-Ising SOC.",
       "authors": [
         "Xusheng Wang",
         "Gaomin Tang",
@@ -1261,7 +1977,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1315,7 +2031,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1359,7 +2075,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1418,7 +2134,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1463,7 +2179,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1505,7 +2221,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1526,9 +2242,9 @@
       },
       "matched": {
         "submm": [
+          "observations",
           "terahertz",
-          "thz",
-          "observations"
+          "thz"
         ]
       },
       "primary_topic": "submm"
@@ -1547,7 +2263,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1592,7 +2308,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1639,7 +2355,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1690,7 +2406,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1722,6 +2438,253 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_9b76b55ea92e",
+      "title": "Ultrasensitive Strain Modulation of Terahertz Magnons at a Magnetic Phase Transition",
+      "abstract": "Motivated by the prospect of strain control of terahertz (THz) magnons, we have used resonant x-ray diffraction and Raman scattering to investigate the magnetic ground state and excitations of the layered Mott insulator Ca 2 RuO 4 under uniaxial strain. We discovered a strain-induced phase transition between two antiferromagnetic states that differ in the sign of the interlayer exchange interaction. Although this interaction is weak and partially frustrated, the corresponding magnon energies of the two states differ by more than 10% (∼ 0.3 THz). Our theoretical analysis explains this surprising observation by tracing the origin of both the sign reversal of the interlayer coupling and the magnon energy to the spin-orbital composition of the Ru valence electrons. The extreme strain sensitivity of the THz magnon energy near a magnetic phase transition opens up pathways toward a new generation of “transition-edge” magnonic devices.",
+      "summary": "Motivated by the prospect of strain control of terahertz (THz) magnons, we have used resonant x-ray diffraction and Raman scattering to investigate the magnetic ground state and excitations of the layered Mott insulator Ca 2 RuO 4 under uniaxial strain. The extreme strain sensitivity of the THz magnon energy near a magnetic phase transition opens up pathways toward a new generation of “transition-edge” magnonic devices.",
+      "authors": [
+        "Lichen Wang",
+        "Sajna Hameed",
+        "Yiran Liu",
+        "M. Knauft",
+        "Kazuki Higuchi",
+        "Maximilian J. Krautloher",
+        "Sonia Francoual",
+        "Giniyat Khaliullin",
+        "Huimei Liu",
+        "M. Minola",
+        "Bernhard Keimer"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical Review Letters",
+      "doi": "10.1103/wk6v-1x5s",
+      "doi_url": "https://doi.org/10.1103/wk6v-1x5s",
+      "url": "https://doi.org/10.1103/wk6v-1x5s",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/wk6v-1x5s",
+      "openalex_id": "W7129521737",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "terahertz",
+          "thz",
+          "observation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_9991a2c725d0",
+      "title": "Signed-asymmetry-controlled radiative leakage in an all-dielectric terahertz quasi-BIC metasurface",
+      "abstract": "An ultrahigh numerical quality factor does not by itself establish a useful refractive-index sensor because radiation suppression, far-field accessibility, and analyte-field overlap are controlled by different mechanisms. Here, an all-dielectric terahertz metasurface comprising two mirror-related open-rectangular resonators is controlled by a signed opening mismatch, db = b′ - b. At db = 0, destructive interference produces a symmetry-protected bound state in the continuum (BIC); finite positive or negative db opens a magnetic-dipole-dominated quasi-BIC (QBIC) channel whose inverse radiative Q follows the expected quadratic asymptote. Signed continuation, complex-eigenfrequency and normalized-eigenfield-overlap tracking, M -Γ- X dispersion, multipolar decomposition, and driven-pole fitting verify branch identity. Momentum-space maps describe pointwise selected modes, supplemented by local field comparisons. At n = 1.0, the intrinsic BIC is isolated and has a numerical eigenmode Q above 10 9, with the ideal lossless limit tending to infinity; sweeping the same superstrate-index parameter over n = 1.33-1.43 yields a sensitivity of 800.6 GHz RIU -1 with an almost db -independent slope. Sweeps of analyte thickness, incidence angle, polarization, extinction coefficient, and fabrication parameters then evaluate practical robustness and identify material loss as the principal limitation on the attainable Q. This work establishes a compact design framework for combining ultrahigh- Q resonances, controllable far-field readout, and high-sensitivity terahertz refractometric sensing.",
+      "summary": "An ultrahigh numerical quality factor does not by itself establish a useful refractive-index sensor because radiation suppression, far-field accessibility, and analyte-field overlap are controlled by different mechanisms. At n = 1.0, the intrinsic BIC is isolated and has a numerical eigenmode Q above 10 9, with the ideal lossless limit tending to infinity; sweeping the same superstrate-index parameter over n = 1.33-1.43 yields a sensitivity of 800.6 GHz…",
+      "authors": [
+        "Shangjun Lin",
+        "Yufan Zhang",
+        "Tiesong Wang",
+        "Ziheng Zhi",
+        "Longhui Zhang",
+        "Lizhen Zeng",
+        "Chunyuan Deng",
+        "Mingzhu Jiang",
+        "Fangrong Hu"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aebbfb",
+      "doi_url": "https://doi.org/10.1088/1402-4896/aebbfb",
+      "url": "https://doi.org/10.1088/1402-4896/aebbfb",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1402-4896/aebbfb/pdf",
+      "openalex_id": "W7224851765",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 20.0
+      },
+      "matched": {
+        "submm_optics": [
+          "metasurface",
+          "mirror",
+          "terahertz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_8ba9b34bb630",
+      "title": "Robust CMB polarization mapmaking with a rotating half-wave plate",
+      "abstract": "We present a novel mapmaking method for obtaining unbiased estimates of cosmic microwave background (CMB) polarization, tailored to modern CMB experiments with a rotating half-wave plate. These experiments are exposed to strong unpolarized contaminant sources, such as atmospheric emission and ground pickup, which can be several orders of magnitude stronger than the sky signal. Our mapmaker mitigates these systematic effects by marginalizing over all signals that vary slowly compared to the timescale of a polarimeter’s angle rotation on the sky, while recovering high-fidelity polarization maps. When the variability timescales of the unpolarized signals exceed a quarter of the half-wave plate rotation period, the method can produce maps with nearly optimal noise levels and minimal contamination. Furthermore, if the half-wave plate rotation period is sufficiently short relative to the beam-scale crossing time, the method efficiently mitigates the sky intensity-to-polarization leakage. In this work we demonstrate these features using simulations including sky signal, instrumental noise, and atmospheric emissions. This mapmaker, named the Polarization-Optimized Map-Making Estimator, is implemented within the open-source package and is ready for application to upcoming ground-based CMB surveys.",
+      "summary": "We present a novel mapmaking method for obtaining unbiased estimates of cosmic microwave background (CMB) polarization, tailored to modern CMB experiments with a rotating half-wave plate. In this work we demonstrate these features using simulations including sky signal, instrumental noise, and atmospheric emissions.",
+      "authors": [
+        "Wuhyun Sohn",
+        "Simon Biquard",
+        "Josquin Errard",
+        "Radek Stompor"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. D/Physical review. D.",
+      "doi": "10.1103/ll3z-9bdm",
+      "doi_url": "https://doi.org/10.1103/ll3z-9bdm",
+      "url": "https://doi.org/10.1103/ll3z-9bdm",
+      "pdf_url": "",
+      "openalex_id": "W7166827075",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "polarimetry",
+        "submm_optics"
+      ],
+      "scores": {
+        "polarimetry": 39.0,
+        "submm_optics": 22.0
+      },
+      "matched": {
+        "polarimetry": [
+          "cmb",
+          "cosmic microwave background",
+          "half-wave plate",
+          "polarimeter",
+          "wave plate"
+        ],
+        "submm_optics": [
+          "cmb",
+          "cosmic microwave background",
+          "half-wave plate"
+        ]
+      },
+      "primary_topic": "polarimetry"
+    },
+    {
+      "id": "p_e1a18b2d8af9",
+      "title": "Hybridized-mode parametric amplifier in kinetic-inductance circuits",
+      "abstract": "Parametric amplification is essential for quantum measurement, enabling the amplification of weak microwave signals with close to the minimum added noise permitted by quantum mechanics. While Josephson junction-based amplifiers have become standard in superconducting quantum circuits, their magnetic sensitivity, limited saturation power, and sub-kelvin operating requirements motivate the development of alternative nonlinear platforms. Here, we demonstrate a two-mode kinetic-inductance parametric amplifier based on a pair of capacitively coupled Kerr-nonlinear resonators fabricated from NbTiN and NbN thin films. The distributed Kerr nonlinearity of these materials enables nondegenerate four-wave-mixing amplification with gains approaching 40 dB, gain-bandwidth products up to 6.9 MHz, and 1-dB compression powers two to three orders of magnitude higher than those of typical Josephson amplifiers. A coupled-mode model, evaluated with independently measured circuit parameters, reproduces the pump-induced modification of the hybridized modes and the measured signal and idler responses. Our results establish coupled kinetic-inductance resonators as a compact, high-dynamic-range amplifier platform, built in a material system that additionally offers the magnetic-field and elevated-temperature resilience characteristic of NbN and NbTiN, of interest for readout of superconducting qubits, spin ensembles, quantum dots, and other microwave quantum technologies.",
+      "summary": "Parametric amplification is essential for quantum measurement, enabling the amplification of weak microwave signals with close to the minimum added noise permitted by quantum mechanics. While Josephson junction-based amplifiers have become standard in superconducting quantum circuits, their magnetic sensitivity, limited saturation power, and sub-kelvin operating requirements motivate the development of alternative nonlinear platforms.",
+      "authors": [
+        "Danial Davoudi",
+        "Abdul Mohamed",
+        "Shabir Barzanjeh"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Applied Physics Letters",
+      "doi": "10.1063/5.0337861",
+      "doi_url": "https://doi.org/10.1063/5.0337861",
+      "url": "https://arxiv.org/abs/2512.03362",
+      "pdf_url": "https://arxiv.org/pdf/2512.03362",
+      "openalex_id": "W4417028151",
+      "oa": true,
+      "type": "article",
+      "citations": 2,
+      "topics": [
+        "mkid",
+        "resonators",
+        "superconducting_materials"
+      ],
+      "scores": {
+        "mkid": 16.0,
+        "resonators": 22.0,
+        "superconducting_materials": 39.0
+      },
+      "matched": {
+        "mkid": [
+          "kinetic inductance",
+          "readout",
+          "resonators",
+          "superconducting"
+        ],
+        "resonators": [
+          "kinetic inductance",
+          "microwave",
+          "resonators",
+          "superconducting"
+        ],
+        "superconducting_materials": [
+          "films",
+          "kinetic inductance",
+          "material",
+          "materials",
+          "nbn",
+          "nbtin",
+          "superconducting",
+          "thin films"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_1d909512b557",
+      "title": "Dust Masses of Upper Scorpius Disks and Their Statistics",
+      "abstract": "The total dust mass of protoplanetary disks is a key property that determines the potential for planet formation. Upper Scorpius (USco), with an age of ∼5-12 Myr, provides an important laboratory for investigating the evolution of dust reservoirs on timescales comparable to those of planet formation. In this work, we analyze the dust mass distribution of 136 full and transitional disks in USco using the largest ALMA 0.88 mm continuum sample currently available for the region. To improve the accuracy of dust mass estimates, we construct a grid of 918 self-consistent radiative transfer models that account for stellar-mass-dependent disk sizes, accretion rates, and porous dust properties. The models yield a new calibration between dust temperature and stellar luminosity, predicting systematically higher dust temperatures for low-mass stars than commonly adopted prescriptions. Using these revised dust temperatures together with porous dust opacities, we derive dust masses for the USco disks and compare them with those of a younger sample in the Chamaeleon I star-forming region. We find a median dust mass of 0.95 M ⊕ for the USco disks, approximately six times lower than that of the Chamaeleon I disks (5.69 M ⊕), providing strong evidence for substantial depletion of millimeter-sized dust grains over the first several Myr of disk evolution. We confirm the previous finding of a highly significant correlation between stellar mass and dust mass, with a slightly steeper relation in USco than in Chamaeleon I. The low dust masses observed in USco, together with their comparison to mature exoplanetary systems, suggest that a large fraction of the primordial solid reservoir has already been incorporated into larger bodies, removed by radial drift, or hidden from millimeter observations by ages of ∼5-12 Myr.",
+      "summary": "The total dust mass of protoplanetary disks is a key property that determines the potential for planet formation. We find a median dust mass of 0.95 M ⊕ for the USco disks, approximately six times lower than that of the Chamaeleon I disks (5.69 M ⊕), providing strong evidence for substantial depletion of millimeter-sized dust grains over the first several Myr of disk evolution.",
+      "authors": [
+        "Huiyi Deng",
+        "Yao Liu",
+        "Min Fang"
+      ],
+      "published": "2026-11-16",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21T11:14:16+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Research in Astronomy and Astrophysics",
+      "doi": "10.1088/1674-4527/ae914a",
+      "doi_url": "https://doi.org/10.1088/1674-4527/ae914a",
+      "url": "https://doi.org/10.1088/1674-4527/ae914a",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1674-4527/ae914a/pdf",
+      "openalex_id": "W7171388214",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "dust",
+          "millimeter",
+          "observations",
+          "protoplanetary"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_35ba6857db6f",
       "title": "Shubnikov-de Haas characterization of superconductor-semiconductor heterostructures",
       "abstract": "Hybrid superconductor-semiconductor nanostructures are a central component for research spanning condensed matter physics and quantum information processing. Continued progress relies critically on the ability to characterize, control, and optimize several intrinsic material properties, including spin-orbit coupling, band offsets, and disorder, in a device-relevant stack that necessarily couples the electronic states of a superconducting metal film and a semiconductor. Here, we report a new method to extract fundamental material parameters utilizing simple Shubnikov-de Haas oscillation measurements in heterostructures in which metallic electronic states are coupled to a two-dimensional electron gas (2DEG) residing in an InAs quantum well beneath an aluminum thin film. Proper analysis of the full magnetoresistance data facilitates extraction of the quantum well carrier density, spin-orbit coupling strength, and both transport and quantum scattering times. Most importantly, the extracted scattering times in the 2DEG are impacted by the metal-semiconductor coupling strength, allowing us to quickly measure an upper bound for superconductor-semiconductor coupling without any fabrication or mK measurements. The wealth of information that is accessed with these simple measurements positions this methodology as an important tool for hybrid materials optimization.",
@@ -1746,7 +2709,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1796,7 +2759,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1845,7 +2808,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1867,9 +2830,9 @@
       "matched": {
         "telescope_design": [
           "designed",
-          "radio telescope",
           "performance",
           "radio astronomy",
+          "radio telescope",
           "telescope"
         ]
       },
@@ -1888,7 +2851,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1937,7 +2900,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1985,7 +2948,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2031,7 +2994,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2077,7 +3040,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2119,7 +3082,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2162,7 +3125,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2211,7 +3174,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2263,7 +3226,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2331,7 +3294,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2387,7 +3350,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2427,7 +3390,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2482,7 +3445,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2524,7 +3487,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2573,7 +3536,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2613,7 +3576,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2659,7 +3622,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2699,7 +3662,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2746,7 +3709,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2800,7 +3763,7 @@
       ],
       "published": "2026-11-15",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3453,7 +4416,7 @@
       ],
       "published": "2026-11-13",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-18T18:49:09+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -4456,7 +5419,7 @@
       ],
       "published": "2026-11-12",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -9232,7 +10195,7 @@
       ],
       "published": "2026-10-23",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-20T11:21:39+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -10341,49 +11304,57 @@
       "abstract": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. The interaction between solids and stellar radiation is of fundamental importance when forward or retrieval models are compared to observations. The simplest approach is to assume spherical particles, whose scattering and absorption properties are readily computed with Mie theory. More advanced computational methods, however, can also treat non-spherical condensates. Among these, the transition matrix approach has proven to provide a rigorous and efficient calculation of the extinction by non-spherical particles over a broad range of sizes and refractive indices. We here focus on the absorption and scattering cross sections of forsterite, spinel and silicon monoxide from the near to the far infrared range for particles of different sizes, with shapes ranging from compact ensembles of spheres to porous aggregates. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes greater than 1 $\\mu$m. In a fiducial transmission spectrum we show that in the $\\lambda = 1-5\\,\\mu$m range the amount of spherical material needed to match the contribution of the structured grains can be a factor 2 higher. Such calculations, available for the community through a Zenodo repository, prove to be useful for interpreting recent and future observations of exoplanetary atmospheres.",
       "summary": "Observations of exoplanetary atmospheres have revealed a rather complex co-existence between the gaseous and condensed phases, ranging from atmospheres apparently covered in clouds to clear ones, across a myriad of intermediate regimes. We find that, depending on the size and the configuration chosen, the differences in extinction can be as high as a factor of 2-3, with structured grains being more efficient absorbers in the near infrared for sizes…",
       "authors": [
-        "Giambattista Aresu",
-        "Giovanni La Mura",
-        "Giacomo Mulas",
+        "G. Aresu",
+        "G. La Mura",
+        "G. Mulas",
         "Cesare Cecchi-Pestellini",
         "Maria Antonia Iatì",
         "Shadi Rezaei",
         "Antonino Petralia",
-        "Daniele Locci",
+        "D. Locci",
         "Giuseppina Micela",
         "Franz Saija",
         "Rosalba Saija"
       ],
       "published": "2026-10-20",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-26T08:24:57+08:00",
+      "last_seen": "2026-11-21T11:14:16+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.EP",
+      "venue": "The Astrophysical Journal",
       "journal_ref": "",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://arxiv.org/abs/2610.28117",
+      "doi": "10.3847/1538-4357/aeb6da",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb6da",
+      "url": "https://doi.org/10.3847/1538-4357/aeb6da",
       "pdf_url": "https://arxiv.org/pdf/2610.28117",
       "arxiv_id": "2610.28117",
       "arxiv_url": "https://arxiv.org/abs/2610.28117",
+      "openalex_id": "W7223129778",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
-        "submm"
+        "submm",
+        "submm_optics"
       ],
       "scores": {
-        "submm": 11.0
+        "submm": 11.0,
+        "submm_optics": 12.0
       },
       "matched": {
         "submm": [
           "far infrared",
           "far-infrared",
           "observations"
+        ],
+        "submm_optics": [
+          "far-infrared",
+          "optical properties"
         ]
       },
-      "primary_topic": "submm"
+      "primary_topic": "submm_optics"
     },
     {
       "id": "p_ddb106337811",

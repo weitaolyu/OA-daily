@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T10:16:21+08:00",
-    "generated_label": "2026-11-22 10:16",
-    "today": "2026-11-22",
+    "generated_at": "2026-11-23T10:49:24+08:00",
+    "generated_label": "2026-11-23 10:49",
+    "today": "2026-11-23",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 328,
-    "new_count": 12,
-    "digest_url": "digests/2026-11-22.md",
+    "paper_count": 331,
+    "new_count": 3,
+    "digest_url": "digests/2026-11-23.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -79,6 +79,49 @@
   ],
   "papers": [
     {
+      "id": "p_07748ad0a9b4",
+      "title": "Towards compact high-frequency nonreciprocal devices using nanoplasma-switched time-varying metasurfaces",
+      "abstract": "Time-modulated systems have received growing interest in recent years. They allow us to tailor effects, such as frequency conversion, single-direction propagation, etc. For the microwave band, semiconductor elements, such as varactors, are usually used as time-modulated elements but their modulation frequency has been limited to the few-gigahertz range. Recent advances in nanoplasma switches, i.e., two-state electronic switches based on a gas discharge in a nanometer-scale gap, provide a new potential for developing time-modulated systems with high operating frequencies. Here, we develop an analytical framework based on the time-Floquet method for the design of nonreciprocal time-modulated devices based on two-state time-modulated elements, for instance, nanoplasma-based switches. A practical example of a microwave isolator operating at 100 GHz frequency is developed and studied both analytically and using full-wave simulations. A potential realization in a parallel-plate waveguide is also simulated numerically.",
+      "summary": "Time-modulated systems have received growing interest in recent years. Recent advances in nanoplasma switches, i.e., two-state electronic switches based on a gas discharge in a nanometer-scale gap, provide a new potential for developing time-modulated systems with high operating frequencies.",
+      "authors": [
+        "Mikhail S. Sidorenko",
+        "Jin Zhang",
+        "Xuchen Wang",
+        "Zhipei Sun",
+        "Sergei Tretyakov",
+        "Viktar Asadchy"
+      ],
+      "published": "2026-11-20",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23T10:49:24+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical Review Applied",
+      "doi": "10.1103/xtxn-gmgj",
+      "doi_url": "https://doi.org/10.1103/xtxn-gmgj",
+      "url": "https://arxiv.org/abs/2605.20836",
+      "pdf_url": "https://arxiv.org/pdf/2605.20836",
+      "openalex_id": "W7161984941",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 16.0
+      },
+      "matched": {
+        "submm_optics": [
+          "100 ghz",
+          "metasurfaces",
+          "waveguide"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
       "id": "p_89d3f6285372",
       "title": "Two-dimensional ferroelectric Rashba systems: theory, materials, and perspectives",
       "abstract": "Spintronics exploits the electron spin degree of freedom for information storage, transmission, and processing, and spin-orbit coupling (SOC) provides a key mechanism to manipulate spin states electrically. In crystals lacking inversion symmetry, SOC can give rise to the Rashba effect, producing spin-split bands with opposite helical spin textures even in the absence of an external magnetic field. Ferroelectricity, characterized by a spontaneous and reversible polarization, inherently breaks inversion symmetry and enables an electrically switchable Rashba coupling, i.e., polarization reversal can invert the Rashba spin texture in a single material, offering a nonvolatile control scheme. In this mini-review, we focus on recent progress in two-dimensional (2D) van der Waals (vdW) ferroelectric (FE)-Rashba systems. We first discuss the microscopic origins of FE polarization and the Rashba effect in atomically thin materials, emphasizing how polarization switching modulates Rashba spin splitting and helicity. We then summarize representative 2D FE-Rashba materials and vdW heterostructures, together with their control strategies. Finally, we highlight emerging opportunities arising from the interplay of FE-Rashba physics with other quantum degrees of freedom, including superconductivity, valleytronics, and band topology, positioning FE-Rashba platforms as promising multifunctional quantum materials for future low-power device applications.",
@@ -91,7 +134,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -130,7 +173,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -186,7 +229,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -194,7 +237,7 @@
       "doi": "10.3847/1538-4357/aeab9a",
       "doi_url": "https://doi.org/10.3847/1538-4357/aeab9a",
       "url": "https://doi.org/10.3847/1538-4357/aeab9a",
-      "pdf_url": "",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeab9a/pdf",
       "openalex_id": "W7214005251",
       "oa": true,
       "type": "article",
@@ -240,7 +283,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -285,7 +328,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -365,7 +408,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -373,7 +416,7 @@
       "doi": "10.1093/mnras/stag2232",
       "doi_url": "https://doi.org/10.1093/mnras/stag2232",
       "url": "https://doi.org/10.1093/mnras/stag2232",
-      "pdf_url": "",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2232/73874915/stag2232.pdf",
       "openalex_id": "W7203951983",
       "oa": true,
       "type": "article",
@@ -387,11 +430,11 @@
       "matched": {
         "submm": [
           "alma",
-          "star formation",
           "dust",
           "galaxies",
           "galaxy",
-          "observations"
+          "observations",
+          "star formation"
         ]
       },
       "primary_topic": "submm"
@@ -399,15 +442,15 @@
     {
       "id": "p_2220b88a924d",
       "title": "Quadratic pair-breaking absorption edge from Anderson localization in a superconducting wire",
-      "abstract": "We show that Anderson localization fundamentally reshapes dissipative superconducting electrodynamics, replacing the linear Mattis--Bardeen pair-breaking onset with a parametrically weaker quadratic Mott edge while leaving the quasiparticle spectrum unchanged. We derive this behavior for a weakly disordered single-channel wire with a spatially uniform $s$-wave pair potential using a Nambu-space extension of the Berezinskii diagram technique that resums elastic impurity scattering to all orders. Conservation of the Bogoliubov branch collapses the Nambu diagram hierarchy onto an exactly solvable localization problem. The localization length remains equal to its normal-state value, whereas the localization time diverges at the gap edge. The new absorption edge results from the product of the superconducting pair-creation coherence factor and the Mott-suppressed current matrix elements between localized orbitals, which generates the characteristic double logarithm. Localization also reduces the Hebel--Slichter coherence peak. The resulting theory provides an all-orders benchmark for microwave and spin-relaxation experiments on localized superconducting nanowires.",
-      "summary": "We show that Anderson localization fundamentally reshapes dissipative superconducting electrodynamics, replacing the linear Mattis--Bardeen pair-breaking onset with a parametrically weaker quadratic Mott edge while leaving the quasiparticle spectrum unchanged. The new absorption edge results from the product of the superconducting pair-creation coherence factor and the Mott-suppressed current matrix elements between localized orbitals, which generates the…",
+      "abstract": "In superconducting nanowires, the dissipative response to microwave radiation governs quasiparticle relaxation and loss, yet standard theories of superconducting electrodynamics average over impurities and lose the quantum interference that localizes every quasiparticle in one dimension. We show that Anderson localization fundamentally reshapes dissipative superconducting electrodynamics, replacing the linear Mattis-Bardeen pair-breaking onset with a parametrically weaker quadratic Mott edge while leaving the quasiparticle spectrum unchanged. We derive this behavior for a weakly disordered single-channel wire with a spatially uniform s -wave pair potential using a Nambu-space extension of the Berezinskii diagram technique that resums elastic impurity scattering to all orders. The new absorption edge results from the product of the superconducting pair-creation coherence factor and the Mott-suppressed current matrix elements between localized orbitals, which generates the characteristic double logarithm. This edge is a distinct signature of localization and falls within the range of broadband microwave spectroscopy of micron-scale devices. Localization also reduces the Hebel-Slichter coherence peak, which provides a mechanism for its suppression that requires neither pair-breaking disorder nor a change of pairing symmetry. These all-orders results provide a solvable reference case for the electrodynamics of localized superconductors.",
+      "summary": "In superconducting nanowires, the dissipative response to microwave radiation governs quasiparticle relaxation and loss, yet standard theories of superconducting electrodynamics average over impurities and lose the quantum interference that localizes every quasiparticle in one dimension. The new absorption edge results from the product of the superconducting pair-creation coherence factor and the Mott-suppressed current matrix elements between localized…",
       "authors": [
         "Bahruz Suleymanli",
         "B. Tanatar"
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -424,13 +467,14 @@
         "superconducting_materials"
       ],
       "scores": {
-        "superconducting_materials": 18.0
+        "superconducting_materials": 21.0
       },
       "matched": {
         "superconducting_materials": [
           "pair breaking",
           "quasiparticle",
-          "superconducting"
+          "superconducting",
+          "superconductors"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -454,7 +498,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -477,10 +521,10 @@
         "superconducting_materials": [
           "alloy",
           "alloys",
-          "transition temperature",
           "superconducting",
           "superconductivity",
-          "superconductors"
+          "superconductors",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -510,7 +554,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -518,7 +562,7 @@
       "doi": "10.1093/mnras/stag2229",
       "doi_url": "https://doi.org/10.1093/mnras/stag2229",
       "url": "https://doi.org/10.1093/mnras/stag2229",
-      "pdf_url": "",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2229/73874934/stag2229.pdf",
       "openalex_id": "W4417141706",
       "oa": true,
       "type": "article",
@@ -532,11 +576,11 @@
       "matched": {
         "submm": [
           "alma",
-          "star formation",
           "galaxies",
           "galaxy",
           "ism",
-          "observations"
+          "observations",
+          "star formation"
         ]
       },
       "primary_topic": "submm"
@@ -564,7 +608,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -572,7 +616,7 @@
       "doi": "10.3762/bjnano.17.113",
       "doi_url": "https://doi.org/10.3762/bjnano.17.113",
       "url": "https://doi.org/10.3762/bjnano.17.113",
-      "pdf_url": "",
+      "pdf_url": "https://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-17-113.pdf",
       "openalex_id": "W7211907053",
       "oa": true,
       "type": "article",
@@ -620,7 +664,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -628,7 +672,7 @@
       "doi": "10.1038/s41467-026-79535-0",
       "doi_url": "https://doi.org/10.1038/s41467-026-79535-0",
       "url": "https://doi.org/10.1038/s41467-026-79535-0",
-      "pdf_url": "",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-79535-0_reference.pdf",
       "openalex_id": "W7204954277",
       "oa": true,
       "type": "article",
@@ -671,7 +715,7 @@
       ],
       "published": "2026-11-20",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -704,6 +748,100 @@
       "primary_topic": "submm"
     },
     {
+      "id": "p_d9e6252d6a72",
+      "title": "Atomic layer etching of niobium via alternating O$_2$ and H$_2$/SF$_6$ plasma exposures",
+      "abstract": "Niobium thin films are a key component of superconducting detectors and electronics, and film surface quality, surface roughness, and geometrical dimensional accuracy affect many performance metrics. Atomic layer etching (ALE) is of interest for modifying film surfaces owing to its Angstrom-scale etching precision and surface smoothing characteristics. Here, we report a plasma-enhanced ALE process for Nb based on sequential O$_2$ plasma and H$_2$/SF$_6$ plasma exposures. The process achieves an etch per cycle of 5-7 Angstrom/cycle and exhibits surface smoothing. The superconducting transition temperature of the ALE-treated films is maintained up to the expected decrease associated with reduced film thickness. Our ALE process could find applications in superconducting electronics for which surface quality and precise thickness control are of high importance.",
+      "summary": "Niobium thin films are a key component of superconducting detectors and electronics, and film surface quality, surface roughness, and geometrical dimensional accuracy affect many performance metrics. Here, we report a plasma-enhanced ALE process for Nb based on sequential O$_2$ plasma and H$_2$/SF$_6$ plasma exposures.",
+      "authors": [
+        "Lillian B. Hughes Wyatt",
+        "Azmain A. Hossain",
+        "Yifei Yan",
+        "Austin J. Minnich"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23T10:49:24+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · cond-mat.mtrl-sci",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.26735v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26735v1",
+      "arxiv_id": "2611.26735",
+      "arxiv_url": "https://arxiv.org/abs/2611.26735v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 28.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "thin films",
+          "film",
+          "films",
+          "niobium",
+          "transition temperature",
+          "superconducting"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_99715b5b980e",
+      "title": "An ALMA Survey of Molecular Gas in the Host Galaxies of Fast Radio Bursts",
+      "abstract": "We present ALMA observations of CO(1-0) and CO(2-1) emission and millimeter continuum measurements for 9 localized fast radio burst (FRB) hosts at z=0.05-0.38. CO emission is significantly detected in 6 hosts and tentatively detected in one, yielding molecular gas masses of 2.2x10^8-1.0x10^10 Mo for a Milky Way CO-to-H2 conversion factor. All 6 detections show spatially resolved emission and large-scale velocity gradients, several consistent with ordered disk rotation. FRB positions do not necessarily coincide with the brightest CO emission, and no distinct kinematic component is identified at the burst positions at the present kpc-scale resolution. Together with published data, we assemble the largest FRB-host sample with CO measurements or upper limits to date. CO-detected hosts tend to have larger molecular gas reservoirs and longer depletion times than stellar-mass- and star-formation-rate-matched xCOLD GASS galaxies. They also tend to have higher molecular gas fractions and longer depletion times than expected from molecular-gas scaling relations. However, survival analyses including non-detections do not establish a significant difference in molecular gas mass or gas fraction. Both hosts detected in CO and HI have molecular-to-atomic mass ratios within the broad scatter of comparison galaxies. Our results highlight diverse cold-gas environments rather than a uniformly molecular-gas-rich FRB host population. At the position of the repeating FRB20201124A, the measured 98 GHz continuum flux density is above the predicted star-formation contribution and lies at the lower end of or below an extrapolation of the VLA spectrum. These results allow a compact persistent-source contribution and a possible spectral turnover between centimeter and millimeter wavelengths, although the present sensitivity and resolution prevent a firm separation from surrounding star-forming emission.",
+      "summary": "We present ALMA observations of CO(1-0) and CO(2-1) emission and millimeter continuum measurements for 9 localized fast radio burst (FRB) hosts at z=0.05-0.38. Together with published data, we assemble the largest FRB-host sample with CO measurements or upper limits to date.",
+      "authors": [
+        "Bunyo Hatsukade",
+        "Tetsuya Hashimoto",
+        "Yuu Niino",
+        "Fumi Egusa",
+        "Tzu-Yin Hsu",
+        "Kotaro Kohno",
+        "Kouji Ohta"
+      ],
+      "published": "2026-11-19",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23T10:49:24+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · astro-ph.GA",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.26660v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26660v1",
+      "arxiv_id": "2611.26660",
+      "arxiv_url": "https://arxiv.org/abs/2611.26660v1",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 18.0
+      },
+      "matched": {
+        "submm": [
+          "millimeter",
+          "alma",
+          "star formation",
+          "galaxies",
+          "observations"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_8e252809cb28",
       "title": "The accretion flow and jet of M87: broadband modelling across spatial scales",
       "abstract": "The nearby radio galaxy M87 is an ideal laboratory for studying accretion flows and relativistic jet emission. The EHT collaboration conducted the most comprehensive multi-wavelength observational campaign of M87, in which radio instruments with resolutions ranging from tens of microarcseconds to about an arcsecond sampled different portions of the outflow. We model these data using a radiatively inefficient accretion flow (RIAF) with winds and a new multi-zone jet model, initially magnetically dominated, in which we solve the transport equation for the non-thermal electrons as they are injected, advected, and cooled along the jet. We then compare each radio flux with the jet emission within an effective aperture set by the angular scale of the corresponding observation and obtain the best fit for the jet parameters. The comparison across spatial scales favours a scenario in which the RIAF, rather than the jet, produces the compact 230 GHz emission, while the jet dominates the lower-frequency radio, optical/UV and X-ray emission. The Jet+RIAF model connects the Bondi-scale gas supply to an accretion rate at the horizon of ≈10-5 of the Eddington rate, consistent with EHT polarimetry, and the two jets carry in total ≈13 per cent of the accretion power, 1043 erg s-1. The framework presented in this work provides a simple way to disentangle the accretion-flow and jet contributions to the emission from nearby radio galaxies.",
@@ -715,7 +853,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -755,7 +893,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -806,7 +944,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -840,22 +978,26 @@
     {
       "id": "p_68798bf9663d",
       "title": "Kinetic arrest of a disordered first-order phase transition in strained V 2 O 3 thin films",
-      "abstract": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition, taking the thermal and electric field-driven metal-insulator transition in epitaxialthin films as a prototype. By defining a coarse-grained mesoscopic order parameterrepresenting the metallic volume fraction coupled to the primary structural monoclinic distortion, we formulate a Time-Dependent Ginzburg-Landau framework integrated with a non-local elastic interaction kernel and an Imry-Wortis quenched disorder landscape. We derive an explicit dynamic criterion for the KA boundaryby analyzing the divergence of the intrinsic order-parameter relaxation time relative to experimental observation timescales. Our framework rigorously decouples the thermodynamic driving force from the kinetic activation barrier. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic temperatures. The simulated transformation kinetics exhibit an Avrami exponent suppression to values, reflecting slow, hindered domain-wall propagation. Furthermore, we examine the effect of an external electric field as an isothermal mechanism that lowers this kinetic barrier, providing a phenomenological description of threshold de-arrest and multi-level resistance states. We critically discuss this electronic barrier-lowering mechanism in comparison with electrothermal Joule heating, establish diagnostic criteria to distinguish them, and contextualize these non-equilibrium dynamics with related phenomena in disordered superconducting films.",
-      "summary": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition, taking the thermal and electric field-driven metal-insulator transition in epitaxialthin films as a prototype. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic temperatures.",
+      "abstract": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition (FOPT), taking the thermal and electric field-driven metal-insulator transition (MIT) in epitaxial V2O3 thin films as a prototype. By defining a coarse-grained mesoscopic order parameter representing the metallic volume fraction coupled to the primary structural monoclinic distortion, we formulate a Time-Dependent Ginzburg-Landau (TDGL) framework integrated with a non-local elastic interaction kernel and an Imry-Wortis quenched disorder landscape. We derive an explicit dynamic criterion for the kinetic arrest boundary TK(E) by analyzing the divergence of the intrinsic order-parameter relaxation time relative to experimental observation timescales. Our framework rigorously decouples the thermodynamic driving force from the kinetic activation barrier. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic temperatures. The simulated transformation kinetics exhibit an Avrami exponent suppression to values n < 1, reflecting slow, hindered domain-wall propagation. Furthermore, we examine the effect of an external electric field as an isothermal mechanism that lowers this kinetic barrier, providing a phenomenological description of threshold de-arrest and multi-level resistance states. We critically discuss this electronic barrier-lowering mechanism in comparison with electrothermal Joule heating, establish diagnostic criteria to distinguish them, and contextualize these non-equilibrium dynamics with related phenomena in disordered superconducting films.",
+      "summary": "We develop a continuum phenomenological theory for the kinetic arrest (KA) of a first-order phase transition (FOPT), taking the thermal and electric field-driven metal-insulator transition (MIT) in epitaxial V2O3 thin films as a prototype. We demonstrate that epitaxial substrate-induced clamping elevates local elastic barriers, pinning domain boundaries and stabilizing an arrested, inhomogeneous mosaic of metallic and insulating phases down to cryogenic…",
       "authors": [
         "Sindhunil Barman Roy"
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
+        "arXiv",
         "OpenAlex"
       ],
       "venue": "Journal of Physics Condensed Matter",
+      "journal_ref": "J. Phys.: Condens. Matter 38 (2026) 465402",
       "doi": "10.1088/1361-648x/aebfdd",
       "doi_url": "https://doi.org/10.1088/1361-648x/aebfdd",
       "url": "https://doi.org/10.1088/1361-648x/aebfdd",
       "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-648X/aebfdd/pdf",
+      "arxiv_id": "2611.27168",
+      "arxiv_url": "https://arxiv.org/abs/2611.27168v1",
       "openalex_id": "W7154509638",
       "oa": true,
       "type": "article",
@@ -895,7 +1037,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -942,7 +1084,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -983,7 +1125,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1031,7 +1173,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1188,7 +1330,7 @@
       ],
       "published": "2026-11-19",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1237,7 +1379,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1281,7 +1423,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1289,7 +1431,7 @@
       "doi": "10.1002/admt.71455",
       "doi_url": "https://doi.org/10.1002/admt.71455",
       "url": "https://doi.org/10.1002/admt.71455",
-      "pdf_url": "",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admt.71455",
       "openalex_id": "W7236756980",
       "oa": true,
       "type": "article",
@@ -1320,7 +1462,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1361,7 +1503,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1400,7 +1542,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1444,7 +1586,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1484,7 +1626,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1527,7 +1669,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1539,7 +1681,7 @@
       "openalex_id": "W4417071378",
       "oa": true,
       "type": "article",
-      "citations": 6,
+      "citations": 7,
       "topics": [
         "superconducting_materials"
       ],
@@ -1569,7 +1711,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1639,7 +1781,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1691,7 +1833,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -1701,7 +1843,7 @@
       "doi": "10.1093/mnras/stag2234",
       "doi_url": "https://doi.org/10.1093/mnras/stag2234",
       "url": "https://doi.org/10.1093/mnras/stag2234",
-      "pdf_url": "https://arxiv.org/pdf/2611.24584v1",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2234/73874926/stag2234.pdf",
       "arxiv_id": "2611.24584",
       "arxiv_url": "https://arxiv.org/abs/2611.24584v1",
       "openalex_id": "W7236689049",
@@ -1770,7 +1912,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1812,7 +1954,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1854,7 +1996,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1892,7 +2034,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1934,7 +2076,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1986,7 +2128,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -2038,7 +2180,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2090,7 +2232,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2130,7 +2272,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2173,7 +2315,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2211,7 +2353,7 @@
       ],
       "published": "2026-11-18",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2418,7 +2560,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2458,7 +2600,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2501,7 +2643,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2549,7 +2691,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2600,7 +2742,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2654,7 +2796,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2698,7 +2840,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2757,7 +2899,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2802,7 +2944,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2844,7 +2986,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2886,7 +3028,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2931,7 +3073,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2978,7 +3120,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3029,7 +3171,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3474,7 +3616,7 @@
       ],
       "published": "2026-11-16",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -10818,7 +10960,7 @@
       ],
       "published": "2026-10-23",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-22T10:16:21+08:00",
+      "last_seen": "2026-11-23T10:49:24+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

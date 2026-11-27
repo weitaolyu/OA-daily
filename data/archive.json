@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T12:10:19+08:00",
-    "generated_label": "2026-11-26 12:10",
-    "today": "2026-11-26",
+    "generated_at": "2026-11-27T12:17:18+08:00",
+    "generated_label": "2026-11-27 12:17",
+    "today": "2026-11-27",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 404,
-    "new_count": 35,
-    "digest_url": "digests/2026-11-26.md",
+    "paper_count": 422,
+    "new_count": 18,
+    "digest_url": "digests/2026-11-27.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -79,6 +79,678 @@
   ],
   "papers": [
     {
+      "id": "p_9e901c779ffa",
+      "title": "Spectroscopic Signatures of Polaronic Density Wave Fluctuations in Superconducting Bismuthates",
+      "abstract": "The bismuthate high-temperature superconductors have been identified as potential bipolaron systems, where hole pairs are bound to local breathing distortions of the BiO$_6$ octahedra in their metallic phase. However, obtaining definitive evidence for these quasiparticles and their excitations remains challenging. Here, we report on periodic modulations of the spectral intensities and scattering rates of quasiparticles on the Fermi surfaces of doped bismuthates Ba$_{1-x}$K$_x$BiO$_3$ and BaPb$_{1-y}$Bi$_y$O$_3$, which are reminiscent of ``hot spot'' patterns that have been observed in cuprate superconductors. We show that these features can be well described by a model where electrons couple to fluctuating density wave modulations with short-range coherence along a $(\\pi,\\pi,\\pi)$-oriented wavevector. The results are consistent with the existence of a two-component fluid where unpaired electrons interact with a fluctuating density wave created by residual bipolarons and their breathing distortions of the BiO$_6$ octahedra.",
+      "summary": "The bismuthate high-temperature superconductors have been identified as potential bipolaron systems, where hole pairs are bound to local breathing distortions of the BiO$_6$ octahedra in their metallic phase. The results are consistent with the existence of a two-component fluid where unpaired electrons interact with a fluctuating density wave created by residual bipolarons and their breathing distortions of the BiO$_6$ octahedra.",
+      "authors": [
+        "Wojciech R. Pude{\\l}ko",
+        "Muntaser Naamneh",
+        "Philip M. Dee",
+        "Hang Li",
+        "Eduardo B. Guedes",
+        "Dariusz J. Gawryluk",
+        "Anna Krzto\\'n-Maziopa",
+        "Vahid Sazgari",
+        "Yona Soh",
+        "Ming Shi",
+        "Milan Radovi\\'{c}",
+        "Johan Chang",
+        "Steven Johnston",
+        "Nicholas C. Plumb"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · cond-mat.supr-con",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.33422",
+      "pdf_url": "https://arxiv.org/pdf/2611.33422",
+      "arxiv_id": "2611.33422",
+      "arxiv_url": "https://arxiv.org/abs/2611.33422",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 13.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "quasiparticles",
+          "superconducting",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_eac643c55859",
+      "title": "Development of a low-level radio frequency system for remote in situ superconducting radio frequency cavity measurements and calibrations in conduction-cooling systems",
+      "abstract": "We developed a low-level radio frequency (LLRF) system for superconducting radio frequency (SRF) cavity measurements in a conduction-cooling system. A voltage-controlled oscillator (VCO) was used in a phase-locked loop (PLL) to track the frequencies of SRF cavity modes. {\\tt{Python}}-based software developed in-house controlled and monitored the system. By introducing an additional circulator and associated components, we developed an LLRF system enabling fully remote in situ SRF cavity measurements for the first time. This design also enables remote in situ calibrations. Hence, our LLRF system improves safety through fully remote operation and enhances measurement precision through in situ calibrations, with safety always taking priority. These calibrations are important for measurements in conduction-cooling systems because temperature stability and uniformity in these systems are poorer than those in convection-cooling systems using costly liquid helium and can vary over time and with environmental conditions.",
+      "summary": "We developed a low-level radio frequency (LLRF) system for superconducting radio frequency (SRF) cavity measurements in a conduction-cooling system. By introducing an additional circulator and associated components, we developed an LLRF system enabling fully remote in situ SRF cavity measurements for the first time.",
+      "authors": [
+        "C. Lim",
+        "K. Seol",
+        "S. E. Park",
+        "E. -S. Kim",
+        "E. Kako",
+        "S. Lee",
+        "B. R. Ko"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "arXiv"
+      ],
+      "venue": "arXiv · physics.ins-det",
+      "journal_ref": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://arxiv.org/abs/2611.33680",
+      "pdf_url": "https://arxiv.org/pdf/2611.33680",
+      "arxiv_id": "2611.33680",
+      "arxiv_url": "https://arxiv.org/abs/2611.33680",
+      "oa": true,
+      "type": "preprint",
+      "citations": 0,
+      "topics": [
+        "resonators"
+      ],
+      "scores": {
+        "resonators": 18.0
+      },
+      "matched": {
+        "resonators": [
+          "superconducting",
+          "cavity",
+          "radio frequency"
+        ]
+      },
+      "primary_topic": "resonators"
+    },
+    {
+      "id": "p_7626b71ed00f",
+      "title": "Theories of Disordered Superconductors: A Brief Overview",
+      "abstract": "The properties of materials depend crucially on their crystal structure and purity. This is true for all phases of matter: normal, magnetic, superconducting, etc. It is the static and/or dynamic scattering of electrons on various defects and/or quasiparticles that leads to finite values of resistance and its characteristic temperature dependence. In this paper, we review theoretical attempts to understand the effect of impurities - or more generally, various kinds of disorder - on superconductivity. The issue has become of primary importance after the discovery of high-temperature superconductors. We concentrate on changes in the superconducting transition temperature Tc. As an example of the effect of disorder on other characteristics, we discuss the isotope coefficient of copper oxides. This review starts with the celebrated Anderson theorem and discusses its recent generalisations, underlining the importance of the symmetry of the scatterers and the superconducting order parameter.",
+      "summary": "The properties of materials depend crucially on their crystal structure and purity. It is the static and/or dynamic scattering of electrons on various defects and/or quasiparticles that leads to finite values of resistance and its characteristic temperature dependence.",
+      "authors": [
+        "Karol Izydor Wysokiński"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s272",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s272",
+      "url": "https://doi.org/10.12693/aphyspola.150.s272",
+      "pdf_url": "",
+      "openalex_id": "W7239757772",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 28.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "crystal",
+          "materials",
+          "quasiparticles",
+          "transition temperature",
+          "superconducting",
+          "superconductivity",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_038fc31d4a4a",
+      "title": "The Magnetic Field in the Multiphase Interstellar Medium of NGC 6946",
+      "abstract": "Magnetic fields regulate the multiphase interstellar medium (ISM) of spiral galaxies, yet their behavior across ISM phases remains poorly constrained observationally. We present a comparative polarimetric study of the nearby spiral galaxy NGC 6946 using far-infrared (FIR) data at 154 μ m from SOFIA/HAWC+ and radio continuum data at 6 cm from the Very Large Array and Effelsberg telescopes, which probe magnetic fields in the cold dust-emitting and diffuse synchrotron-emitting phases of the ISM, respectively. The synchrotron polarization reveals a coherent large-scale spiral magnetic field, with high polarization fractions in interarm regions and strong depolarization in star-forming arms. The FIR polarization fraction is lower on average and shows stronger spatial variations. Both tracers decrease systematically with increasing star formation activity, indicating that star-formation-driven turbulence reduces magnetic field ordering; the synchrotron polarization fraction is strongly suppressed in the central kiloparsec but stable across the mid-disk, with a tendency to increase beyond R ≈ 7 kpc, while the FIR polarization fraction remains low (∼2%-3%) and approximately constant over the radial range where it can be reliably measured (R ≲ 5.4 kpc). Our results indicate that NGC 6946 hosts a globally ordered magnetic field locally modulated by turbulence. This study highlights the complementary nature of FIR and radio polarimetry in probing magnetic fields across ISM phases and provides quantitative constraints on how magnetic field ordering varies between the cold and diffuse ISM components.",
+      "summary": "Magnetic fields regulate the multiphase interstellar medium (ISM) of spiral galaxies, yet their behavior across ISM phases remains poorly constrained observationally. Our results indicate that NGC 6946 hosts a globally ordered magnetic field locally modulated by turbulence.",
+      "authors": [
+        "A. Yarahmadi",
+        "Fatemeh S. Tabatabaei",
+        "Golshan Ejlali",
+        "Rainer Beck",
+        "Enrique López-Rodríguez",
+        "Alejandro Borlaff"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aea3ef",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aea3ef",
+      "url": "https://doi.org/10.3847/1538-4357/aea3ef",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aea3ef/pdf",
+      "openalex_id": "W7214041676",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm",
+        "polarimetry"
+      ],
+      "scores": {
+        "submm": 22.0,
+        "polarimetry": 24.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "far infrared",
+          "far-infrared",
+          "galaxies",
+          "galaxy",
+          "interstellar",
+          "ism",
+          "sofia",
+          "star formation"
+        ],
+        "polarimetry": [
+          "far-infrared",
+          "hawc+",
+          "polarimetric",
+          "polarimetry"
+        ]
+      },
+      "primary_topic": "polarimetry"
+    },
+    {
+      "id": "p_e41f216475d9",
+      "title": "The Boson-Fermion Approach to Superconductivity: An Overview",
+      "abstract": "Superconductivity of cuprate oxides is associated with the existence of strongly bound pairs of charge carriers, residing on neighboring lattice sites. The low density of pairs and the quasi-two-dimensional structure of high-Tc materials imply, however, that the formation of these bosonic entities alone is insufficient to guarantee a true phase transition to superconductivity. It ultimately occurs upon the onset of long-range phase coherence of the preexisting pairs. This aspect has been envisaged within the boson-fermion scenario, in which the local pairs are coupled to the mobile fermionic charge carriers through an Andreev-type scattering. Such a model predicted the pseudogap phase above the transition temperature Tc that has been reported experimentally in underdoped and optimally doped cuprates. This two-component scenario can be formally derived from models describing strongly correlated fermions using the Hubbard-Stratonovich transformation. A similar framework is also relevant to describe superfluidity of ultracold fermionic atoms, and/or other unconventional superconducting states of strongly paired fermions. This work provides a brief overview of selected findings obtained in recent decades within the framework of the boson-fermion model.",
+      "summary": "Superconductivity of cuprate oxides is associated with the existence of strongly bound pairs of charge carriers, residing on neighboring lattice sites. The low density of pairs and the quasi-two-dimensional structure of high-Tc materials imply, however, that the formation of these bosonic entities alone is insufficient to guarantee a true phase transition to superconductivity.",
+      "authors": [
+        "T. Domański"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s151",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s151",
+      "url": "https://doi.org/10.12693/aphyspola.150.s151",
+      "pdf_url": "",
+      "openalex_id": "W7239716853",
+      "oa": true,
+      "type": "article",
+      "citations": 1,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 17.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "materials",
+          "transition temperature",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_e0afb37a4b3f",
+      "title": "Superconductivity Research at the AGH Solid State Physics Department: From Then to Now. A Historical Perspective",
+      "abstract": "The discovery in 1980 by A. Kołodziejczyk, B.V.B. Sarkissian, and B.R. Coles of superconductivity in the weakly ferromagnetic Y-Co compound, initially reported as Y4Co3, came as a surprise because superconductivity and ferromagnetism were then widely regarded as incompatible phenomena. This result initiated a long-standing superconductivity research line at the AGH University of Kraków, where Kołodziejczyk's group and their collaborators studied the interplay between magnetic moments and paired electrons in this material. The present article follows the development of this research tradition from the Y-Co superconducting weak ferromagnets, through related studies of heavy-fermion superconductivity and MgB2, to the broad programme on high-temperature copper-oxide superconductors. The latter included yttrium barium copper oxide and rare-earth-substituted derivatives, thallium- and bismuth-based compounds in bulk, tape, and thin-film form, and technologically relevant coated conductors. These materials were investigated by transport, magnetic, thermodynamic, microwave, photoemission, X-ray absorption, and related methods, with emphasis on the roles of oxygen content, local copper-oxygen electronic structure, rare-earth magnetism, microstructure, superconducting fluctuations, vortex physics, and critical currents. The article also discusses more recent cuprate research associated with this scientific line, including universal charge transport, charge order, Fermi-surface reconstruction, Hall carrier-density evolution, and charge localization. The aim is not to provide a complete account of all superconductivity research at AGH University, but to present the historical development, scientific continuity, and current direction of this particular research tradition.",
+      "summary": "Coles of superconductivity in the weakly ferromagnetic Y-Co compound, initially reported as Y4Co3, came as a surprise because superconductivity and ferromagnetism were then widely regarded as incompatible phenomena. The present article follows the development of this research tradition from the Y-Co superconducting weak ferromagnets, through related studies of heavy-fermion superconductivity and MgB2, to the broad programme on high-temperature…",
+      "authors": [
+        "Wojciech Tabiś"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s257",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s257",
+      "url": "https://doi.org/10.12693/aphyspola.150.s257",
+      "pdf_url": "",
+      "openalex_id": "W7239838209",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 37.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "compound",
+          "compounds",
+          "film",
+          "material",
+          "materials",
+          "superconducting",
+          "superconductivity",
+          "superconductors",
+          "thin film"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_ad705b4cf0c4",
+      "title": "Proximity-induced unconventional superconductivity and chiral topological phases in twisted graphene/NbSe 2 van der Waals heterostructure",
+      "abstract": "We study proximity-induced unconventional superconductivity in a twisted graphene/NbSe2 van der Waals heterostructure using the Bogoliubov-de Gennes formalism. The normal-state parameters of proximitized graphene are extracted from ab initio calculations at a twist angle of 23.4 degrees, which reduces the common symmetry of the heterostructure to C3. We construct symmetry-allowed superconducting gap functions of the graphene layer according to the irreducible representations of the C3 group, containing singlet and triplet pairing channels and their mixtures. Computing the topological invariants as a function of the mixing parameters, we find a rich phase diagram of chiral topological superconducting phases, characterized by nonzero Chern numbers C. While the nature of the superconducting order parameter of NbSe 2 remains debated, the formation of the van der Waals heterostructure can alter the relative stability of competing pairing channels, potentially stabilizing a chiral pairing that is proximity-induced into graphene and triggers the topological phases identified here, making the twisted graphene/NbSe 2 heterostructure a promising platform for chiral topological superconductivity detectable via quasiparticle interference imaging and transport measurements.",
+      "summary": "We study proximity-induced unconventional superconductivity in a twisted graphene/NbSe2 van der Waals heterostructure using the Bogoliubov-de Gennes formalism. While the nature of the superconducting order parameter of NbSe 2 remains debated, the formation of the van der Waals heterostructure can alter the relative stability of competing pairing channels, potentially stabilizing a chiral pairing that is proximity-induced into graphene and triggers the…",
+      "authors": [
+        "Adam Hložný",
+        "Marko Milivojević"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/3g3c-24qb",
+      "doi_url": "https://doi.org/10.1103/3g3c-24qb",
+      "url": "https://arxiv.org/abs/2606.12104",
+      "pdf_url": "https://arxiv.org/pdf/2606.12104",
+      "openalex_id": "W7164347753",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 17.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "quasiparticle",
+          "superconducting gap",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_874ea9db5cff",
+      "title": "Probing Superconductivity by Disorder",
+      "abstract": "Since the discovery of high-temperature superconductors in 1986, many experimental studies have been devoted to probing superconductivity in these materials using impurity doping. The doping of impurities, such as substitutions of certain elements in the crystallographic structure or introducing other types of disorder via different means, may affect many material parameters, including density of carriers, scattering rates, magnetic fluctuations, etc. In this review, we describe our studies undertaken to evaluate these effects over the last three decades, starting from initial studies of polycrystalline (ceramic) cuprate materials, moving to studies of cuprate thin films, and finally, to studies of inhomogeneous superconductivity in ultrathin films. We try to underscore the most important results, which have a lasting impact on the (still imperfect) understanding of high-temperature superconductivity.",
+      "summary": "Since the discovery of high-temperature superconductors in 1986, many experimental studies have been devoted to probing superconductivity in these materials using impurity doping. We try to underscore the most important results, which have a lasting impact on the (still imperfect) understanding of high-temperature superconductivity.",
+      "authors": [
+        "M. Cieplak",
+        "I. Zajcewa"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s134",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s134",
+      "url": "https://doi.org/10.12693/aphyspola.150.s134",
+      "pdf_url": "",
+      "openalex_id": "W7239796693",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 26.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "films",
+          "material",
+          "materials",
+          "superconductivity",
+          "superconductors",
+          "thin films"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_4933d1850099",
+      "title": "Polariton-Polariton Coherent Coupling in a Molecular Spin-Superconductor Chip",
+      "abstract": "The ability to establish coherent communication channels is key for scaling up quantum devices. Here, we engineer interactions between distant polaritons, hybrid spin-photon excitations formed at different lumped-element superconducting resonators within a chip. The chip consists of several resonator pairs, slightly detuned in frequency to make them addressable, capacitively coupled within each pair and inductively coupled to a common readout line. They interact locally with samples of PTMr and Tripak - organic free radicals, deposited onto their inductors, which provide model S = 1 / 2, g ≃ 2 spin ensembles. Frequency-dependent microwave transmission experiments, performed at very low temperatures, measure polariton frequencies as a function of magnetic field in different scenarios. When only one resonator within a pair hosts a molecular sample, the results evidence that spins couple remotely to the empty LER as well as to the local cavity mode. If both resonators interact with a spin ensemble, the magnetic field tunes the polariton frequencies relative to each other, on account of the different spin-photon interactions at each LER. When polaritons are brought into mutual resonance, the microwave transmission spectroscopically resolves an avoided level crossing that evidences a polariton-polariton interaction mediated by the circuit. Then, pump-probe experiments reveal that the excitation of a polariton within a connected pair is indeed felt, thus it can be read out, by the other one. Model calculations, compatible with the experimental parameters and results, suggest that the system excitation eigenstates show photon-photon and spin-spin correlations and entanglement near the polariton-polariton anticrossing.",
+      "summary": "The ability to establish coherent communication channels is key for scaling up quantum devices. Frequency-dependent microwave transmission experiments, performed at very low temperatures, measure polariton frequencies as a function of magnetic field in different scenarios.",
+      "authors": [
+        "Carolina del Río",
+        "Marcos Rubín-Osanz",
+        "David Rodriguez",
+        "Sebastián Roca-Jerat",
+        "María Carmen Pallarés",
+        "J. Alejandro de Sousa",
+        "Paweł Pakulski",
+        "José Luis García Palacios",
+        "Daniel Granados",
+        "Dawid Pinkowicz",
+        "Núria Crivillers",
+        "Anabel Lostao",
+        "David Zueco",
+        "Alicia Gomez",
+        "Fernando Luis"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "PRX Quantum",
+      "doi": "10.1103/xvjl-h44h",
+      "doi_url": "https://doi.org/10.1103/xvjl-h44h",
+      "url": "https://doi.org/10.1103/xvjl-h44h",
+      "pdf_url": "",
+      "openalex_id": "W7215931951",
+      "oa": true,
+      "type": "article",
+      "citations": 4,
+      "topics": [
+        "resonators"
+      ],
+      "scores": {
+        "resonators": 36.0
+      },
+      "matched": {
+        "resonators": [
+          "cavity",
+          "microwave",
+          "resonator",
+          "resonators",
+          "superconducting",
+          "superconducting resonators",
+          "superconductor"
+        ]
+      },
+      "primary_topic": "resonators"
+    },
+    {
+      "id": "p_e7b754ba9041",
+      "title": "Non-Fermi liquid and Weyl superconductivity from the weakly interacting three-dimensional electron gas at high magnetic fields",
+      "abstract": "Three-dimensional electron gases in strong magnetic fields host partially flat bands that disperse along the field direction yet exhibit Landau-level quantization in the transverse dimensions. Early work established that for spin-polarized electrons confined to the lowest Landau level band, repulsion triggers a charge density wave (CDW) in which electrons self-layer into integer quantum Hall states, while attraction generates a non-Fermi liquid (rather than a superconductor). We revisit this problem with physically motivated deformations-including generalized local interactions, higher Landau level bands, restoration of spin, and explicit breaking of spatial symmetries-paying particular attention to the competition between CDWs and superconductivity. Our main findings are: (1) Generic local interactions can stabilize a nematic CDW in which integer quantum Hall layers spontaneously tilt, yielding unconventional Hall response. (2) We numerically establish that the non-Fermi liquid appears stable to perturbations that preserve effective dipole conservation symmetries that emerge within a Landau level band. (3) Upon explicitly breaking translation symmetry, attraction catalyzes a novel layered superconductor that hosts Weyl nodes, superconducts within each layer, and insulates transverse to the layers. These results expand the rich phenomenology of interacting bulk electrons in the high-field regime and potentially inform the design of field-resistant superconductivity in low-carrier-density materials.",
+      "summary": "Three-dimensional electron gases in strong magnetic fields host partially flat bands that disperse along the field direction yet exhibit Landau-level quantization in the transverse dimensions. These results expand the rich phenomenology of interacting bulk electrons in the high-field regime and potentially inform the design of field-resistant superconductivity in low-carrier-density materials.",
+      "authors": [
+        "Nandagopal Manoj",
+        "Valerio Peri",
+        "Jason Alicea"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical review. B./Physical review. B",
+      "doi": "10.1103/fqt4-r232",
+      "doi_url": "https://doi.org/10.1103/fqt4-r232",
+      "url": "http://arxiv.org/abs/2602.11396",
+      "pdf_url": "https://arxiv.org/pdf/2602.11396",
+      "openalex_id": "W7222717796",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 13.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "materials",
+          "superconductivity",
+          "superconductor"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_41f960add146",
+      "title": "Josephson Network as a Model for High-Temperature Superconductor and Beyond: Macroscopic Quantum Coherence Probed by Microwave Absorption",
+      "abstract": "Since the seminal experiment by Stankowski et al. [Phys. Rev. B 36, 7126 (1987)] on YBa2Cu3O7-x, magnetically-modulated microwave absorption has become an important technique for detecting the superconducting transition in inhomogeneous ceramic compounds. The increase in microwave absorption below Tc is accompanied by several low-field anomalies, commonly attributed either to weak links between superconducting grains, showing the Josephson effect, or to the dynamics of Abrikosov-Josephson vortices. In this article, we briefly review selected theoretical models describing the magnetically-modulated microwave absorption spectra for high-temperature superconductors. We focus on a three-dimensional array of Josephson junctions with random parameters, including resistivity, capacitance, and inductance of each junction, which reproduces the characteristic absorption anomalies observed experimentally. The implications of recently studied microwave absorption in Josephson junction qubits are also discussed.",
+      "summary": "Since the seminal experiment by Stankowski et al. [Phys. B 36, 7126 (1987)] on YBa2Cu3O7-x, magnetically-modulated microwave absorption has become an important technique for detecting the superconducting transition in inhomogeneous ceramic compounds.",
+      "authors": [
+        "Adam Rycerz"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s213",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s213",
+      "url": "https://doi.org/10.12693/aphyspola.150.s213",
+      "pdf_url": "",
+      "openalex_id": "W7203716847",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 16.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "compounds",
+          "superconducting",
+          "superconductor",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_10592deca984",
+      "title": "Ferrite Materials for Quantum Nonreciprocal Microwave Devices: Advances and Perspectives",
+      "abstract": "Ferrite materials have long played an important role in nonreciprocal microwave devices. M-type hexaferrites, such as SrFe12O19 and BaFe12O19, are particularly attractive because of their strong magnetic anisotropy, chemical stability, and low cost. Ferrite-based circulators and isolators (CIs) are widely used in microwave systems, including superconducting-qubit readout chains. However, their size, magnetic bias requirements, and limited on-chip integrability present challenges for scalable quantum computing. These limitations have motivated the development of alternative nonreciprocal technologies. This review first examines the crystal structures, magnetic properties, ferromagnetic resonance behavior, and microwave losses of hexagonal, garnet, and spinel ferrites. Particular attention is given to cryogenic performance and device integration. We then discuss recent advances in quantum nonreciprocal microwave devices as comparative examples, focusing on their operating principles, design methods, and experimental demonstrations. Representative technologies are compared using reported experimental data, including insertion loss, nonreciprocity, bandwidth, temperature, driving conditions, and magnetic bias requirements. Integration challenges and compatibility with quantum systems are also discussed. Finally, we outline future research directions for ferrite materials, including cryogenic characterization, microwave loss reduction, self-biased device design, and integration with superconducting circuits.",
+      "summary": "Ferrite materials have long played an important role in nonreciprocal microwave devices. This review first examines the crystal structures, magnetic properties, ferromagnetic resonance behavior, and microwave losses of hexagonal, garnet, and spinel ferrites.",
+      "authors": [
+        "Haoxin Song",
+        "Dan Liu",
+        "Haolai Deng",
+        "Jianfeng Xi",
+        "Jianyu Ren",
+        "Baohe Li",
+        "Tongyun Zhao",
+        "Fengxia Hu",
+        "Baogen Shen"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Magnetochemistry",
+      "doi": "10.3390/magnetochemistry12120134",
+      "doi_url": "https://doi.org/10.3390/magnetochemistry12120134",
+      "url": "https://doi.org/10.3390/magnetochemistry12120134",
+      "pdf_url": "",
+      "openalex_id": "W7239730386",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 15.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "crystal",
+          "materials",
+          "superconducting"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_6325342b79be",
+      "title": "Disorder Induced by Nonmagnetic Substitution as a Route to Enhanced Superconductivity: Experimental Evidence from the La3M4Sn13 (M = Co, Rh, Ru) and R5Rh6Sn18 (R = Y, Lu, Sc) Families",
+      "abstract": "Atomic-scale disorder has traditionally been regarded as detrimental to superconductivity. Yet, a growing body of evidence from Remeika-type quasiskutterudites demonstrates that disorder can instead promote superconductivity by generating locally enhanced pairing. This review summarizes experimental and theoretical studies of the La3M4Sn13 (M = Co, Rh, Ru) and R5Rh6Sn18 (R = Y, Lu, Sc) families, in which substitutional disorder gives rise to superconducting regions characterized by a local critical temperature, Tc*, exceeding the bulk transition temperature, Tc. We discuss the thermodynamic signatures of this phenomenon, including the correlation between entropy maxima and the separation of Tc* and Tc, as well as evidence for percolative superconductivity obtained from upper-critical-field measurements. Collectively, these findings support a picture in which disorder enhances local pairing while simultaneously limiting global phase coherence. We argue that controlled atomic-scale disorder should be regarded not merely as an imperfection but as a tunable parameter for optimizing superconducting states in complex quantum materials.",
+      "summary": "Atomic-scale disorder has traditionally been regarded as detrimental to superconductivity. Yet, a growing body of evidence from Remeika-type quasiskutterudites demonstrates that disorder can instead promote superconductivity by generating locally enhanced pairing.",
+      "authors": [
+        "Andrzej Ślebarski"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s240",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s240",
+      "url": "https://doi.org/10.12693/aphyspola.150.s240",
+      "pdf_url": "",
+      "openalex_id": "W7239864643",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 21.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "critical temperature",
+          "materials",
+          "transition temperature",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_bffb66f3074a",
+      "title": "Anisotropy of Superconducting State Properties in High-Tc Superconductors",
+      "abstract": "The anisotropy of superconducting-state properties seems to be fundamental for understanding the microscopic mechanism of superconductivity - specifically, whether it is quasi-two-dimensional in nature, or whether and how interplanar coupling (e.g., between CuO2 planes) affects superconducting properties. On the other hand, anisotropy is also crucial for the possible applications of these materials. The current paper presents a review of the studies of anisotropic superconducting-state properties of various families of high-Tc superconductors, performed as a part of collaborations between researchers from the Institute of Physics of the Polish Academy of Sciences in Warsaw and various international institutions.",
+      "summary": "The anisotropy of superconducting-state properties seems to be fundamental for understanding the microscopic mechanism of superconductivity - specifically, whether it is quasi-two-dimensional in nature, or whether and how interplanar coupling (e.g., between CuO2 planes) affects superconducting properties. On the other hand, anisotropy is also crucial for the possible applications of these materials.",
+      "authors": [
+        "R. Puźniak",
+        "A. Wiśniewski"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s204",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s204",
+      "url": "https://doi.org/10.12693/aphyspola.150.s204",
+      "pdf_url": "",
+      "openalex_id": "W7239804738",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 19.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "materials",
+          "superconducting",
+          "superconductivity",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_b61edf2a59a0",
+      "title": "ALMA Observations towards M83 Reveal N 2 H + Tracing Dense Gas",
+      "abstract": "Galactic observations have shown that N 2 H + intensities preferentially trace star-forming dense molecular gas compared with HCN or HCO +, which are conventionally used as dense-gas tracers in extragalactic studies. In this study, we aim to verify this trend in the nearby star-forming galaxy M83. Using the Atacama Large Millimeter/submillimeter Array (ALMA), we observed the J = 1-0 transitions of N 2 H + and HCN, along with the 1 and 3 mm continuum, and analyzed the archival CO(1-0) data. The data achieved a spatial resolution of 48 pc in the southwestern bar-end region of M83, covering an area of 2.1 kpc × 1.8 kpc. N 2 H + and HCN intensities are approximately linearly correlated, indicating that HCN luminosity can reasonably predict the amount of dense gas as well as N 2 H + luminosity does. However, in regions with high column densities, N 2 H + becomes a superlinear function of HCN, suggesting that the N 2 H + emission increases more steeply with dense gas than HCN. We employed a radiative-transfer model that predicts line intensities as a function of column density, adopting parametric column density probability distribution functions (N-PDFs) to describe the underlying column density distribution. The model demonstrates that the observed linear or superlinear trend can be explained by a log-normal distribution only or a log-normal and a power-law tail distribution in the N-PDF. Furthermore, the power-law tail significantly enhances the N 2 H + intensity more than the HCN intensity. In addition, our analysis incorporating archival data shows that N 2 H + is a less reliable tracer of dense gas in galactic center regions, where warmer temperatures may promote N 2 H + destruction.",
+      "summary": "Galactic observations have shown that N 2 H + intensities preferentially trace star-forming dense molecular gas compared with HCN or HCO +, which are conventionally used as dense-gas tracers in extragalactic studies. The model demonstrates that the observed linear or superlinear trend can be explained by a log-normal distribution only or a log-normal and a power-law tail distribution in the N-PDF.",
+      "authors": [
+        "Nanase Harada",
+        "Y. Nishimura",
+        "Toshiki Saito",
+        "Mario Tafalla",
+        "Jin Koda",
+        "D. Arzoumanian",
+        "Sophia K. Stuber",
+        "Akihiko Hirota",
+        "Yoshimasa Watanabe"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb54a",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb54a",
+      "url": "https://doi.org/10.3847/1538-4357/aeb54a",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeb54a/pdf",
+      "openalex_id": "W7222852289",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 23.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "galaxy",
+          "millimeter",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_06839071e420",
       "title": "Tunneling signatures of the Lifshitz transition in a superconducting vortex",
       "abstract": "The Caroli-de Gennes-Matricon states bound to a vortex line in a clean type-II superconductor form one-dimensional minibands that disperse along the vortex. The lowest miniband is separated from the Fermi level by a minigap $E_0\\sim\\Delta^2/E_F$. A magnetic field shifts the minibands of the two spin projections in opposite directions. At the threshold field $B^*$ the Zeeman energy equals $E_0$. Estimates for FeSe place $B^*$ at a few tesla. The lowest miniband of one spin projection then crosses the Fermi level, and a spin-polarized one-dimensional Fermi sea forms inside the vortex core. We develop the theory of tunneling spectra across this Lifshitz transition. We solve the Bogoliubov-de Gennes equations numerically in the quantum limit for all momenta along the vortex and compute the local density of states with thermal and instrumental broadening. The zero-bias conductance at the vortex center is absent below $B^*$. It has a maximum near $B^*$ with the inverse-square-root field dependence of a one-dimensional van Hove singularity and decreases at higher fields. The next miniband produces a second onset at a finite distance from the center. The zero-bias signal is carried by one spin projection at the center and by the opposite one in the surrounding ring. We then project the screened electron interaction onto the filled miniband. The resulting Luttinger parameter is close to unity, so the core hosts a weakly interacting one-dimensional Fermi gas. Its quasiparticles relax through three-particle collisions in analogy with thermalization in quantum wires and at quantum Hall edges. The corresponding relaxation rates are established analytically.",
@@ -121,7 +793,7 @@
     {
       "id": "p_85608293a851",
       "title": "Tunable Terahertz Bandpass Filter based on the Photonic Emulation of a 2DEG Interferometer through the Geometric Phase of Light",
-      "abstract": "Terahertz frequencies are expected to become a key player in next-generation wireless communications. For this transition to occur seamlessly, tunable bandpass filters for channel selection are essential. However, conventional Fabry-Pérot cavity-based bandpass filters face inherent limitations. Specifically, their tunability is restricted by physical constraints, such as the maximum achievable mirror separation. In this work, drawing inspiration from electronic interferometers, we demonstrate a continuously tunable bandpass filter operating near 0.3 THz by exploiting the geometric phase of light, the Pancharatnam-Berry phase. Our device incorporates intracavity waveplates for polarization control and is described by a mathematical expression analogous to that of the electronic interferometer governed by the Aharonov-Bohm phase, thereby realizing a photonic analogue. Using custom-designed subwavelength waveplates and cavity mirrors, we achieve a finesse of $\\mathcal{F}\\approx17$, a quality factor of $Q\\approx1.5\\times10^{3}$, and a resonance linewidth of $Δf_{\\mathrm{FWHM}}\\approx 200$ MHz. Beyond terahertz communication technology, this system is expected to find applications in fields requiring high frequency resolution, such as spectroscopy.",
+      "abstract": "Terahertz frequencies are expected to become a key player in next-generation wireless communications. For this transition to occur seamlessly, tunable bandpass filters for channel selection are essential. However, conventional Fabry-P\\'erot cavity-based bandpass filters face inherent limitations. Specifically, their tunability is restricted by physical constraints, such as the maximum achievable mirror separation. In this work, drawing inspiration from electronic interferometers, we demonstrate a continuously tunable bandpass filter operating near 0.3 THz by exploiting the geometric phase of light, the Pancharatnam-Berry phase. Our device incorporates intracavity waveplates for polarization control and is described by a mathematical expression analogous to that of the electronic interferometer governed by the Aharonov-Bohm phase, thereby realizing a photonic analogue. Using custom-designed subwavelength waveplates and cavity mirrors, we achieve a finesse of $\\mathcal{F}\\approx17$, a quality factor of $Q\\approx1.5\\times10^{3}$, and a resonance linewidth of $\\Delta f_{\\mathrm{FWHM}}\\approx 200$ MHz. Beyond terahertz communication technology, this system is expected to find applications in fields requiring high frequency resolution, such as spectroscopy.",
       "summary": "Terahertz frequencies are expected to become a key player in next-generation wireless communications. In this work, drawing inspiration from electronic interferometers, we demonstrate a continuously tunable bandpass filter operating near 0.3 THz by exploiting the geometric phase of light, the Pancharatnam-Berry phase.",
       "authors": [
         "Victor I. Iwanaga",
@@ -136,7 +808,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -285,7 +957,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -308,8 +980,8 @@
       },
       "matched": {
         "superconducting_materials": [
-          "superconducting gap",
           "superconducting",
+          "superconducting gap",
           "superconductivity",
           "superconductor"
         ]
@@ -326,7 +998,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -358,8 +1030,8 @@
     {
       "id": "p_564950b509b9",
       "title": "Structural Anisotropy in Bi$_2$Se$_3$/$λ$-(BETS)$_2$GaCl$_4$ Topological Insulator/Superconductor Bilayer",
-      "abstract": "We investigate the crystallographic-orientation dependence of the response of $λ$-(BETS)$_2$GaCl$_4$ ($λ$-Ga) to Bi$_2$Se$_3$ deposition. Cross-sectional focused-ion-beam (FIB) imaging confirms formation of a deposited Bi$_2$Se$_3$-containing layer and a distinct interface with $λ$-Ga. Single-crystal X-ray diffraction (SC-XRD) shows that the coated $λ$-Ga crystal remains structurally intact but exhibits a strongly orientation-dependent, non-monotonic response, with the largest modification for the $ab$-plane after 4 min of deposition, whereas the $ac$-plane remains comparatively unchanged. This condition corresponds to the intermediate-deposition regime previously identified at a Bi$_2$Se$_3$ thickness of approximately 110 nm. First-principles calculations based on the refined structures show the largest orientation-dependent electronic modification under the same conditions. Complementary optical spectroscopy of Bi$_2$Se$_3$/SiO$_2$ films shows deposition-time-dependent evolution of the film response. These results establish a pronounced crystallographic anisotropy in the structural and calculated electronic response of $λ$-Ga to Bi$_2$Se$_3$ deposition.",
-      "summary": "We investigate the crystallographic-orientation dependence of the response of $λ$-(BETS)$_2$GaCl$_4$ ($λ$-Ga) to Bi$_2$Se$_3$ deposition. These results establish a pronounced crystallographic anisotropy in the structural and calculated electronic response of $λ$-Ga to Bi$_2$Se$_3$ deposition.",
+      "abstract": "We investigate the crystallographic-orientation dependence of the response of $\\lambda$-(BETS)$_2$GaCl$_4$ ($\\lambda$-Ga) to Bi$_2$Se$_3$ deposition. Cross-sectional focused-ion-beam (FIB) imaging confirms formation of a deposited Bi$_2$Se$_3$-containing layer and a distinct interface with $\\lambda$-Ga. Single-crystal X-ray diffraction (SC-XRD) shows that the coated $\\lambda$-Ga crystal remains structurally intact but exhibits a strongly orientation-dependent, non-monotonic response, with the largest modification for the $ab$-plane after 4 min of deposition, whereas the $ac$-plane remains comparatively unchanged. This condition corresponds to the intermediate-deposition regime previously identified at a Bi$_2$Se$_3$ thickness of approximately 110 nm. First-principles calculations based on the refined structures show the largest orientation-dependent electronic modification under the same conditions. Complementary optical spectroscopy of Bi$_2$Se$_3$/SiO$_2$ films shows deposition-time-dependent evolution of the film response. These results establish a pronounced crystallographic anisotropy in the structural and calculated electronic response of $\\lambda$-Ga to Bi$_2$Se$_3$ deposition.",
+      "summary": "We investigate the crystallographic-orientation dependence of the response of $\\lambda$-(BETS)$_2$GaCl$_4$ ($\\lambda$-Ga) to Bi$_2$Se$_3$ deposition. These results establish a pronounced crystallographic anisotropy in the structural and calculated electronic response of $\\lambda$-Ga to Bi$_2$Se$_3$ deposition.",
       "authors": [
         "Fathan M. Santana",
         "Arifa D. Agustin",
@@ -378,7 +1050,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -454,7 +1126,7 @@
     {
       "id": "p_ff9957219405",
       "title": "JWST Reveals Contrast Overdensities around Two ALMA-CRISTAL Galaxies at $z\\sim5.2$",
-      "abstract": "The distribution of stellar mass between massive galaxies and their companions traces how galaxy assembly proceeds within early large-scale structure. We investigate the environments of two galaxies from the Atacama Large Millimeter/submillimeter Array (ALMA) CRISTAL survey: CRISTAL-19 (C19; $z=5.235$) and CRISTAL-21 (C21; $z=5.256$), using F444W slitless spectroscopy from the Near-Infrared Camera (NIRCam) on the James Webb Space Telescope (JWST) in COSMOS-3D. A friends-of-friends analysis of H$α$ emitters identifies two distinct overdense nodes separated by approximately 25 comoving Mpc. Although C21 is the more massive galaxy, C19 has the more massive, actively star-forming companions. The companion populations around C19 and C21 have median stellar masses of $\\log(M_\\star/M_\\odot)=9.43$ and 8.82 and median dust-corrected H$α$ star formation rates of 31 and $16~M_\\odot~\\mathrm{yr}^{-1}$, respectively. Their star formation rate contrast largely reflects the difference in companion masses. C19 contains only $4.5^{+0.9}_{-0.7}\\%$ of the combined measured stellar mass of itself and its selected companions; the corresponding fraction for C21 is $39^{+5}_{-5}\\%$. Thus, stellar mass remains more widely distributed among galaxies around C19, whereas a larger share resides in C21. Resolved interacting companions around C19 and [C II] kinematics consistent with a late-stage merger in C21 support this contrast in assembly state. These findings support the phase-dependent picture of Zou et al. (2026), in which the surrounding star-forming population changes as interactions and mergers build up a massive galaxy.",
+      "abstract": "The distribution of stellar mass between massive galaxies and their companions traces how galaxy assembly proceeds within early large-scale structure. We investigate the environments of two galaxies from the Atacama Large Millimeter/submillimeter Array (ALMA) CRISTAL survey: CRISTAL-19 (C19; $z=5.235$) and CRISTAL-21 (C21; $z=5.256$), using F444W slitless spectroscopy from the Near-Infrared Camera (NIRCam) on the James Webb Space Telescope (JWST) in COSMOS-3D. A friends-of-friends analysis of H$\\alpha$ emitters identifies two distinct overdense nodes separated by approximately 25 comoving Mpc. Although C21 is the more massive galaxy, C19 has the more massive, actively star-forming companions. The companion populations around C19 and C21 have median stellar masses of $\\log(M_\\star/M_\\odot)=9.43$ and 8.82 and median dust-corrected H$\\alpha$ star formation rates of 31 and $16~M_\\odot~\\mathrm{yr}^{-1}$, respectively. Their star formation rate contrast largely reflects the difference in companion masses. C19 contains only $4.5^{+0.9}_{-0.7}\\%$ of the combined measured stellar mass of itself and its selected companions; the corresponding fraction for C21 is $39^{+5}_{-5}\\%$. Thus, stellar mass remains more widely distributed among galaxies around C19, whereas a larger share resides in C21. Resolved interacting companions around C19 and [C II] kinematics consistent with a late-stage merger in C21 support this contrast in assembly state. These findings support the phase-dependent picture of Zou et al. (2026), in which the surrounding star-forming population changes as interactions and mergers build up a massive galaxy.",
       "summary": "The distribution of stellar mass between massive galaxies and their companions traces how galaxy assembly proceeds within early large-scale structure. C19 contains only $4.5^{+0.9}_{-0.7}\\%$ of the combined measured stellar mass of itself and its selected companions; the corresponding fraction for C21 is $39^{+5}_{-5}\\%$.",
       "authors": [
         "Shaoze Geng",
@@ -471,7 +1143,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -494,13 +1166,13 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "millimeter",
           "alma",
-          "star formation",
           "dust",
           "galaxies",
           "galaxy",
+          "millimeter",
+          "star formation",
+          "submillimeter",
           "telescope"
         ]
       },
@@ -527,7 +1199,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -535,7 +1207,7 @@
       "doi": "10.1038/s41535-026-00955-8",
       "doi_url": "https://doi.org/10.1038/s41535-026-00955-8",
       "url": "https://doi.org/10.1038/s41535-026-00955-8",
-      "pdf_url": "",
+      "pdf_url": "https://www.nature.com/articles/s41535-026-00955-8_reference.pdf",
       "openalex_id": "W4416337859",
       "oa": true,
       "type": "article",
@@ -548,10 +1220,10 @@
       },
       "matched": {
         "superconducting_materials": [
-          "transition temperature",
           "superconducting",
           "superconductivity",
-          "superconductors"
+          "superconductors",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -559,7 +1231,7 @@
     {
       "id": "p_761b1da8cec4",
       "title": "Discovery of Trailing Spiral Dust Alignment in the Dust Polarization of HL Tau at $λ= 2.1$ mm",
-      "abstract": "Polarimetric observations of protoplanetary disks at (sub)millimeter wavelengths constrain dust grain properties, dynamics, and alignment mechanisms. We present new high-resolution ALMA Band 4 (2.1 mm) polarization observations of HL Tau with spatial resolutions of $\\sim$0.08$''$ (11.78 au) and $\\sim$0.19$''$ (27.99 au). Linearly decomposing the polarization into contributions from dust scattering and thermal emission by aligned grains, we analyze the new Band 4 data and published high-resolution Band 7 (870 $μ$m) observations. Thermal emission from aligned grains dominates the polarization across the disk at Band 4, in contrast to the scattering-dominated Band 7, and both mechanisms vary radially with the disk substructures, consistent with expected optical depth variations. At Band 4, we detect a coherent angular deviation from purely azimuthal grain alignment, in which the streamlines of the alignment field yield trailing spirals with respect to disk rotation. A single global offset angle quantifies this deviation as $2.83^\\circ\\pm0.33^\\circ$ and $4.10^\\circ\\pm0.09^\\circ$ (statistical uncertainties) from two robust weightings, and the detection reaches a significance of $\\approx7σ$ under conservative uncertainty estimates. This trailing orientation is consistent with aerodynamic (\"badminton birdie-like\") alignment driven by gas-dust drift near pressure bumps. However, under an axisymmetric disk velocity structure, this interpretation requires Stokes numbers two to three orders of magnitude larger than expected for the grains dominating the millimeter emission. At Band 7, the polarization angle is weakly sensitive to the alignment direction and exhibits a near/far-side antisymmetric structure that the model cannot reproduce. The Band 7 data therefore neither support nor contradict the Band 4 result.",
+      "abstract": "Polarimetric observations of protoplanetary disks at (sub)millimeter wavelengths constrain dust grain properties, dynamics, and alignment mechanisms. We present new high-resolution ALMA Band 4 (2.1 mm) polarization observations of HL Tau with spatial resolutions of $\\sim$0.08$''$ (11.78 au) and $\\sim$0.19$''$ (27.99 au). Linearly decomposing the polarization into contributions from dust scattering and thermal emission by aligned grains, we analyze the new Band 4 data and published high-resolution Band 7 (870 $\\mu$m) observations. Thermal emission from aligned grains dominates the polarization across the disk at Band 4, in contrast to the scattering-dominated Band 7, and both mechanisms vary radially with the disk substructures, consistent with expected optical depth variations. At Band 4, we detect a coherent angular deviation from purely azimuthal grain alignment, in which the streamlines of the alignment field yield trailing spirals with respect to disk rotation. A single global offset angle quantifies this deviation as $2.83^\\circ\\pm0.33^\\circ$ and $4.10^\\circ\\pm0.09^\\circ$ (statistical uncertainties) from two robust weightings, and the detection reaches a significance of $\\approx7\\sigma$ under conservative uncertainty estimates. This trailing orientation is consistent with aerodynamic (\"badminton birdie-like\") alignment driven by gas-dust drift near pressure bumps. However, under an axisymmetric disk velocity structure, this interpretation requires Stokes numbers two to three orders of magnitude larger than expected for the grains dominating the millimeter emission. At Band 7, the polarization angle is weakly sensitive to the alignment direction and exhibits a near/far-side antisymmetric structure that the model cannot reproduce. The Band 7 data therefore neither support nor contradict the Band 4 result.",
       "summary": "Polarimetric observations of protoplanetary disks at (sub)millimeter wavelengths constrain dust grain properties, dynamics, and alignment mechanisms. We present new high-resolution ALMA Band 4 (2.1 mm) polarization observations of HL Tau with spatial resolutions of $\\sim$0.08$''$ (11.78 au) and $\\sim$0.19$''$ (27.99 au).",
       "authors": [
         "Yi-Wei Jerry Xu",
@@ -577,7 +1249,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -618,7 +1290,7 @@
     {
       "id": "p_8fb59d9ace8a",
       "title": "Crystal-Symmetry-Dependent Field-Free Superconducting Diode Effect in CoPt/Nb Heterostructures",
-      "abstract": "Superconducting diodes convert nonreciprocal critical currents into current-polarity-selective switching between zero-resistance and resistive states. However, realizing the superconducting diode effect often requires complex device architectures and an external magnetic field to break spatial-inversion and time-reversal symmetry, substantially limiting its integration into cryogenic electronics and superconducting quantum circuits. Here, we demonstrate precise control of the field-free superconducting diode effect in epitaxial [111]-oriented A1-CoPt/Nb heterostructures. The critical-current asymmetry obeys the magnetic-point-group symmetry relation: it is finite along low-symmetry directions, suppressed along magnetic mirror axes, and reverses under either a 60° in-plane rotation or reversal of the CoPt magnetization. The same threefold symmetry dependence is observed in field-free current-induced magnetization switching in A1-CoPt films, indicating a common crystallographic origin for the superconducting and normal-state transport responses. Current- and temperature-dependent second-harmonic transport measurements are consistent with vortex-mediated nonreciprocity arising from an orientation-dependent interfacial edge landscape. We further exploit the magnetization-dependent diode polarity for proof-of-concept superconducting readout of electrically written magnetic states. These results establish crystallographic symmetry as an effective degree of freedom for engineering the superconducting diode effect, expanding the accessible materials space and providing a practical route toward field-free superconducting electronics.",
+      "abstract": "Superconducting diodes convert nonreciprocal critical currents into current-polarity-selective switching between zero-resistance and resistive states. However, realizing the superconducting diode effect often requires complex device architectures and an external magnetic field to break spatial-inversion and time-reversal symmetry, substantially limiting its integration into cryogenic electronics and superconducting quantum circuits. Here, we demonstrate precise control of the field-free superconducting diode effect in epitaxial [111]-oriented A1-CoPt/Nb heterostructures. The critical-current asymmetry obeys the magnetic-point-group symmetry relation: it is finite along low-symmetry directions, suppressed along magnetic mirror axes, and reverses under either a 60{\\deg} in-plane rotation or reversal of the CoPt magnetization. The same threefold symmetry dependence is observed in field-free current-induced magnetization switching in A1-CoPt films, indicating a common crystallographic origin for the superconducting and normal-state transport responses. Current- and temperature-dependent second-harmonic transport measurements are consistent with vortex-mediated nonreciprocity arising from an orientation-dependent interfacial edge landscape. We further exploit the magnetization-dependent diode polarity for proof-of-concept superconducting readout of electrically written magnetic states. These results establish crystallographic symmetry as an effective degree of freedom for engineering the superconducting diode effect, expanding the accessible materials space and providing a practical route toward field-free superconducting electronics.",
       "summary": "Superconducting diodes convert nonreciprocal critical currents into current-polarity-selective switching between zero-resistance and resistive states. Here, we demonstrate precise control of the field-free superconducting diode effect in epitaxial [111]-oriented A1-CoPt/Nb heterostructures.",
       "authors": [
         "He Yu",
@@ -645,7 +1317,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -688,7 +1360,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -711,8 +1383,8 @@
       },
       "matched": {
         "submm": [
-          "millimeter",
           "astrophysical",
+          "millimeter",
           "observations",
           "telescope"
         ]
@@ -787,6 +1459,140 @@
       "primary_topic": "superconducting_materials"
     },
     {
+      "id": "p_bea22c7a01c7",
+      "title": "Multifunctional Integrated Metasurface Enabling Unified Dynamic and Stationary Millimeter-Wave Electromagnetic Manipulation",
+      "abstract": "Metasurfaces unifying reconfigurable electromagnetic (EM) wave control and fixed functionalities are desired for next-generation wireless systems, as they accommodate both dynamic and energy-efficient communication scenarios. Yet such integration remains challenging, as most designs relying on integrated tuning components (e.g., PIN diodes and varactors) restrict operation to low frequencies and low-to-medium power. Here, we present a multifunctional integrated metasurface that combines dynamic phased array and stationary reflectarray functionalities within a single aperture. The metasurface adopts a symmetric multilayer overlapped meta-atom enabling dual-polarization operation, allowing these two functionalities to share a common aperture through high orthogonal-polarization isolation. For the dynamic functionality, independent phase control of the injected millimeter-wave (mmW) signals is realized via an external phase-shift network, enabling arbitrary and continuous beam steering without embedding tuning components on the metasurface aperture. For the stationary functionality, phase compensation of the incident wave through a transmission line network produces a high-directivity reflected beam. A prototype is fabricated and measured, demonstrating a scanning range beyond ±55° for dynamic operation and a realized gain exceeding 21.8 dBi for stationary operation across 24.25-29.5 GHz. Benefiting from the aperture-shared multifunctionality, the metasurface offers a compact and versatile platform supporting beamforming and directional radiation in future mmW networks.",
+      "summary": "Metasurfaces unifying reconfigurable electromagnetic (EM) wave control and fixed functionalities are desired for next-generation wireless systems, as they accommodate both dynamic and energy-efficient communication scenarios. A prototype is fabricated and measured, demonstrating a scanning range beyond ±55° for dynamic operation and a realized gain exceeding 21.8 dBi for stationary operation across 24.25-29.5 GHz.",
+      "authors": [
+        "Li Wei",
+        "Wanchen Yang",
+        "Weixu Yang",
+        "Guoping Tan",
+        "Wenquan Q. Che",
+        "Shilong Pan"
+      ],
+      "published": "2026-11-24",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Laser & Photonics Review",
+      "doi": "10.1002/lpor.72273",
+      "doi_url": "https://doi.org/10.1002/lpor.72273",
+      "url": "https://doi.org/10.1002/lpor.72273",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.72273",
+      "openalex_id": "W7239775706",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 25.0
+      },
+      "matched": {
+        "submm_optics": [
+          "beamforming",
+          "metasurface",
+          "metasurfaces",
+          "millimeter"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_026a622848b7",
+      "title": "MOPSO-enabled ultra-narrowband mechanically reconfigurable metasurface filter for terahertz applications",
+      "abstract": "Terahertz (THz) communication and sensing systems require high-performance narrowband filters. However, designing these filters often involves strict efficiency bottlenecks and parameter trade-offs. To address this challenge, we propose an inverse design framework based on multi-objective particle swarm op-timization and use it to develop a bilayer ultra-narrowband me-chanically reconfigurable metasurface filter. Numerical parame-ter scanning reveals the potential for spacing-controlled fre-quency tuning, while measurements at three representative in-terlayer spacings experimentally verify the mechanical recon-figuration of the spectral response. Conventional methods rely heavily on single-parameter sweeping. Our strategy departs from this by utilizing joint optimization variables. We simulta-neously optimize the geometric dimensions of the dual-layer X-shaped metallic arrays and the interlayer coupling distance. This approach searches for non-dominated solutions within the coupled multidimensional parameter space, enabling a trade-off between narrowband transmission and out-of-band suppression. Operating in the terahertz regime, the optimized filter demon-strates ultra-narrowband characteristics with a minimum full width at half maximum (FWHM) down to 0.018 THz and a high peak transmittance of up to 0.993, alongside an excellent Q-factor exceeding 49.33, while consistently maintaining excel-lent out-of-band rejection. The device was fabricated on alumi-num foil via femtosecond laser micromachining and character-ized using a terahertz time-domain spectroscopy (THz-TDS) system. The experimental measurements reproduce the princi-pal narrowband response and the spacing-dependent spectral evolution predicted by the finite-difference time-domain (FDTD) simulations. Finally, an asymmetric Fabry-Perot (F-P) interfer-ence model is employed as a reduced-order description of the bilayer structure. The model captures the spacing-dependent evolution of the principal resonance through the modulation of the propagation phase accumulated within the interlayer air gap. Overall, this study demonstrates the applicability of multi-objective evolutionary optimization to the inverse design of complex THz metasurface devices and provides a practical route for developing low-cost, high-performance THz function-al components.",
+      "summary": "Terahertz (THz) communication and sensing systems require high-performance narrowband filters. Numerical parame-ter scanning reveals the potential for spacing-controlled fre-quency tuning, while measurements at three representative in-terlayer spacings experimentally verify the mechanical recon-figuration of the spectral response.",
+      "authors": [
+        "Jin-Yang Li",
+        "Yan-Qing Chen",
+        "Xuewei Ju",
+        "Yongzhen Liu",
+        "Hao-Bin Su",
+        "Bei-Yuan Liang",
+        "Han Ye",
+        "Jun-Long Liu",
+        "Shuo Liu",
+        "Xiangfeng Wang"
+      ],
+      "published": "2026-11-24",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Journal of Physics D Applied Physics",
+      "doi": "10.1088/1361-6463/aec60f",
+      "doi_url": "https://doi.org/10.1088/1361-6463/aec60f",
+      "url": "https://doi.org/10.1088/1361-6463/aec60f",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-6463/aec60f/pdf",
+      "openalex_id": "W7239439308",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 20.0
+      },
+      "matched": {
+        "submm_optics": [
+          "metasurface",
+          "terahertz",
+          "thz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_a19656bf5b80",
+      "title": "BZO driven increased quench sensitivity in YBCO films on metallic substrates",
+      "abstract": "In this work, the role of flux pinning strength on quench energies (QEs) and normal zone propagation velocities (NZPVs) in high temperature superconductors (HTS) were studied by introducing artificial pinning centres (APCs) in the form of BaZrO 3 (BZO) nanorods within the YBa 2 Cu 3 O 6+x (YBCO) matrix. To mimic the geometry of coated conductors, the films were grown on IBAD-MgO based Hastelloy substrates and coated with a stabilising Ag layer. The measurements were done over a wide range of magnetic fields and at multiple fractions of the critical current enabling a systematic investigation on the effect. The observations show that doping YBCO with BZO results in a faster superconducting to normal state transition, lowered stability and current sharing temperature as well as faster propagating normal zone. The NZPV can be around an order of magnitude larger for BZO-doped YBCO compared to a APC-free counterpart when same absolute currents are used. To further understand the experimental results, finite element method (FEM) simulations were performed to model the quench behaviour under conditions similar to those observed experimentally. The model correctly predicts the lowered stability of BZO-doped YBCO as well as the behaviour of the NZPV as a function of the absolute current. This study improves our understanding of how APCs and the resulting variations in current-carrying capacity influence normal zone development, which is critical for high magnetic field HTS applications using BZO-doped YBCO.",
+      "summary": "In this work, the role of flux pinning strength on quench energies (QEs) and normal zone propagation velocities (NZPVs) in high temperature superconductors (HTS) were studied by introducing artificial pinning centres (APCs) in the form of BaZrO 3 (BZO) nanorods within the YBa 2 Cu 3 O 6+x (YBCO) matrix. The measurements were done over a wide range of magnetic fields and at multiple fractions of the critical current enabling a systematic investigation on…",
+      "authors": [
+        "Samuel Mejia",
+        "Moe Moe Aye",
+        "Yue Wu",
+        "Yue Zhao",
+        "H. Huhtinen",
+        "P. Paturi"
+      ],
+      "published": "2026-11-24",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27T12:17:18+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Superconductor Science and Technology",
+      "doi": "10.1088/1361-6668/aec637",
+      "doi_url": "https://doi.org/10.1088/1361-6668/aec637",
+      "url": "https://doi.org/10.1088/1361-6668/aec637",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-6668/aec637/pdf",
+      "openalex_id": "W7239345507",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 14.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "films",
+          "superconducting",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
       "id": "p_33338ceae5c0",
       "title": "Tip-tuned renormalization-group spectroscopy unmasks a false-positive topological superconducting vortex",
       "abstract": "Clean, nonsplit vortex zero-bias peaks (ZBPs) can be misinterpreted as Majorana zero modes (MZMs), making static scanning tunneling microscopy intrinsically ambiguous. Here we use the STM tip coupling to drive a local boundary-renormalization-group (boundary RG) flow, turning dynamical Coulomb blockade into a falsification test for Majorana-like ZBPs. Experimentally, in a SrSn3 thin film, normal-state spectra establish an Ohmic dissipative environment, and a common boundary-RG/thermodynamic-Bethe-ansatz analysis of the superconducting-gap and vortex-center spectra yields consistent dissipation strengths within the r < 1/2 Majorana-filter regime. Lowering the tip nevertheless drives a clean, non-split vortex-center ZBP into a zero-bias dip, opposite to the protected flow of an isolated MZM, unmasking the peak as a Majorana false positive produced by a conventional vortex-core state. The same flow selectively suppresses the strongly tip-coupled channel, resolving the two-gap superconductivity. Dissipative STM thus tests dynamical protection rather than spectral appearance.",
@@ -804,7 +1610,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -846,7 +1652,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -885,7 +1691,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -907,8 +1713,8 @@
       "matched": {
         "superconducting_materials": [
           "critical temperature",
-          "superconducting gap",
           "superconducting",
+          "superconducting gap",
           "superconductivity"
         ]
       },
@@ -927,7 +1733,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -935,7 +1741,7 @@
       "doi": "10.1093/mnras/stag2252",
       "doi_url": "https://doi.org/10.1093/mnras/stag2252",
       "url": "https://doi.org/10.1093/mnras/stag2252",
-      "pdf_url": "",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2252/73995163/stag2252.pdf",
       "openalex_id": "W7239385774",
       "oa": true,
       "type": "article",
@@ -976,7 +1782,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1022,7 +1828,7 @@
     {
       "id": "p_ad09d48f3eba",
       "title": "Quantum Noise-Limited Terahertz Interferometry for Distinguishing Ultra-Compact Supermassive Galactic Objects",
-      "abstract": "The images of the galactic centers, M87$^*$ and Sgr~A$^*$, obtained by the Event Horizon Telescope (EHT) provide hitherto unknown revelations on these supermassive objects. The key issue here is the presence or otherwise of an event horizon at these ultra-compact entities. We show here that distinguishing the central images generated by gravitational lensing of a Schwarzschild black hole and a Joshi--Malafarina--Narayan (JMN-1) central naked singularity provides important insights into the nature of these supermassive objects and would help test the cosmic censorship conjecture, central to black hole physics. For optically thin spherical accretion onto Sgr~A$^*$, their interferometric visibilities become separable, independently of the emission model, on three baseline ranges within 1.4--6.2 G$λ$ at errors of $\\simeq36\\,μ$Jy, and at $L_\\star=2.64\\,$G$λ$ at $\\simeq71\\,μ$Jy. This is about 28 times below the 2017 Event Horizon Telescope statistical uncertainty. We suggest that the widest detection window demands minutes-long coherent integrations, favoring a near-quantum-limited space interferometer.",
+      "abstract": "The images of the galactic centers, M87$^*$ and Sgr~A$^*$, obtained by the Event Horizon Telescope (EHT) provide hitherto unknown revelations on these supermassive objects. The key issue here is the presence or otherwise of an event horizon at these ultra-compact entities. We show here that distinguishing the central images generated by gravitational lensing of a Schwarzschild black hole and a Joshi--Malafarina--Narayan (JMN-1) central naked singularity provides important insights into the nature of these supermassive objects and would help test the cosmic censorship conjecture, central to black hole physics. For optically thin spherical accretion onto Sgr~A$^*$, their interferometric visibilities become separable, independently of the emission model, on three baseline ranges within 1.4--6.2 G$\\lambda$ at errors of $\\simeq36\\,\\mu$Jy, and at $L_\\star=2.64\\,$G$\\lambda$ at $\\simeq71\\,\\mu$Jy. This is about 28 times below the 2017 Event Horizon Telescope statistical uncertainty. We suggest that the widest detection window demands minutes-long coherent integrations, favoring a near-quantum-limited space interferometer.",
       "summary": "The images of the galactic centers, M87$^*$ and Sgr~A$^*$, obtained by the Event Horizon Telescope (EHT) provide hitherto unknown revelations on these supermassive objects. We show here that distinguishing the central images generated by gravitational lensing of a Schwarzschild black hole and a Joshi--Malafarina--Narayan (JMN-1) central naked singularity provides important insights into the nature of these supermassive objects and would help test the…",
       "authors": [
         "Vishwas Patel",
@@ -1033,7 +1839,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1082,7 +1888,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1171,7 +1977,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1240,7 +2046,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1264,9 +2070,9 @@
       "matched": {
         "telescope_design": [
           "design",
-          "radio telescope",
           "interferometer",
           "performance",
+          "radio telescope",
           "telescope"
         ]
       },
@@ -1288,7 +2094,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1326,7 +2132,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1365,7 +2171,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1403,7 +2209,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1429,8 +2235,8 @@
           "critical temperature",
           "material",
           "materials",
-          "superconducting gap",
           "superconducting",
+          "superconducting gap",
           "superconductivity"
         ]
       },
@@ -1452,7 +2258,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1491,7 +2297,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1499,7 +2305,7 @@
       "doi": "10.54361/ajmas.261148",
       "doi_url": "https://doi.org/10.54361/ajmas.261148",
       "url": "https://doi.org/10.54361/ajmas.261148",
-      "pdf_url": "",
+      "pdf_url": "https://journal.utripoli.edu.ly/index.php/Alqalam/article/download/2170/1598",
       "openalex_id": "W7239415251",
       "oa": true,
       "type": "article",
@@ -1546,7 +2352,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1602,7 +2408,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1643,7 +2449,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1664,10 +2470,10 @@
       },
       "matched": {
         "submm": [
-          "submillimeter",
-          "millimeter",
           "alma",
+          "millimeter",
           "observatory",
+          "submillimeter",
           "telescope"
         ]
       },
@@ -1696,7 +2502,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1718,9 +2524,9 @@
       "matched": {
         "superconducting_materials": [
           "materials",
-          "transition temperature",
           "superconductor",
-          "superconductors"
+          "superconductors",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -1745,7 +2551,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1823,7 +2629,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1893,7 +2699,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1941,7 +2747,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1984,7 +2790,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2022,7 +2828,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2068,7 +2874,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2110,7 +2916,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2151,7 +2957,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2195,7 +3001,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2240,7 +3046,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2283,7 +3089,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2323,7 +3129,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2452,7 +3258,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2501,7 +3307,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2558,7 +3364,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2601,7 +3407,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2662,7 +3468,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2704,7 +3510,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2744,7 +3550,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2792,7 +3598,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2840,7 +3646,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2881,7 +3687,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2927,7 +3733,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2971,7 +3777,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3028,7 +3834,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3073,7 +3879,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3117,7 +3923,7 @@
       ],
       "published": "2026-11-21",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3160,7 +3966,7 @@
       ],
       "published": "2026-11-21",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3204,7 +4010,7 @@
       ],
       "published": "2026-11-21",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3251,7 +4057,7 @@
       ],
       "published": "2026-11-21",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv"
       ],
@@ -6814,7 +7620,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -11803,34 +12609,38 @@
         "Qiuyi Luo",
         "Qizhou Zhang",
         "Takeshi Sakai Kongcheng Liu",
+        "Kongcheng Liu",
         "Yutaka Nakazawa"
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-11T09:57:33+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
-        "arXiv"
+        "arXiv",
+        "OpenAlex"
       ],
-      "venue": "arXiv · astro-ph.GA",
+      "venue": "The Astrophysical Journal",
       "journal_ref": "",
       "doi": "10.3847/1538-4357/aebc71",
       "doi_url": "https://doi.org/10.3847/1538-4357/aebc71",
-      "url": "https://arxiv.org/abs/2611.08641v1",
+      "url": "https://doi.org/10.3847/1538-4357/aebc71",
       "pdf_url": "https://arxiv.org/pdf/2611.08641v1",
       "arxiv_id": "2611.08641",
       "arxiv_url": "https://arxiv.org/abs/2611.08641v1",
+      "openalex_id": "W7225661806",
       "oa": true,
-      "type": "preprint",
+      "type": "article",
       "citations": 0,
       "topics": [
         "submm"
       ],
       "scores": {
-        "submm": 16.0
+        "submm": 21.0
       },
       "matched": {
         "submm": [
           "alma",
+          "millimeter",
           "observations",
           "submillimeter"
         ]
@@ -12400,7 +13210,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -12557,7 +13367,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-26T12:10:19+08:00",
+      "last_seen": "2026-11-27T12:17:18+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"

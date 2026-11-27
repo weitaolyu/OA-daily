@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-27",
+    "total": 18,
+    "counts": {
+      "mkid": 0,
+      "submm": 1,
+      "molecular": 0,
+      "polarimetry": 1,
+      "resonators": 2,
+      "superconducting_materials": 12,
+      "submm_optics": 2,
+      "telescope_design": 0
+    },
+    "generated": "2026-11-27 12:17"
+  },
+  {
     "date": "2026-11-26",
     "total": 35,
     "counts": {

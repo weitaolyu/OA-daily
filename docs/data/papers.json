@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T12:17:18+08:00",
-    "generated_label": "2026-11-27 12:17",
-    "today": "2026-11-27",
+    "generated_at": "2026-11-28T11:55:38+08:00",
+    "generated_label": "2026-11-28 11:55",
+    "today": "2026-11-28",
     "timezone_label": "UTC+8",
     "lookback_days": 7,
     "archive_days": 60,
-    "paper_count": 422,
-    "new_count": 18,
-    "digest_url": "digests/2026-11-27.md",
+    "paper_count": 434,
+    "new_count": 12,
+    "digest_url": "digests/2026-11-28.md",
     "archive_url": "digests/index.md"
   },
   "topics": [
@@ -78,6 +78,453 @@
     }
   ],
   "papers": [
+    {
+      "id": "p_c5f19708bbf8",
+      "title": "Dissecting the obscured core of GN20: An active galactic nucleus outshone by star formation",
+      "abstract": "We investigated the relative contributions of star formation and active galactic nucleus (AGN) activity to the total energy budget of GN20, one of the most luminous dusty star-forming galaxies known at z>4, through spatially resolved spectral energy distribution (SED) decomposition. We performed Bayesian SED fitting with CIGALE on two spatially distinct apertures --- the nuclear core (r=0.14 ∼1 kpc physical) and the full galaxy (r=1.4 9.9 kpc) --- combining JWST/NIRCam and MIRI broadband imaging, JWST/NIRSpec PRISM integral field unit pseudo-continuum photometry spanning 42 wavelength bins across rest-frame 0.12--1.05 μm, and archival HST and millimeter interferometry data from NOEMA and PdBI. The integrated SED is dominated by star-heated dust, with only a marginal AGN contribution at galaxy-wide scales (f_ ^ =0.09 AGN int The nuclear core, however, requires a significant AGN component (f_ =0.34 AGN) to account for a mid-infrared excess at rest-frame wavelengths of ∼2.5--3.6 μm characteristic of AGN-heated torus dust. The AGN accounts for sim34% of the nuclear infrared luminosity but only sim9% of the total integrated L_ spectroscopy. The inferred black hole mass places GN20 within the local M_ while its aperture-corrected luminosity is the same in the two apertures, explaining its weak signature in integrated diagnostics and its consistency with existing upper limits from Spitzer relation at the Eddington limit, and in the over-massive regime at sub-Eddington accretion rates, suggesting early and rapid black hole assembly concurrent with the dominant starburst. GN20 exemplifies a class of systems in which nuclear-scale SED decomposition, enabled by the angular resolution and infrared sensitivity of JWST, is the only means to uncover a buried AGN overwhelmed by galaxy-wide star formation.",
+      "summary": "We investigated the relative contributions of star formation and active galactic nucleus (AGN) activity to the total energy budget of GN20, one of the most luminous dusty star-forming galaxies known at z>4, through spatially resolved spectral energy distribution (SED) decomposition. GN20 exemplifies a class of systems in which nuclear-scale SED decomposition, enabled by the angular resolution and infrared sensitivity of JWST, is the only means to uncover…",
+      "authors": [
+        "M. Hamed",
+        "Luis Colina",
+        "Pablo G. Pérez-González",
+        "J. Álvarez Márquez",
+        "Alejandro Crespo Gómez",
+        "Leindert Boogaard",
+        "Arjan Bik",
+        "Hannah Übler",
+        "S. E. I. Bosman",
+        "S. E. I. Bosman",
+        "A. Alonso-Herrero",
+        "Michele Perna",
+        "Santiago Arribas",
+        "L. Ulivi",
+        "Marianna Annunziatella",
+        "Luca Costantin",
+        "Alvaro Labiano",
+        "Cheng-Lin Liao",
+        "Carlota Prieto-Jiménez",
+        "P. P. van der Werf",
+        "F. Walter"
+      ],
+      "published": "2026-11-27",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Astronomy and Astrophysics",
+      "doi": "10.1051/0004-6361/202661198",
+      "doi_url": "https://doi.org/10.1051/0004-6361/202661198",
+      "url": "https://doi.org/10.1051/0004-6361/202661198",
+      "pdf_url": "",
+      "openalex_id": "W7166883716",
+      "oa": true,
+      "type": "article",
+      "citations": 2,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 12.0
+      },
+      "matched": {
+        "submm": [
+          "dust",
+          "galaxies",
+          "galaxy",
+          "millimeter",
+          "star formation"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_2c5ac112d219",
+      "title": "Ultrafast Multiplexed Chiroptical Switching in Terahertz Metasurfaces",
+      "abstract": "Active chiral metasurfaces offer dynamic control of terahertz polarization for chiral sensing, waveplate operation, and polarization-encoded information processing. However, planar platforms have largely relied on modulating pre-existing polarization pathways, and dynamic spectral multiplexing of opposite-helicity outputs and polarization rotation within a single ultrafast device remains challenging. Mechanically reconfigurable three-dimensional architectures have demonstrated related multistate control, but their structural complexity constrains modulation speed. Here, ultrafast multiplexed chiroptical switching is realized in a planar-patterned bilayer terahertz metasurface. Femtosecond photodoping of a polycrystalline-silicon (poly-Si) resonator transiently activates interlayer coupling between fourfold-symmetric twisted cross-wires. The activated coupling acquires opposite effective phases for the right- and left-circularly polarized eigenmodes, lifting their degeneracy and shifting their resonances in opposite spectral directions. This photoinduced helicity-mode splitting reorganizes a weak chiroptical baseline into three spectrally separated states: an LCP-dominant elliptical state, a nearly pure rotated linear polarization state, and an RCP-dominant elliptical state. The multiplexed response relaxes with a characteristic time of approximately 20 ps, governed by photocarrier relaxation in the poly-Si resonator. These results establish photoinduced helicity-mode splitting as a compact route to ultrafast multichannel chiroptical control in planar terahertz photonics.",
+      "summary": "Active chiral metasurfaces offer dynamic control of terahertz polarization for chiral sensing, waveplate operation, and polarization-encoded information processing. Mechanically reconfigurable three-dimensional architectures have demonstrated related multistate control, but their structural complexity constrains modulation speed.",
+      "authors": [
+        "Jeongmin Jang",
+        "Hyoung-Taek Lee",
+        "Doohyuk Han",
+        "Junsuk Rho",
+        "Hee Jun Shin"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Advanced Functional Materials",
+      "doi": "10.1002/adfm.79868",
+      "doi_url": "https://doi.org/10.1002/adfm.79868",
+      "url": "https://doi.org/10.1002/adfm.79868",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79868",
+      "openalex_id": "W7240034716",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "polarimetry",
+        "submm_optics"
+      ],
+      "scores": {
+        "polarimetry": 11.0,
+        "submm_optics": 20.0
+      },
+      "matched": {
+        "polarimetry": [
+          "terahertz",
+          "waveplate"
+        ],
+        "submm_optics": [
+          "metasurface",
+          "metasurfaces",
+          "terahertz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_a19de7eb93d8",
+      "title": "Theoretical Determination of Electronic Specific Heat and Transition Temperature of High-Tc Cuprate Superconductors Based on Polaronic Mechanism, Interlayer and Intralayer Interactions",
+      "abstract": "The theory of polaronic mechanism, interlayer and intralayer interactions of high-Tc cuprate superconductors developed in this study was used to study the thermodynamic properties such as transition temperature and heat capacity. It is therefore proposed that the pairing mechanism in Cuprate Superconductors can be understood on the basis of the Polaronic model of charge carriers coupled with interlayer and intralayer interactions. The model Hamiltonian, H for the system is formulated and diagonalized using Bogoliubov canonical transformations. The diagonalized Hamiltonian gives Hdiagonal whose Eigen value is represented by Ei, the quasi-particle energy of a state i. The value of Ei depends on t, U and W. For t=0.015eV, W=-1.117eV and U=0.048eV, Ei=0.0153eV. For t=0.025eV, W=-1.177eV and U=0.061eV, Ei=0.0147eV. These values of Ei was used to calculate the electronic specific heat capacity, CeS, and transition temperature, Tc in the temperature domain 10K ≤ Tc ≤ 300K for the cuprate YBCO. The transition temperature was found to be 90K and specific heat jump ΔC as 1.51. The results obtained are in agreement with experimental results, hence a high-Tc superconductor can be synthesized by varying the values of t, U and W to get a superconductor at room temperature that is Tc ≈ 300K.",
+      "summary": "The theory of polaronic mechanism, interlayer and intralayer interactions of high-Tc cuprate superconductors developed in this study was used to study the thermodynamic properties such as transition temperature and heat capacity. The results obtained are in agreement with experimental results, hence a high-Tc superconductor can be synthesized by varying the values of t, U and W to get a superconductor at room temperature that is Tc ≈ 300K.",
+      "authors": [
+        "Sigei KF"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "International Journal of Science and Research (IJSR)",
+      "doi": "10.21275/6041903",
+      "doi_url": "https://doi.org/10.21275/6041903",
+      "url": "https://doi.org/10.21275/6041903",
+      "pdf_url": "https://www.ijsr.net/archive/v15i11/6041903.pdf",
+      "openalex_id": "W7240028104",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 17.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "transition temperature",
+          "superconductor",
+          "superconductors"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_c8686fd3a8e4",
+      "title": "The Transient Array Radio Telescope: An open-source all-sky imaging radio interferometer",
+      "abstract": "The Transient Array Radio Telescope (TART) is an open-source 24-element 1573-1577 MHz L-band imaging interferometer designed for research and education. This paper introduces the physical architecture of the TART, describes it’s electronics, radios, correlator, and the design of the antenna array. Then we discuss the software architecture, including the calibration of the telescope using satellites and imaging pipelines. Imaging results are presented, which lead to an estimate of ∼52kJy for the sensitivity of the telescope.",
+      "summary": "The Transient Array Radio Telescope (TART) is an open-source 24-element 1573-1577 MHz L-band imaging interferometer designed for research and education. Imaging results are presented, which lead to an estimate of ∼52kJy for the sensitivity of the telescope.",
+      "authors": [
+        "T. C. A. Molteno",
+        "Max Scheel",
+        "Pat Suggate",
+        "Ben V. Hugo",
+        "Phil Brown"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "RAS Techniques and Instruments",
+      "doi": "10.1093/rasti/rzag096",
+      "doi_url": "https://doi.org/10.1093/rasti/rzag096",
+      "url": "https://doi.org/10.1093/rasti/rzag096",
+      "pdf_url": "",
+      "openalex_id": "W7225183839",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "telescope_design"
+      ],
+      "scores": {
+        "telescope_design": 39.0
+      },
+      "matched": {
+        "telescope_design": [
+          "design",
+          "designed",
+          "radio telescope",
+          "architecture",
+          "antenna",
+          "interferometer",
+          "telescope"
+        ]
+      },
+      "primary_topic": "telescope_design"
+    },
+    {
+      "id": "p_4d100aa3717f",
+      "title": "The Radio-FIR Correlation in the Context of Deep Radio Source Counts",
+      "abstract": "Increasingly deep, confusion-limited radio surveys have pushed direct radio source-count measurements down to tens of μ Jy at 1.4 GHz. Confusion-noise P (D) analyses extend the statistical counts to below 1 μ Jy. Radio source counts have allowed for constraints on the radio-derived star formation rate density (SFRD) history through models of the backwards evolution of the local radio luminosity function, using the radio-far-infrared (FIR) correlation, q ∝ log (L FIR / L 1.4), to convert radio luminosities to FIR luminosities and, hence, star formation rates. Recent deep radio source counts from MeerKAT suggest a potential tension in the SFRD history between radio and UV/IR measurements at 1 ≲ z ≲ 2. This corresponds to a ≳3 σ discrepancy between the predicted and measured source counts near the star-forming galaxy (SFG) source count S 2 n (S) peak of ∼30 μ Jy under both a pure luminosity (PLE) and combined luminosity and density evolution (LADE). We consider what the requirement of agreement between radio source counts and the observed UV/IR SFRD indicates about the redshift evolution of the radio-FIR correlation and its intrinsic scatter out to z = 3. We introduce a radio-luminosity based parameterization to q FIR (z) based on changing thermal radio fractions alone that agrees with the observed stellar-mass dependent q FIR (z) better than a nonevolving or decreasing q FIR (z). Despite this, we find that a decreasing q FIR (z) at fixed radio luminosity provides better agreement between source counts and the observed SFRD, while a q FIR (z) that breaks down due to cosmic ray losses requires an intrinsic scatter up to σ q ≈ 0.3 dex.",
+      "summary": "Increasingly deep, confusion-limited radio surveys have pushed direct radio source-count measurements down to tens of μ Jy at 1.4 GHz. Recent deep radio source counts from MeerKAT suggest a potential tension in the SFRD history between radio and UV/IR measurements at 1 ≲ z ≲ 2.",
+      "authors": [
+        "Tirth Surti",
+        "Vikram Ravi",
+        "Allison M. Matthews",
+        "Viviana Rosero"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb412",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb412",
+      "url": "https://doi.org/10.3847/1538-4357/aeb412",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/1538-4357/aeb412/pdf",
+      "openalex_id": "W7163386438",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "far infrared",
+          "far-infrared",
+          "star formation",
+          "galaxy"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_c14e004c9876",
+      "title": "Terahertz Integrated Sensing and Communication for Ground-to-UAV Channels: A Survey of Channel Modeling, Waveforms, and Beam Management",
+      "abstract": "Terahertz (THz) integrated sensing and communication (ISAC) is emerging as a key enabler of sixth generation (6G) networks, and unmanned aerial vehicles (UAVs) are among its most challenging yet valuable host platforms. Over ground-to-UAV links, THz-ISAC payloads promise ultra-high-rate to backhaul and millimeter-level sensing within the stringent size, weight, and power budget of a hovering drone. Realizing this promise requires a coherent understanding of four tightly coupled pillars: the ground-to-UAV THz channel, beam management, the ISAC waveform and its transceiver realization, and system-level performance. This survey is organized around these four pillars. We first consolidate the propagation fundamentals of aerial THz links, including altitude-dependent molecular absorption and UAV-specific non-stationarity, together with the measurement and modeling literature that underpins them. We then review beam management, covering near-field beam-pattern transformation, alignment and tracking under misalignment, and wideband hybrid beamforming that combats beam squint with true-time-delay architectures. We next contrast the candidate ISAC waveforms - OTFS, DFT-s-OTFS with superimposed pilots, and SI-DFT-s-OFDM with flexible guard intervals - in terms of PAPR, power-amplifier efficiency, Doppler robustness, and sensing accuracy, and assess the transceiver hardware against the UAV payload envelope. Finally, we discuss system-level performance, including localization bounds, spectral efficiency, and sensing/vision-aided mobility management, along with use cases and open challenges. Throughout, quantitative claims are traced to their source documents and to the specific figures from which they stem.",
+      "summary": "Terahertz (THz) integrated sensing and communication (ISAC) is emerging as a key enabler of sixth generation (6G) networks, and unmanned aerial vehicles (UAVs) are among its most challenging yet valuable host platforms. We first consolidate the propagation fundamentals of aerial THz links, including altitude-dependent molecular absorption and UAV-specific non-stationarity, together with the measurement and modeling literature that underpins them.",
+      "authors": [
+        "Zihan Zhou"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Computers and artificial intelligence.",
+      "doi": "10.70267/cai.v3n6.164185",
+      "doi_url": "https://doi.org/10.70267/cai.v3n6.164185",
+      "url": "https://doi.org/10.70267/cai.v3n6.164185",
+      "pdf_url": "https://journals.zeuspress.org/index.php/CAI/article/download/1836/1706",
+      "openalex_id": "W7240084659",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 21.0
+      },
+      "matched": {
+        "submm_optics": [
+          "beamforming",
+          "millimeter",
+          "terahertz",
+          "thz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_df327eea2c0b",
+      "title": "Quantum printing: Laguerre-Gaussian beam induced topological magnetic textures",
+      "abstract": "Structured light has become a practical tool for controlling matter by applying tailored, space- and time-dependent electromagnetic fields. We show that Laguerre-Gaussian pulses imprint noncollinear magnetic textures via the spatial structure of optical magnetic field. Our route offers a direct spatial selectivity determined by the optical features without relying on material anisotropic interactions. The proposed printing approach does not require interfacial anisotropy or bulk chirality, current-driven torques, or thermal quenching. We use micromagnetic simulations to demonstrate the potential to create topological charge density emerging during the pulse and reveal control through the optical topological properties and polarization. These results suggest structured-light quantum printing as a viable approach for magnonics and motivate studies toward reconfigurable topological textures enabled by ultrafast THz optics and non-thermal control.",
+      "summary": "Structured light has become a practical tool for controlling matter by applying tailored, space- and time-dependent electromagnetic fields. We use micromagnetic simulations to demonstrate the potential to create topological charge density emerging during the pulse and reveal control through the optical topological properties and polarization.",
+      "authors": [
+        "Yuefei Liu",
+        "Tien-Tien Yeh",
+        "Alexander V. Balatsky"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Physical Review Research",
+      "doi": "10.1103/7kz5-bqgk",
+      "doi_url": "https://doi.org/10.1103/7kz5-bqgk",
+      "url": "https://doi.org/10.1103/7kz5-bqgk",
+      "pdf_url": "",
+      "openalex_id": "W7162413320",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 10.0
+      },
+      "matched": {
+        "submm_optics": [
+          "optics",
+          "thz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_3884c35e4d25",
+      "title": "Dynamically Tunable Electromagnetically Induced Transparency in a Vanadium-Dioxide-Based Terahertz Metasurface",
+      "abstract": "A dynamically tunable terahertz (THz) electromagnetically induced transparency (EIT) metasurface integrated with vanadium dioxide (VO 2) is proposed and numerically investigated. The unit cell comprises gold resonators and VO 2 strips patterned on a silicon dioxide substrate. When VO 2 is in the insulating state (σ = 2×10 2 S/m), the bright resonator is directly excited by the incident THz wave, while the dark resonator is indirectly activated through near-field coupling. Destructive interference between these coupled modes generates a pronounced EIT transparency window at approximately 0.72 THz with a peak transmission of 0.82. The underlying mode-coupling mechanism is corroborated by electric-field distributions and a coupled Lorentz-oscillator model, which exhibits excellent agreement with full-wave simulations. As VO 2 undergoes an insulator-to-metal transition (σ = 2×10 5 S/m), the dramatically increased conductivity reconstructs the surface current distribution and enhances ohmic losses in the dark mode, thereby disrupting the phase-matching condition required for EIT. Consequently, the original transparency window is suppressed, and the spectral response is reconfigured into a broad transmission band near 0.50 THz. Furthermore, the metasurface exhibits tunable slow-light characteristics, achieving a maximum group delay of approximately 5-6 ps in the insulating state. Parametric analysis reveals that the VO 2 gap length critically governs the coupling strength and resonance position. Owing to its simple geometry, wideband tunability, and dynamic control of both amplitude and dispersion, the proposed VO 2 -integrated metasurface offers a promising platform for reconfigurable THz modulators, optical switches, filters, and slow-light devices.",
+      "summary": "A dynamically tunable terahertz (THz) electromagnetically induced transparency (EIT) metasurface integrated with vanadium dioxide (VO 2) is proposed and numerically investigated. Parametric analysis reveals that the VO 2 gap length critically governs the coupling strength and resonance position.",
+      "authors": [
+        "Huijuan Tan",
+        "Hongxin Zhou",
+        "Qianni Li",
+        "Zifeng Huang",
+        "Yu Huang",
+        "Nanguan Wu",
+        "Liangyu Zhang",
+        "Qiuxiang Zhu",
+        "Hui Zhang"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Plasmonics",
+      "doi": "10.1007/s11468-026-03560-4",
+      "doi_url": "https://doi.org/10.1007/s11468-026-03560-4",
+      "url": "https://doi.org/10.21203/rs.3.rs-10798664/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-10798664/latest.pdf",
+      "openalex_id": "W7211965203",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm_optics"
+      ],
+      "scores": {
+        "submm_optics": 20.0
+      },
+      "matched": {
+        "submm_optics": [
+          "metasurface",
+          "terahertz",
+          "thz"
+        ]
+      },
+      "primary_topic": "submm_optics"
+    },
+    {
+      "id": "p_9e525ddb8f47",
+      "title": "ALMA Observations of Molecular Complexity in the Large Magellanic Cloud: The N 83 Star-forming Region",
+      "abstract": "We report the results of the 1.2 mm continuum and molecular line ∼0.1 parsec-scale observations with the Atacama Large Millimeter/submillimeter Array (ALMA) of two fields in the star-forming region N 83 in the Large Magellanic Cloud (LMC). This study is third in a series of investigations exploring molecular complexity in a low-metallicity and high UV flux environment of the LMC. We determine the physical and chemical properties of five sources detected with ALMA based on spectral modeling with XCLASS and the analysis of the continuum emission. The temperatures exceeding 100 K, small sizes, and high H 2 volume densities of sources N 83A-mm A and B indicate that they are hot cores. N 83A-mm A/B are associated with complex organic molecules: methanol (CH 3 OH), methyl cyanide (CH 3 CN), and dimethyl ether (CH 3 OCH 3). We also found CH 3 OH in three cold cores, and extended cold CH 3 OH emission in both fields. We detected SO, 33 SO, SO 2, OCS, H 2 CS, CS, C 33 S, HC 15 N, H 13 CN, HNCO, HDCO, H 13 CO +, SiO, and CH 2 CO in at least one core. Molecular abundances with respect to H 2 fit into the trends previously reported for the Magellanic hot cores: the CH 3 OH abundance varies significantly, while the abundances of S-bearing species show small variations. We found evidence for strong UV radiation and complex kinematics in both ALMA fields in N 83. The feedback-produced shocks are important drivers of the chemistry of S-bearing species, SiO, and CH 3 OH inside and outside of hot cores. Local effects have a large impact on the chemical composition and abundances of star-forming cores in the LMC.",
+      "summary": "We report the results of the 1.2 mm continuum and molecular line ∼0.1 parsec-scale observations with the Atacama Large Millimeter/submillimeter Array (ALMA) of two fields in the star-forming region N 83 in the Large Magellanic Cloud (LMC). We detected SO, 33 SO, SO 2, OCS, H 2 CS, CS, C 33 S, HC 15 N, H 13 CN, HNCO, HDCO, H 13 CO +, SiO, and CH 2 CO in at least one core.",
+      "authors": [
+        "M. Sewiło",
+        "Amanda Broadmeadow",
+        "Roya Hamedani Golshan",
+        "Steven B. Charnley",
+        "Lee G. Mundy",
+        "Kazuki Tokuda",
+        "T. Möller",
+        "Jennifer J. Wiseman",
+        "C. -H. Rosie Chen",
+        "R. Indebetouw",
+        "Joana M. Oliveira",
+        "P. Schilke"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/aeb01e",
+      "doi_url": "https://doi.org/10.3847/1538-4357/aeb01e",
+      "url": "https://doi.org/10.3847/1538-4357/aeb01e",
+      "pdf_url": "",
+      "openalex_id": "W7220707231",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 22.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "millimeter",
+          "observations",
+          "submillimeter"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
+      "id": "p_bc4248fcb36d",
+      "title": "A triple band circularly-polarized stacked patch GNSS antenna with sunlight-shaped slots",
+      "abstract": "This paper proposes a tri-band stacked rectangular patch antenna with right-hand circular polarization (RHCP) that can operate across the GNSS bands (L1, L2, and L5). The design begins with a rectangular patch antenna fed by a probe to excite the $$TM_{010}$$, $$TM_{100}$$, and $$TM_{110}$$ modes at their resonant frequencies, as determined by the cavity model of the patch antenna. An identical rectangular patch is then positioned below the upper patch, which splits each resonant frequency into two new frequencies, making the surface currents of the $$TM_{010}$$ and $$TM_{100}$$ modes orthogonal and thereby generating circularly polarized waves at bands (L2 and L5). Additionally, four sunlight-shaped slots, optimized in both dimensions and placement, are carved into the bottom patch to adjust the current distribution of the $$TM_{110}$$ mode to be orthogonal to the $$TM_{100}$$ mode, producing CP waves at the L1 band. An extra sunlight-shaped slot is also etched into the top patch to improve the axial ratio beamwidth (ARBW) across bands (L1, L2, and L5). The antenna supports three GNSS bands with RHCP operation while possessing a simple overall structure. The fabricated antenna demonstrates low reflection coefficients in the ranges of 1.1-1.27 GHz (L2/L5) and 1.5-1.63 GHz (L1), with axial ratio beamwidths of 214/96 $$^{\\circ }$$, 193/143 $$^{\\circ }$$, and 26/137 $$^{\\circ }$$ at two perpendicular cut planes for bands L5, L2, and L1, respectively. Comprehensive field testing at the National Research Institute of Astronomy and Geophysics (NRIAG) roof validates the antenna’s real-world performance, confirming stable signal acquisition with carrier-to-noise density (C/N0) values exceeding 45 dB-Hz and millimeter-level positioning accuracy across all three GNSS bands.",
+      "summary": "This paper proposes a tri-band stacked rectangular patch antenna with right-hand circular polarization (RHCP) that can operate across the GNSS bands (L1, L2, and L5). An extra sunlight-shaped slot is also etched into the top patch to improve the axial ratio beamwidth (ARBW) across bands (L1, L2, and L5).",
+      "authors": [
+        "Ahmad Abdalrazik",
+        "Maha R. Abdel-Haleem",
+        "Ahmed Gomaa"
+      ],
+      "published": "2026-11-26",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-75040-y",
+      "doi_url": "https://doi.org/10.1038/s41598-026-75040-y",
+      "url": "https://doi.org/10.1038/s41598-026-75040-y",
+      "pdf_url": "",
+      "openalex_id": "W7240081356",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 8.0
+      },
+      "matched": {
+        "submm": [
+          "millimeter",
+          "astronomy"
+        ]
+      },
+      "primary_topic": "submm"
+    },
     {
       "id": "p_9e901c779ffa",
       "title": "Spectroscopic Signatures of Polaronic Density Wave Fluctuations in Superconducting Bismuthates",
@@ -178,6 +625,86 @@
       "primary_topic": "resonators"
     },
     {
+      "id": "p_a93bd622f5e6",
+      "title": "Superconducting State in High-Pressure Hydrides Within the Eliashberg-Equation Formalism: Scope of Applicability and Perspectives",
+      "abstract": "We analyze the present status of the theoretical description of superconductivity in hydrogen-rich compounds under high pressure, with particular emphasis on the Eliashberg-equation formalism. The starting point is the currently accepted microscopic picture, according to which in the most important hydrides, such as H3S and LaH10, Cooper pairing is driven primarily by the electron-phonon interactions. We show, however, that a quantitative description of the thermodynamic properties of the superconducting state depends not only on how the Eliashberg equations are solved, but above all on the quality of the input description of the crystal structure, the spectral function α2F(ω), and the treatment of Coulomb repulsion and nonadiabatic effects. We discuss the hierarchy of approximations used in the contemporary literature, from the McMillan-Allen-Dynes formula through the isotropic Eliashberg equations to full-band, anisotropic treatments that include anharmonicity and vertex corrections. We argue that, for high-pressure hydrides, the largest uncertainties in the theoretical description do not presently originate from the Eliashberg formalism itself, but from the need to combine the structural sector, the spectral function α2F(ω), and the superconducting-state description in a mutually consistent way.",
+      "summary": "We analyze the present status of the theoretical description of superconductivity in hydrogen-rich compounds under high pressure, with particular emphasis on the Eliashberg-equation formalism. We show, however, that a quantitative description of the thermodynamic properties of the superconducting state depends not only on how the Eliashberg equations are solved, but above all on the quality of the input description of the crystal structure, the spectral…",
+      "authors": [
+        "A. Durajski",
+        "R. Szczęśniak"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Acta Physica Polonica A",
+      "doi": "10.12693/aphyspola.150.s160",
+      "doi_url": "https://doi.org/10.12693/aphyspola.150.s160",
+      "url": "https://doi.org/10.12693/aphyspola.150.s160",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S160/150_S160",
+      "openalex_id": "W7239905453",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "superconducting_materials"
+      ],
+      "scores": {
+        "superconducting_materials": 17.0
+      },
+      "matched": {
+        "superconducting_materials": [
+          "compounds",
+          "crystal",
+          "superconducting",
+          "superconductivity"
+        ]
+      },
+      "primary_topic": "superconducting_materials"
+    },
+    {
+      "id": "p_7c726e259fb7",
+      "title": "Hydrogen cyanide volatile in comet 3I/ATLAS",
+      "abstract": "Interstellar objects (ISOs) probe the chemical diversity of extrasolar icy planetesimals. The tentative detection of the fundamental HCN J=1-0 transition (88.6 GHz) toward interstellar comet 3I/ATLAS is obtained with the PMO 13.7 m millimeter telescope at Delingha. Observations spanned 2025 Aug 19 to 2026 Jan 30, covering pre- and early post-perihelion evolution (rh = 1.356-3.59 au). Co-addition of 75.2 hr on-source data yields a 3.7 σ tentative detection of the F=2-1 hyperfine component. An average HCN production rate of $(3.67\\pm 1.39)\\times 10^{24}\\ \\rm molecules\\ s^{-1}$ at mean $\\rm r_h=2.2\\ au$, consistent, within the uncertainties, with the lower end of the ALMA ACA measurements at similar heliocentric distances. The $\\rm HCN/H_2O$ ratio obtained by combining the PMO HCN rate with the lower limit of the SOHO water production is ∼0.03%, below the canonical Solar System comet range. Together with the $\\rm CO_2$-dominated activity, it point to formation in a cold, $\\rm CO_2$-rich region inside the CO snow line, distinct from the CO-dominated, more distant formation zone inferred for 2I/Borisov.",
+      "summary": "Interstellar objects (ISOs) probe the chemical diversity of extrasolar icy planetesimals. The tentative detection of the fundamental HCN J=1-0 transition (88.6 GHz) toward interstellar comet 3I/ATLAS is obtained with the PMO 13.7 m millimeter telescope at Delingha.",
+      "authors": [
+        "Zhen Wang"
+      ],
+      "published": "2026-11-25",
+      "first_seen": "2026-11-28",
+      "last_seen": "2026-11-28T11:55:38+08:00",
+      "sources": [
+        "OpenAlex"
+      ],
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stag2258",
+      "doi_url": "https://doi.org/10.1093/mnras/stag2258",
+      "url": "https://doi.org/10.1093/mnras/stag2258",
+      "pdf_url": "https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag2258/74042350/stag2258.pdf",
+      "openalex_id": "W7239736465",
+      "oa": true,
+      "type": "article",
+      "citations": 0,
+      "topics": [
+        "submm"
+      ],
+      "scores": {
+        "submm": 13.0
+      },
+      "matched": {
+        "submm": [
+          "alma",
+          "interstellar",
+          "millimeter",
+          "observations",
+          "telescope"
+        ]
+      },
+      "primary_topic": "submm"
+    },
+    {
       "id": "p_7626b71ed00f",
       "title": "Theories of Disordered Superconductors: A Brief Overview",
       "abstract": "The properties of materials depend crucially on their crystal structure and purity. This is true for all phases of matter: normal, magnetic, superconducting, etc. It is the static and/or dynamic scattering of electrons on various defects and/or quasiparticles that leads to finite values of resistance and its characteristic temperature dependence. In this paper, we review theoretical attempts to understand the effect of impurities - or more generally, various kinds of disorder - on superconductivity. The issue has become of primary importance after the discovery of high-temperature superconductors. We concentrate on changes in the superconducting transition temperature Tc. As an example of the effect of disorder on other characteristics, we discuss the isotope coefficient of copper oxides. This review starts with the celebrated Anderson theorem and discusses its recent generalisations, underlining the importance of the symmetry of the scatterers and the superconducting order parameter.",
@@ -187,7 +714,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -195,7 +722,7 @@
       "doi": "10.12693/aphyspola.150.s272",
       "doi_url": "https://doi.org/10.12693/aphyspola.150.s272",
       "url": "https://doi.org/10.12693/aphyspola.150.s272",
-      "pdf_url": "",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S272/150_S272",
       "openalex_id": "W7239757772",
       "oa": true,
       "type": "article",
@@ -211,10 +738,10 @@
           "crystal",
           "materials",
           "quasiparticles",
-          "transition temperature",
           "superconducting",
           "superconductivity",
-          "superconductors"
+          "superconductors",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -234,7 +761,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -286,7 +813,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -308,9 +835,9 @@
       "matched": {
         "superconducting_materials": [
           "materials",
-          "transition temperature",
           "superconducting",
-          "superconductivity"
+          "superconductivity",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -325,7 +852,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -333,7 +860,7 @@
       "doi": "10.12693/aphyspola.150.s257",
       "doi_url": "https://doi.org/10.12693/aphyspola.150.s257",
       "url": "https://doi.org/10.12693/aphyspola.150.s257",
-      "pdf_url": "",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S257/150_S257",
       "openalex_id": "W7239838209",
       "oa": true,
       "type": "article",
@@ -370,7 +897,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -392,8 +919,8 @@
       "matched": {
         "superconducting_materials": [
           "quasiparticle",
-          "superconducting gap",
           "superconducting",
+          "superconducting gap",
           "superconductivity"
         ]
       },
@@ -410,7 +937,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -418,7 +945,7 @@
       "doi": "10.12693/aphyspola.150.s134",
       "doi_url": "https://doi.org/10.12693/aphyspola.150.s134",
       "url": "https://doi.org/10.12693/aphyspola.150.s134",
-      "pdf_url": "",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S134/150_S134",
       "openalex_id": "W7239796693",
       "oa": true,
       "type": "article",
@@ -465,7 +992,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -509,7 +1036,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -547,7 +1074,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -555,7 +1082,7 @@
       "doi": "10.12693/aphyspola.150.s213",
       "doi_url": "https://doi.org/10.12693/aphyspola.150.s213",
       "url": "https://doi.org/10.12693/aphyspola.150.s213",
-      "pdf_url": "",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S213/150_S213",
       "openalex_id": "W7203716847",
       "oa": true,
       "type": "article",
@@ -594,7 +1121,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -632,7 +1159,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -655,9 +1182,9 @@
         "superconducting_materials": [
           "critical temperature",
           "materials",
-          "transition temperature",
           "superconducting",
-          "superconductivity"
+          "superconductivity",
+          "transition temperature"
         ]
       },
       "primary_topic": "superconducting_materials"
@@ -673,7 +1200,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -681,7 +1208,7 @@
       "doi": "10.12693/aphyspola.150.s204",
       "doi_url": "https://doi.org/10.12693/aphyspola.150.s204",
       "url": "https://doi.org/10.12693/aphyspola.150.s204",
-      "pdf_url": "",
+      "pdf_url": "https://appol.ifpan.edu.pl/index.php/appa/article/download/150_S204/150_S204",
       "openalex_id": "W7239804738",
       "oa": true,
       "type": "article",
@@ -720,7 +1247,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -808,7 +1335,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -957,7 +1484,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -998,7 +1525,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1050,7 +1577,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1143,7 +1670,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1199,7 +1726,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1249,7 +1776,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1317,7 +1844,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1360,7 +1887,7 @@
       ],
       "published": "2026-11-25",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1473,7 +2000,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1521,7 +2048,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1564,7 +2091,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-27",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1610,7 +2137,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1652,7 +2179,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1691,7 +2218,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1733,7 +2260,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1782,7 +2309,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1839,7 +2366,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -1888,7 +2415,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -1977,7 +2504,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2046,7 +2573,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2094,7 +2621,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2132,7 +2659,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2171,7 +2698,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2209,7 +2736,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2258,7 +2785,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2297,7 +2824,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2352,7 +2879,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2408,7 +2935,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2449,7 +2976,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2502,7 +3029,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2551,7 +3078,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2629,7 +3156,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2699,7 +3226,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -2747,7 +3274,7 @@
       ],
       "published": "2026-11-24",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2790,7 +3317,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-26",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2828,7 +3355,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2874,7 +3401,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2916,7 +3443,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -2957,7 +3484,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3001,7 +3528,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3046,7 +3573,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3089,7 +3616,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3129,7 +3656,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3258,7 +3785,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3307,7 +3834,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3364,7 +3891,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3407,7 +3934,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3468,7 +3995,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3510,7 +4037,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3550,7 +4077,7 @@
       ],
       "published": "2026-11-23",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3598,7 +4125,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "OpenAlex"
       ],
@@ -3646,7 +4173,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3687,7 +4214,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3733,7 +4260,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3777,7 +4304,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3834,7 +4361,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -3879,7 +4406,7 @@
       ],
       "published": "2026-11-22",
       "first_seen": "2026-11-24",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv"
       ],
@@ -7620,7 +8147,7 @@
       ],
       "published": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -12614,7 +13141,7 @@
       ],
       "published": "2026-11-05",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -13210,7 +13737,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
@@ -13367,7 +13894,7 @@
       ],
       "published": "2026-11-03",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-27T12:17:18+08:00",
+      "last_seen": "2026-11-28T11:55:38+08:00",
       "sources": [
         "arXiv",
         "OpenAlex"
